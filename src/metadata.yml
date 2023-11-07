@@ -1,9 +1,9 @@
 # Fichier de configuration du site web.
 # Contient les métadonnées générales.
 
-title: "Roch Delannay"
+site-title: "Roch Delannay"
 
-subtitle: "Pensées d'un doctorant"
+site-subtitle: "Pensées d'un doctorant"
 
 description: "Blog | Carnet de recherche de Roch Delannay"
 

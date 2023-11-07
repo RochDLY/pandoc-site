@@ -29,6 +29,8 @@ pandoc-ssg/
 │   ├── posts
 │   │   ├── 2023-11-03-creation-du-site.md
 │   │   └── etc.
+│   ├── index.md
+│   └── metadata.yml
 ├── static
 │   ├── css
 │   │   └── styles.css
