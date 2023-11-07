@@ -1,6 +1,6 @@
 # Pandoc-SSP https://github.com/infologie/pandoc-ssp/
 # by Arthur Perret https://www.arthurperret.fr
-# custom by Roch Delannay https://github.com/RochDLY/pandoc-ssg
+# custom by Roch Delannay https://github.com/RochDLY/pandoc-site
 
 ########################VARIABLES##############################
 
@@ -49,38 +49,67 @@ serve:
 # HTML
 html: $(STATIC_DOCS) docs/index.html $(POSTS_DOCS) $(PAGES_DOCS)
 
-docs/index.html: src/index.md
-	@ echo "Index production."
+docs/index.html: src/index.md templates/index.html $(metadata_site)
+	@ echo "Production de l'index."
 	@ pandoc \
   	$< \
 		$(PANDOCFLAGS) \
 		--template templates/index.html \
 		--output $@
-	@ echo "The index is built."
+	@ echo "L'index est construit."
 
-docs/pages/%.html: src/pages/%.md
+docs/pages/%.html: src/pages/%.md $(metadata_site) templates/post.html
 	@ mkdir -p "$(@D)"
-	@ echo "Pages production."
+	@ echo "Production de la page \"$@\"..."
 	@ pandoc \
   	$< \
 		$(PANDOCFLAGS) \
 		--template templates/post.html \
 		--output $@
-	@ echo "Pages are built."
+	@ echo "La page \"$@\" est construite."
 
-docs/posts/%.html: src/posts/%.md
+docs/posts/%.html: src/posts/%.md $(metadata_site) templates/post.html
 	@ mkdir -p "$(@D)"
-	@ echo "Production of posts."
+	@ echo "Production du billet \"$@\"..."
 	@ pandoc \
   	$< \
 		$(PANDOCFLAGS) \
 		--template templates/post.html \
 		--table-of-content \
 		--output $@
-	@ echo "Posts are built."
+	@ echo "Le billet \"$@\" est construit."
 
 # PDF
 #pdf: docs/these.pdf
 
 #docs/these.pdf: src/introduction.md $(POSTS) src/conclusion.md
 #	pandoc $^ [options] -o docs/these.pdf
+
+
+
+##########################SOUS-RECETTES############################
+
+# Actuellement les recettes ne dépendent que des fichiers sources.
+# Si on modifie un template, le site n'est pas recompilé.
+# Pour ça il faut créer des sous-recettes pour indiquer les dépendances
+# des pages aux templates
+
+# sous-recette pour le template des posts
+posts-partials = \
+	templates/partials/footer.html \
+	templates/partials/head.html \
+	templates/partials/header.html \
+	templates/partials/nav.html
+
+templates/post.html: $(posts-partials)
+	@ touch $@
+
+# sous-recette pour le template de l'index
+index-partials = \
+	templates/partials/footer.html \
+	templates/partials/head.html \
+	templates/partials/header.html \
+	templates/partials/nav.html
+
+templates/index.html: $(index-partials)
+	@ touch $@
