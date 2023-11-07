@@ -72,7 +72,7 @@ Cette dernière commande supprime tous les documents qui se trouvent dans le dos
 ## Remerciements
 
 Merci à [Louis-Olivier Brassard](https://www.lobrassard.net/), pour toutes les explications sur le fonctionnement de Make et pour les bouts de code que je t'ai emprunté.
-Merci également à [Arthur Perret](https://www.arthurperret.fr/) pour ton idée de combiner Make et Pandoc (d'ailleurs ce générateur de carnet est un _fork_ de ton projet).
+Merci également à [Arthur Perret](https://www.arthurperret.fr/) pour ton idée de combiner Make et Pandoc.
 
 ## Licence
 
