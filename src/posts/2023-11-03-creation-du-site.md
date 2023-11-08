@@ -102,19 +102,21 @@ pandoc-ssg/
 │   ├── posts
 │   │   ├── 2023-11-03-creation-du-site.md
 │   │   └── etc.
-├── static
-│   ├── css
-│   │   └── styles.css
-├── templates
-│   ├── csl
-│   │   └── apa.csl
-│   ├── partials
-│   │   ├── footer.html
-│   │   ├── head.html
-│   │   ├── header.html
-│   │   └── nav.html
-│   ├── index.html
-│   └── post.html
+│   └── static
+│       ├── css
+│       │   └── styles.css
+│       ├── templates
+│       │     ├── csl
+│       │     │   └── apa.csl
+│       │     ├── partials
+│       │     │   ├── footer.html
+│       │     │   ├── head.html
+│       │     │   ├── header.html
+│       │     │   └── nav.html
+│       │     ├── index.html
+│       │     └── post.html
+│       ├── index.md 
+│       └── metadata.yml   
 ├── Makefile
 ├── metadata.yaml
 └── README.md
