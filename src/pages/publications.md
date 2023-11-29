@@ -1,5 +1,5 @@
 ---
-title: Publications savantes
+title: Publications
 ---
 
 - **Actes de colloque**
