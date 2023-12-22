@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | Les snippets dans LazyVim</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2023-12-22" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <div>
+                    <a href="/">Accueil</a>
+                    <a href="/pages/publications.html">Publications</a>
+                    <a href="/pages/cours.html">Enseignements</a>
+                    <a href="/pages/glossaire.html">Glossaire</a>
+                </div>
+            </nav></header>                    <div class="container">
+                <header class="header-bloc">
+                    <h1>Les snippets dans LazyVim</h1>
+<!--  -->
+                    <time>2023-12-22</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<p>Aujourd’hui je viens de tester l’utilisation des snippets dans LazyVim (il y aura un prochain billet sur la configuration de mon environnement d’écriture.).</p>
+<p>Pour faire des snippets rien de plus simple ! Il suffit de charger le plugin LuaSnip (merci au fil de <a href="https://github.com/LazyVim/LazyVim/discussions/54">discussion</a>) :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode lua"><code class="sourceCode lua"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>  <span class="op">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;L3MON4D3/LuaSnip&quot;</span><span class="op">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="va">config</span> <span class="op">=</span> <span class="kw">function</span><span class="op">()</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>      <span class="fu">require</span><span class="op">(</span><span class="st">&quot;luasnip.loaders.from_lua&quot;</span><span class="op">).</span>load<span class="op">({</span> <span class="va">paths</span> <span class="op">=</span> <span class="st">&quot;~/.config/nvim/snippets&quot;</span> <span class="op">})</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">end</span><span class="op">,</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="op">},</span></span></code></pre></div>
+<p>puis d’ajouter les snippets en LUA dans le dossier donné dans le chemin ci-dessus.</p>
+<p>Pour mon premier snippet, j’ai créé un noeud texte pour générer le YAML des posts de ce blog.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode lua"><code class="sourceCode lua"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">local</span> <span class="va">ls</span> <span class="op">=</span> <span class="fu">require</span><span class="op">(</span><span class="st">&quot;luasnip&quot;</span><span class="op">)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">local</span> <span class="va">s</span> <span class="op">=</span> <span class="va">ls</span><span class="op">.</span><span class="va">snippet</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="kw">local</span> <span class="va">t</span> <span class="op">=</span> <span class="va">ls</span><span class="op">.</span><span class="va">text_node</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> <span class="op">{</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="co">-- Example of a multiline text node</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  s<span class="op">({</span><span class="va">trig</span> <span class="op">=</span> <span class="st">&quot;@post&quot;</span><span class="op">,</span> <span class="va">dscr</span> <span class="op">=</span> <span class="st">&quot;return yaml for posts on my blog.&quot;</span><span class="op">},</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="op">{</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>      t<span class="op">({</span><span class="st">&quot;---&quot;</span><span class="op">,</span> <span class="st">&quot;title: &#39;&#39;&quot;</span><span class="op">,</span> <span class="st">&quot;date:&quot;</span><span class="op">,</span> <span class="st">&quot;---&quot;</span><span class="op">})</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="op">}</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="op">),</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="op">}</span></span></code></pre></div>
+<p>C’est aussi simple que ça ! Il me suffit d’appeler le déclencheur <code>@post</code> pour voir apparaître mes 3 lignes de YAML :-)</p>
+<figure>
+<img src="/images/snippets.gif" alt="Un petit exemple" />
+<figcaption aria-hidden="true">Un petit exemple</figcaption>
+</figure>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>
