@@ -89,7 +89,7 @@ Cet axe comporte trois parties :
 > C'est le design du cheminement qui est intéressant, pas le choix des
 technologies. L'enjeu de l'axe 2 est épistémologique, pas technique.
 
-**Comment a été décidé la répartition des missions autour des
+**Comment a été décidée la répartition des missions autour des
 développements/entretiens de Stylo ?**
 
 L'entente entre le CRIHN et Huma-Num consiste à statuer que le HN Lab peut
@@ -105,8 +105,7 @@ contrôlés)
 Aussi le HN Lab fait le choix de ne pas se mêler des choix de partenariats ou de
 la communication que fait la CRCEN autour de Stylo.
 
-**Quelles sont les ressources techniques mises à disposition pour Stylo ?
-(modèle de serveur hardware, configuration de la machine virtuelle OS etc...)**
+**Quelles sont les ressources techniques mises à disposition pour Stylo ?**
 
 Stylo fait l'objet de deux machines virtuelles sur les serveurs d'Huma-Num
 (basés à Lyon sur d'anciens DELL R630), une VM pour la préproduction de Stylo
@@ -126,8 +125,7 @@ le système d'exploitation Rocket Linux)
 Les racks sont gérés par l'hébergeur (CNRS qui héberge à Lyon dans un centre de
 calcul créé en 1986).
 
-**Quels sont les moyens humains disponibles pour Stylo ? (nom des postes /
-rôles + indicateur temps par année)**
+**Quels sont les moyens humains disponibles pour Stylo ?**
 
 Avant la convention (entente) : il n'y avait pas de pôles différents (pas de HN
 Lab)
