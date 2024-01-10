@@ -2,8 +2,12 @@
 title: Enseignements
 ---
 
+**Chargé de cours | Université Paris Nanterre | 2023-2024**
 
-**Chargé de cours | Université de Montréal | 2023-2024**
+- Cours magistral mutualisé destiné aux étudiants en licence en sciences de
+l'information et de la communication, sciences du langage et littératures - [Identités numériques](https://identites-numeriques.en-cours-de.construction), dispensé à l'hiver (24h CM). 
+
+**Chargé de cours | Université de Montréal | 2023-2024**
 
 - Cours de 1er cycle HNU 2000 - [Humanités numériques : technologies](https://hnu2000.en-cours-de.construction/), dispensé à l'automne (45h).
 - Remplacement cours de 1er cycle FRA3826 - Théories de l'Édition numérique (4h).
@@ -15,7 +19,7 @@ title: Enseignements
 
 **Chargé de cours | Université Paris Nanterre | 2022-2023**
 
-- Cours magistral destiné aux étudiants en licence en sciences de l'information et de la communication - [Identités numériques](https://identites-numeriques.en-cours-de.construction/), dispensé à l'hiver (24h CM).
+- Cours magistral mutualisé destiné aux étudiants en licence en sciences de l'information et de la communication, sciences du langages et littératures - [Identités numériques](https://identites-numeriques.en-cours-de.construction/), dispensé à l'hiver (24h CM).
 
 **Débugue tes humanités | Université de Montréal | 2022-2023**
 
