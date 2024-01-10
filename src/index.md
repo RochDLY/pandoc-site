@@ -2,6 +2,8 @@
 title: Pensées d'un doctorant
 ---
 
+- [07-Préparation du cours Identités numériques avec
+Quarto](/posts/2024-01-10-preparation-du-cours-identite-numerique.html)
 - [06-Entretien avec Stéphane Pouyllau](/posts/2024-01-09-entretien-humanum.html)
 - [05-Les snippets dans LazyVim](/posts/2023-12-22-les-snippets-dans-lazyvim.html)
 - [04-Les aventures dans Stylo](/posts/2023-12-06-les-aventures-dans-stylo.html)

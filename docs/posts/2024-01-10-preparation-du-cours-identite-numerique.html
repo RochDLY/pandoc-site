@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | Préparation du cours Identités numériques avec Quarto</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-01-10" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <div>
+                    <a href="/">Accueil</a>
+                    <a href="/pages/publications.html">Publications</a>
+                    <a href="/pages/cours.html">Enseignements</a>
+                    <a href="/pages/glossaire.html">Glossaire</a>
+                </div>
+            </nav></header>                <div class="side">
+
+            <nav class="toc">
+<ul>
+<li><a href="#un-peu-de-contexte" id="toc-un-peu-de-contexte">Un peu de contexte</a></li>
+<li><a href="#environnement-décriture" id="toc-environnement-décriture">Environnement d’écriture</a></li>
+<li><a href="#configuration-de-quarto" id="toc-configuration-de-quarto">Configuration de Quarto</a>
+<ul>
+<li><a href="#le-site-web" id="toc-le-site-web">Le site web</a></li>
+<li><a href="#les-slides" id="toc-les-slides">Les slides</a></li>
+</ul></li>
+</ul>
+            </nav>
+        </div>
+                    <div class="container">
+                <header class="header-bloc">
+                    <h1>Préparation du cours Identités numériques avec Quarto</h1>
+<!--  -->
+                    <time>2024-01-10</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<p>Pour ce billet je vais présenter l’environnement d’écriture que j’utilise pour le cours sur les identités numériques dispensé à l’Université Paris Nanterre.</p>
+<h2 id="un-peu-de-contexte">Un peu de contexte</h2>
+<p>Depuis un peu plus de deux ans je teste différents dispositifs numérique d’écriture allant d’interface de gestion sur le Web aux éditeurs de texte intégrés au terminal comme vi ou emacs.</p>
+<p>Un fait intéressant est que pour la plupart des solutions qui me conviennent, je les garde installées sur ma machine (ou je garde un accès avec un compte en ligne) et elles me servent pour un usage spécifique.</p>
+<p>Par exemple pour saisir des notes ou des ébauches d’idées je me sert souvent de l’application Stylo (quelques notes collaboratives y trainent depuis que la fonctionnalité a été déployée). Alors que pour saisir des notes de réunion ou pouvoir les partager rapidement (tout en sachant que le contenu est complètement accessible pour qui a l’URL) j’utilise Hedgedoc.</p>
+<p>À l’occasion de la coécriture du rapport de recherche sur les forges de publication avec Antoine, j’ai pu tester assez longuement Quarto.</p>
+<p>C’est un système que j’ai laissé tomber pour mon carnet personnel (je préfère de loin celui-ci). Cependant, je continue pour l’instant de l’utiliser pour créer de petites pages Web pour mes cours comme c’est le cas pour le cours sur les identités numériques (cf <a href="https://identites-numeriques.en-cours-de.construction" class="uri">https://identites-numeriques.en-cours-de.construction</a>).</p>
+<p>Le site web est hébergé via le service gitpage sur GitHub. Le répertoire du site se trouve ici : <a href="https://github.com/RochDLY/identite_numerique" class="uri">https://github.com/RochDLY/identite_numerique</a></p>
+<h2 id="environnement-décriture">Environnement d’écriture</h2>
+<p>En plus d’installer Quarto sur son ordinateur, on a la possibilité de l’utiliser dans différents environnements qui intègrent un plugin (pour faciliter son usage). Dans mon cas je pourrais très bien l’utiliser dans Neovim (il s’agit de mon environnement d’écriture le plus régulier), toutefois je me suis heurté à un problème qu’il me semble difficile de contourner alors je l’utilise plutôt dans VSCodium qui a l’avantage d’intégrer des boutons pour la transformation des documents (et surtout pour la prévisualisation !).</p>
+<p>Le problème rencontré dans Neovim (avec Quarto) est le suivant : étant sous une distribution dont la fréquence de mise à jour des paquets est relativement basse pour des raisons de stabilité, je me retrouve régulièrement avec une version de Quarto qui nécessite une version de Neovim qui n’est pas encore disponible dans le gestionnaire de paquet de Devuan.</p>
+<p>(J’ai d’ailleurs un peu le même problème avec la version de LazyVim.)</p>
+<p>En conséquence, je suis obligé de compiler manuellement Neovim pour avoir une version compatible avec l’utilisation de Quarto dans cet environnement.</p>
+<p>Étant donné que l’objectif est de ne pas aller à l’encontre du fonctionnement de Devuan (si je dois faire la même chose pour tous les logiciels que j’utilise il deviendrait nécessaire de se poser la question de la pertinence du choix du système d’exploitation), je préfère utiliser VSCodium.</p>
+<h2 id="configuration-de-quarto">Configuration de Quarto</h2>
+<h3 id="le-site-web">Le site web</h3>
+<p>Du côté de Quarto c’est assez simple à mettre en oeuvre.</p>
+<p>Dans l’éditeur VSCodium, il suffit de créer un nouveau projet (<em>website</em>) et de remplir les entrées du fichiers de configuration YAML <code>_quarto.yml</code>.</p>
+<p>Pour ce site, les informations sont les suivantes :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">website</span><span class="kw">:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Identités numériques&quot;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">sidebar</span><span class="kw">:</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">style</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;floating&quot;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">search</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">contents</span><span class="kw">:</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> index.qmd</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> posts/bibliographie.qmd</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">section</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Séances de cours&quot;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">contents</span><span class="kw">:</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> posts/170124.qmd</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> </span><span class="fu">section</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Outils&quot;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">contents</span><span class="kw">:</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> tools/gephi.qmd</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> tools/redaction.qmd</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> tools/stylo.qmd</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="at">          </span><span class="kw">-</span><span class="at"> tools/terminal.qmd</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">page-footer</span><span class="kw">:</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">left</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;© 2024 WTFPL, Roch Delannay&quot;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">right</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Ce site a été réalisé avec [Quarto](https://quarto.org)&quot;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> flatly</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">css</span><span class="kw">:</span><span class="at"> styles.css</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">toc</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span></code></pre></div>
+<p>Le thème <code>flatly</code> utilisé n’est pas du tout modifié à l’exception de l’affichage des balises <code>&lt;iframe&gt;</code> que je voulais un peu plus large pour y insérer les slides prévues pour le cours.</p>
+<p>En plus de l’index.qmd, on trouve toutes les ressources que j’utilise pour mon cours dans des dossier séparés à la racine du projet :</p>
+<ul>
+<li>les billets (<code>posts/</code>)</li>
+<li>les <code>images/</code></li>
+<li>les <code>slides/</code></li>
+<li>des fiches d’aide (<code>tools/</code>)</li>
+</ul>
+<p>Chaque nouvelle séance de cours fait l’objet d’un document qui est inséré dans <code>posts/</code> auquel j’adjoins 3 entrées YAML en en-tête :</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;17 janvier 2024&quot;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">bibliography</span><span class="kw">:</span><span class="at"> chemin/vers/la/bibliographie.bib</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">nocite</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div>
+<p>Je donne pour titre du document la date du cours. Ce titre est récupéré et apparaît dans le menu de navigation à gauche de l’écran.</p>
+<p>Étant donné que je travaille seul à l’édition de ce site web, j’utilise une petite astuce pour mettre à jour facilement mon fichier de références bibliographiques. Ce document est créé depuis l’application Zotero (avec le plug-in Better BibTeX) en exportant une bibliographie au format BibTeX avec l’option “Garder à jour”. De cette manière, je n’exporte la bibliographie qu’une seule fois et lorsque je fais des mises à jour sur Zotero, le document exportés est également mis à jour. Ainsi, je n’ai plus qu’à reconstruire le site avec Quarto pour modifier les références bibliographiques du site web.</p>
+<h3 id="les-slides">Les slides</h3>
+<p>Je ne suis pas friand d’utiliser des slides pendant les cours, surtout lorsque je prépare un site web pour rendre disponible les différentes ressources. Vu que c’est une demande récurrente des étudiants, c’est quelque chose que j’ai intégré à leur demande (bien que mes slides soient bien pauvres en contenu).</p>
+<p>J’ai essayé de m’inspirer de ce que propose Antoine Fauchié a ses étudiants. Il leur met à disposition un site web qui contient tous les supports de cours, y compris les slides. La beauté de l’environnement proposé par Antoine est de n’écrire qu’une seule fois ses contenus qui approvisionnent ensuite les slides et le site web.</p>
+<p>Néanmoins, je n’avais pas forcément besoin d’un tel système (avec la redondance du contenu des notes dans les slides et dans les pages web).</p>
+<p>Par contre, et c’est là que Quarto devient très pratique, je peux très facilement intégrer des slides générées avec Quarto (en surcouche à RevealJS via Pandoc) et les encapsuler dans le site du cours puisque les deux supports sont au même format HTML !</p>
+<p>(La suite devient un peu crade)</p>
+<p>Plutôt que d’avoir tout une configuration RevealJS (c’est prévu pour plus tard), je peux pour l’instant créer un simple document avec Quarto auquel je passe le YAML suivant :</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Titre de la séance&quot;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Roch Delannay&quot;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;17 janvier 2024&quot;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">bibliography</span><span class="kw">:</span><span class="at"> /chemin/vers/la/bibliographie.bib</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">suppress-bibliography</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">revealjs</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">incremental</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">scrollable</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> </span><span class="kw">[</span><span class="at">simple</span><span class="kw">,</span><span class="at"> custom.scss</span><span class="kw">]</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">footer</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;4L4IC01P - Université Paris Nanterre - Hiver 2024&quot;</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">embed-resources</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div>
+<p>Le gros tips de ce document là est le dernier paramètre passé au YAML, le <code>embed-resources</code> permet de ne produire qu’un seul fichier HTML qui contient absolument toutes les ressources nécessaire pour faire tourner les slides correctement (images, scripts, styles, etc.).</p>
+<p>Une fois produit, je déplace ce fichier dans le répertoire du projet du cours dans le dossier <code>slides/</code> et je l’encapsule dans la page de mon cours au moyen d’une <code>&lt;iframe&gt;</code>. Comme le document HTML est également disponible à sa propre URL, il est aussi très simple d’y accéder en plein écran pour naviguer facilement entre les différents supports.</p>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>
