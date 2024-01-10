@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | Entretien avec Stéphane Pouyllau (Huma-Num)</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-01-09" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <div>
+                    <a href="/">Accueil</a>
+                    <a href="/pages/publications.html">Publications</a>
+                    <a href="/pages/cours.html">Enseignements</a>
+                    <a href="/pages/glossaire.html">Glossaire</a>
+                </div>
+            </nav></header>                    <div class="container">
+                <header class="header-bloc">
+                    <h1>Entretien avec Stéphane Pouyllau (Huma-Num)</h1>
+<!--  -->
+                    <time>2024-01-09</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<p>Ce billet fait l’objet de notes prises lors d’un entretien réalisé avec Stéphane Pouyllau, responsable de l’Huma-Num Lab, le 9 janvier 2024 sur le campus Condorcet.</p>
+<p>Contexte :</p>
+<p>Cet entretien a été réalisé avec l’objectif de glaner quelques informations sur la composante Huma-Num du projet Stylo et de leur implication aux niveaux humains et technologiques.</p>
+<p>Huma-Num existe depuis un peu plus de 10 ans (2013) et a pour vocation d’accompagner les chercheurs en SHS ainsi que de proposer une infrastructure numérique cohérente pour répondre aux différents besoins de la recherche aujourd’hui.</p>
+<p>Selon le <a href="https://www.huma-num.fr/quest-ce-que-l-ir-huma-num/">site web d’Huma-Num</a> :</p>
+<blockquote>
+<p><strong>La principale mission de l’IR</strong> est de construire, avec les communautés et à partir d’un <strong>pilotage scientifique</strong>, une infrastructure numérique de niveau international pour les SHS.</p>
+</blockquote>
+<p>Depuis 2020, Huma-Num est partenaire du projet Stylo développé à la CRCEN et héberge l’application sur ses serveurs.</p>
+<p><strong>Comment une institution française et une canadienne se rencontrent et deviennent partenaires pour le développement d’un outil comme Stylo ?</strong></p>
+<p>Les réflexions démarrent au congrès <a href="https://dh2017.adho.org/">DH2017</a>. (travail entre Marcello, Michael, Stéphane autour d’Érudit). À ce moment, Marcello et Nicolas mènent déjà une recherche sur l’écriture savante en contexte numérique : ils utilisent déjà plusieurs briques technologiques que l’on va retrouver plus tard dans Stylo (exemple : les formats de texte brut) sans que ces briques soient réunis dans une même interface.</p>
+<p>Lors du congrès qui réunit les membres à l’origine du projet, les réflexions portent sur l’implémentation d’une chaine pour OpenEdition et Erudit.</p>
+<p><strong>Comment en est-on arrivé à ce partenariat entre les deux institutions ?</strong></p>
+<p>Le premier prototype fonctionnel de Stylo a été livré en 2019. Du début du projet jusqu’à cette date, Stylo était développé en interne par la CRCEN avec Servanne Monjour, Nicolas Sauret, Marcello Vitali-Rosati, Arthur Juchereau, Margot Mellet et Antoine Fauchié.</p>
+<p>À partir du premier trimestre 2020, Huma-Num a pu devenir un partenaire officiel / institutionnel de la CRCEN et du CRIHN et a financé une partie du projet.</p>
+<p>Avant cette date, il n’y avait pas de cadre institutionnel pour pouvoir financer un projet au Canada. Une entente entre le CRIHN (sous la direction de Michael Sinatra) et Huma-Num (sous la supervision de Stéphane Pouyllau) a été montée pendant les deux années de développement du prototype (2017-2019) pour pouvoir financer Stylo.</p>
+<p>Il faut savoir que le structure d’Huma-Num a changé durant les prémices de Stylo. Le HNLab n’existait pas en 2017-19 et à ce moment-là Stéphane est directeur technique d’Huma-Num.</p>
+<p>Nous avons eu de la chance lors de l’établissement de l’entente car la personne qui en avait la charge de à l’UdeM a travaillé au préalable au CNRS ce qui en a facilité le montage. Les papiers ont été signés début 2020 au début de la pandémie.</p>
+<p>La signature de cette entente entre le CRIHN et Huma-Num correspond également à la fin du doctorat de Nicolas Sauret. Ainsi, lorsque Stéphane a monté le HNLab, il a proposé d’accueillir Nicolas S. au sein de cette structure pour continuer à piloter une partie du projet et renforcer les liens entre les deux institutions.</p>
+<p>Stylo est logé directement dans l’axe sur l’écriture scientifique du Lab.</p>
+<blockquote>
+<p>Ca me semblait indispensable de mettre de l’argent de Stylo qui fait un pont entre le monde de l’écriture solitaire et celui de l’édition.</p>
+</blockquote>
+<p>Complément d’information : Le deuxième axe des missions du HNLab porte sur ce que Stéphane regroupe sous le terme d’écriture scientifique. Cet axe comporte trois parties :</p>
+<ul>
+<li>saisie du texte et du code avec Stylo et Jupyter Notebook</li>
+<li>stockage des données avec Nakala</li>
+<li>versionnement et déploiement continu (CI/CD) avec Gitlab</li>
+</ul>
+<blockquote>
+<p>C’est le design du cheminement qui est intéressant, pas le choix des technologies. L’enjeu de l’axe 2 est épistémologique, pas technique.</p>
+</blockquote>
+<p><strong>Comment a été décidé la répartition des missions autour des développements/entretiens de Stylo ?</strong></p>
+<p>L’entente entre le CRIHN et Huma-Num consiste à statuer que le HN Lab peut contribuer financièrement aux développements de Stylo si quatre conditions sont respectées :</p>
+<ul class="task-list">
+<li><input type="checkbox" checked="" />migration de l’hébergement de Stylo (vers les serveurs d’Huma-Num)</li>
+<li><input type="checkbox" checked="" />interconnexion à Isidore (c’est actuellement le cas avec les mot-clés contrôlés)</li>
+<li><input type="checkbox" checked="" />authentification Human-Id</li>
+<li><input type="checkbox" checked="" />Deux réunions de feuille de route par an</li>
+</ul>
+<p>Aussi le HN Lab fait le choix de ne pas se mêler des choix de partenariats ou de la communication que fait la CRCEN autour de Stylo.</p>
+<p><strong>Quelles sont les ressources techniques mises à disposition pour Stylo ? (modèle de serveur hardware, configuration de la machine virtuelle OS etc…)</strong></p>
+<p>Stylo fait l’objet de deux machines virtuelles sur les serveurs d’Huma-Num (basés à Lyon sur d’anciens DELL R630), une VM pour la préproduction de Stylo (<a href="https://stylo-dev.huma-num.fr" class="uri">https://stylo-dev.huma-num.fr</a>) et une VM pour l’application en production utilisée par la communauté (<a href="https://stylo.huma-num.fr" class="uri">https://stylo.huma-num.fr</a>).</p>
+<p>Les machines virtuelles sont dotés de 48Go d’espace disque et fonctionnent grâce au système de virtualisation KVM, performant malgré qu’il soit peu souple / ergonomique. Pour illustrer ce manque de souplesse, pour augmenter la RAM allouée à la VM, il faut la stopper puis exécuter de multiples commandes pour arriver à ce résultat avant de la relancer. Le système d’exploitation des VM est soit Debian soit CentOS (sachant que ce dernier n’est plus maintenu, Huma-Num a décidé de migrer les VM sous CentOS sous le système d’exploitation Rocket Linux)</p>
+<p>Les racks sont gérés par l’hébergeur (CNRS qui héberge à Lyon dans un centre de calcul créé en 1986).</p>
+<p><strong>Quels sont les moyens humains disponibles pour Stylo ? (nom des postes / rôles + indicateur temps par année)</strong></p>
+<p>Avant la convention (entente) : il n’y avait pas de pôles différents (pas de HN Lab)</p>
+<p>Depuis l’entente :</p>
+<ul>
+<li>HN Lab pilotage et développements (Julie pour la partie backoffice et stats, et Stéphane)</li>
+<li>HSTC (pôle infrastructure piloté par Gérald et Thomas) (réseaux et orchestrer la VM)</li>
+</ul>
+<p><strong>Quel est le coût de Stylo pour l’IR Huma-Num ?</strong></p>
+<p>Il y a plus de 300 VM qui tournent chez Huma-Num. On ne peut pas établir le coût individuel de chacune des machines virtuelles.</p>
+<p>Toutefois, Huma-Num estime que le coût consolidé (c’est-à-dire comprenant toutes les charges salariales, énergie, maintenance, etc.) s’élève à environ 2500 euros par an pour chaque machine virtuelle. Étant donné que Huma-Num déploie deux machines virtuelles pour Stylo, on peut estimer le coût annuel à environ 5000 euros (en réalité il doit être légèrement inférieur puisque ce sont de petites machines virtuelles).</p>
+<p>Ajouté à cela, Huma-Num fournit une enveloppe supplémentaire d’environ 30000 euros chaque année pour financer une partie des développements de l’application.</p>
+<p><strong>Comment vois-tu le futur de Stylo ?</strong></p>
+<p>Lors de cette première période allant de 2020 à 2024 il fallait stabiliser Stylo et y ajouter quelques fonctionnalités, ce que nous avons fait. Maintenant on entre dans une période charnière de Stylo. La phase suivante est une phase de consolidation : on professionnalise Stylo, c’est-à-dire qu’il faudrait une entité institutionnelle intégralement dédiée au projet pour pouvoir être réactif auprès de la communauté (par exemple en créant un laboratoire commun dédié à cette mission).</p>
+<p>Le coeur de Stylo est composé des trois formats standards que sont le Markdown, le YAML et le BibTeX, le reste est périssable. Ce qu’il faut garder c’est ce coeur là. Dans cette même idée on pourrait imaginer un client de Stylo qui fonctionne quelle que soit la distribution (MacOS, Linux ou Windows).</p>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>
