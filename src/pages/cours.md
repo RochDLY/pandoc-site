@@ -1,6 +1,8 @@
 ---
-title: Enseignements
+title: Enseignements et ateliers
 ---
+
+## Enseignements
 
 **Chargé de cours | Université Paris Nanterre | 2023-2024**
 
@@ -28,3 +30,11 @@ l'information et de la communication, sciences du langage et littératures - [Id
 **Chargé de cours | Université de Montréal | 2022-2023**
 
 - Cours de 1er cycle HNU 1000 - Humanités numériques : théorie, dispensé à l'automne (45h).
+
+## Ateliers
+
+- *Scholarly writing and editing with the text editor Stylo*. Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022 Tokyo, en ligne.
+
+- *Présentation de Stylo*. Atelier réalisé en 2022 au Carrefour en culture et création numériques, Montréal, présenté par Margot Mellet et Roch Delannay.
+
+- *Rédaction et éditions savantes avec l'éditeur de texte Stylo*. Atelier réalisé en 2022 lors du colloque Humanistica à l'Université de Montréal. Présenté par la Chaire de Recherche du Canada sur Ecritures Numeriques, Université de Montréal - Antoine Fauchié, Margot Mellet, Roch Delannay.

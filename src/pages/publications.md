@@ -1,6 +1,8 @@
 ---
-title: Publications
+title: Publications et communications
 ---
+
+## Publications
 
 - **Actes de colloque**
 
@@ -30,6 +32,8 @@ title: Publications
 
     - Delannay, R. et Fauchié, A. (à paraître). *Rapport de recherche sur les forges de publication*, sous la direction de Château-Dutier, E. et Sinatra, M.
 
+## Communications
+
 - **Conférences**
 
     - *Stylo en 2023 : de nouvelles fonctionnalités pour l'écriture et l'édition scientifique*. Poster présenté en 2023 avec Antoine Fauchié lors du colloque Humanistica à Genève (Suisse).
@@ -46,10 +50,6 @@ title: Publications
 
     - *Intime (vs. personnel)*. Colloque organisé en 2020 sous la direction d'Yves Citton : _Les Angles morts du numérique ubiquitaire_, Cerisy.
 
-- **Ateliers**
+- **Séminaires**
 
-    - *Scholarly writing and editing with the text editor Stylo*. Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022 Tokyo, en ligne.
-
-    - *Présentation de Stylo*. Atelier réalisé en 2022 au Carrefour en culture et création numériques, Montréal, présenté par Margot Mellet et Roch Delannay.
-
-    - *Rédaction et éditions savantes avec l'éditeur de texte Stylo*. Atelier réalisé en 2022 lors du colloque Humanistica à l'Université de Montréal. Présenté par la Chaire de Recherche du Canada sur Ecritures Numeriques, Université de Montréal - Antoine Fauchié, Margot Mellet, Roch Delannay.
+    - *Mémoires du Covid-19 et archives du Web : Preuve de concept pour une analyse quantitative des données du dépôt légal du web de la BNF* présenté en 2023 avec  Marta Severo à l'occasion du séminaire organisé par le Dicen-IdF (Data et Traces) au Conservatoire national des arts et métiers.
