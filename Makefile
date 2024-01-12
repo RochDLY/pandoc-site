@@ -47,7 +47,17 @@ serve:
 
 # Pandoc conversions
 # HTML
-html: $(STATIC_DOCS) docs/index.html $(POSTS_DOCS) $(PAGES_DOCS)
+html: $(STATIC_DOCS) docs/index.html docs/index-cache.html $(POSTS_DOCS) $(PAGES_DOCS)
+
+docs/index-cache.html: src/index-cache.md templates/index-cache.html $(metadata_site)
+	@ echo "Production de l'index caché."
+	@ pandoc \
+  	$< \
+		$(PANDOCFLAGS) \
+		--template templates/index-cache.html \
+		--output $@
+	@ echo "L'index caché est construit."
+
 
 docs/index.html: src/index.md templates/index.html $(metadata_site)
 	@ echo "Production de l'index."
