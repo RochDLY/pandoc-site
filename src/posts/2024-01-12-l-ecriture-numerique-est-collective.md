@@ -281,6 +281,7 @@ Elle consiste plutôt à montrer qu'à vouloir préserver une habitude pour «�
 effrayer » l'utilisateur, la page fait écran devant l'ordinateur, non plus en
 tant que simple machine, mais en tant qu'agent d'une énonciation éditoriale.
 
+Cette peur de l'informatique relève essentiellement d'une peur que ce qui
 
 En s'appuyant sur Kittler et sa très célèbre provocation « Es gibt keine
 Software », traduit par « Le logiciel n'existe pas » ... 
