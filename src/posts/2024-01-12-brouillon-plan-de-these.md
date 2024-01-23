@@ -48,11 +48,17 @@ l'écriture)
     - cas d'étude partie écriture : Stylo
 - Partie 4 : De l'oubli des traces intermédiaires de l'écriture numérique
     - les traces numériques
+<<<<<<< Updated upstream
+=======
+    - partie théorique sur Kittler + Hayles + Barad ? (pour développer plus ce
+    qui aura été écrit dans le chapitre 3)
+>>>>>>> Stashed changes
     - transformation des sources et production des artefacts à publier
         - les processus de transformation
     - L'effacement des traces intermédiaires / trajectoires d'écriture
         - effacement des architextes en creux de l'écriture par les processus de
-        transformation
+        transformation : est-ce pour une raison de lisibilité machine ou
+        lisibilité humaine ? Pourquoi cet effacement ?
     - les traces écrites publiées sont sélectionnées (politique éditoriale)
         - quel delta existe-t-il entre la source et l'objet transformé ?
     - quel delta entre l'objet tranformé et l'objet publié ?
