@@ -282,6 +282,39 @@ effrayer » l'utilisateur, la page fait écran devant l'ordinateur, non plus e
 tant que simple machine, mais en tant qu'agent d'une énonciation éditoriale.
 
 Cette peur de l'informatique relève essentiellement d'une peur que ce qui
+définissait l'être humain lui soit arraché et devienne une caractéristique d'une
+autre entité, ne permettant plus de définir l'humain en regard de ce que lui
+seul est capable de faire (Vitali-Rosati).
+
+Kittler à ce propos, nous rappelle qu'historiquement ce que les caractéristiques
+qui définissent l'être humain sont souvent le symbole du pouvoir et désigne
+plutôt les hommes alors qu'à l'instant même ou cette caractéristique devient
+déchue, ce sont les femmes qui en héritent et deviennent les expertes en ce
+domaine (Kittler ref).
+
+Néanmoins, avant d'en arriver à cette émotion forte qu'est la peur et qui
+traduit la non capacité à définir l'être humain, nous pouvons nous appuyer sur
+la pensée de G. Anders et ressentir une forme de honte que l'écran camoufle.
+
+Interagir avec une machine demande une certaine rigueur : qu'il s'agisse de
+structurer un document ou de lui donner une série d'instructions (du code), une
+machine ne peut interpréter l'ambiguité ou l'implicite culturel.
+Cela veut dire qu'aucun échange humain-ordinateur ne peut reposer sur des
+conventions culturelles de lecture et que l'instruction donnée n'a, en elle-même, aucun
+sens.
+Dès lors, comment admettre que quelque chose qui n'a pas de sens puisse en
+générer ?
+
+La honte (prométhéenne) d'Anders est alors double : d'un côté il y a un mélange
+de fierté devant cette machine créée par l'être humain et de honte parce que
+l'individu isolé devant la machine sait que ce n'est pas lui qui l'a mise au
+point et, de l'autre, il y a cette honte à être face à un outil qui réalise une
+action mieux qu'on ne le ferait soi-même alors que cette dite machine n'a aucune
+conscience de ce qu'elle réalise.
+
+Le dépassement de l'écran est une proposition pour poser un autre regard non
+anthropocentré sur cette question de l'écriture numérique.
+Il n'est p
 
 En s'appuyant sur Kittler et sa très célèbre provocation « Es gibt keine
 Software », traduit par « Le logiciel n'existe pas » ... 
