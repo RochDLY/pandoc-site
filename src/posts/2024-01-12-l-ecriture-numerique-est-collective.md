@@ -256,7 +256,6 @@ dans son ouvrage ...
 
 [Ajouter une note sur Kirschenbaum]
 
-
 Cet objet qu'est la page a été instauré dans l'ordinateur uniquement pour
 reproduire une « habitude » et créer un lien fictif entre les visions du monde
 de l'imprimerie et de l'informatique.
@@ -314,7 +313,21 @@ conscience de ce qu'elle réalise.
 
 Le dépassement de l'écran est une proposition pour poser un autre regard non
 anthropocentré sur cette question de l'écriture numérique.
-Il n'est p
+Elle signifie qu'il ne s'agit plus de poser la question de l'auteur de
+l'écriture, en admettant que c'est bien la machine qui écrit, et de se demander
+comment cette nouvelle fonction (inter)agit entre les agents humains.
+Que se passe-t-il lorsque cet ordinateur devient un agent actif qui écrit et
+transmet des informations entre, d'une part, l'instructeur (la personne qui
+donne des instructions) et la ou les personnes qui lisent les productions
+écrites ?
+Dans cette configuration s'opère un changement radical de l'état de
+l'ordinateur.
+Cette machine passe de l'état de médiateur, de support de l'écriture, à celui
+d'entité agissante au sein d'un système.
+
+
+
+
 
 En s'appuyant sur Kittler et sa très célèbre provocation « Es gibt keine
 Software », traduit par « Le logiciel n'existe pas » ... 
@@ -584,7 +597,7 @@ l'assujetissement.
 
 L'auteur devient « usager » = sujet (assujetti) aux logiciels...
 
-## Cas d'étude : Stylo
+## Cas d'étude : l'éditeur de texte Stylo
 ### Qu'est-ce que Stylo ?
 #### Grandes lignes sur Stylo
 Stylo est un éditeur de texte sémantique développé pour l'écriture en sciences
@@ -602,3 +615,4 @@ laquelle se joint officiellement Huma-Num en 2020.
 #### L'écriture en Markdown
 #### La saisie des références bibliographiques en BibTeX
 ### Ce que Stylo permet ou non de faire
+(Qu'est-ce que Stylo en tant qu'agent qui écrit ?)
