@@ -2,6 +2,7 @@
 title: Pensées d'un doctorant
 ---
 
+- [08-Archiver-un-site-web](/posts/2024-01-26-archiver-un-site-web.html)
 - [07-Préparation du cours Identités numériques avec
 Quarto](/posts/2024-01-10-preparation-du-cours-identite-numerique.html)
 - [06-Entretien avec Stéphane Pouyllau](/posts/2024-01-09-entretien-humanum.html)
