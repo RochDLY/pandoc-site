@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | Archiver un site web</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-01-26" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <div>
+                    <a href="/">Accueil</a>
+                    <a href="/pages/publications.html">Publications</a>
+                    <a href="/pages/cours.html">Enseignements</a>
+                    <a href="/pages/glossaire.html">Glossaire</a>
+                </div>
+            </nav></header>                <div class="side">
+
+            <nav class="toc">
+<ul>
+<li><a href="#contexte" id="toc-contexte">Contexte</a></li>
+<li><a href="#essais-pour-intégrer-les-données" id="toc-essais-pour-intégrer-les-données">Essais pour intégrer les données</a></li>
+<li><a href="#tentatives-pour-archiver-le-site-web" id="toc-tentatives-pour-archiver-le-site-web">Tentatives pour archiver le site web</a></li>
+</ul>
+            </nav>
+        </div>
+                    <div class="container">
+                <header class="header-bloc">
+                    <h1>Archiver un site web</h1>
+<!--  -->
+                    <time>2024-01-26</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<h2 id="contexte">Contexte</h2>
+<p>Ce billet permet de documenter un ensemble de procédures et de questions en cours de réflexion.</p>
+<p>Nous travaillons, avec l’équipe des Ateliers de sens public, à l’édition d’un nouvel ouvrage dont l’objet rend compte d’un événement qui s’est tenu en juillet 2022.</p>
+<p>Cet événement a pour thématique les contributions sur les plateformes en ligne et certaines présentations lors de ce forum ont fait l’objet d’un approfondissement à l’occasion de ce livre.</p>
+<p>Parmi celles-ci, un chapitre porte sur un projet de recherche dont les données repose sur un site web distribué via le CMS Omeka classic, voué à disparaître prochainement.</p>
+<p>Les questions éditoriales autour de ce billet relèvent des informations additionnelles que l’on peut insérer dans ce livre/chapitre.</p>
+<h2 id="essais-pour-intégrer-les-données">Essais pour intégrer les données</h2>
+<p>Les livres web produits avec le Pressoir permettent d’intégrer tout un ensemble d’objets (qui peuvent exister dans l’écosystème du web).</p>
+<p>Du coup, on a la possibilité d’intégrer les données de recherche dans le livre d’une façon ou d’une autre, selon si l’on y trouve un intérêt éditorial.</p>
+<p>Les données peuvent être récupérées au format CSV. Et là on décide de créer un chapitre additionnel au livre pour y insérer toutes ces données en tant que contenus additionnels.</p>
+<p>Dans le Pressoir, les contenus additionnels (c’est un objet créé pour le Pressoir) sont contenus dans un document au format Markdown et rédigés avec un ensemble de YAML et de Markdown.</p>
+<p>On obtient la forme suivante : </p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## idUnique</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>title: Un titre</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>author: Un Nom</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>credits: Un Nom</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>autre: etc</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>Du contenu en Markdown</span></code></pre></div>
+<p>Le premier écueil que l’on rencontre concerne la transformation des données du fichier CSV vers cette forme des contenus additionnels.</p>
+<p>L’idée au départ est de faire un petit script en Python pour y arriver. Transformer du CSV en YAML c’est relativement facile, surtout avec la librairie pyYAML.</p>
+<p>Pourtant les ennuis commencent déjà : le document CSV généré par Omeka n’est pas des plus propre pour travailler. Par exemple, certaines données contiennent plusieurs valeurs séparées par un simple espace mais chacune des valeurs contient elle-même un sous ensemble de <code>clef : valeur</code>, complexifiant ainsi la structure des données.</p>
+<p>Par exemple, les liens vers les réseaux sociaux y sont indexés comme suit :</p>
+<p><code>item_reseaux-sociaux : Facebook : url Instagram : url Twitter : url</code></p>
+<p>Pour rappel, dans la syntaxe YAML, le séparateur entre la <code>clef</code> et la <code>valeur</code> est également le signe <code>:</code>. À cet endroit beaucoup d’erreurs s’insèrent dans le YAML produit.</p>
+<p>Il faut aussi faire un gros nettoyage sur les URL qui contiennent toutes les balises HTML <code>&lt;a href=&gt;</code> composée de divers paramètres selon les hyperliens.</p>
+<p>Une fois la conversion terminée on se rend alors compte que pyYAML n’écrit pas correctement les caractères spéciaux contenus dans le CSV. Tous les accents y passent sans exception et nous nous retrouvons avec des chaînes de caractères du type <code>\en09</code> (exemple faux) dans le YAML.</p>
+<p>Ce n’est pas un soucis majeur mais il faut quand réinscrire les bons caractères, par exemple avec des expressions régulières.</p>
+<p>Arrivé à ce stade eh bien on a juste un document YAML qui contient toutes les données transformées (et c’est pas encore super clean) mais on a pas le fichier Markdown avec la structure présentée ci-dessus.</p>
+<p>Là on a plusieurs idées, comme faire un template HTML et passer par Pandoc pour redistribuer toutes les valeurs du YAML dans un nouveau document, encore qu’il faudrait aussi faire ça avec Python, parce que toutes les entrées de chaque ligne du CSV se nomment pareil et qu’il nous faudrait pouvoir boucler sur ces infos pour générer tous les contenus additionnels.</p>
+<p>On pourrait aussi repartir du CSV et transformer directement le document en Markdown en appliquant cette dernière méthode et trouver une solution pour dédoublonner les multiples données sur une même entrée.</p>
+<p>Toutefois ça commence à faire un peu long pour remplacer des données décrites en Dublin Core et bien indexées dans une base de données sur un Omeka.</p>
+<p>L’objectif de cette manipulation transforme donc des données décrites avec un standard perenne en texte brut, sans compter la perte de la mise en page (d’un côté un site web dédié et de l’autre un chapitre perdu à la fin d’un livre).</p>
+<p>La question est donc à reposer : s’agit-il d’un geste éditorial dont l’objectif est d’apporter une plus-value au livre ? Ou s’agit-il de trouver une solution pour archiver ces données et les garder accessibles en ligne ?</p>
+<h2 id="tentatives-pour-archiver-le-site-web">Tentatives pour archiver le site web</h2>
+<p>On en vient enfin au titre de ce billet (je ne savais pas comment l’appeler autrement).</p>
+<p>En discussion avec Hélène et Nicolas on a donc opté pour faire d’autres tests pour trouver une alternative pour sauver ce site web sans générer de grosses dépenses pour maintenir ou migrer tout le système.</p>
+<p>Étant donné que les données du site sont plutôt stables (pas de nouvelle entrée prévue), nous avons eu l’idée de passer le site web en statique et de supprimer la base de données. On ne garderait que les fichiers HTML et on les sert sur un serveur (au prix d’une perte de quelques fonctionnalités) mais au moins on peut tout stabiliser et pérenniser l’accès aux données sans changer l’URL.</p>
+<p>Du coup on opte pour passer d’un site dynamique à un site statique. Le meilleur outil pour faire ça est sans nul doute <code>wget</code>.</p>
+<p>Je me documente un peu et je trouve un super tutoriel en ligne qui explique les bonnes pratiques avec cette commande et je me lance dans cette (re)quête.</p>
+<pre><code>&gt; wget --wait=2 \
+     --level=inf \
+     --recursive \
+     --page-requisites \
+     --user-agent=Mozilla \
+     --no-parent \
+     --convert-links \
+     --adjust-extension \
+     --no-clobber \
+     -e robots=off \
+     https://bliblablou</code></pre>
+<p>Les paramètres permettent d’affiner la requête :</p>
+<ul>
+<li><code>wait</code> demande d’attentre 2secondes entre chaque ressource,</li>
+<li><code>level</code> permet de régler le niveau de profondeur de récupération des fichiers (ici <code>inf</code> pour infini),</li>
+<li><code>recursive</code> spécifie le télwçhargement récursif des éléments,</li>
+<li><code>page-requisites</code> ordonne de récupérer les ressources nécessaires au fonctionnement du site web,</li>
+<li><code>no-parent</code> interdit de remonter dans les dossiers parents,</li>
+<li><code>convert-links</code> est très utile et réécrie les liens entre les ressources pour que le site web puisse tourner en local,</li>
+<li><code>user-agent</code> spécifie une version particulière de <code>wget</code>,</li>
+<li><code>no-clobber</code> permet de ne pas retélécharger des ressources déjà téléchargées,</li>
+<li><code>adjust-extension</code> sauvegarde les fichiers HTML et CSS avec les bonnes extensions de fichier,</li>
+<li><code>e robots</code> permet de régler l’exclusion de robots.</li>
+</ul>
+<p>Sur le papier tout semble aller comme sur des roulettes.</p>
+<p>Je teste la commande sur ce carnet et hop ! tout fonctionne parfaitement ! J’ai un site miroir parfait.</p>
+<p>Il faut ensuite le tester sur le Omeka, et là ca se corse. Le premier test est effectué dans le train, entre Lyon et Montpellier.</p>
+<p>Je lance la commande avec ma 4g hasardeuse et résultat … au bout de 2h de train, j’ai récupéré quelques milliers de fichiers sans arriver au bout de la récolte du site web.</p>
+<p>C’est très frustrant parce que je dois éteindre l’ordinateur et descendre du train (pour une fois que le train arrive à l’heure…).</p>
+<p>Ce n’est pas grave, ça a l’air de fonctionner, 2h et je ne me suis pas fait virer par le serveur du coup j’ai l’impression que ça va le faire !</p>
+<p>Arrivé à destination, j’ouvre l’ordinateur, le branche sur secteur et sur wifi, j’ouvre le terminal et hop je relance ça et je croise fermement les doigts, les poings, les pieds et les orteils pendant que je m’endors en espérant que la nuit portera ses fruits.</p>
+<p>Rien du tout. Je me lève le matin et là je vois que ça mouline encore, j’ai récolté plus de 7000 documents dont la plupart sont des fichiers du flux RSS et les données JSON et CSV de l’API…</p>
+<p>Je coupe donc tout ça et je le jette à la poubelle.</p>
+<p>Je réouvre le manuel de <code>wget</code> et là je tombe sur <code>--reject=LIST</code>, un paramètre permettant de supprimer certaines extensions des téléchargement.</p>
+<p>Au départ, l’idée était de reconstruire le plus fidèlement possible une archive statique de ce site web, toutefois je me rends compte qu’il faut faire des choix et que l’archive recréée ne sera peut-être pas complètement identique…</p>
+<p>Est-ce qu’il y a un intérêt à garder tous ces jeux de données ou un flux RSS pour un site quasiment figé ?</p>
+<p>Dans tous les cas, la commande</p>
+<pre><code>&gt; wget --wait=2 \
+     --level=inf \
+     --recursive \
+     --page-requisites \
+     --user-agent=Mozilla \
+     --no-parent \
+     --convert-links \
+     --adjust-extension \
+     --no-clobber \
+     --reject=xml,json,csv,atom,rss,rss2,tmp \
+     -e robots=off \
+     https://url</code></pre>
+<p>semble ne plus récupérer ces centaines de documents ! Toutefois la capture du site ne sera pas moins longue dans ces conditions, <code>wget</code> passe quand même sur ces ressources, les télécharge, puis les supprime.</p>
+<p>Il me reste un peu moins d’une heure de train pour rentrer à Paris, on va voir ce que j’arrive à récupérer d’ici là.</p>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>
