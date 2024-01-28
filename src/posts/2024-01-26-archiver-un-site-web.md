@@ -4,6 +4,7 @@ date: 2024-01-26
 ---
 
 ## Contexte
+
 Ce billet permet de documenter un ensemble de procédures et de questions en cours
 de réflexion.
 
@@ -226,3 +227,38 @@ passe quand même sur ces ressources, les télécharge, puis les supprime.
 
 Il me reste un peu moins d'une heure de train pour rentrer à Paris, on va voir
 ce que j'arrive à récupérer d'ici là.
+
+## La commande qui fonctionne
+C'était un peu trop ambitieux d'espérer récupérer tout le site web avec la
+dernière commande en simplement une heure.
+
+Il aura été nécessaire de laisser tourner `wget` pendant plus de 11h pour
+récupérer l'intégralité du site web avec la commande suivante : 
+
+```bash
+> wget --wait=1 \
+     --level=inf \
+     --recursive \
+     --page-requisites \
+     --user-agent=Mozilla \
+     --no-parent \
+     --convert-links \
+     --adjust-extension \
+     --no-clobber \
+     --reject=xml,json,csv,atom,rss,rss2,tmp \
+     -e robots=off \
+     https://anr-collabora.parisnanterre.fr/observatoire/
+```
+
+La différence avec la commande précédente est la réduction du temps d'attente
+entre chaque requête d'une seconde (`wait=1`).
+
+On a pu récupérer plus de 11600 fichiers constituant tout le site web ! La
+plupart des fonctionnalités ont été préservées (recherche par mot-clés ou par
+tag), le CSS et les images sont bien présents.
+
+Il ne reste plus qu'à supprimer la version existante avec Omeka Classic et
+déposer l'archive statique sur le serveur pour vérifier que tout fonctionne
+correctement !
+
+![](/images/archiveWeb.gif)

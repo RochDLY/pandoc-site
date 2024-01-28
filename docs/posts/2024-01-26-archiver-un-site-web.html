@@ -33,6 +33,7 @@
 <li><a href="#contexte" id="toc-contexte">Contexte</a></li>
 <li><a href="#essais-pour-intégrer-les-données" id="toc-essais-pour-intégrer-les-données">Essais pour intégrer les données</a></li>
 <li><a href="#tentatives-pour-archiver-le-site-web" id="toc-tentatives-pour-archiver-le-site-web">Tentatives pour archiver le site web</a></li>
+<li><a href="#la-commande-qui-fonctionne" id="toc-la-commande-qui-fonctionne">La commande qui fonctionne</a></li>
 </ul>
             </nav>
         </div>
@@ -139,6 +140,25 @@
      https://url</code></pre>
 <p>semble ne plus récupérer ces centaines de documents ! Toutefois la capture du site ne sera pas moins longue dans ces conditions, <code>wget</code> passe quand même sur ces ressources, les télécharge, puis les supprime.</p>
 <p>Il me reste un peu moins d’une heure de train pour rentrer à Paris, on va voir ce que j’arrive à récupérer d’ici là.</p>
+<h2 id="la-commande-qui-fonctionne">La commande qui fonctionne</h2>
+<p>C’était un peu trop ambitieux d’espérer récupérer tout le site web avec la dernière commande en simplement une heure.</p>
+<p>Il aura été nécessaire de laisser tourner <code>wget</code> pendant plus de 11h pour récupérer l’intégralité du site web avec la commande suivante :</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span> wget <span class="ex">--wait=1</span> <span class="dt">\</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>     <span class="at">--level</span><span class="op">=</span>inf <span class="dt">\</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>     <span class="at">--recursive</span> <span class="dt">\</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">--page-requisites</span> <span class="dt">\</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">--user-agent</span><span class="op">=</span>Mozilla <span class="dt">\</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">--no-parent</span> <span class="dt">\</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">--convert-links</span> <span class="dt">\</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>     <span class="at">--adjust-extension</span> <span class="dt">\</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>     <span class="at">--no-clobber</span> <span class="dt">\</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>     <span class="at">--reject</span><span class="op">=</span>xml,json,csv,atom,rss,rss2,tmp <span class="dt">\</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>     <span class="at">-e</span> robots=off <span class="dt">\</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>     https://anr-collabora.parisnanterre.fr/observatoire/</span></code></pre></div>
+<p>La différence avec la commande précédente est la réduction du temps d’attente entre chaque requête d’une seconde (<code>wait=1</code>).</p>
+<p>On a pu récupérer plus de 11600 fichiers constituant tout le site web ! La plupart des fonctionnalités ont été préservées (recherche par mot-clés ou par tag), le CSS et les images sont bien présents.</p>
+<p>Il ne reste plus qu’à supprimer la version existante avec Omeka Classic et déposer l’archive statique sur le serveur pour vérifier que tout fonctionne correctement !</p>
+<p><img src="/images/archiveWeb.gif" /></p>
             </div>
         </div>
 <footer>
