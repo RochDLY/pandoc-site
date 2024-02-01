@@ -4,10 +4,14 @@ title: Enseignements et ateliers
 
 ## Enseignements
 
+**Chargé de cours | Université Montpellier 3 Paul Valéry | 2023-2024**
+
+- Master 2 MAVINUM - Science ouverte : Logiciel Stylo, janvier 2024 (5h TD).
+
 **Chargé de cours | Université Paris Nanterre | 2023-2024**
 
 - Cours magistral mutualisé destiné aux étudiants en licence en sciences de
-l'information et de la communication, sciences du langage et littératures - [Identités numériques](https://identites-numeriques.en-cours-de.construction), dispensé à l'hiver (24h CM). 
+l'information et de la communication, sciences du langage et littératures - [Identités numériques](https://identites-numeriques.en-cours-de.construction), dispensé à l'hiver (24h CM).
 
 **Chargé de cours | Université de Montréal | 2023-2024**
 
