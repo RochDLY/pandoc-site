@@ -173,7 +173,7 @@ remplir le gabarit.
 Cet architexte, ce  cadre, est régit par des règles qui définissent comment l'on
 peut écrire mais surtout comment les signes à inscrire doivent être formatés.
 
-#### Des exemples d'études mobilisant l'architexte
+#### Revue de la littérature mobilisant l'architexte
 
 Goody
 
@@ -213,6 +213,13 @@ le « document » d’un logiciel de traitement de texte est mise en abyme au se
 de l’ensemble des autres « cadres » qui la rendent possible et la déterminent
 techniquement et sémiotiquement.
 
+Ce premier cadre de « l'écrit d'écran » ne désigne, pour les auteurs, que
+l'écran.
+Or, il n'est pas nommé _cadre écran_ mais _cadre matériel_ et devrait renvoyer à
+toute la dimension physique d'un ordinateur et pas seulement à l'organe
+d'affichage qui, dans cette disposition, apparaît comme central dans le
+fonctionnement d'un ordinateur.
+
 Le fait de rendre la couche _hardware_ inanimée dans le production du texte
 écrit et de renvoyer cette production aux couches supérieures crée deux
 contradictions.
@@ -231,7 +238,7 @@ défendue par les auteurs auparavant.
 De plus, le renvoi à la surcouche graphique ajoute un masque supplémentaire à ce
 que nous essayons de voir en-dessous.
 Ce que nous pouvons en comprendre est que, finalement, la notion d'architexte
-telle qu'elle est construite par Souchier et al, est anthropocentrée et
+telle qu'elle est construite par Souchier _et al_, est anthropocentrée et
 s'appuie sur des conventions de lecture (_lettrure_) humaines.
 
 Le dépassement de l'écran est un acte symbolique nécessaire pour se soustraire à
@@ -241,9 +248,9 @@ au sein d'un système donné.
 En l'astreignant à un système d'informations comprenant seulement des agents
 humains, il devient difficile d'inclure l'ordinateur comme un agent agissant de
 ce système.
-Un effet qui nous conforte dans cette situation est justement l'écran et l'objet
-virtuel que cet écran nous propose et qui nous réconforte dans notre usage de
-l'ordinateur : la page.
+Ce système dispose d'un argument de taille (variable) pour nous conforter dans
+cette interprétation, l'écran, accompagné d'un objet virtuel qui n'existe que
+pour nous réconforter dans notre usage de l'ordinateur : la page.
 
 ### Dépassement de l'écran et de la page
 
@@ -277,19 +284,22 @@ l'épaisseur, l'odeur ou tout autre caractéristique physique du papier.
 La critique énoncée à l'endroit de la page ne doit pas être réduite à une
 apologie d'un mode sans page.
 Elle consiste plutôt à montrer qu'à vouloir préserver une habitude pour « ne pas
-effrayer » l'utilisateur, la page fait écran devant l'ordinateur, non plus en
-tant que simple machine, mais en tant qu'agent d'une énonciation éditoriale.
+effrayer » l'utilisateur, la page fait écran devant l'ordinateur, et cache la
+machine qui ne devient plus qu'un simple mécanisme au lieu d'être un agent de
+l'énonciation éditoriale.
 
-Cette peur de l'informatique relève essentiellement d'une peur que ce qui
-définissait l'être humain lui soit arraché et devienne une caractéristique d'une
-autre entité, ne permettant plus de définir l'humain en regard de ce que lui
+Cette peur de l'informatique relève essentiellement de l'angoisse de
+l'arrachement d'une valeur qui définie l'être humain et devienne une caractéristique
+d'une autre entité, ne permettant plus de définir l'humain en regard de ce que lui
 seul est capable de faire (Vitali-Rosati).
 
-Kittler à ce propos, nous rappelle qu'historiquement ce que les caractéristiques
+Kittler, à ce propos, nous rappelle qu'historiquement les caractéristiques
 qui définissent l'être humain sont souvent le symbole du pouvoir et désigne
-plutôt les hommes alors qu'à l'instant même ou cette caractéristique devient
-déchue, ce sont les femmes qui en héritent et deviennent les expertes en ce
-domaine (Kittler ref).
+plutôt les hommes alors qu'à l'instant même ou cette caractéristique est
+déchue de son statut de marqueur d'une puissance, ce sont les femmes qui en
+héritent et deviennent les expertes en ce domaine (Kittler ref).
+Il y aurait donc une peur de perdre non seulement une caractéristique de
+l'humanité mais surtout une caractéristique de la masculinité.
 
 Néanmoins, avant d'en arriver à cette émotion forte qu'est la peur et qui
 traduit la non capacité à définir l'être humain, nous pouvons nous appuyer sur
@@ -419,7 +429,13 @@ _What You See Is What You Get_, ou WYSIWYG, est l'acronyme généralement employ
 pour désigner les outils qui adoptent une surcouche graphique pour mettre en
 page le contenu directement, au risque de ne pas structurer de la façon
 souhaitée.
-Le paradigme opposé, _What You See Is What You Mean_,...
+Le paradigme opposé, _What You See Is What You Mean_, distingue la mise en page
+(graphique) du texte de sa structuration.
+Les formats employées sont généralement en texte brut et permettent souvent de
+baliser le contenu pour définir la nature des éléments à décrire.
+C'est le cas par exemple de tous les langages de balisages tels HTML ou XML mais
+également les langages de balisage léger tels Markdown, AsciiDoc,
+reStrucredText,...
 
 Arrivé à ce niveau, l'agent humain ne dépend plus d'un logiciel particulier pour
 saisir son texte mais peut faire le choix de l'environnement dans lequel il veut
@@ -494,8 +510,11 @@ L'auteur René Dupont prendrait alors la forme suivante :
 </auteur>
 ```
 
-Certains formats, comme nous venons de l'observer avec le XML, permettent de
-choisir ce que l'architexte va écrire dans le texte. 
+Le format XML est un exemple très explicite.
+La sémantique du texte y est structurée selon deux dimensions, à la fois en termes
+de structuration verticale des informations mais aussi dans la saisie des noms
+des balises qui, en général, renvoient à des éléments lisibles et compréhensibles.
+
 
 
 #### Définir le format
@@ -597,7 +616,13 @@ l'assujetissement.
 
 L'auteur devient « usager » = sujet (assujetti) aux logiciels...
 
-## Cas d'étude : l'éditeur de texte Stylo
+## Entretien avec l'éditeur de texte Stylo
+Dans cette deuxième partie, nous procédons à un "entretien" avec l'éditeur de
+texte sémantique Stylo afin d'étudier ce que Stylo écrit dans le texte.
+Dans cette analyse, le terme entretien est proposé du fait de la considération
+du logiciel comme agent actif de la production de l'écriture.
+
+La méthode appliquée 
 ### Qu'est-ce que Stylo ?
 #### Grandes lignes sur Stylo
 Stylo est un éditeur de texte sémantique développé pour l'écriture en sciences
@@ -616,3 +641,6 @@ laquelle se joint officiellement Huma-Num en 2020.
 #### La saisie des références bibliographiques en BibTeX
 ### Ce que Stylo permet ou non de faire
 (Qu'est-ce que Stylo en tant qu'agent qui écrit ?)
+Dépassement du simple rapport de force énoncé précédemment (grâce à une
+transparence dans les actions de la machine et l'augmentation de la littératie
+numérique)
