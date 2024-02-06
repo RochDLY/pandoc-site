@@ -616,14 +616,50 @@ l'assujetissement.
 
 L'auteur devient « usager » = sujet (assujetti) aux logiciels...
 
-## Entretien avec l'éditeur de texte Stylo
-Dans cette deuxième partie, nous procédons à un "entretien" avec l'éditeur de
-texte sémantique Stylo afin d'étudier ce que Stylo écrit dans le texte.
-Dans cette analyse, le terme entretien est proposé du fait de la considération
-du logiciel comme agent actif de la production de l'écriture.
+## Étude de cas : l'éditeur de texte Stylo
+Dans cette deuxième partie du chapitre, nous étudions la version 3 de l'éditeur de
+texte sémantique Stylo afin d'observer ce que cet outil écrit dans le texte.
+Le point de vue adopté qualifie Stylo en tant qu'agent actif de l'écriture et
+non plus comme un simple environnement.
 
-La méthode appliquée 
+La méthode appliquée à l'observation de Stylo est empruntée à F. Kittler et
+consiste à décrire rigoureusement les techniques et technologies pour em
+comprendre les effets sur le texte.
+Lorsqu'un.e utilisateur.rice de Stylo tape du texte sur son clavier, quelles
+sont les réponses que Stylo donne à ces instructions ?
 ### Qu'est-ce que Stylo ?
+Stylo est un éditeur de texte sémantique pour l’édition scientifique en sciences
+humaines. Stylo est autant un projet de recherche qu’un outil d’écriture et
+d’édition, qui entend poser une question décisive : qu’est-ce qu’écrire en
+environnement numérique en sciences humaines ? Les nouvelles fonctionnalités
+développées et déployées au printemps 2023 sont présentées dans ce poster.
+Stylo est un outil libre et open source conçu en 2017 par la Chaire de recherche du
+Canada sur les écritures numériques (Vitali-Rosati et al., 2020), et soutenu depuis
+2020 par la Très grande infrastructure de recherche Huma-Num.
+Stylo a pour objectif de transformer le flux de travail numérique des revues savantes
+en sciences humaines.
+En tant qu’éditeur de texte sémantique WYSIWYM, il vise à améliorer la chaîne de
+publication académique (Kembellec 2019), tout en invitant à une réflexion théorique et
+pratique sur nos façons d’écrire et d’éditer.
+
+Prendre le contrôle de son propre texte, voilà ce que permet aujourd’hui Stylo à
+travers plusieurs fonctionnalités fondatrices ou toutes nouvelles qui s’inscrivent
+dans le domaine des technologies de l’édition numérique (Blanc et Haute, 2018) :
+balisage du texte pour une structure sémantique fine, import de données bibliographiques
+structurées depuis Zotero, mots-clés contrôlés depuis plusieurs ontologies,
+prévisualisation avec la possibilité d’annoter, génération de plusieurs formats (HTML,
+PDF, XML ou DOCX), export respectant les standards de l’édition scientifique,
+fonctions avancées de rechercher-remplacer, édition collaborative simultanée, accès aux
+données via une API GraphQL, etc.
+Contrairement aux outils de traitement de texte tels que Microsoft Word, Stylo
+cherche à promouvoir et à encourager l’utilisation de standards ouverts
+(Marcello, 2020).
+Au cœur de Stylo ce sont donc les formats de balisage Markdown, de sérialisation de
+données YAML ou encore de structuration de références bibliographiques BibTeX qui
+offrent la possibilité de produire plusieurs formats de sortie depuis une source
+unique.
+Pandoc, le « couteau suisse de l’édition », génère les formats de sortie PDF
+(avec l’aide de LATEX), HTML, XML-TEI ou encore DOCX
 #### Grandes lignes sur Stylo
 Stylo est un éditeur de texte sémantique développé pour l'écriture en sciences
 humaines et sociales par la Chaire de recherche du Canada sur les écritures
