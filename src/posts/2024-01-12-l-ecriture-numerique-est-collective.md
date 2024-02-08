@@ -74,7 +74,7 @@ Quelle que soit le langage utilisé pour écrire `3`, `trois`, `three`, `III`,
 
 [à détailler après avoir lu la partie sur le code de Herresnchmidt.]
 
-La contrepartie de cette perte de signification est que le numérique gagme cette
+La contrepartie de cette perte de signification est que le numérique gagne cette
 particularité d'être calculable et mesurable.
 Dès lors, il devient possible de mesurer des distances ou des écarts entre des
 lettres, des mots ou des concepts, des données dans un environnement donné.
@@ -184,17 +184,32 @@ Goody
 
 Nous l'avons vu, l'architexte se positionne en tant que médiateur entre un
 auteur et la machine qu'il emploie pour écrire.
-Jusqu'à présent, nous avons vu que l'architexte
-
-En 2019 Gomez Mejia, Souchier (+ref) étendent l'architexte (les cadres d'écrit
-d'écran) à 4 cadres :
+Jusqu'à présent, la définition de l'architexte englobe largement tous les écrits
+qui permettent d'écrire à l'écran.
+En 2019 G. Gomez-Mejia, E. Souchier et E. Candel précisent ce que sont ces
+méta-écritures et en dressent une typologie composée de quatre « cadres
+d'écrits d'écran » :
 
 - le matériel
-- le système (BIOS, OS, etc)
+- le système
 - le logiciel
 - le document
 
-[Description des cadres]
+Le premier cadre, matériel, désigne toute la composante physique de l'ordinateur
+et surtout l'écran sur lequel est affiché le texte.
+Le cadre système, quant à lui, est associé à la couche permettant de générer un
+environnement d'écriture numérique, initialisé par le BIOS, un _firmware_ flashé
+dans la mémoire morte de la carte mère de l'ordinateur permettant de réaliser un
+certains nombre d'instructions lors de la mise sous tension comme par exemple le
+démarrage du système d'exploitation qui constitue le deuxième élément principal
+du système.
+Le cadre logiciel est relatif à l'ensemble des logiciels que l'on peut exécuter
+dans un système d'exploitation, par exemple un terminal, un navigateur ou un
+traitement de texte.
+Enfin, le dernier cadre est celui du document.
+Le document doit être compris comme un objet, ou une forme, déterminé et à
+l'intérieur duquel des éléments sémiotiques sont organisés et structurés
+(Pédauque (2006, 2007), Zacklad).
 
 Ces cadres sont un début de réponse au dépassement de l'écran.
 Néanmoins, plutôt que d'approfondir cette dimension invisible du texte, les
@@ -470,8 +485,8 @@ transformable en HTML et compatible avec le CSS.
 Que l'on soit sous système d'exploitation Linux, MacOS ou Windows, le XML peut
 être saisi et lu dans tous les éditeurs de texte.
 De plus, le XML a cette particularité de ne pas imposer de règles particulières
-en dehors de la façon de structurer des informations avec des balises ouvrantes
-et fermantes.
+en dehors de la déclaration de la structure des informations avec des balises
+ouvrantes et fermantes.
 Chacun est en capacité de créer ses propres règles de structuration des contenus
 en XML en créant un schéma (ensemble de régles qui déterminent les agencements
 des différentes balises entre elles) qui correspond aux besoins de l'écriture.
@@ -513,11 +528,17 @@ L'auteur René Dupont prendrait alors la forme suivante :
 Le format XML est un exemple très explicite.
 La sémantique du texte y est structurée selon deux dimensions, à la fois en termes
 de structuration verticale des informations mais aussi dans la saisie des noms
-des balises qui, en général, renvoient à des éléments lisibles et compréhensibles.
-
-
+des balises qui, en général, renvoient à des éléments lisibles et compréhensibles,
+ce qui n'est pas le cas de tous les formats.
+D'autres langages de balisage, notamment ceux dit légers comme le Markdown,
+l'AsciiDoc ou le reStructuredText, emploient des symboles tels que `=` ou `#`
+pour structurer les informations dans le document.
+Contrairement à ce que nous avons vu avec le XML, la signification des éléments
+structurants n'est pas forcément explicite pour une lecture humaine, même si on
+peut la deviner ou apprendre ce que la balise définit.
 
 #### Définir le format
+
 Le terme format est avant tout un terme technique, il délimite les
 caractéristiques d’un objet. Ces caractéristiques sont formulées par un certain
 nombres de données, d’instructions, ou de règles. L’objectif est de disposer
