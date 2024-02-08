@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | L’oubli des traces intermédiaires</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-02-06" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <div>
+                    <a href="/">Accueil</a>
+                    <a href="/pages/publications.html">Publications</a>
+                    <a href="/pages/cours.html">Enseignements</a>
+                    <a href="/pages/glossaire.html">Glossaire</a>
+                </div>
+            </nav></header>                <div class="side">
+
+            <nav class="toc">
+<ul>
+<li><a href="#résumé" id="toc-résumé">Résumé</a></li>
+</ul>
+            </nav>
+        </div>
+                    <div class="container">
+                <header class="header-bloc">
+                    <h1>L’oubli des traces intermédiaires</h1>
+<!--  -->
+                    <time>2024-02-06</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<h2 id="résumé">Résumé</h2>
+<p>Dans cette partie sont traitées les écritures intermédiaires que l’on trouve entre la source rédigée et l’objet final produit. Bien souvent, à l’intérieur d’une chaîne éditoriale, le texte produit par un auteur est dans une forme brute. Ce texte doit subir une série de transformations (allant de une à plusieurs) pour produire les éléments finaux : des fichiers au format PDF à imprimer, des version HTML pour les ePubs ou pour un site web, ou encore des documents au format XML.</p>
+<p>Les transformations d’un format vers un autre ne se déroulent pas par magie, et l’ordinateur ne “connait” pas les équivalences entre les syntaxes de chaque format.</p>
+<p>Pour cela, il faut établir des règles pour formaliser ces équivalences, quand cela est possible. Parfois, cela n’est pas possible car ce qui existe dans un format n’existe pas dans un autre, et il faut alors trouver des solutions alternatives pour contourner ces problèmes.</p>
+<p>Nous avons vu que le format Markdown était un langage de balisage léger pensé en lien avec le format HTML, de cette manière un <code>## titre de niveau 2</code> déclaré en Markdown peut être transformé en <code>&lt;h2&gt;titre de niveau 2 &lt;/h2&gt; en HTML</code>.</p>
+<p>Ce que l’on remarque c’est que la structure rédigée dans la source est supprimée – et oubliée – pour laisser la place à une structure rédigée par la machine. Dans certains peuvent se retrouver différents formats intermédiaires, entre la source et le produit fini, qui sont quasiment invisibles et dont on ne retient rien, et qui pourtant participw à cette destructuration/restructuration du document.</p>
+<p>Par exemple pour produire un document PDF depuis une source au format Markdown il faut utiliser un document intermédiaire comme une transformation au format TeX avant de pouvoir produire le fichier PDF. Cette transformation LaTeX est temporaire, elle peut être préservée pour vérification, mais n’est jamais archivée.</p>
+<p>Deux transformations sont effectuées dans cet exemple, et deux structurations de contenus disparaissent.</p>
+<p>Note : revenir dans le chapitre sur les archives sur l’oubli de ces traces structurelles.</p>
+<p>Si un auteur.e saisit <code>##</code> ce n’est pas la même chose que <code>&lt;h2&gt;</code>. Même si les deux éléments peuvent être lu de la même manière (ceci est un titre niveau deux), dans un cas il s’agit d’un titre de niveau deux en Markdown et dans l’autre un titre de niveau 2 en HTML.</p>
+<p>Il y a donc une énorme différence sémantique puisque l’une des balises dépend des spécifications d’un format et la deuxième d’un autre : ce ne sont pas les mêmes signes qui sont inscrits dans la matière et ils ne se lisent pas de la même façon.</p>
+<p>Or nous observons la disparition de ces signes lors des transformations des documents alors que ces signes sont pourtant différents.</p>
+<p>La machine réécrit le texte et le restructure pour qu’il soit interprétable dans des environnements autres. En faisant cela, elle supprime une partie de l’architexte de la source ou du fichier intermédiaire pour qu’il soit conforme à ce nouvel environnement. Il y a donc un effacement de l’architexte en creux de la réécriture par la machine.</p>
+<p>Les questions que nous pouvons nous poser relèvent de la sélection de l’architexte du produit final (politique éditoriale) et de la différence qu’il existe entre la source et l’objet transformé ?</p>
+<p>Le livre Contribution numérique … sera étudié pour illustrer l’oubli de ces traces intermédiaires.</p>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>
