@@ -53,8 +53,8 @@ L'écriture numérique se distingue en premier lieu par sa caractéristique
 computationnelle : elle est calculable (Crozat, Bouchardon, Petit, Kembellec.
 Vitali-Rosati, Kittler, Bachimont, Merzeau).
 Ce qui veut dire que, dans un environnement informatique, chaque signe que l'on
-peut y inscrire à son pendant unique sous forme de _bites_.
-Lorsque chaue caractère peut être identifié en tant que nombre, il devient
+peut y inscrire à son pendant unique sous forme de _bits_.
+Lorsque chaque caractère peut être identifié en tant que nombre, il devient
 possible d'implémenter ce modèle dans une machine et de lui demander, sous forme
 d'instructions, d'appliquer des calculs. 
 
@@ -69,12 +69,13 @@ Comme McLuhan nous le rappelle dès 1964, les alphabets composés de lettres
 Si toutefois les alphabets sont liés à une culture d'où ils émergent,
 l'abstraction nécessaire pour représenter le monde sous forme de chiffres
 détacherait _a priori_ cette vision de tout sens.
-Quelle que soit le langage utilisé pour écrire `3`, `trois`, `three`, `III`,
-`0011`, `zéro zéro un un`.
+En dehors de tout modèle mathématiques abstrait, et cela quel que soit le langage
+ou la base utilisée pour l'écrire, `3`, `trois`, `three`, `III`, `0011`,
+`zéro zéro un un`, un chiffre ne signifie pas grand chose s'il n'est pas associé
+à un système de valeurs particulier, par exemple le système métrique ou le
+système international (Herrenschmidt 2007, voir intro).
 
-[à détailler après avoir lu la partie sur le code de Herresnchmidt.]
-
-La contrepartie de cette perte de signification est que le numérique gagne cette
+En échange de cette perte de signification, l'écriture numérique y gagne cette
 particularité d'être calculable et mesurable.
 Dès lors, il devient possible de mesurer des distances ou des écarts entre des
 lettres, des mots ou des concepts, des données dans un environnement donné.
@@ -88,24 +89,87 @@ l'ordinateur qui l'a apporté.
 À notre connaissance, son origine remonte aux prémices de l'écriture et des
 développements des systèmes monétaires, nous dit C. Herrenschmidt (2007).
 
-L'écriture numérique se distingue également des autres types d'écriture par le
-fait qu'il s'agit de la première écriture où le geste d'écrire ne correspond pas
-à l'action d'inscription du signe sur son support.
+Dorénavant, lorsque nous ferons référence à l'écriture numérique nous parlerons
+d'une écriture numérique dans un environnement informatique.
+
+Deuxième caractéristique, l'écriture numérique se distingue également des autres
+types d'écriture parce qu'il s'agit de la première écriture où le geste d'écrire
+ne correspond pas à l'action d'inscription du signe sur son support.
 Lorsqu'on appuie sur une touche du clavier, la lettre n'est pas inscrite à
 l'écran : on donne une instruction à la machine d'inscrire un signe dans le
 disque dur, puis de l'afficher à l'écran dans un logiciel particulier (Kittler,
 Souchier, etc).
-
-
+Pour comprendre un peu mieux cette particularité, nous pouvons observer le
+fonctionnement d'un ordinateur.
 
 ### Détails de l'action d'écriture dans l'ordinateur
-#### Fonctionnement du hardware
 
-De la machine en local (clavier, souris, écran, carte mère, RAM, alimentation,
-microprocesseur, etc.)
+La représentation d'un ordinateur contemporain est un souvent associé à un couple
+matériel/logiciel (que l'on trouve fréquemment sous l'appellation anglaise
+_hardware_/_software_).
+La partie matérielle concerne tous les composants électroniques (carte mère,
+mémoires, périphériques, etc.), alors que la partie logicielle englobe tous les
+programmes permettant d'interagir avec la partie matérielle, comme le BIOS
+(_Basic Input Output System_), le système d'exploitation ou encore un logiciel
+de traitement de texte.
 
-Aux machines distantes (Serveurs, fibre optique, ADSL ... Histoire de l'Internet
-physique)
+Ce couple matériel/logiciel permet de ranger l'ordinateur dans une catégorie
+particulière de machines : les appareils programmables.
+
+La plupart de nos appareils du quotidien ne sont pas programmables : ils
+exécutent ce pour quoi ils sont conçus et ne font rien d'autre.
+Dans le cas d'un ordinateur (ou d'un téléphone intelligent) ou de tout autre
+appareil programmable, ces appareils sont conçus pour être manipulable comme on
+le souhaite et traiter les informations comme chacun le souhaite : ils n'ont pas
+de fonction précise à exécuter.
+C'est là que les logiciels interviennent : ils permettent un usage déterminé
+d'un ordinateur en manipulant des informations de manière à exécuter une suite
+d'instructions données.
+
+
+#### Fonctionnement de la partie matérielle
+
+[De la machine en local (clavier, souris, écran, carte mère, RAM, alimentation,
+microprocesseur, etc.)]
+
+Pour fonctionner, un ordinateur n'a besoin que des éléments suivants : une
+alimentation, un processeur, une mémoire vive, des entrées et sorties et une
+carte mère auquel viennent s'ajouter un certains nombre de périphériques
+(écrans, souris, clavier, etc.), des extensions pour prendre en charge une
+partie des calculs (carte son, carte graphique) et des mémoires de stockage
+(disques durs) entre autres.
+
+Le processeur, ou microprocesseur pour les ordinateurs modernes, est le
+calculateur central de l'ordinateur, c'est cet élément qui manipule toutes les
+données à traiter.
+Chaque modèle de processeur à une architecture qui lui est propre, ce qui veut
+dire que chacun a un modèle de traitement des informations différent (même si le
+résultat obtenu est identique).
+Un processeur est un assemblage de différents types de circuits dont l'élément
+le plus petit est le transistor. 
+Un transistor est un composant électronique dont le rôle est de laisser passer
+le courant ou non grâce aux propriétés du semi-conducteur à partir duquel il est
+fabriqué.
+En fonction de la valeur du courant qui lui est appliqué, le résultat associé à
+cette valeur sera `0` ou `1`.
+Ce transistor est l'élément physique qui incarne les portes logiques (ET, OU,
+OUI, NON, XOR, etc.) et traitent toutes les données.
+Parmi tous les traitements possibles, certains nécessitent de garder en mémoire
+des résultats intermédiaires, les données temporaires nécessaires aux traitements sont
+enregistrées dans la mémoire vive de l'ordinateur. 
+
+gravée dans la silice à raison de plusieurs milliards de fois pour un même
+processeur.
+En fonction des fournisseurs, les transistors mesurent entre 7 et 10 nanomètres
+... La loi Moore
+Les processeurs sont des éléments bien gardés par les firmes qui les fabriquent,
+comme Intel.
+
+[Aux machines distantes (Serveurs, fibre optique, ADSL ... Histoire de l'Internet
+physique)]
+
+#### Le codage de l'information
+ASCII + Unicode
 #### Fonctionnement du software (les différentes piles)
 
 Bios, OS, Logiciels, réseaux (protocoles HTTP, TCP/IP, IMAP, POP, REST,
@@ -113,6 +177,10 @@ GrapHQL), communication entre les différentes couches et fonctionnement de
 l'inscription dans le disque dur (HDD et SSD).
 
 #### Conclusion 
+[Si j'écris la chaine de caractère "Hello world" elle passe par (décrire les
+éléments) jusqu'à cet encodage dans le disque dur, voir si l'écriture avec une
+autre architecture propose un encodage différent]
+
 Ce que l'on remarque en regardant de près cette configuration de l'environnement
 d'écriture numérique est qu'il n'est pas possible d'écrire sur le disque dur
 sans un agent intermédiaire : le logiciel.
