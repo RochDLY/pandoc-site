@@ -12,6 +12,8 @@ title: Enseignements et ateliers
 
 - Cours magistral mutualisé destiné aux étudiants en licence en sciences de
 l'information et de la communication, sciences du langage et littératures - [Identités numériques](https://identites-numeriques.en-cours-de.construction), dispensé à l'hiver (24h CM).
+- TD Gestion de projets collaboratifs : introduction à l'usage de git avec
+RStudio (2h)
 
 **Chargé de cours | Université de Montréal | 2023-2024**
 
@@ -36,6 +38,9 @@ l'information et de la communication, sciences du langage et littératures - [Id
 - Cours de 1er cycle HNU 1000 - Humanités numériques : théorie, dispensé à l'automne (45h).
 
 ## Ateliers
+
+- [Stylo, un éditeur de texte sémantique](https://hss24.netlify.app/stylo/).
+Atelier présenté durant l'édition 2024 de l'École hivernale des SHS organisé par l'Alliance de recherche numérique du Canada.
 
 - *Scholarly writing and editing with the text editor Stylo*. Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022 Tokyo, en ligne.
 
