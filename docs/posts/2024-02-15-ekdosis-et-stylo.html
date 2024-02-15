@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | ekdosis et Stylo</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-02-15" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <div>
+                    <a href="/">Accueil</a>
+                    <a href="/pages/publications.html">Publications</a>
+                    <a href="/pages/cours.html">Enseignements</a>
+                    <a href="/pages/glossaire.html">Glossaire</a>
+                </div>
+            </nav></header>                <div class="side">
+
+            <nav class="toc">
+<ul>
+<li><a href="#avant-propos" id="toc-avant-propos">Avant-propos</a></li>
+<li><a href="#ekdosis-et-stylo" id="toc-ekdosis-et-stylo"><code>ekdosis</code> et Stylo</a>
+<ul>
+<li><a href="#première-option" id="toc-première-option">Première option</a></li>
+<li><a href="#deuxième-option" id="toc-deuxième-option">Deuxième option</a></li>
+</ul></li>
+</ul>
+            </nav>
+        </div>
+                    <div class="container">
+                <header class="header-bloc">
+                    <h1><code>ekdosis</code> et Stylo</h1>
+<!--  -->
+                    <time>2024-02-15</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<h2 id="avant-propos">Avant-propos</h2>
+<p>Ce billet est l’occasion d’écrire sur les différents échanges auquel j’ai participé pour essayer de définir les besoins d’écriture en matière d’édition critique. Les éditions critiques se munissent d’appareil critique au sein du texte : ce sont des notes particulières dans lesquelles les auteur.e.s insèrent des commentaires, des variantes, etc.. bref toute leurs recherche.</p>
+<p>En somme, les textes critiques sont très particuliers et ont besoin d’une structure spécifique et très précise. Pour répondre à ce besoin, on pense tout de suite à du <code>xml</code>. Cependant, écrire dans différentes langues (parfois mortes), en navigant dans plusieurs manuscrits et notes, complexifie largement le processus d’écriture surtout lorsqu’il faut en plus penser la syntaxe <code>xml</code> avec les bonnes balises et la bonne indentation. Et puis tous les philologues ne sont pas adeptes des technologies <code>xml</code>.</p>
+<p>Dans ce paysage se dressent deux voies principales pour éditer ce type de texte :</p>
+<ul>
+<li>logiciel de traitement de texte (avec un système de notes), tout repose sur le travail d’un.e éditeur.ice.</li>
+<li>encodage du texte en <code>xml</code>, ce qui permet de parser les contenus automatiquement dans la suite du traitement des textes.</li>
+</ul>
+<p>Dans un cas comme dans l’autre, l’environnement de travail n’est pas satisfaisant.</p>
+<p>Une solution alternative serait l’usage de LaTeX et du paquet <a href="http://www.ekdosis.org/"><code>ekdosis</code></a> développé présicément dans ce but (mis en production en 2020) par Robert Alessi.</p>
+<p>R. Alessi préconise l’emploie d’<code>ekdosis</code> dans l’éditeur de texte <code>emacs</code> (un éditeur dans le terminal). LaTeX se trouve à mi-chemin entre les deux solutions mentionnées précédemment (parce qu’il permet à la fois de structurer les informations mais aussi de les mettre en page).</p>
+<p>Le seul <em>hic</em> de cette solution est qu’elle ne permet pas le travail collaboratif synchrone. En effet, on pourrait imaginer un travail mener sur une instance de git en ligne pour gérer les textes en différé.</p>
+<p>Cependant, cela nécessite un apprentissage supplémentaire, une autre technologie à prendre en main … et ça ne résoud pas le travail synchrone à distance.</p>
+<h2 id="ekdosis-et-stylo"><code>ekdosis</code> et Stylo</h2>
+<p>Pour répondre à ce besoin, une idée serait d’intégrer <code>ekdosis</code> à Stylo. Plusieurs possibilités se présentent à nous pour réaliser cela : - tordre un peu le Markdown et adapter sa syntaxe pour faire rentrer tout l’appareil critique dedans (et on obtient ainsi un balisage plus léger que <code>xml</code> ou <code>LaTeX</code>). - modifier le format source de Stylo et remplacer le Markdown par LaTeX.</p>
+<h3 id="première-option">Première option</h3>
+<p>La première option a été prototypée par MVR en utilisant la syntaxe suivante :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Cette fois, nous passons à un texte [<span class="co">[</span><span class="ot">édité</span><span class="co">][Robert: critique]</span>], avec des variantes.</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Je demande à <span class="in">`ekdosis`</span> de ne passer en <span class="in">`TEI xml`</span> que [<span class="co">[</span><span class="ot">cette portion</span><span class="co">][Roch: ce fragment]</span>] du texte. </span></code></pre></div>
+<p>Cette syntaxe en Markdown n’est pas valide, il faut ensuite la parser avec un script particulier pour la transformer de la même manière qu’<code>ekdosis</code> (on peut imaginer un filtre python intégré à la commande Pandoc). Le principal défaut de cette notation est qu’elle tord trop le fonctionnement du Markdown : ce n’est pas une notation interopérable avec d’autres écosystèmes. Le second défaut est qu’elle n’intègre pas ekdosis mais le recopie: il faut donc redévelopper tout ce que fait <code>ekdosis</code> dans Stylo pour obtenir un comportement similaire.</p>
+<h3 id="deuxième-option">Deuxième option</h3>
+<p><em>Work in progress</em> (je reviendrai sur cette section lorsque nous aurons avancé sur son cahier des charges !)</p>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>
