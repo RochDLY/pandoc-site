@@ -120,12 +120,12 @@ La plupart de nos appareils du quotidien ne sont pas programmables : ils
 exécutent ce pour quoi ils sont conçus et ne font rien d'autre.
 Dans le cas d'un ordinateur (ou d'un téléphone intelligent) ou de tout autre
 appareil programmable, ces appareils sont conçus pour être manipulable comme on
-le souhaite et traiter les informations comme chacun le souhaite : ils n'ont pas
-de fonction précise à exécuter.
+le souhaite et d'adapter le traitement des informations en conséquence : ils n'ont pas
+une fonction précise, au contraire ce sont des machines capable de répondre à
+plusieurs fonctions.
 C'est là que les logiciels interviennent : ils permettent un usage déterminé
 d'un ordinateur en manipulant des informations de manière à exécuter une suite
 d'instructions données.
-
 
 #### Fonctionnement de la partie matérielle
 
@@ -143,10 +143,31 @@ Le processeur, ou microprocesseur pour les ordinateurs modernes, est le
 calculateur central de l'ordinateur, c'est cet élément qui manipule toutes les
 données à traiter.
 Chaque modèle de processeur à une architecture qui lui est propre, ce qui veut
-dire que chacun a un modèle de traitement des informations différent (même si le
+dire que chacun traite les informations **différemment** (même si le
 résultat obtenu est identique).
-Un processeur est un assemblage de différents types de circuits dont l'élément
-le plus petit est le transistor. 
+Un processeur est un assemblage de multiples types de circuits dont l'élément
+le plus petit est le transistor.
+L'évolution des processeur a suivi la Loi Moore jusqu'au début des années
+2020^[La première loi de Moore est relative à l'évolution des processeurs dans le temps et
+stipule que le nombre de transistors présent dans les processeurs doublera tous
+les ans pour un coût constant], date à partir de laquelle nous arrivons à la
+limite physique de la miniaturisation d'un transistor.
+
+Le premier processeur commercialisé, le processeur Intel 4004, l'a été en
+1971^[Voir la page web correspondante sur le site d'Intel, consulté le 16
+février 2024\ :
+https://www.intel.fr/content/www/fr/fr/history/museum-story-of-intel-4004.html].
+Il s'agissait d'un processeur 4-bits comportant pas moins de 2300 transistors.
+Lors de la commercialisation de cet objet s'opère un changement radical dans la
+conception des ordinateurs puisque, dès lors, du fait de la miniaturisation de
+ce composant, les ordinateurs deviennent accessibles au grand public.
+En suivant la première loi de Moore, les microprocesseurs ont continué à évoluer
+jusqu'à atteindre le nombre de plusieurs milliards de transistors par
+processeur, démultipliant ainsi leur capacité de traitement des informations.
+
+Cette miniaturisation est rendue possible par la gravure des transistors dans des
+disque de silice (_wafer_) plutôt que l'usage plus couteux et instable de relais
+et tubes électroniques.
 Un transistor est un composant électronique dont le rôle est de laisser passer
 le courant ou non grâce aux propriétés du semi-conducteur à partir duquel il est
 fabriqué.
@@ -156,25 +177,69 @@ Ce transistor est l'élément physique qui incarne les portes logiques (ET, OU,
 OUI, NON, XOR, etc.) et traitent toutes les données.
 Parmi tous les traitements possibles, certains nécessitent de garder en mémoire
 des résultats intermédiaires, les données temporaires nécessaires aux traitements sont
-enregistrées dans la mémoire vive de l'ordinateur. 
+enregistrées dans la mémoire vive de l'ordinateur.
 
-gravée dans la silice à raison de plusieurs milliards de fois pour un même
-processeur.
-En fonction des fournisseurs, les transistors mesurent entre 7 et 10 nanomètres
-... La loi Moore
-Les processeurs sont des éléments bien gardés par les firmes qui les fabriquent,
-comme Intel.
+Ce stockage intermédiaire mène à la question de la mémoire : on en retrouve
+plusieurs types blablabla (RAM et ROM). Le principe de fonctionnement des
+mémoires vives (RAM) est le même que pour les processeurs : ce sont des mémoires
+construites sur la base de transistors et/ou portes logiques.
 
-[Aux machines distantes (Serveurs, fibre optique, ADSL ... Histoire de l'Internet
-physique)]
+Ces informations traitées, transformées et mémorisées proviennent de ce que l'on
+nomme des _entrées_ : ce sont elles qui encodent les informations en
+chiffres.
+Une fois traitées, ou lorsque l'on souhaite s'en servir, ces données passent par
+des _sorties_.
+Les sorties font le travail inverse des entrées et décodent les chiffres en
+signes interprétables.
+
 
 #### Le codage de l'information
-ASCII + Unicode
+L'encodage et le décodage des caractères accompagne toute l'histoire de
+l'informatique (et du numérique).
+Au prémices de l'informatique, chaque matériel comportait ses propres programmes
+et tables d'encodage, rendant ainsi possible la transposition des données d'un
+matériel à un autre.
+Cependant, dans la plupart des cas, les données ne pouvaient pas circuler
+entre les différents modèles d'ordinateur, ou alors au moyen de transformations
+fastidieuses, rendant ainsi les traitements réalisés sur les données enfermés dans
+des silos.
+La norme ASCII (_American Standard Code for Information Interchange_) fait sont
+apparition dans les années 1960 pour résoudre les enjeux liés à l'encodage des données.
+Soumise à l'_American Standards Association_ (d'abord ASA puis ANSI) en 1961 par l'un
+de ses inventeurs, Bob Bemer, puis approuvée en 1963, l'ASCII permet d'encoder
+128 caractères sur 7 bits.
+Néanmoins, ce n'est pas parce qu'un encodage est reconnue en tant que norme que
+son usage est effectif à l'instant même de la reconnaissance.
+Il faut attendre 1968 que le président des États-Unis Johnson demande à ce que
+l'ASCII devienne la norme fédérale d'encodage des informations afin de réduire
+les incompatibilités au sein des réseaux de télécommunications pour qu'elle
+commence à se répandre.
+Dès 1969, tous les ordinateurs achetés par le gouvernement des États-Unis
+étaient compatibles avec la norme ASCII.
+Du côté des ordinateurs personnels, il faudra attendre le début des années 1980
+pour que cette norme se répande grâce, entre autre, à son implémentation dans
+les ordinateurs construits par IBM.
+La norme X3.4:1986 en vigueur aujourd'hui, a été déposée auprès de l'ANSI en 1986.
+C'est à partir de cette norme que d'autres ont été développées et sont
+compatibles ASCII, comme c'est par exemple le cas pour la norme Unicode, publiée
+en 1991, qui est la plus répandue de nos jours, car c'est elle qui encode le plus
+de caractères.
+Si ASCII en contient 128 points de code, le standard Unicode permet d'en encoder
+plus de 149 000 sur une vingtaine de bits par point de code dans sa version 15.1
+(de 2023).
+Afin de préserver cette compatiblité entre les normes, il est d'usage d'encoder
+les 128 premiers caractères de façon identique à ASCII.
+
+
+
 #### Fonctionnement du software (les différentes piles)
 
 Bios, OS, Logiciels, réseaux (protocoles HTTP, TCP/IP, IMAP, POP, REST,
 GrapHQL), communication entre les différentes couches et fonctionnement de
 l'inscription dans le disque dur (HDD et SSD).
+
+[Aux machines distantes (Serveurs, fibre optique, ADSL ... Histoire de l'Internet
+physique)]
 
 #### Conclusion 
 [Si j'écris la chaine de caractère "Hello world" elle passe par (décrire les
@@ -759,11 +824,17 @@ L'objectif derrière Stylo est de ...
 Historiquement, Stylo est le fruit d'une discussion commencée en 2017, à
 laquelle se joint officiellement Huma-Num en 2020.
 #### Stylo à la CRCEN et à Huma-Num
+
 #### Les briques logicielles
+
 ### Les formats pivots de Stylo en détail
+
 #### La sérialisation des métadonnées en YAML
+
 #### L'écriture en Markdown
+
 #### La saisie des références bibliographiques en BibTeX
+
 ### Ce que Stylo permet ou non de faire
 (Qu'est-ce que Stylo en tant qu'agent qui écrit ?)
 Dépassement du simple rapport de force énoncé précédemment (grâce à une
