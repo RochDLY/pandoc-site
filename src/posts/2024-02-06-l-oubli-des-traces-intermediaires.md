@@ -72,3 +72,8 @@ existe entre la source et l'objet transformé ?
 
 Le livre Contribution numérique ... sera étudié pour illustrer l'oubli de ces
 traces intermédiaires.
+
+Montrer l'arbre abstrait syntaxique de Stylo et celui du Pressoir avec la base
+commune md, yaml, bibtex + pandoc et montrer que les output ne sont pas les
+mêmes, que malgré les différences dans l'arborescence en fin de chaine
+éditoriale, le sens produit diffère ...
