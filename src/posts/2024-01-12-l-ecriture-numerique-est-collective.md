@@ -90,11 +90,9 @@ clavier à un écran à cristaux liquide.
 Cet ordinateur, équipé du processeur Intel 80C85 en 8-bits, pouvait également se
 connecter à tout un ensemble de périphériques comme des imprimantes.
 
-![Photo d'un
-M10](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sottsass05.JPG/120px-Sottsass05.JPG
-"Photo d'un M10")
+![Photo d'un M10](http://munk.org/typecast/wp-content/uploads/2014/08/15635.jpg "Photo d'un M10")
 
-Crédits : Photo trouvée sur [Wikipédia](https://en.wikipedia.org/wiki/Olivetti_computers#/media/File:Sottsass05.JPG)
+Crédits : Photo trouvée sur le blog [Munk.org](https://munk.org/typecast/2014/08/03/back-to-the-future-pram-and-the-promise-of-unified-memory-again/)
 le 22 février 2024.
 
 
