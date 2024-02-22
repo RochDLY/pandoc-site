@@ -42,27 +42,142 @@ l'écriture selon les traces ou selon les signes. Dans un cas comme dans l'autre
 ce qui défini finalement l'écriture est l'inscription dans la matière.
 
 ### Les particularités de l'écriture numérique
-Crozat Bachimont Petit Bouchardon Kembellec Merzeau Vitali-Rosati Kittler
 
-- calculabilité
-- la frappe sur le clavier est désacouplée de l'acte d'inscrire (si l'acte
-d'inscrire défini l'écriture, c'est la machine qui écrit et pas l'auteur, mais
-qu'écrit-elle ?)
+Lorsqu'il s'agit de convoquer _l'écriture numérique_ nous pensons tout de suite
+à un ordinateur, aux claviers, aux écrans et au pointeur qui clignote dans un
+éditeur de texte ou dans le champ d'un formulaire en ligne.
+Avec le numérique ubiquitaire (Citton), ces pratiques d'écriture sont ancrées
+dans nos habitudes au point de ne plus les remettre en question (trouver la
+ref).
+Les dispositifs d'écriture analogique sont ainsi renvoyés à l'état de vestiges
+archaïques : par exemple, les machines à écrire, fabriquées méticuleusement
+par des ingénieurs et des designers et qui ont fait la fierté et la renommée de
+certaines entreprises comme Olivetti en Italie, sont complètement désuètes et
+inutilisées depuis une trentaine d'années.
+Elles sont aujourd'hui exposées dans des musées (entre autres au MoMA et au
+Centre Pompidou) et sont exhibées lors d'exposition en lien avec les designers
+qui les ont conçues^[C'est par exemple le cas de la machine à écrire _Valentine_
+conçue en 1968 par un designer de renom, Ettore Sottsass, et devenue le produit
+emblématique de l'entreprise Olivetti. Cette machine a été mise sur le marché en
+1969 et est par la suite devenue un objet iconique de la pop culture. Comme nous
+le verrons plus loin, les mêmes années aux États-Unis, le président Johnson
+déclare qu'à l'échelle fédérale, les ordinateurs doivent être compatible avec la
+norme ASCII.].
 
-L'écriture numérique se distingue en premier lieu par sa caractéristique
-computationnelle : elle est calculable (Crozat, Bouchardon, Petit, Kembellec.
-Vitali-Rosati, Kittler, Bachimont, Merzeau).
-Ce qui veut dire que, dans un environnement informatique, chaque signe que l'on
-peut y inscrire à son pendant unique sous forme de _bits_.
+![Machine à écrire portative](https://www.photo.rmn.fr/CorexDoc/RMN/Media/TR1/YECPH3/07-521403.jpg "Machine à écrire portative")
+
+Crédits : © Adagp, Paris. Crédit photographique : Georges Meguerditchian - Centre
+Pompidou, MNAM-CCI /Dist. RMN-GP. Réf. image : 4N40151. Diffusion image :
+[l'Agence Photo de la RMN](https://www.photo.rmn.fr/C.aspx?VP3=SearchResult&IID=2C6NU0CU7GAD)
+
+![Publicité pour la machine à écrire Valentine](https://www.photo.rmn.fr/CorexDoc/RMN/Media/TR1/VYKH9X/13-519016.jpg "Publicité pour la machine à écrire Valentine")
+
+Crédits :  © Adagp, Paris. Crédit photographique : Jean-Claude Planchet - Centre
+Pompidou, MNAM-CCI /Dist. RMN-GP. Réf. image : 4F40212 [2003 CX 6098]. Diffusion
+image : [l'Agence Photo de la RMN](https://www.photo.rmn.fr/C.aspx?VP3=SearchResult&IID=2C6NU0DWCD6W)
+
+Pourtant, les derniers modèles fabriqués par ces entreprises l'ont été dans les
+années 1980 ou 1990, comme c'est le cas de l'ETP 55 Portable^[Cette machine a 
+été conçue par Mario Bellini pour Olivetti en 1987, site consulté le 21 février 2024
+https://www.moma.org/collection/works/3641]) et intégre dès la fin des années
+1970 un fonctionnement électronique.
+Les constructeurs ont opéré un changement de paradigme de l'analogique
+vers le numérique à ce moment-là et suivi les innovations technologiques
+informatiques.
+Pour preuve, en 1983, Perry A. King et Antonio Macchi Cassia réussissent
+à produire le premier ordinateur personnel d'Olivetti avec le M10 en adaptant un
+clavier à un écran à cristaux liquide.
+Cet ordinateur, équipé du processeur Intel 80C85 en 8-bits, pouvait également se
+connecter à tout un ensemble de périphériques comme des imprimantes.
+
+![Photo d'un
+M10](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sottsass05.JPG/120px-Sottsass05.JPG
+"Photo d'un M10")
+
+Crédits : Photo trouvée sur [Wikipédia](https://en.wikipedia.org/wiki/Olivetti_computers#/media/File:Sottsass05.JPG)
+le 22 février 2024.
+
+
+Il faut se rappeler qu'au début des années 1980 il n'est pas encore certain que
+l'ordinateur personnel (avec sa tour et son écran à tube cathodique) deviendra
+l'outil d'écriture par excellence.
+À cette époque, les machines à écrire ont encore quelques avantages sur les
+plans esthétique, financier et elles sont encore implantées à la fois dans les
+sphères professionnelles et personnelles.
+
+Matthew Kirschenbaum détaille dans son ouvrage (ref) la bataille entre les
+fournisseurs de logiciels de traitement de texte durant cette décennie pour
+obtenir en obtenir le monopole.
+Avant l'avènement des interfaces graphiques, la seule chose affichée à l'écran
+était un terminal et la navigation se faisait au moyen de commandes (rappeler
+les premiers logiciels).
+De plus, en dehors de logiciels plus complexe comme `TeX`, développé par Donald
+Knuth, il n'était pas aisé de gérer la mise en page des documents depuis des
+éditeurs de texte ou premiers traitements de texte.
+Ainsi, écrire sur un support connecté paraît aujourd'hui être une évidence alors
+qu'elle a demandé de lourds efforts à une époque où cette évidence était
+incertaine.
+
+L'écriture numérique est ainsi à distinguer de l'écriture dans un environnement
+numérique : un ordinateur, Internet, le Web, une calculatrice ou une
+machine à écrire.
+En tant qu'abstraction, l'écriture numérique est une représentation du monde
+donnée, dont la qualification à travers un medium permet de l'incarner
+physiquement mais pas de la circonscrire.
+Cette représentation numérique du monde n'est pas nouvelle et ce n'est pas
+l'ordinateur qui l'a apporté.
+À notre connaissance, son origine remonte aux prémices de l'écriture et des
+développements des systèmes monétaires, nous dit C. Herrenschmidt (2007).
+
+Dorénavant, lorsque nous ferons référence à l'écriture numérique nous parlerons
+d'une écriture numérique dans un environnement informatique.
+
+L'écriture numérique diffère d'une écriture plus traditionnelle (du monde
+de l'imprimerie) et se distingue notamment par deux caractéristiques que sont la
+calculabilité et la séparation du geste et de l'inscription.
+
+La première caractéristique est d'ordre computationnel :
+l'écriture devient calculable et peut donc faire l'objet d'instructions (Crozat,
+Bouchardon, Petit, Kembellec, Herrenschmidt, Vitali-Rosati, Kittler, Bachimont,
+Merzeau).
+Pour réaliser cette prouesse dans un environnement informatique, on procède a
+une équivalence où chaque signe que l'on peut y inscrire à son pendant unique
+sous forme de _bits_.
 Lorsque chaque caractère peut être identifié en tant que nombre, il devient
 possible d'implémenter ce modèle dans une machine et de lui demander, sous forme
-d'instructions, d'appliquer des calculs. 
+d'instructions, d'appliquer des calculs.
 
-Exemple de Turing (cf machine de Turing).
+L'exemple idéal pour illustrer cette caractéristique n'est rien de moins que la
+machine imaginée par Alan Turing, qu'il présente en 1936 dans son article "On
+Computable Numbers, with an Application to the Entscheidungsproblem" dans la
+section _Computing machines_.
+Il ne s'agit pas d'une machine physique mais d'un modèle théorique, une machine
+abstraite fondamentale pour les développements futurs de l'informatique.
+Cette machine est constituée de plusieurs éléments :
 
-Le passage du signe à l'unité atomique et discrète qu'est le nombre signifie un
+- un ruban (_tape_) divisé en sections (appelés _squares_) dont chacune peut
+porter un symbole (0 ou 1 car cette machine est dans un système binaire).
+- un organe de lecture (_scan_) pour lire les symboles un à un (_scanned square
+and scanned symbol_) et d'écriture pour modifier un symbole ou en écrire une
+nouveau si la section est vide
+- une mémoire pour se rappeler des sections déjà scannées (_remember some of
+the symbols which it has "seen" (scanned) previously_)
+- des instructions pour se déplacer sur le ruban, soit une case vers la gauche
+soit une case vers la droite, lire et écrire (_scan and print_) ou modifier
+la case scannée et se redéplacer (ou s'arrêter).
+
+Théoriquement, le ruban sur lequel la machine exécute ses programmes est infini
+vers la gauche et vers la droite et cela afin de permettre l'exécution des
+instructions les plus complexes.
+La machine de Turing ne s'intéresse pas aux résultats des instructions, ni à
+leur signification.
+L'espace de la machine, aussi vaste soit-il, n'est composé que de séries de 0 et
+de 1 et de différents états, renvoyant à des instructions, permettant ainsi à la
+machine de modifier son propre espace. 
+
+Le passage du signe à l'unité atomique et discrète qu'est le chiffre signifie un
 changement de représentation du monde (cf _worldview_ de K. Hayles) : le monde
-n'est plus signifié par des mots ou des concepts mais le devient par des
+n'est alors plus signifié par des mots ou des concepts mais le devient par des
 chiffres.
 Comme McLuhan nous le rappelle dès 1964, les alphabets composés de lettres
 (contrairement à ceux composés de pictogrammes) sont asémantiques.
@@ -82,15 +197,6 @@ lettres, des mots ou des concepts, des données dans un environnement donné.
 
 [ajouter une note sur le propos de Luca Paltrienieri]
 
-L'écriture numérique est ainsi à distinguer de l'écriture dans un environnement
-numérique donné : l'informatique.
-Cette représentation numérique du monde n'est pas nouvelle et ce n'est pas
-l'ordinateur qui l'a apporté.
-À notre connaissance, son origine remonte aux prémices de l'écriture et des
-développements des systèmes monétaires, nous dit C. Herrenschmidt (2007).
-
-Dorénavant, lorsque nous ferons référence à l'écriture numérique nous parlerons
-d'une écriture numérique dans un environnement informatique.
 
 Deuxième caractéristique, l'écriture numérique se distingue également des autres
 types d'écriture parce qu'il s'agit de la première écriture où le geste d'écrire
@@ -231,7 +337,6 @@ Afin de préserver cette compatiblité entre les normes, il est d'usage d'encode
 les 128 premiers caractères de façon identique à ASCII.
 
 
-
 #### Fonctionnement du software (les différentes piles)
 
 Bios, OS, Logiciels, réseaux (protocoles HTTP, TCP/IP, IMAP, POP, REST,
@@ -249,8 +354,11 @@ autre architecture propose un encodage différent]
 Ce que l'on remarque en regardant de près cette configuration de l'environnement
 d'écriture numérique est qu'il n'est pas possible d'écrire sur le disque dur
 sans un agent intermédiaire : le logiciel.
-## L'architexte écrit dans le textes
-### Définir l'architexte
+
+## L'architexte écrit dans le texte
+
+### Définition de l'architexte
+
 Sans l'intervention du logiciel comme médiateur entre l'être humain et le
 support d'inscription de l'écriture numérique, il ne serait pas possible pour
 l'auteur d'écrire dans cet environnement.
@@ -309,7 +417,6 @@ peut écrire mais surtout comment les signes à inscrire doivent être formatés
 #### Revue de la littérature mobilisant l'architexte
 
 Goody
-
 
 ### L'architexte n'est pas qu'une surface
 
@@ -564,6 +671,7 @@ l'écran.
 L'affichage de l'écriture à l'écran respecte des conventions de lecture propres
 à une culture, elles n'est que rarement affichée dans sa forme la plus verbeuse
 (complète)  -->
+
 
 ### Ce que l'architexte inscrit dans le support
 
