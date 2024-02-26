@@ -55,7 +55,8 @@ par des ingénieurs et des designers et qui ont fait la fierté et la renommée 
 certaines entreprises comme Olivetti en Italie, sont complètement désuètes et
 inutilisées depuis une trentaine d'années.
 Elles sont aujourd'hui exposées dans des musées (entre autres au MoMA et au
-Centre Pompidou) et sont exhibées lors d'exposition en lien avec les designers
+Centre Pompidou) et appartiennent aux collections permanentes ou sont exhibées
+lors d'exposition en lien avec les designers
 qui les ont conçues^[C'est par exemple le cas de la machine à écrire _Valentine_
 conçue en 1968 par un designer de renom, Ettore Sottsass, et devenue le produit
 emblématique de l'entreprise Olivetti. Cette machine a été mise sur le marché en
@@ -79,8 +80,8 @@ image : [l'Agence Photo de la RMN](https://www.photo.rmn.fr/C.aspx?VP3=SearchRes
 Pourtant, les derniers modèles fabriqués par ces entreprises l'ont été dans les
 années 1980 ou 1990, comme c'est le cas de l'ETP 55 Portable^[Cette machine a 
 été conçue par Mario Bellini pour Olivetti en 1987, site consulté le 21 février 2024
-https://www.moma.org/collection/works/3641]) et intégre dès la fin des années
-1970 un fonctionnement électronique.
+https://www.moma.org/collection/works/3641]) et y intègrent des composants
+électroniques dès la fin des années 1970.
 Les constructeurs ont opéré un changement de paradigme de l'analogique
 vers le numérique à ce moment-là et suivi les innovations technologiques
 informatiques.
@@ -95,13 +96,12 @@ connecter à tout un ensemble de périphériques comme des imprimantes.
 Crédits : Photo trouvée sur le blog [Munk.org](https://munk.org/typecast/2014/08/03/back-to-the-future-pram-and-the-promise-of-unified-memory-again/)
 le 22 février 2024.
 
-
 Il faut se rappeler qu'au début des années 1980 il n'est pas encore certain que
 l'ordinateur personnel (avec sa tour et son écran à tube cathodique) deviendra
 l'outil d'écriture par excellence.
 À cette époque, les machines à écrire ont encore quelques avantages sur les
-plans esthétique, financier et elles sont encore implantées à la fois dans les
-sphères professionnelles et personnelles.
+plans esthétique, financier et sociales puisqu'elles sont encore implantées à la
+fois dans les sphères professionnelles et personnelles.
 
 Matthew Kirschenbaum détaille dans son ouvrage (ref) la bataille entre les
 fournisseurs de logiciels de traitement de texte durant cette décennie pour
@@ -153,7 +153,7 @@ Il ne s'agit pas d'une machine physique mais d'un modèle théorique, une machin
 abstraite fondamentale pour les développements futurs de l'informatique.
 Cette machine est constituée de plusieurs éléments :
 
-- un ruban (_tape_) divisé en sections (appelés _squares_) dont chacune peut
+- un ruban (_tape_) divisé en sections (appelées _squares_) dont chacune peut
 porter un symbole (0 ou 1 car cette machine est dans un système binaire).
 - un organe de lecture (_scan_) pour lire les symboles un à un (_scanned square
 and scanned symbol_) et d'écriture pour modifier un symbole ou en écrire une
@@ -171,7 +171,7 @@ La machine de Turing ne s'intéresse pas aux résultats des instructions, ni à
 leur signification.
 L'espace de la machine, aussi vaste soit-il, n'est composé que de séries de 0 et
 de 1 et de différents états, renvoyant à des instructions, permettant ainsi à la
-machine de modifier son propre espace. 
+machine de modifier son propre espace.
 
 Le passage du signe à l'unité atomique et discrète qu'est le chiffre signifie un
 changement de représentation du monde (cf _worldview_ de K. Hayles) : le monde
@@ -196,13 +196,14 @@ lettres, des mots ou des concepts, des données dans un environnement donné.
 [ajouter une note sur le propos de Luca Paltrienieri]
 
 
-Deuxième caractéristique, l'écriture numérique se distingue également des autres
-types d'écriture parce qu'il s'agit de la première écriture où le geste d'écrire
+L'écriture numérique se distingue également des autres
+types d'écriture par une deuxième caractéristique.
+Il s'agit de la première forme d'écriture où le geste d'écrire
 ne correspond pas à l'action d'inscription du signe sur son support.
-Lorsqu'on appuie sur une touche du clavier, la lettre n'est pas inscrite à
-l'écran : on donne une instruction à la machine d'inscrire un signe dans le
-disque dur, puis de l'afficher à l'écran dans un logiciel particulier (Kittler,
-Souchier, etc).
+Lorsqu'on appuie sur une touche du clavier, par exemple la lettre `a`, cette lettre
+n'est pas inscrite à l'écran : on donne une instruction à la machine d'inscrire un
+signe dans la mémoire de l'ordinateur, puis de l'afficher à l'écran avec un logiciel
+particulier (Kittler, Souchier, etc).
 Pour comprendre un peu mieux cette particularité, nous pouvons observer le
 fonctionnement d'un ordinateur.
 
@@ -233,9 +234,6 @@ d'instructions données.
 
 #### Fonctionnement de la partie matérielle
 
-[De la machine en local (clavier, souris, écran, carte mère, RAM, alimentation,
-microprocesseur, etc.)]
-
 Pour fonctionner, un ordinateur n'a besoin que des éléments suivants : une
 alimentation, un processeur, une mémoire vive, des entrées et sorties et une
 carte mère auquel viennent s'ajouter un certains nombre de périphériques
@@ -245,7 +243,7 @@ partie des calculs (carte son, carte graphique) et des mémoires de stockage
 
 Le processeur, ou microprocesseur pour les ordinateurs modernes, est le
 calculateur central de l'ordinateur, c'est cet élément qui manipule toutes les
-données à traiter.
+données à traiter -- que l'on appelle aussi le(s) coeur(s) de l'ordinateur.
 Chaque modèle de processeur à une architecture qui lui est propre, ce qui veut
 dire que chacun traite les informations **différemment** (même si le
 résultat obtenu est identique).
@@ -280,8 +278,8 @@ cette valeur sera `0` ou `1`.
 Ce transistor est l'élément physique qui incarne les portes logiques (ET, OU,
 OUI, NON, XOR, etc.) et traitent toutes les données.
 Parmi tous les traitements possibles, certains nécessitent de garder en mémoire
-des résultats intermédiaires, les données temporaires nécessaires aux traitements sont
-enregistrées dans la mémoire vive de l'ordinateur.
+des résultats intermédiaires, ainsi, ces données temporaires nécessaires aux
+traitements sont enregistrées dans la mémoire vive de l'ordinateur.
 
 Ce stockage intermédiaire mène à la question de la mémoire : on en retrouve
 plusieurs types blablabla (RAM et ROM). Le principe de fonctionnement des
@@ -328,11 +326,11 @@ C'est à partir de cette norme que d'autres ont été développées et sont
 compatibles ASCII, comme c'est par exemple le cas pour la norme Unicode, publiée
 en 1991, qui est la plus répandue de nos jours, car c'est elle qui encode le plus
 de caractères.
-Si ASCII en contient 128 points de code, le standard Unicode permet d'en encoder
+Si ASCII contient 128 points de code, le standard Unicode permet d'en encoder
 plus de 149 000 sur une vingtaine de bits par point de code dans sa version 15.1
 (de 2023).
 Afin de préserver cette compatiblité entre les normes, il est d'usage d'encoder
-les 128 premiers caractères de façon identique à ASCII.
+les 128 premiers caractères de façon identique à la norme ASCII.
 
 
 #### Fonctionnement du software (les différentes piles)
@@ -340,6 +338,9 @@ les 128 premiers caractères de façon identique à ASCII.
 Bios, OS, Logiciels, réseaux (protocoles HTTP, TCP/IP, IMAP, POP, REST,
 GrapHQL), communication entre les différentes couches et fonctionnement de
 l'inscription dans le disque dur (HDD et SSD).
+
+Pour le protocole HTTP, détailler un peu les différentes méthodes et la
+circulation des paquets
 
 [Aux machines distantes (Serveurs, fibre optique, ADSL ... Histoire de l'Internet
 physique)]
@@ -372,8 +373,7 @@ numérique (frapper une touche du clavier et voir la lettre s'afficher à l'écr
 s'avère plus complexe.
 Le moment de la frappe n'est plus le moment où le symbole est inscrit dans le
 disque dur, mais est le moment où une instruction est donnée à l'ordinateur qui
-ensuite se charge d'inscrire la lettre correspondante sur le disque dur (sous
-forme binaire).
+ensuite se charge d'inscrire la lettre correspondante sur le disque dur.
 Si l'on se trouve dans le cas de figure de la saisie d'un texte dans un éditeur
 de texte, l'instruction suivante, selon les logiciels et les actions souhaitées,
 consiste à afficher le symbole encodé sur le disque dur à l'écran.
@@ -384,8 +384,10 @@ déjà présent pour réaliser cette action.
 Ce texte particulier qui pré-existe toute activité numérique est nommé
 _architexte_ (refs x, x, 2019).
 
-L'architexte a d'abord été employé en littératures par Gérard Genette (ref) et
-désigne ...XXX.
+L'architexte a d'abord été employé en littératures par Gérard Genette (1979) et
+désigne « l'ensemble des catégories générales, ou transcendentes -- types de
+discours, modes d'énonciations, genres littéraires, etc. --, dont relève chaque
+texte singulier ».
 
 En 2019, dans l'ouvrage intitulé _Le numérique comme écriture_, Gustavo
 Gomez-Mejia, Étienne Candel et Emmanuël Souchier résument la notion d'architexte
@@ -608,7 +610,7 @@ l'utilisateur et de l'éditeur du logiciel de par son code).
 Ce qui se trouve entre l'ordinateur et l'auteur est du texte qui permet d'écrire
 à la machine d'écrire du texte.
 Dans sa conférence sur les logiciels, Kittler démontre que le logiciel est
-ramené au mpeme niveau que le reste des écritures par l'ordinateur, c'est-à-dire
+ramené au même niveau que le reste des écritures par l'ordinateur, c'est-à-dire
 au niveau le plus bas (binaire).
 En ce sens, les écritures des logiciels ne servent qu'à camoufler le
 fonctionnement de la machine.
@@ -880,22 +882,34 @@ L'auteur devient « usager » = sujet (assujetti) aux logiciels...
 Dans cette deuxième partie du chapitre, nous étudions la version 3 de l'éditeur de
 texte sémantique Stylo afin d'observer ce que cet outil écrit dans le texte.
 Le point de vue adopté qualifie Stylo en tant qu'agent actif de l'écriture et
-non plus comme un simple environnement.
+non plus comme un simple environnement d'écriture.
+L'objectif de cette étude est de montrer que Stylo est plus qu'un espace dédié à
+l'écriture savante et qu'il y contribue.
 
 La méthode appliquée à l'observation de Stylo est empruntée à F. Kittler et
-consiste à décrire rigoureusement les techniques et technologies pour em
+consiste à décrire rigoureusement les techniques et technologies pour en
 comprendre les effets sur le texte.
-Lorsqu'un.e utilisateur.rice de Stylo tape du texte sur son clavier, quelles
-sont les réponses que Stylo donne à ces instructions ?
+Lorsqu'un.e utilisateur.rice de Stylo entre du texte sur son clavier, quelles
+sont les sorties que Stylo donne à ces instructions ?
+
 ### Qu'est-ce que Stylo ?
-Stylo est un éditeur de texte sémantique pour l’édition scientifique en sciences
-humaines. Stylo est autant un projet de recherche qu’un outil d’écriture et
+
+Au préalable de cette étude il convient de faire un point d'introduction sur
+Stylo.
+
+Stylo est un éditeur de texte sémantique en ligne développé pour l’édition
+scientifique en sciences humaines et en lettres.
+Stylo est autant un projet de recherche qu’un outil d’écriture et
 d’édition, qui entend poser une question décisive : qu’est-ce qu’écrire en
-environnement numérique en sciences humaines ? Les nouvelles fonctionnalités
-développées et déployées au printemps 2023 sont présentées dans ce poster.
-Stylo est un outil libre et open source conçu en 2017 par la Chaire de recherche du
+environnement numérique en sciences humaines ?
+
+C'est un outil libre et open source conçu en 2017 par la Chaire de recherche du
 Canada sur les écritures numériques (Vitali-Rosati et al., 2020), et soutenu depuis
 2020 par la Très grande infrastructure de recherche Huma-Num.
+Guillaume Grossetie et Thomas Parisot, tous deux développeurs, travaillent et
+maintiennent l'infrastructure technique de Stylo avec la CRCEN depuis plusieurs
+années.
+
 Stylo a pour objectif de transformer le flux de travail numérique des revues savantes
 en sciences humaines.
 En tant qu’éditeur de texte sémantique WYSIWYM, il vise à améliorer la chaîne de
@@ -911,27 +925,96 @@ prévisualisation avec la possibilité d’annoter, génération de plusieurs fo
 PDF, XML ou DOCX), export respectant les standards de l’édition scientifique,
 fonctions avancées de rechercher-remplacer, édition collaborative simultanée, accès aux
 données via une API GraphQL, etc.
-Contrairement aux outils de traitement de texte tels que Microsoft Word, Stylo
-cherche à promouvoir et à encourager l’utilisation de standards ouverts
-(Marcello, 2020).
+Contrairement aux outils de traitement de texte tels que Microsoft Word ou
+LibreOffice, Stylo cherche à promouvoir et à encourager l’utilisation de standards
+ouverts (Vitali-Rosati, 2020).
+
 Au cœur de Stylo ce sont donc les formats de balisage Markdown, de sérialisation de
 données YAML ou encore de structuration de références bibliographiques BibTeX qui
 offrent la possibilité de produire plusieurs formats de sortie depuis une source
 unique.
 Pandoc, le « couteau suisse de l’édition », génère les formats de sortie PDF
-(avec l’aide de LATEX), HTML, XML-TEI ou encore DOCX
-#### Grandes lignes sur Stylo
-Stylo est un éditeur de texte sémantique développé pour l'écriture en sciences
-humaines et sociales par la Chaire de recherche du Canada sur les écritures
-numériques.
-
-L'objectif derrière Stylo est de ...
-
-Historiquement, Stylo est le fruit d'une discussion commencée en 2017, à
-laquelle se joint officiellement Huma-Num en 2020.
-#### Stylo à la CRCEN et à Huma-Num
+(avec l’aide de LATEX), HTML, XML-TEI ou encore DOCX.
+Nous traiterons des transformations réalisées par Pandoc dans le prochain
+chapitre et nous concentrons pour l'instant sur la saisie du texte.
 
 #### Les briques logicielles
+
+Ces trois formats pivots, Markdown, YAML et BibTeX, sont insérés dans tout un
+écosystème logiciel pour en permettre leur utilisation.
+
+Cette architexture logicielle est scindée en trois parties.
+Tout d'abord, nous retrouvons la base de données où sont stockées toutes les
+informations et données de Stylo : les comptes utilisateurs, les articles, les espaces de
+travail, les corpus, etc.
+Cette base de données est réalisée avec MongoDB, un système de gestion de base
+de données non relationnelle développé en 2007 et s'appuyant sur des documents
+structurés en JSON.
+Dans Stylo, la structure ... 
+
+Le deuxième bloc de Stylo concerne l'interface que les utilisateurs voient affichée
+sur leur écran.
+Étant donné que Stylo est accessible via un navigateur web,
+l'interface a été conçue avec les technologies du web.
+On retrouve des objets en HTML, en CSS et en Javascript.
+Le _framework_ React, une surcouche à Javascript _open source_ développée par
+Facebook (aujourd'hui Meta) en 2013, a été employé pour réaliser les différents
+composants de l'interface et intégrer de nombreux modules tel que le module i18n
+qui permet d'implémenter le multilinguisme dans l'interface et changer la langue
+affichée à l'écran en un seul clic.
+
+La base de données MongoDB n'est pas stockée dans le même espace que l'interface
+web.
+En conséquence, un système de communication devait être établi entre ces deux
+objets pour que les informations puissent être accessibles, à la fois en écriture
+et en lecture.
+Pour mettre en oeuvre cette communication, une API (_Application Programming
+Interface_) utilisant le langage de requête GraphQL a été mise en place et rendue
+accessible via le protocole HTTP (_Hypertext Transfer Protocol_)^[L'_endpoint_
+de l'API GraphQl de Stylo est accessible ici : https://stylo.huma-num.fr/graphql],
+la surcouche
+du protocole internet utilisée pour le web.
+Le langage de requête et de manipulation GrapHQL a également été développé par
+Facebook à partir de 2012 puis publié en _open source_ en 2015.
+
+Le protocole HTTP a été conçu pour permettre la communication entre un client et
+un serveur.
+Les méthode de communication les plus couramment utilisée sont `GET` et `POST`.
+Par convention, et afin de limiter d'éventuels effets de bord, la méthode `GET`
+permet de récupérer des informations sur le serveur et de les afficher sur
+la page web tandis que `POST` permet de les envoyer depuis le client sur le
+serveur, soit pour ajouter une nouvelle entrée, soit pour la modifier.
+
+La particularité d'une API GraphQL, contrairement à une API REST par exemple,
+est qu'elle sert l'ensemble des données à une seule adresse (_endpoint_) alors
+que plus généralement, les données sont accessibles à des URL très précises.
+
+Plutôt que d'employer directement les méthodes `GET` et `POST` du protocole
+HTTP, deux types de requête sont utilisées avec la méthode `POST` pour effectuer
+les actions de lire et modifier le contenu de la base de données avec GraphQL.
+La requête de type `query` permet de récupérer les informations sur le serveur et
+celle de type `mutation` de les modifier.
+
+[Rappeler les propriétés de chacun des types dans GET et POST, et ce que ça
+apporte aux informations qui transitent]
+
+Le dernier bloc de Stylo est le module d'export qui permet de transformer les
+informations saisies et visibles dans l'éditeur en de multiples documents.
+Tout ce module réalisé avec le langage de programmation Python est développé
+et maintenu par David Larlet.
+Cette brique technologique est articulée autour du logiciel de transformation et
+de conversion Pandoc^[Pandoc est un incontournable pour transformer des
+documents. Il a été développé et maintenu en Haskell par son créateur John MacFarlane
+depuis 2006.] déployée sur un serveur et rendue accessible via une autre
+API^[La pandoc-api est accessible à cet _endpoint_: https://pandoc-api.stylo.huma-num.fr/]
+fabriquée à partir de _framework_ FastAPI^[FastAPI est disponible à cette
+adresse: https://fastapi.tiangolo.com/]
+
+Le module d'export intégré à Stylo^[On peut trouver le module d'export à cette
+URL : https://export.stylo.huma-num.fr/]
+
+
+[Faire un shéma de toute la pile techno de Stylo]
 
 ### Les formats pivots de Stylo en détail
 
@@ -946,3 +1029,14 @@ laquelle se joint officiellement Huma-Num en 2020.
 Dépassement du simple rapport de force énoncé précédemment (grâce à une
 transparence dans les actions de la machine et l'augmentation de la littératie
 numérique)
+
+
+## Conclusion 
+
+Dans ce chapitre, nous avons vu que ... 
+
+Nous avons vu que l'architexte n'est pas une entité à part, détachée de
+l'ordinateur, mais qu'il est l'ordinateur même et qu'il s'exprime/écrit sur
+son support à travers l'architexte, soit à travers un texte qui lui donne une
+série d'instructions sur comment lire et écrire.
+
