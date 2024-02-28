@@ -339,8 +339,14 @@ Bios, OS, Logiciels, réseaux (protocoles HTTP, TCP/IP, IMAP, POP, REST,
 GrapHQL), communication entre les différentes couches et fonctionnement de
 l'inscription dans le disque dur (HDD et SSD).
 
-Pour le protocole HTTP, détailler un peu les différentes méthodes et la
-circulation des paquets
+
+Le protocole HTTP a été conçu pour permettre la communication entre un client et
+un serveur.
+Les méthode de communication les plus couramment utilisée sont `GET` et `POST`.
+Par convention, et afin de limiter d'éventuels effets de bord, la méthode `GET`
+permet de récupérer des informations sur le serveur et de les afficher sur
+la page web tandis que `POST` permet de les envoyer depuis le client sur le
+serveur, soit pour ajouter une nouvelle entrée, soit pour la modifier.
 
 [Aux machines distantes (Serveurs, fibre optique, ADSL ... Histoire de l'Internet
 physique)]
@@ -972,31 +978,122 @@ Pour mettre en oeuvre cette communication, une API (_Application Programming
 Interface_) utilisant le langage de requête GraphQL a été mise en place et rendue
 accessible via le protocole HTTP (_Hypertext Transfer Protocol_)^[L'_endpoint_
 de l'API GraphQl de Stylo est accessible ici : https://stylo.huma-num.fr/graphql],
-la surcouche
-du protocole internet utilisée pour le web.
+la surcouche du protocole internet utilisée pour le web.
 Le langage de requête et de manipulation GrapHQL a également été développé par
 Facebook à partir de 2012 puis publié en _open source_ en 2015.
 
-Le protocole HTTP a été conçu pour permettre la communication entre un client et
-un serveur.
-Les méthode de communication les plus couramment utilisée sont `GET` et `POST`.
-Par convention, et afin de limiter d'éventuels effets de bord, la méthode `GET`
-permet de récupérer des informations sur le serveur et de les afficher sur
-la page web tandis que `POST` permet de les envoyer depuis le client sur le
-serveur, soit pour ajouter une nouvelle entrée, soit pour la modifier.
-
-La particularité d'une API GraphQL, contrairement à une API REST par exemple,
+L'une des particularités d'une API GraphQL, contrairement à une API REST par exemple,
 est qu'elle sert l'ensemble des données à une seule adresse (_endpoint_) alors
-que plus généralement, les données sont accessibles à des URL très précises.
+que plus généralement, les données sont accessibles à des URL très précises ce
+qui a pour effet de rendre explicite la structuration des données dans la base.
+En ne servant les données qu'à une seule adresse, l'API s'échappe de la contrainte
+de la structuration des données et contourne les problèmes récurrents
+d'_over-fetching_ ou d'_under-fetching_ que l'on
+peut rencontrer dans certaines applications^[Ces deux problèmes désignent soit
+une récupération trop importante de données (et nécessite un tri après
+récupération des données sur le serveur, soit un manque de données pour lequel
+il faut faire appel une deuxième fois ou plus au serveur pour en récupérer les
+données)].
+l'API GraphQL est agnostique vis-à-vis de la forme de la base de données.
+Par contre, la définition des requêtes adressables à la base de données doit
+être déclarée pour que l'on puisse faire circuler les informations.
+Pour cela, GraphQL à son propre langage de description de schéma (_SDL_,
+_Schema Definition Language_) et permet de déclarer explicitement les
+différentes façons d'écrire une requête.
 
-Plutôt que d'employer directement les méthodes `GET` et `POST` du protocole
-HTTP, deux types de requête sont utilisées avec la méthode `POST` pour effectuer
-les actions de lire et modifier le contenu de la base de données avec GraphQL.
-La requête de type `query` permet de récupérer les informations sur le serveur et
-celle de type `mutation` de les modifier.
+Par exemple dans Stylo, le champ `user` contient les informations suivantes^[Le
+modélisation du schéma GraphQL est accessible sur le dépôt GitHub de Stylo à
+l'adresse suivante : https://github.com/EcrituresNumeriques/stylo/blob/master/graphql/models/user.js] :
+
+- _id
+- displayName
+- username
+- authType
+- email
+- firstName
+- lastName
+- institution
+- tags
+- permissions
+- acquintances
+- articles
+- workspaces
+- admin
+- yaml
+- zoteroToken
+- createdAt
+- updatedAt
+- apiToken
+- addContact
+- removeContact
+- stats
+
+Une requête simple consisterait à vouloir directement récupérer l'adresse
+courriel lié à mon compte utilisateur :
+
+```graphql
+query user {
+  user {
+    email
+  }
+}
+```
+
+et renverrait comme réponse :
+
+```graphql
+{
+  "data": {
+    "user": {
+      "email": "roch.delannay@umontreal.ca"
+    }
+  }
+}
+```
+
+Cet exemple montre qu'il y a une certaine économie de l'information implémentée
+dans le fonctionnement même de GraphQL pour n'aller chercher que les
+informations nécessaires pour une requête particulière, pour peu que la requête
+en elle-même soit bien rédigée.
+D'ailleurs, il s'agit là d'un des écueils potentiels de GraphQL : des requêtes mal
+formulées peuvent aller à l'encontre de cette économie.
+
+Dans Stylo, chaque fonctionnalité, chaque bouton (ou presque) qui réalise une
+action de lecture ou d'écriture est lié à une requête GraphQL.
+Précédemment nous avons vu que le protocole HTTP comportait deux méthodes bien
+connues pour faire circuler des informations entre un client et un serveur :
+`GET` et `POST`.
+Un des arguments phares présenté par GraphQL est sa dimension agnostique par
+rapport au protocole de communication des informations employé, que ce soit HTTP
+ou des WebSockets ou autre.
+Pourtant, malgré la capacité de GraphQL à être utilisable avec toutes les méthodes
+d'HTTP^[Voir https://graphql.org/learn/serving-over-http/], une bonne pratique
+appliquée par la communauté GrapHQL est l'emploi
+du protocole HTTP couplé à la méthode `POST` pour tous types de requêtes (que ce
+soit une `query`, une `mutation` ou encore une `subscription`).
+Lors de la transmission des informations par la méthode `GET`, l'ensemble des
+informations sont insérées dans l'URL ce qui 1) les rend visibles (et vulnérable)
+et 2) impose une limite du nombre de caractères (au alentours de 2000 au maximum)
+au risque de déclencher une erreur 414 (URL trop longue).
+En conséquence, il est préférable d'utiliser la méthode `POST` pour récupérer
+des informations car elles ne seront ni visibles ni limitées en longueur, ce qui
+s'avère nécessaire pour des textes de plusieurs milliers de caractères.
+Malgré l'aspect agnostique de GraphQL, la forme même des données textuelles
+récupérées par les requêtes implique en elle-même un choix particulier de
+transmission des informations avec ce qu'il comporte comme avantages et inconvénients.
+
 
 [Rappeler les propriétés de chacun des types dans GET et POST, et ce que ça
 apporte aux informations qui transitent]
+
+Autrement dit, chaque fonctionnalité décrit de manière formelle la structuration
+des informations dans Stylo, donc ce que Stylo écrit dans la base de données et
+dans les textes (puisque ce sont les informations renseignées qui seront
+intégrées dans les documents exportés).
+En ce sens, Stylo et les protocoles auxquels il est assujetti, pré-construisent
+la totalité de ce qu'un utilisateur peut saisir dans l'interface et sera
+enregistré dans la base de données.
+
 
 Le dernier bloc de Stylo est le module d'export qui permet de transformer les
 informations saisies et visibles dans l'éditeur en de multiples documents.
