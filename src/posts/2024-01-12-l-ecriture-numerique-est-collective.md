@@ -1082,9 +1082,40 @@ Malgré l'aspect agnostique de GraphQL, la forme même des données textuelles
 récupérées par les requêtes implique en elle-même un choix particulier de
 transmission des informations avec ce qu'il comporte comme avantages et inconvénients.
 
+Les spécificités du protocoles HTTP sont définies dans les _Request for
+Comments_ publiés par L'_Internet Engineering Task Force_ (IETF) fondée en 1986,
+dont le siège se trouve aux États-Unis.
+Les documents et leurs contenus sont régulièrement mis à jour par la communauté
+qui participe à ces commentaires.
+Le numéro de la RFC en lien avec la méthode `POST` est le 9110^[Voir https://www.rfc-editor.org/rfc/rfc9110#name-introduction]
+publié en juin 2022.
 
-[Rappeler les propriétés de chacun des types dans GET et POST, et ce que ça
-apporte aux informations qui transitent]
+La méthode `POST` est définie dans le paragraphe 9.3.3 comme :
+
+> The POST method requests that the target resource process the representation
+enclosed in the request according to the resource's own specific semantics.
+For example, POST is used for the following functions (among others):
+> - Providing a block of data, such as the fields entered into an HTML form, to a
+data-handling process;
+> - Posting a message to a bulletin board, newsgroup, mailing list, blog, or
+similar group of articles;
+> - Creating a new resource that has yet to be identified by the origin server; and
+> - Appending data to a resource's existing representation(s).^[Traduction
+personnelle : La méthode POST demande à la ressource cible de traiter la
+représentation incluse dans la demande selon la sémantique spécifique de la
+ressource. Par exemple, la méthode POST est utilisée pour les usages
+suivants (parmi d'autres): Fournir les blocs de données, comme les champs d'un
+formulaire HTML, à un traitement de données ; Publier un message sur un tableau
+d'affichage, un groupe d'échange, une liste de diffusion, un blog ou un groupe
+d'articles similaire ; Créer une nouvelle ressource qui n'a pas encore été
+identifiée par le serveur d'origine ; et Ajouter des données à la
+(aux) représentation(s) existante(s) d'une ressource.]
+
+Faire le lien sur l'indempotence (POST n'est pas indempotente = le résultat
+d'une requête ne sont pas toujours identiques, ils peuvent s'empiler et générer
+des effets de bord puisque La ressource cible d'une requête POST est censée
+traiter la représentation jointe à la requête conformément à sa propre sémantique)
+
 
 Autrement dit, chaque fonctionnalité décrit de manière formelle la structuration
 des informations dans Stylo, donc ce que Stylo écrit dans la base de données et
