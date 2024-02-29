@@ -1134,6 +1134,25 @@ Dans le cas de Stylo, `POST` est donc soumis à l'architecture de GraphQL, on
 peut alors bien considérer GraphQL agnostique à l'égard de la méthode `POST` du
 protocole HTTP.
 
+Enfin, dans le cas d'une requête `POST`, le contenu à envoyer sur le serveur est
+formaté en JSON.
+
+Ci-dessous un exemple de requête `POST` envoyée depuis l'interface Web de Stylo
+vers le serveur :
+
+```JSON
+{"query":"query updateWorkingVersion($articleId: ID!, $content: WorkingVersionInput!) {\n
+article(article: $articleId) {\n
+updateWorkingVersion(content: $content) {\n
+updatedAt\n
+}\n
+}\n
+}",
+"variables":{"userId":"61d62c4978651b001208b7aa",
+"articleId":"65e0e38129637c001274ef7a",
+"content":{"md":"Ajout du texte pour la requête HTTP `POST`"}}}
+```
+
 Autrement dit, chaque fonctionnalité décrit de manière formelle la structuration
 des informations dans Stylo, donc ce que Stylo écrit dans la base de données et
 dans les textes puisque ce sont les informations renseignées qui seront
@@ -1188,19 +1207,90 @@ Finalement, après la description de certains des mécanismes à l'oeuvre dans
 Stylo, nous sommes en droit de nous demander comment se déroule le geste
 d'écriture dans cet environnement ?
 
-Jusqu'à maintenant, nous savons que le texte est saisi en Markdown (YAML et
-BibTeX) puis est envoyé sur le serveur au moyen d'une requête GraphQL contenu
-dans une requête HTTP utilisant la méthode `POST` comme mode de communication.
+Jusqu'à présent, nous savons que le texte est saisi par l'utilisateur en
+Markdown (YAML et BibTeX), puis est envoyé sur le serveur au moyen d'une requête
+GraphQL au format JSON contenue dans une requête HTTP utilisant la méthode `POST`
+comme mode de communication.
 Entre ces étapes persiste une phase que nous n'avons pas encore évoqué : la
 requête `POST` envoyé au serveur ne s'effectue pas en continu entre le client et
 le serveur (ce n'est pas un flux).
 Une phase latente se glisse dans l'interface Web entre le moment où
-l'utilisateur frappe sur les touches de son clavier et le moment où la base de
+l'utilisateur frappe les touches de son clavier et le moment où la base de
 données est mise à jour.
 Dans ce laps de temps, qu'advient-il du texte ?
-Monaco 
 
+Comme cela est mentionné précédemment, l'espace d'écriture est un espace web.
+Pour y accéder il nous faut un logiciel particulier -- un navigateur ou un
+fureteur -- capable d'intpréter du HTML, du CSS et d'exécuter du Javascript.
+Lorsque l'on écrit dans Stylo (et dans Monaco), le texte saisi doit être
+manipulable et interprétable par le navigateur pour pouvoir être envoyé sur le
+serveur.
+C'est le rôle de Monaco de traiter cette couche d'information.
+À l'écran, l'utilisateur voit s'afficher du Markdown tel qu'il le frappe,
+pourtant cette information n'est inscrite sur aucun support en dehors du rendu
+visuel affiché sur cet écran.
+Monaco travaille avec des modèles et ce sont avec ces modèles que l'utilisateur
+interagit.
+Chaque modèle est rattaché à une URI et c'est de cette manière que Monaco peut
+manipuler le DOM (_Document Object Model_) du navigateur pour créer le texte et
+son rendu graphique en texte brut.
 
+Le DOM est une représentation abstraite d'un document HTML exécutée dans le
+navigateur.
+Tous les éléments structurés à l'intérieur de ce document deviennent des objets,
+des noeuds manipulables avec du Javascript.
+C'est grâce à ce procédé qu'une page web est rendue dynamique.
+Puisque le DOM dépend du navigateur, nous pouvons en déduire que ce document
+sera différent selon le navigateur et la version du logiciel utilisée.
+
+Pour accéder à ce DOM il suffit d'ouvrir les outils de développements du
+navigateur et d'inspecter le contenu de la page HTML.
+
+Ci-dessous, une première pour montrer le texte saisi à l'écran et une deuxième
+pour montrer ce qui est écrit dans le DOM :
+
+![Exemple de texte saisi en Markdown dans Stylo](images/markdown-stylo.png)
+
+![DOM du texte saisi dans Stylo](images/html-dom.png)
+
+L'état du texte inscrit dans le DOM est différent de celui qui apparaît à
+l'écran.
+Le Markdown se retrouve encapsulé dans des balises attribuées par l'éditeur Monaco et
+la syntaxe Markdown se retrouve à l'état de texte brut : la balise de titre de
+niveau 2 (##) n'a plus de valeur sémantique.
+
+Écrire dans un environnement comme Stylo ne consiste pas seulement en une simple
+saisie du texte à l'écran.
+Lorsque j'ai l'impression d'écrire au format Markdown, nous écrivons avec Stylo
+un texte bien différent.
+Le texte affiché dans Stylo passe en réalité, d'un point de vue matériel, par au
+moins 4 représentations différentes :
+
+- le texte saisi en Markdown
+- la représentation du texte dans le DOM réalisé dans le navigateur par le biais
+  de Monaco
+- la requête GraphQL envoyée au serveur au format JSON
+- l'état de sauvegarde sur le serveur dans la base de données MongoDB
+
+La seule saisie du texte dans Stylo nécessite en réalité une multitude d'étape
+intermédiaire cachée aux yeux de l'utilisateur mais que pourtant Stylo rédige et
+inscrit dans la mémoire numérique.
+
+Chacun de ces états à une signification particulière.
+Le premier est la projection d'une structure de l'information, tandis que le
+deuxième en permet l'interprétation et l'affichage par le navigateur, la
+troisième est une représentation formatée pour circuler entre un client et un
+serveur et enfin la quatrième est à l'état de stockage, prête à être appelée
+pour faire le chemin en sens inverse.
+
+Ces différents états du texte sont plus que de simples représentations, ce sont
+des documents différents et chacun a bien une signification qui lui est propre.
+Par exemple, la forme en Markdown brut ne peut pas circuler en l'état par le
+protocole HTTP, il lui manque toute une série d'informations : ce que Stylo
+écrit dans le texte.
+
+Parmi ces quatre document produits pour écrire, seulement une l'est par
+l'utilisateur, les autres formes sont écrites par Stylo.
 
 
 ## Conclusion 
