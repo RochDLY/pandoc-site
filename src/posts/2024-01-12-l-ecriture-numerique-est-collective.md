@@ -968,6 +968,9 @@ Facebook (aujourd'hui Meta) en 2013, a été employé pour réaliser les différ
 composants de l'interface et intégrer de nombreux modules tel que le module i18n
 qui permet d'implémenter le multilinguisme dans l'interface et changer la langue
 affichée à l'écran en un seul clic.
+L'éditeur de texte, pièce maîtresse de Stylo, s'appuie sur la technologie
+Monaco^[Voir le site web https://microsoft.github.io/monaco-editor/, consulté lw
+29 février 2024.] développé par Microsoft et rendu disponible sous licence MIT.
 
 La base de données MongoDB n'est pas stockée dans le même espace que l'interface
 web.
@@ -1077,10 +1080,10 @@ et 2) impose une limite du nombre de caractères (au alentours de 2000 au maximu
 au risque de déclencher une erreur 414 (URL trop longue).
 En conséquence, il est préférable d'utiliser la méthode `POST` pour récupérer
 des informations car elles ne seront ni visibles ni limitées en longueur, ce qui
-s'avère nécessaire pour des textes de plusieurs milliers de caractères.
-Malgré l'aspect agnostique de GraphQL, la forme même des données textuelles
-récupérées par les requêtes implique en elle-même un choix particulier de
-transmission des informations avec ce qu'il comporte comme avantages et inconvénients.
+s'avère nécessaire pour des requêtes parfois trop longues.
+Malgré l'aspect agnostique de GraphQL, la forme textuelle des requêtes implique
+en elle-même un choix particulier de transmission des informations avec ce qu'il
+comporte comme avantages et inconvénients.
 
 Les spécificités du protocoles HTTP sont définies dans les _Request for
 Comments_ publiés par L'_Internet Engineering Task Force_ (IETF) fondée en 1986,
@@ -1102,29 +1105,42 @@ similar group of articles;
 > - Creating a new resource that has yet to be identified by the origin server; and
 > - Appending data to a resource's existing representation(s).^[Traduction
 personnelle : La méthode POST demande à la ressource cible de traiter la
-représentation incluse dans la demande selon la sémantique spécifique de la
-ressource. Par exemple, la méthode POST est utilisée pour les usages
+représentation incluse dans la demande selon sa propre sémantique. Par exemple,
+la méthode POST est utilisée pour les usages
 suivants (parmi d'autres): Fournir les blocs de données, comme les champs d'un
 formulaire HTML, à un traitement de données ; Publier un message sur un tableau
 d'affichage, un groupe d'échange, une liste de diffusion, un blog ou un groupe
 d'articles similaire ; Créer une nouvelle ressource qui n'a pas encore été
-identifiée par le serveur d'origine ; et Ajouter des données à la
+identifiée par le serveur d'origine ; et Ajouter des données à la
 (aux) représentation(s) existante(s) d'une ressource.]
 
-Faire le lien sur l'indempotence (POST n'est pas indempotente = le résultat
-d'une requête ne sont pas toujours identiques, ils peuvent s'empiler et générer
-des effets de bord puisque La ressource cible d'une requête POST est censée
-traiter la représentation jointe à la requête conformément à sa propre sémantique)
+À travers cette brève définition, l'on remarque que l'usage principal de la
+méthode `POST` est plutôt relative à l'envoi d'informations, qu'elles soient
+nouvelles ou mises à jour.
+Le comportement de `POST` fait toutefois débat, notamment quant à son usage pour
+l'envoi de certaines informations puisque, comme cela est indiqué dans sa
+définition, `POST` laisse le soin au serveur (la ressource cible) de traiter les
+données contenues dans son message selon sa propre sémantique.
+En somme, contrairement à d'autres méthodes comme `PUT`, `POST` n'est pas
+indempotente ce qui pourrait entraîner des différences de résultat lors de
+l'exécution d'une requête (par exemple, la duplication d'une requête en cas de
+problème de connexion).
 
+Cependant, cette caractéristique tend à disparaître dans le cas d'une structure
+GraphQL puisque cette dernière ne dépend pas d'une architecture composée de
+multiples adresses (une pour chaque ressource) mais d'une seule adresse à
+laquelle on soumet des requêtes.
+Dans le cas de Stylo, `POST` est donc soumis à l'architecture de GraphQL, on
+peut alors bien considérer GraphQL agnostique à l'égard de la méthode `POST` du
+protocole HTTP.
 
 Autrement dit, chaque fonctionnalité décrit de manière formelle la structuration
 des informations dans Stylo, donc ce que Stylo écrit dans la base de données et
-dans les textes (puisque ce sont les informations renseignées qui seront
-intégrées dans les documents exportés).
-En ce sens, Stylo et les protocoles auxquels il est assujetti, pré-construisent
+dans les textes puisque ce sont les informations renseignées qui seront
+intégrées dans les documents exportés.
+En ce sens, Stylo et les protocoles auxquels il est assujetti pré-construisent
 la totalité de ce qu'un utilisateur peut saisir dans l'interface et sera
 enregistré dans la base de données.
-
 
 Le dernier bloc de Stylo est le module d'export qui permet de transformer les
 informations saisies et visibles dans l'éditeur en de multiples documents.
@@ -1136,13 +1152,23 @@ documents. Il a été développé et maintenu en Haskell par son créateur John 
 depuis 2006.] déployée sur un serveur et rendue accessible via une autre
 API^[La pandoc-api est accessible à cet _endpoint_: https://pandoc-api.stylo.huma-num.fr/]
 fabriquée à partir de _framework_ FastAPI^[FastAPI est disponible à cette
-adresse: https://fastapi.tiangolo.com/]
-
+adresse: https://fastapi.tiangolo.com/].
 Le module d'export intégré à Stylo^[On peut trouver le module d'export à cette
-URL : https://export.stylo.huma-num.fr/]
+URL : https://export.stylo.huma-num.fr/] permet de convertir et transformer les
+textes sources en une multitude d'artefacts, selon les capacités de
+transformation et de conversion du logiciel Pandoc auquel il est soumis.
+Les développements autour des transformations des sources de Stylo seront
+traitées dans le prochain chapitre, nous les laissons donc de côté pour
+l'instant.
 
 
 [Faire un shéma de toute la pile techno de Stylo]
+
+Une description très générale des moyens de communication entre les différents
+modules qui composent Stylo nous montre déjà que l'information qui va être
+saisie dans cet éditeur de texte est formatée par une architecture de données
+alors que nous n'avons pas encore abordé les conditions mêmes de l'écriture à
+savoir les trois formats pivots d'un texte dans Stylo. 
 
 ### Les formats pivots de Stylo en détail
 
@@ -1152,11 +1178,29 @@ URL : https://export.stylo.huma-num.fr/]
 
 #### La saisie des références bibliographiques en BibTeX
 
-### Ce que Stylo permet ou non de faire
+### Écrire avec Stylo
 (Qu'est-ce que Stylo en tant qu'agent qui écrit ?)
 Dépassement du simple rapport de force énoncé précédemment (grâce à une
 transparence dans les actions de la machine et l'augmentation de la littératie
 numérique)
+
+Finalement, après la description de certains des mécanismes à l'oeuvre dans
+Stylo, nous sommes en droit de nous demander comment se déroule le geste
+d'écriture dans cet environnement ?
+
+Jusqu'à maintenant, nous savons que le texte est saisi en Markdown (YAML et
+BibTeX) puis est envoyé sur le serveur au moyen d'une requête GraphQL contenu
+dans une requête HTTP utilisant la méthode `POST` comme mode de communication.
+Entre ces étapes persiste une phase que nous n'avons pas encore évoqué : la
+requête `POST` envoyé au serveur ne s'effectue pas en continu entre le client et
+le serveur (ce n'est pas un flux).
+Une phase latente se glisse dans l'interface Web entre le moment où
+l'utilisateur frappe sur les touches de son clavier et le moment où la base de
+données est mise à jour.
+Dans ce laps de temps, qu'advient-il du texte ?
+Monaco 
+
+
 
 
 ## Conclusion 
