@@ -1249,9 +1249,9 @@ navigateur et d'inspecter le contenu de la page HTML.
 Ci-dessous, une première pour montrer le texte saisi à l'écran et une deuxième
 pour montrer ce qui est écrit dans le DOM :
 
-![Exemple de texte saisi en Markdown dans Stylo](images/markdown-stylo.png)
+![Exemple de texte saisi en Markdown dans Stylo](/images/markdown-stylo.png)
 
-![DOM du texte saisi dans Stylo](images/html-dom.png)
+![DOM du texte saisi dans Stylo](/images/html-dom.png)
 
 L'état du texte inscrit dans le DOM est différent de celui qui apparaît à
 l'écran.
