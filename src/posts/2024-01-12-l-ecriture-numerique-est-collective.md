@@ -1297,8 +1297,28 @@ l'utilisateur, les autres formes sont écrites par Stylo.
 
 Dans ce chapitre, nous avons vu que ... 
 
-Nous avons vu que l'architexte n'est pas une entité à part, détachée de
-l'ordinateur, mais qu'il est l'ordinateur même et qu'il s'exprime/écrit sur
-son support à travers l'architexte, soit à travers un texte qui lui donne une
-série d'instructions sur comment lire et écrire.
+Dans sa communication, Stylo met en avant comme argument la reprise en main du
+texte et de l'écriture, ce qui, comme nous l'avons montré n'est pas complètement
+vrai.
+Elle est vrai dans le sens où Stylo propose une chaîne de traitement
+transparente, libre et ouverte sur les transformations opérées dans le texte.
+Pourtant, plutôt qu'une reprise en main, il s'agit plutôt d'une déprise au sens
+que lui donne Louise Merzeau (ref).
+[ajouter un mot sur la déprise]
+
+Nous avons vu que le texte frappé en Markdown, YAML et BibTeX, n'existe pas
+uniquement sous la forme telle qu'elle existe à l'écran mais que d'autres
+représentations de ce même texte sont générées dans l'espace numérique afin
+d'être manipulable.
+
+À la différence des systèmes analogiques et continus, la rupture opérée par
+l'écriture numérique réside entre autre dans cette fragmentation du texte en de
+multiples textes, chacun circulant dans un canal spécifique.
+
+Dans Stylo, la plupart de ces textes sont écrits par Stylo.
+La déprise sur le texte survient lors du choix de l'utilisateur de saisir son
+texte dans Stylo.
+Lorsqu'un auteur écrit dans Stylo, il accorde sa confiance dans les opérations
+que réalise Stylo sur le texte et dans la matérialité que l'outil lui confère.
+
 

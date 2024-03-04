@@ -77,3 +77,11 @@ Montrer l'arbre abstrait syntaxique de Stylo et celui du Pressoir avec la base
 commune md, yaml, bibtex + pandoc et montrer que les output ne sont pas les
 mêmes, que malgré les différences dans l'arborescence en fin de chaine
 éditoriale, le sens produit diffère ...
+
+## Introduction
+
+Dans le chapitre précédent nous avons décrit les étapes d'écriture d'un texte dans Stylo et l'obtention d'une source séparée en trois documents : Markdown, YAML et BiBTeX.
+Toutefois, à l'instar d'un document rédigé dans le format docx, aucune publication n'existe directement dans ce format.
+Que ce soit pour un dépôt dans HAL (souvent au format PDF) ou une publication sur Cairn, OpenEdition ou Érudit, les documents sont publiés dans d'autres formats : XML, HTML, ePUB, PDF, etc.
+
+
