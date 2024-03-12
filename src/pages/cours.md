@@ -12,8 +12,8 @@ title: Enseignements et ateliers
 
 - Cours magistral mutualisé destiné aux étudiants en licence en sciences de
 l'information et de la communication, sciences du langage et littératures - [Identités numériques](https://identites-numeriques.en-cours-de.construction), dispensé à l'hiver (24h CM).
-- TD Gestion de projets collaboratifs : introduction à l'usage de git avec
-RStudio (2h)
+- Atelier de communication rédactionnelle destiné aux étudiants en master 1e annnée mention Information, communication [Données et société] : introduction à l'usage de git avec RStudio (2h)
+- Encadrement d'étudiants durant le Module d'innovation pédagogique "Explorations numériques des archives de l'INA", un intensif d'une semaine organisé par Céline Morin et Eleni Mouratidou à destination des étudiants de Master 2 en sciences de l'information et de la communication.
 
 **Chargé de cours | Université de Montréal | 2023-2024**
 
@@ -21,13 +21,10 @@ RStudio (2h)
 - Remplacement cours de 1er cycle FRA3826 - Théories de l'Édition numérique (4h).
 - Remplacement atelier HNU6051 - Humanités numériques : formats d'écriture (10h).
 
-**Encadrant | Université Paris Nanterre | 2022-2023**
-
-- Le Module d'innovation pédagogique "Explorations numériques des archives de l'INA" est un intensif d'une semaine organisé par Marta Severo et Antonin Segault à destination des étudiants de Master 2 en sciences de l'information et de la communication.
-
 **Chargé de cours | Université Paris Nanterre | 2022-2023**
 
 - Cours magistral mutualisé destiné aux étudiants en licence en sciences de l'information et de la communication, sciences du langages et littératures - [Identités numériques](https://identites-numeriques.en-cours-de.construction/), dispensé à l'hiver (24h CM).
+- Encadrement d'étudiants durant le Module d'innovation pédagogique "Explorations numériques des archives de l'INA", un intensif d'une semaine organisé par Marta Severo et Antonin Segault à destination des étudiants de Master 2 en sciences de l'information et de la communication.
 
 **Débugue tes humanités | Université de Montréal | 2022-2023**
 
