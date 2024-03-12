@@ -1295,8 +1295,6 @@ l'utilisateur, les autres formes sont écrites par Stylo.
 
 ## Conclusion 
 
-Dans ce chapitre, nous avons vu que ... 
-
 Dans sa communication, Stylo met en avant comme argument la reprise en main du
 texte et de l'écriture, ce qui, comme nous l'avons montré n'est pas complètement
 vrai.
@@ -1304,12 +1302,17 @@ Elle est vrai dans le sens où Stylo propose une chaîne de traitement
 transparente, libre et ouverte sur les transformations opérées dans le texte.
 Pourtant, plutôt qu'une reprise en main, il s'agit plutôt d'une déprise au sens
 que lui donne Louise Merzeau (ref).
-[ajouter un mot sur la déprise]
+[ajouter un mot sur la déprise, voir la thèse de N. Sauret pour plus
+d'informations sur le sujet.]
 
 Nous avons vu que le texte frappé en Markdown, YAML et BibTeX, n'existe pas
-uniquement sous la forme telle qu'elle existe à l'écran mais que d'autres
+uniquement sous la forme telle qu'elle est à l'écran mais que d'autres
 représentations de ce même texte sont générées dans l'espace numérique afin
 d'être manipulable.
+On pourrait même aller jusqu'à dire, qu'en dehors des fichiers sources exportés,
+le document en Markdown n'existe pas : il n'y a aucune document dont l'extension
+est `.md` et désigne spécifiquement que ledit document respecte les normes et
+règles de ce format.
 
 À la différence des systèmes analogiques et continus, la rupture opérée par
 l'écriture numérique réside entre autre dans cette fragmentation du texte en de
@@ -1321,4 +1324,24 @@ texte dans Stylo.
 Lorsqu'un auteur écrit dans Stylo, il accorde sa confiance dans les opérations
 que réalise Stylo sur le texte et dans la matérialité que l'outil lui confère.
 
+[Citer éditorialisation collaborative d'un événement]
+
+> Comme pour tout dispositif, l’architecture imaginée se définit d’abord
+« dans une fonction de support, de balise, de cadre organisateur à l’action »
+(Peeters et Charlier, 1999, p. 19). Dans ce jeu d’applications distribuées,
+l’événement s’écrit sur ce que Zacklad appelle un « environnement-support »
+(Zacklad, 2013). Combinant matériel, applicatif, système d’exploitation et
+infrastructure réseau, le média numérique ne peut plus être pensé comme
+externalité d’un support : il relève d’une pervasivité par laquelle
+l’information produit des effets de permanence et d’enveloppement.
+Circulant d’une situation de communication à une autre, d’un espace de
+lisibilité à un autre, les contenus ne sont grammatisés que pour se
+redéployer en permanence, formant moins des séries disjointes et stables
+(des documents) que des instants d’une expérience ininterrompue.
+Embarquant « le contexte transactionnel » (Ibid.) qui les conditionne,
+le dispositif n’est pas une forme, mais une dynamique.
+
+Faire le lien avec l'intimité du chercheur au croisement du dispositif
+humain-machine = une organisation particulière des connaissances (voir Zacklad,
+Szoniecky, Pédauque, Merzeau ...)
 
