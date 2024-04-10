@@ -31,7 +31,7 @@ Ce que l'on remarque c'est que la structure rédigée dans la source est supprim
 -- et oubliée -- pour laisser la place à une structure rédigée par la machine.
 Dans certains peuvent se retrouver différents formats intermédiaires, entre la
 source et le produit fini, qui sont quasiment invisibles et dont on ne retient
-rien, et qui pourtant participw à cette destructuration/restructuration du
+rien, et qui pourtant participé à cette destructuration/restructuration du
 document.
 
 Par exemple pour produire un document PDF depuis une source au format Markdown
@@ -78,10 +78,29 @@ commune md, yaml, bibtex + pandoc et montrer que les output ne sont pas les
 mêmes, que malgré les différences dans l'arborescence en fin de chaine
 éditoriale, le sens produit diffère ...
 
+## Plan
+
+1. Introduire les chaîne éditoriales 
+    - revue de litt sur des chaines numériques
+    - fabrique de l'édition
+2. Les transformations et les conversions
+    - définir ces termes
+    - le single source publishing
+3. Les AST
+    - origine de cet objet
+    - utilisation pour du texte
+4. Cas d'étude
+    - livre contribution numérique
+    - le pressoir
+    - Pandoc
+        - détailler AST
+    - AST des documents produits
+    - Comparaison si passage dans Stylo des mêmes textes pour produire des XML
+      COMMONS et des HTML
+
+
 ## Introduction
 
 Dans le chapitre précédent nous avons décrit les étapes d'écriture d'un texte dans Stylo et l'obtention d'une source séparée en trois documents : Markdown, YAML et BiBTeX.
 Toutefois, à l'instar d'un document rédigé dans le format docx, aucune publication n'existe directement dans ce format.
 Que ce soit pour un dépôt dans HAL (souvent au format PDF) ou une publication sur Cairn, OpenEdition ou Érudit, les documents sont publiés dans d'autres formats : XML, HTML, ePUB, PDF, etc.
-
-

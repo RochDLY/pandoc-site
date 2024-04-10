@@ -32,6 +32,7 @@
             <nav class="toc">
 <ul>
 <li><a href="#résumé" id="toc-résumé">Résumé</a></li>
+<li><a href="#plan" id="toc-plan">Plan</a></li>
 <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
 </ul>
             </nav>
@@ -50,7 +51,7 @@
 <p>Les transformations d’un format vers un autre ne se déroulent pas par magie, et l’ordinateur ne “connait” pas les équivalences entre les syntaxes de chaque format.</p>
 <p>Pour cela, il faut établir des règles pour formaliser ces équivalences, quand cela est possible. Parfois, cela n’est pas possible car ce qui existe dans un format n’existe pas dans un autre, et il faut alors trouver des solutions alternatives pour contourner ces problèmes.</p>
 <p>Nous avons vu que le format Markdown était un langage de balisage léger pensé en lien avec le format HTML, de cette manière un <code>## titre de niveau 2</code> déclaré en Markdown peut être transformé en <code>&lt;h2&gt;titre de niveau 2 &lt;/h2&gt; en HTML</code>.</p>
-<p>Ce que l’on remarque c’est que la structure rédigée dans la source est supprimée – et oubliée – pour laisser la place à une structure rédigée par la machine. Dans certains peuvent se retrouver différents formats intermédiaires, entre la source et le produit fini, qui sont quasiment invisibles et dont on ne retient rien, et qui pourtant participw à cette destructuration/restructuration du document.</p>
+<p>Ce que l’on remarque c’est que la structure rédigée dans la source est supprimée – et oubliée – pour laisser la place à une structure rédigée par la machine. Dans certains peuvent se retrouver différents formats intermédiaires, entre la source et le produit fini, qui sont quasiment invisibles et dont on ne retient rien, et qui pourtant participé à cette destructuration/restructuration du document.</p>
 <p>Par exemple pour produire un document PDF depuis une source au format Markdown il faut utiliser un document intermédiaire comme une transformation au format TeX avant de pouvoir produire le fichier PDF. Cette transformation LaTeX est temporaire, elle peut être préservée pour vérification, mais n’est jamais archivée.</p>
 <p>Deux transformations sont effectuées dans cet exemple, et deux structurations de contenus disparaissent.</p>
 <p>Note : revenir dans le chapitre sur les archives sur l’oubli de ces traces structurelles.</p>
@@ -61,6 +62,35 @@
 <p>Les questions que nous pouvons nous poser relèvent de la sélection de l’architexte du produit final (politique éditoriale) et de la différence qu’il existe entre la source et l’objet transformé ?</p>
 <p>Le livre Contribution numérique … sera étudié pour illustrer l’oubli de ces traces intermédiaires.</p>
 <p>Montrer l’arbre abstrait syntaxique de Stylo et celui du Pressoir avec la base commune md, yaml, bibtex + pandoc et montrer que les output ne sont pas les mêmes, que malgré les différences dans l’arborescence en fin de chaine éditoriale, le sens produit diffère …</p>
+<h2 id="plan">Plan</h2>
+<ol type="1">
+<li>Introduire les chaîne éditoriales
+<ul>
+<li>revue de litt sur des chaines numériques</li>
+<li>fabrique de l’édition</li>
+</ul></li>
+<li>Les transformations et les conversions
+<ul>
+<li>définir ces termes</li>
+<li>le single source publishing</li>
+</ul></li>
+<li>Les AST
+<ul>
+<li>origine de cet objet</li>
+<li>utilisation pour du texte</li>
+</ul></li>
+<li>Cas d’étude
+<ul>
+<li>livre contribution numérique</li>
+<li>le pressoir</li>
+<li>Pandoc
+<ul>
+<li>détailler AST</li>
+</ul></li>
+<li>AST des documents produits</li>
+<li>Comparaison si passage dans Stylo des mêmes textes pour produire des XML COMMONS et des HTML</li>
+</ul></li>
+</ol>
 <h2 id="introduction">Introduction</h2>
 <p>Dans le chapitre précédent nous avons décrit les étapes d’écriture d’un texte dans Stylo et l’obtention d’une source séparée en trois documents : Markdown, YAML et BiBTeX. Toutefois, à l’instar d’un document rédigé dans le format docx, aucune publication n’existe directement dans ce format. Que ce soit pour un dépôt dans HAL (souvent au format PDF) ou une publication sur Cairn, OpenEdition ou Érudit, les documents sont publiés dans d’autres formats : XML, HTML, ePUB, PDF, etc.</p>
             </div>
