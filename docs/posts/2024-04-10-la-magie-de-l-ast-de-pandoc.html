@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | La magie de l’AST de Pandoc</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-04-10" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/pages/publications.html">Publications</a></li>
+                    <li><a href="/pages/cours.html">Enseignements</a></li>
+                    <li><a href="/pages/glossaire.html">Glossaire</a></li>
+                    <li class="right"><a href="/index-cache.html"></a></li>
+                </ul>
+            </nav></header>                <div class="side">
+
+            <nav class="toc">
+<ul>
+<li><a href="#nouvel-essai-pour-intégrer-ekdosis-dans-stylo" id="toc-nouvel-essai-pour-intégrer-ekdosis-dans-stylo">Nouvel essai pour intégrer ekdosis dans Stylo</a>
+<ul>
+<li><a href="#fonctionnement" id="toc-fonctionnement">Fonctionnement</a></li>
+<li><a href="#commandes" id="toc-commandes">Commandes</a></li>
+<li><a href="#erreurs" id="toc-erreurs">Erreurs</a></li>
+</ul></li>
+</ul>
+            </nav>
+        </div>
+                    <div class="container">
+                <header class="header-bloc">
+                    <h1>La magie de l’AST de Pandoc</h1>
+<!--                     <h2>Nouvel essai pour intégrer ekdosis dans stylo</h2>
+ -->
+                    <time>2024-04-10</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<h2 id="nouvel-essai-pour-intégrer-ekdosis-dans-stylo">Nouvel essai pour intégrer ekdosis dans Stylo</h2>
+<p>Les scripts peuvent être retrouvés sur <a href="https://gitlab.huma-num.fr/ecrinum/stylo/ekdosis4stylo/-/tree/master/test_lua-filter?ref_type=heads">ce dépôt gitlab</a></p>
+<h3 id="fonctionnement">Fonctionnement</h3>
+<p>Dans ce dossier nous trouvons une autre méthode pour intégrer ekdosis à Stylo.</p>
+<p>Pandoc interprète les balises LaTeX lorsqu’elle se trouvent dans des documents en Markdown.</p>
+<p>Pour observer cette interprétation, il faut aller regarder ce qu’il se passe dans l’AST du document, auquel on accède par la commande suivant :</p>
+<p><code>pandoc -f markdown -t native sample.md --lua-filter=style-tex.lua -s -i</code></p>
+<p>On y trouve la chose suivante : <code>RawInline (Format "tex") "\\emph{emphase}"</code>.</p>
+<p>Au milieu d’un paragraphe (<code>Para</code>), Pandoc parse correctement le latex et le reconnait sous sa forme brute dans un élément <em>inline</em>.</p>
+<p>Lors d’une transformation en PDF, l’emphase déclarée en latex dans le markdown sera bien interprétée.</p>
+<p>Pour ce qui concerne l’intégration d’ekdosis dans du Markdown nous avons besoin d’un élément supplémentaire. Par précaution, il vaut mieux indiquer le package utilisé que l’on déclare normalement dans le préambule d’un document LaTeX.</p>
+<p>Pandoc accepte cette information si elle est indexée dans une en-tête YAML du document Markdown sous la clef <code>header-includes</code>.</p>
+<p>Cette information est déclarée dans sample.md :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">&quot;Test 1&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">header-includes</span><span class="kw">: </span><span class="ch">|</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    \usepackage{ekdosis}</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div>
+<p>Elle est bien traduite dans l’AST dans le bloc des métadonnées par : </p>
+<pre><code>Meta
+    { unMeta =
+        fromList
+          [ ( &quot;header-includes&quot;
+            , MetaBlocks
+                [ RawBlock (Format &quot;tex&quot;) &quot;\\usepackage{ekdosis}&quot; ]
+            )
+          , ( &quot;title&quot; , MetaInlines [ Str &quot;Test&quot; , Space , Str &quot;1&quot; ] )
+          ]
+    }</code></pre>
+<p>Avec ceci nous sommes presque prêt à utiliser ekdosis dans Stylo (en préservant la syntaxe ekdosis et le traitement par le compilateur LuaLaTeX tels qu’ils ont été pensés par R. Alessi).</p>
+<p>Pour fonctionner il manque un élément, la balise indiquant l’emploie d’ekdosis dans le document <code>\begin{ekdosis}</code> et `\end{ekdosis}.</p>
+<p>Les ajouter manuellement dans le Markdown perdrait l’intérêt de l’utilisation du Markdown (autant tout faire en LaTeX sinon). L’idée en cours de test est de rendre ces balises discrètes en utilisant un filtre LUA où une division en Markdown (inline ou en block) associée à la classe <code>variant</code> ajoute les balises autour du paragraphe où ekdosis est employé.</p>
+<p>C’est ce que l’on retrouve dans le filtre <code>style-tex.lua</code>.</p>
+<h3 id="commandes">Commandes</h3>
+<p>Pour produire le pdf, utiliser la commande suivante : </p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> sample.md <span class="at">-o</span> sample.pdf <span class="at">-s</span> <span class="at">-i</span> <span class="at">--pdf-engine</span><span class="op">=</span>lualatex <span class="at">--lua-filter</span><span class="op">=</span>style-tex.lua</span></code></pre></div>
+<h3 id="erreurs">Erreurs</h3>
+<p>Actuellement, le PDF produit comporte des erreurs puisque l’appareil critiques avec les variantes ne sont pas affichés en bas de page. Il faut certainement corriger le filtre LUA.</p>
+<p>Affaire à suivre</p>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>

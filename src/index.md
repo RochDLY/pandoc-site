@@ -2,6 +2,8 @@
 title: Pensées d'un doctorant
 ---
 
+- [10-La magie de l'AST de
+  Pandoc](/posts/2024-04-10-la-magie-de-l-ast-de-pandoc.html)
 - [09-`ekdosis` et Stylo](/posts/2024-02-15-ekdosis-et-stylo.html)
 - [08-Archiver un site web](/posts/2024-01-26-archiver-un-site-web.html)
 - [07-Préparation du cours Identités numériques avec
