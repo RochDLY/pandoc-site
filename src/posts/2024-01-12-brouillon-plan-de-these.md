@@ -48,11 +48,8 @@ l'écriture)
     - cas d'étude partie écriture : Stylo
 - Partie 4 : De l'oubli des traces intermédiaires de l'écriture numérique
     - les traces numériques
-<<<<<<< Updated upstream
-=======
     - partie théorique sur Kittler + Hayles + Barad ? (pour développer plus ce
     qui aura été écrit dans le chapitre 3)
->>>>>>> Stashed changes
     - transformation des sources et production des artefacts à publier
         - les processus de transformation
     - L'effacement des traces intermédiaires / trajectoires d'écriture
@@ -90,6 +87,9 @@ l'écriture)
           - moissonner un dépot de textes (analyser les écritures réalisées par
           les outils à l'intérieur des textes) : se focaliser sur un diffuseur ?
           une revue ?
+- Partie 6 (alternative) : traces et mémoire : entre processus d'écriture et
+artefact publié
+  - reprendre hypothèse de Louise dans l'intelligence des traces
 
 ## Résumés courts des parties
 
