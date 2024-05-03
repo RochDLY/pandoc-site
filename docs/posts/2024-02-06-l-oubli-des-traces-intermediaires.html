@@ -31,9 +31,8 @@
 
             <nav class="toc">
 <ul>
-<li><a href="#résumé" id="toc-résumé">Résumé</a></li>
-<li><a href="#plan" id="toc-plan">Plan</a></li>
 <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="#plan" id="toc-plan">Plan</a></li>
 </ul>
             </nav>
         </div>
@@ -46,7 +45,9 @@
  -->
                 </header>
                 <div class="content">
-<h2 id="résumé">Résumé</h2>
+<h2 id="introduction">Introduction</h2>
+<p>Lors du chapitre précédent, nous avons examiné à travers le cas d’étude Stylo la première phase d’une chaîne éditoriale savante qu’est la saisie d’un texte. En nous concentrant sur l’élaboration du document, élément au coeur du traitement des informations, nous avons opté pour une méthodologie qualitative de description des médiations à l’oeuvre pour en comprendre la construction, à l’instar de ce que F. Kittler proposait dans ces travaux. Pour mener à bien cette étude nous nous sommes affranchis de la page qui, en tant qu’élément graphique affiché à l’écran, cache et invisibilise les opérations d’écriture réalisées par la machine. Ainsi nous avons pu mettre en lumière les différentes formes de document par lesquelles passe un texte saisit dans l’éditeur de texte Stylo, au nombre de quatre, dont trois sont écrites par Stylo. Dès lors, ceci nous a permis d’affirmer qu’il y a une co-construction du document, que l’on peut considérer comme la source d’une chaîne éditoriale, entre l’environnement numérique d’écriture et l’auteur.</p>
+<p>Le texte saisi dans un environnement numérique n’est pas publiable en l’état. L’action suivante consiste alors à transformer et adapter le contenu textuel de la source à l’objet que l’on souhaite rendre public, tout en respectant un certain nombre de règles éditoriales selon le type d’objet à produire, que ce soit pour aboutir à un objet imprimé ou numérique, et des politiques éditoriales en vigueur dans les maisons d’édition ou les revues savantes concernées. Cette transformation, que l’on peut associer à des changements de formats, procède à des modifications du texte original pour qu’il soit adapté à l’objet désiré. Ce faisant, la transformation réécrit intégralement le document pour en générer un nouveau qui n’est plus le document source. au détriment d’une partie de l’écriture intiale qui doit disparaître et ne sera, ce faisant, jamais publiée. De plus, à l’instant de la publication, on peut également observer une nouvelle modification puisque le texte n’est jamais présenté sous son apparence brute mais se voit doté d’une surcouche graphique supplémentaire. Dans ce troisième chapitre, nous démontrons qu’en effaçant des traces de l’écriture du document source et en y adossant une surcouche graphique, ces transformations suppriment et cachent une partie de cette intimité que l’écriture a produite. Nous nous appuierons sur des cas concrets de transformations de textes d’un livre nativement numérique, Contributions numériques … réalisés avec le générateur de livre statique <em>Le Pressoir</em>.</p>
 <p>Dans cette partie sont traitées les écritures intermédiaires que l’on trouve entre la source rédigée et l’objet final produit. Bien souvent, à l’intérieur d’une chaîne éditoriale, le texte produit par un auteur est dans une forme brute. Ce texte doit subir une série de transformations (allant de une à plusieurs) pour produire les éléments finaux : des fichiers au format PDF à imprimer, des version HTML pour les ePubs ou pour un site web, ou encore des documents au format XML.</p>
 <p>Les transformations d’un format vers un autre ne se déroulent pas par magie, et l’ordinateur ne “connait” pas les équivalences entre les syntaxes de chaque format.</p>
 <p>Pour cela, il faut établir des règles pour formaliser ces équivalences, quand cela est possible. Parfois, cela n’est pas possible car ce qui existe dans un format n’existe pas dans un autre, et il faut alors trouver des solutions alternatives pour contourner ces problèmes.</p>
@@ -64,6 +65,12 @@
 <p>Montrer l’arbre abstrait syntaxique de Stylo et celui du Pressoir avec la base commune md, yaml, bibtex + pandoc et montrer que les output ne sont pas les mêmes, que malgré les différences dans l’arborescence en fin de chaine éditoriale, le sens produit diffère …</p>
 <h2 id="plan">Plan</h2>
 <ol type="1">
+<li>Les traces numériques
+<ul>
+<li>définir trace numérique et leur lien avec l’intime</li>
+<li>production de documents et désintéressement des fichiers temporaires ou des écrits de la machine (ex: pour la fouille de texte des archives du web on supprime le bruit)</li>
+<li>effacement et oubli des traces intimes (<em>parsing = action d’effacer ?</em>)</li>
+</ul></li>
 <li>Introduire les chaîne éditoriales
 <ul>
 <li>revue de litt sur des chaines numériques</li>
@@ -73,11 +80,13 @@
 <ul>
 <li>définir ces termes</li>
 <li>le single source publishing</li>
-</ul></li>
 <li>Les AST
 <ul>
 <li>origine de cet objet</li>
 <li>utilisation pour du texte</li>
+<li>Introduire AST Pandoc</li>
+<li>Introduire Living paper</li>
+</ul></li>
 </ul></li>
 <li>Cas d’étude
 <ul>
@@ -88,11 +97,9 @@
 <li>détailler AST</li>
 </ul></li>
 <li>AST des documents produits</li>
-<li>Comparaison si passage dans Stylo des mêmes textes pour produire des XML COMMONS et des HTML</li>
+<li>Comparaison si passage dans Stylo des mêmes textes pour produire des XML COMMONS et des HTML ?</li>
 </ul></li>
 </ol>
-<h2 id="introduction">Introduction</h2>
-<p>Dans le chapitre précédent nous avons décrit les étapes d’écriture d’un texte dans Stylo et l’obtention d’une source séparée en trois documents : Markdown, YAML et BiBTeX. Toutefois, à l’instar d’un document rédigé dans le format docx, aucune publication n’existe directement dans ce format. Que ce soit pour un dépôt dans HAL (souvent au format PDF) ou une publication sur Cairn, OpenEdition ou Érudit, les documents sont publiés dans d’autres formats : XML, HTML, ePUB, PDF, etc.</p>
             </div>
         </div>
 <footer>
