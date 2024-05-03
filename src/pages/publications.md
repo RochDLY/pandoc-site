@@ -12,6 +12,7 @@ title: Publications et communications
 
 - **Articles scientifiques**
 
+    - Delannay, R., Severo, M., Gabrysiak, L. (à paraître). Mémoires du Covid-19 et archives du Web, *Humanités numériques*.
     - Delannay, R., Fauchié, A., Sinatra, M., Vitali-Rosati, M. (2023). Exploring New (Digital) Publishing Practices with *Le Pressoir*, *POP! Public. Open. Participatory*.
     - Delannay, R. (2022), Lecture de La Bienveillance des machines. Comment le numérique nous transforme à notre insu, *Sens public*.
 
@@ -19,14 +20,9 @@ title: Publications et communications
 
     - Delannay, R. *et al.*, (2023). « Notes sur le projet Digital Leigh Hunt ». Dans R. Alessi et M. Vitali-Rosati (dirs.), _Les éditions critiques numériques : Entre édition et changement de paradigme_, Presses Universitaires de Montréal, Montréal.
 
-- **Mémoire** 
-
-    - Delannay, R. (2021). *L'Invention de Morel au prisme de l'éthique des données personnelles* [Mémoire, Université Paris 8].
-
 - **Monographie**
 
     - Delannay, R., & Severo, M. (Éds.). (à paraître). _Contribution numérique : cultures et savoirs_. Les Ateliers de [sens public].
-
 
 - **Rapports de recherche**
 
@@ -52,4 +48,15 @@ title: Publications et communications
 
 - **Séminaires**
 
-    - *Mémoires du Covid-19 et archives du Web : Preuve de concept pour une analyse quantitative des données du dépôt légal du web de la BNF* présenté en 2023 avec  Marta Severo à l'occasion du séminaire organisé par le Dicen-IdF (Data et Traces) au Conservatoire national des arts et métiers.
+    - *Mémoires du Covid-19 et archives du Web : Preuve de concept pour une analyse quantitative des données du dépôt légal du web de la BNF* présenté en 2023 avec Marta Severo à l'occasion du séminaire organisé par le Dicen-IdF (Data et Traces) au Conservatoire national des arts et métiers.
+
+- **Ateliers**
+
+    - [Stylo, un éditeur de texte sémantique](https://hss24.netlify.app/stylo/).
+    Atelier présenté durant l'édition 2024 de l'École hivernale des SHS organisé par l'Alliance de recherche numérique du Canada.
+
+    - *Scholarly writing and editing with the text editor Stylo*. Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022 Tokyo, en ligne.
+
+    - *Présentation de Stylo*. Atelier réalisé en 2022 au Carrefour en culture et création numériques, Montréal, présenté par Margot Mellet et Roch Delannay.
+
+    - *Rédaction et éditions savantes avec l'éditeur de texte Stylo*. Atelier réalisé en 2022 lors du colloque Humanistica à l'Université de Montréal. Présenté par la Chaire de Recherche du Canada sur Ecritures Numeriques, Université de Montréal - Antoine Fauchié, Margot Mellet, Roch Delannay.
