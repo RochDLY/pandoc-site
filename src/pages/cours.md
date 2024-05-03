@@ -29,7 +29,4 @@ l'information et de la communication, sciences du langage et littératures - [Id
 **Université de Montréal | 2022-2023**
 
 - Coordination de la formation [Débugue tes humanités](https://debugue.ecrituresnumeriques.ca/), en partenariat avec la Chaire de recherche du Canada sur les écritures numériques et la Bibliothèque de lettres et sciences humaines de l’Université de Montréal.
-
-**Université de Montréal | 2022-2023**
-
 - Cours de 1er cycle HNU 1000 - Humanités numériques : théorie, dispensé à l'automne (45h).
