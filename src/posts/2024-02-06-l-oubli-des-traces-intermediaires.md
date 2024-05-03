@@ -3,7 +3,47 @@ title: "L'oubli des traces intermédiaires"
 date: 2024-02-06
 ---
 
-## Résumé
+## Introduction
+
+Lors du chapitre précédent, nous avons examiné à travers le cas d'étude Stylo
+la première phase d'une chaîne éditoriale savante qu'est la saisie d'un texte.
+En nous concentrant sur l'élaboration du document, élément au coeur du
+traitement des informations, nous avons opté pour une méthodologie qualitative
+de description des médiations à l'oeuvre pour en comprendre la construction, à
+l'instar de ce que F. Kittler proposait dans ces travaux. 
+Pour mener à bien cette étude nous nous sommes affranchis de la page qui, en
+tant qu'élément graphique affiché à l'écran, cache et invisibilise les
+opérations d'écriture réalisées par la machine.
+Ainsi nous avons pu mettre en lumière les différentes formes de document par
+lesquelles passe un texte saisit dans l'éditeur de texte Stylo, au nombre de
+quatre, dont trois sont écrites par Stylo.
+Dès lors, ceci nous a permis d'affirmer qu'il y a une co-construction du
+document, que l'on peut considérer comme la source d'une chaîne éditoriale,
+entre l'environnement numérique d'écriture et l'auteur.  
+
+Le texte saisi dans un environnement numérique n'est pas publiable en l'état.
+L'action suivante consiste alors à transformer et adapter le contenu
+textuel de la source à l'objet que l'on souhaite rendre public, tout en
+respectant un certain nombre de règles éditoriales selon le type d'objet à
+produire, que ce soit pour aboutir à un objet imprimé ou numérique, et des
+politiques éditoriales en vigueur dans les maisons d'édition ou les revues
+savantes concernées.
+Cette transformation, que l'on peut associer à des changements de formats,
+procède à des modifications du texte original pour qu'il soit adapté à l'objet
+désiré.
+Ce faisant, la transformation réécrit intégralement le document pour en générer
+un nouveau qui n'est plus le document source. au détriment d'une partie de
+l'écriture intiale qui doit disparaître et ne sera, ce faisant, jamais publiée.
+De plus, à l'instant de la publication, on peut également observer une nouvelle
+modification puisque le texte n'est jamais présenté sous son apparence brute
+mais se voit doté d'une surcouche graphique supplémentaire.
+Dans ce troisième chapitre, nous démontrons qu'en effaçant des traces de
+l'écriture du document source et en y adossant une surcouche graphique, ces
+transformations suppriment et cachent une partie de cette intimité que
+l'écriture a produite.
+Nous nous appuierons sur des cas concrets de transformations de textes d'un
+livre nativement numérique, Contributions numériques ... réalisés avec le
+générateur de livre statique _Le Pressoir_.
 
 Dans cette partie sont traitées les écritures intermédiaires que l'on trouve
 entre la source rédigée et l'objet final produit.
@@ -80,15 +120,23 @@ mêmes, que malgré les différences dans l'arborescence en fin de chaine
 
 ## Plan
 
-1. Introduire les chaîne éditoriales 
+1. Les traces numériques
+    - définir trace numérique et leur lien avec l'intime
+    - production de documents et désintéressement des fichiers temporaires ou
+      des écrits de la machine (ex: pour la fouille de texte des archives du web
+on supprime le bruit)
+    - effacement et oubli des traces intimes (_parsing = action d'effacer ?_)
+2. Introduire les chaîne éditoriales 
     - revue de litt sur des chaines numériques
     - fabrique de l'édition
-2. Les transformations et les conversions
+3. Les transformations et les conversions
     - définir ces termes
     - le single source publishing
-3. Les AST
-    - origine de cet objet
-    - utilisation pour du texte
+    -  Les AST
+        - origine de cet objet
+        - utilisation pour du texte
+        - Introduire AST Pandoc
+        - Introduire Living paper
 4. Cas d'étude
     - livre contribution numérique
     - le pressoir
@@ -96,11 +144,5 @@ mêmes, que malgré les différences dans l'arborescence en fin de chaine
         - détailler AST
     - AST des documents produits
     - Comparaison si passage dans Stylo des mêmes textes pour produire des XML
-      COMMONS et des HTML
+      COMMONS et des HTML ?
 
-
-## Introduction
-
-Dans le chapitre précédent nous avons décrit les étapes d'écriture d'un texte dans Stylo et l'obtention d'une source séparée en trois documents : Markdown, YAML et BiBTeX.
-Toutefois, à l'instar d'un document rédigé dans le format docx, aucune publication n'existe directement dans ce format.
-Que ce soit pour un dépôt dans HAL (souvent au format PDF) ou une publication sur Cairn, OpenEdition ou Érudit, les documents sont publiés dans d'autres formats : XML, HTML, ePUB, PDF, etc.
