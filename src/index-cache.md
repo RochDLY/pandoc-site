@@ -2,6 +2,8 @@
 title: Index caché
 ---
 
+- [04-La saisie du texte dans un nouveau
+  document](/posts/2024-05-06-la-saisie-du-texte-dans-un-nouveau-document.html)
 - [03-Deuxième brouillon du plan de la
   thèse](/posts/2024-04-10-deuxieme-brouillon-plan-de-these.html)
 - [02-L'oubli des traces
