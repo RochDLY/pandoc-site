@@ -54,42 +54,42 @@
 <p>Lors du chapitre précédent, nous avons examiné à travers le cas d’étude Stylo la première phase d’une chaîne éditoriale savante qu’est la saisie d’un texte. En nous concentrant sur l’élaboration du document, élément au coeur du traitement des informations, nous avons opté pour une méthodologie qualitative d’observation des médiations à l’oeuvre pour en comprendre la construction, à l’instar de ce que F. Kittler proposait dans ces travaux. Pour mener à bien cette étude nous nous sommes affranchis de la page qui, en tant qu’élément graphique affiché à l’écran, cache et invisibilise les opérations d’écriture réalisées par la machine. Ainsi nous avons pu mettre en lumière les différentes formes de document par lesquelles passe un texte saisi dans l’éditeur de texte Stylo, au nombre de quatre, dont trois sont écrites par Stylo et une par l’auteur. Dès lors, ceci nous a permis d’affirmer qu’il y a une co-construction du document, que l’on peut considérer comme la source utilisée par une chaîne éditoriale, entre l’environnement numérique d’écriture et l’auteur.</p>
 <p>Toutefois, ce document source n’est pas publiable en l’état. En effet, qu’une chaîne d’édition soit orientée vers la publication imprimée ou vers la publication numérique, les formats dans lesquels les textes sont saisis ne sont pas adaptés à ces objets publiés. Dans la plupart des cas de figure, les documents sources fournis par les auteurs sont dans des formats provenant des traitements de texte (ODT pour LibreOffice, DOCX pour MS Word, PAGES pour Pages, etc.) ou encore en texte brut (par exemple Markdown) alors que sont préférés les formats PDF pour les impressions et HTML pour les objets numériques (vers des sites web ou des ePUB).</p>
 <p>L’action suivant l’écriture consiste alors à transformer et adapter le contenu textuel de la source à l’objet que l’on souhaite rendre public, tout en respectant un certain nombre de règles éditoriales selon le type d’objet à produire, que ce soit pour aboutir à un objet imprimé ou numérique, et des politiques éditoriales en vigueur dans les maisons d’édition ou les revues savantes concernées. Cette transformation, que pour l’instant nous pouvons associer à des changements de formats, procède à des modifications du texte original pour qu’il soit adapté à l’objet désiré. Ce faisant, la transformation réécrit intégralement le document pour en générer un nouveau qui n’est plus le document source et cela au détriment d’une partie de l’écriture initiale qui doit disparaître et ne sera, ce faisant, jamais publiée.</p>
-<p>Dans ce troisième chapitre, nous démontrons qu’en effaçant des traces de l’écriture du document source, ces transformations suppriment et cachent une partie de cette intimité produite par le couple humain machine durant l’action d’écriture. Nous nous appuierons sur des cas concrets de transformations de textes du livre nativement numérique, <em>Contribution numérique : cultures et savoirs</em> réalisés avec le générateur de livre statique <em>Le Pressoir</em> en nous appuyant sur la même méthodologie de recherche que pour le chapitre précédent.</p>
+<p>Dans ce troisième chapitre, nous démontrons qu’en effaçant des traces de l’écriture du document source, ces transformations suppriment et cachent une partie de cette intimité produite par le couple humain machine durant l’action d’écriture. Nous nous appuierons sur des cas concrets de transformations de textes du livre nativement numérique, <em>Contribution numérique : cultures et savoirs</em> réalisées avec le générateur de livre statique <em>Le Pressoir</em> en nous appuyant sur la même méthodologie de recherche que pour le chapitre précédent.</p>
 <h2 id="plan">Plan</h2>
 <ol type="1">
+<li>Introduire les chaîne éditoriales
+<ul>
+<li>revue de litt sur les chaines numériques</li>
+<li>fabrique de l’édition</li>
+<li>présentation du pressoir (fonctionnement) et du livre contribution numérique</li>
+<li>faire la transition sur les textes sources et les traces</li>
+</ul></li>
 <li>Les traces numériques
 <ul>
 <li>définir trace numérique et leur lien avec l’intime</li>
 <li>production de documents et désintéressement des fichiers temporaires ou des écrits de la machine (ex: pour la fouille de texte des archives du web on supprime le bruit)</li>
-<li>effacement et oubli des traces intimes (<em>parsing = action d’effacer ?</em>)</li>
-</ul></li>
-<li>Introduire les chaîne éditoriales
+<li>effacement et oubli des traces intimes (<em>parsing = action d’effacer ?</em>)
 <ul>
-<li>revue de litt sur des chaines numériques</li>
-<li>fabrique de l’édition</li>
+<li>définir l’oubli et l’effacement</li>
+<li>exemple : fouille de texte, traitement des archives du web (et archéologie du web)</li>
 </ul></li>
-<li>Les transformations et les conversions
+</ul></li>
+<li>Les transformations et les conversions dans le livre contribution num
 <ul>
 <li>définir ces termes</li>
+<li>transformation des traces</li>
 <li>le single source publishing</li>
-<li>Les AST
+<li>Les AST comme solution aux transformations mais aussi de destructuration du texte (production d’un autre document)
 <ul>
 <li>origine de cet objet</li>
 <li>utilisation pour du texte</li>
 <li>Introduire AST Pandoc</li>
-<li>Introduire Living paper</li>
+<li>présenter Living paper comme autre exemple (quelques lignes)</li>
 </ul></li>
 </ul></li>
-<li>Cas d’étude
+<li>Conclusion
 <ul>
-<li>livre contribution numérique</li>
-<li>le pressoir</li>
-<li>Pandoc
-<ul>
-<li>détailler AST</li>
-</ul></li>
-<li>AST des documents produits</li>
-<li>Comparaison si passage dans Stylo des mêmes textes pour produire des XML COMMONS et des HTML ?</li>
+<li>Une partie du document construit tout au long de la chaine de publication, que l’on considère comme du bruit, disparaît au fil des transformations de la source en objet à publier.</li>
 </ul></li>
 </ol>
 <h2 id="notes">Notes</h2>
@@ -108,6 +108,20 @@
 <p>Les questions que nous pouvons nous poser relèvent de la sélection de l’architexte du produit final (politique éditoriale) et de la différence qu’il existe entre la source et l’objet transformé ?</p>
 <p>Le livre Contribution numérique … sera étudié pour illustrer l’oubli de ces traces intermédiaires.</p>
 <p>Montrer l’arbre abstrait syntaxique de Stylo et celui du Pressoir avec la base commune md, yaml, bibtex + pandoc et montrer que les output ne sont pas les mêmes, que malgré les différences dans l’arborescence en fin de chaine éditoriale, le sens produit diffère …</p>
+<p>Est-ce que les traces peuvent être décrites comme étant une unité atomique d’un document ? Un document est-il un ensemble de traces organisés ? (Ça pourrait être intéressant)</p>
+<p>Il n’est pas question de littératie numérique : l’objectif de cette analyse n’est pas de mettre en évidence les usages fait des logiciels (et d’amener les utilisateurs à faire usage de</p>
+<p>Je m’intéresse à l’intimité produite par l’écriture de publication savante et pas au reste (l’objet document est pris objectivement, comme un support, voir ce qu’il permet de construire ou de véhiculer).</p>
+<ul>
+<li>Mettre la question du travail des assistants d’édition dans le chapitre 3</li>
+<li>Chapitre 5 = Diffusion (impact de la chaine sur la vie de l’objet + diffusion archivage, etc … est-ce que ces èlèments de l’intime restent dans la vie du document)
+<ul>
+<li>modification du document</li>
+<li>annotation (seminaire editorialisation)</li>
+<li>question science ouverte (researchgate ? espace de republication)</li>
+<li>publication avec le pressoir (ASP) veut dire depot au canada pas en France, question de l’archivage</li>
+</ul></li>
+</ul>
+<p>Inverser les chapitres 3 et 4</p>
 <h2 id="les-chaînes-éditoriales">Les chaînes éditoriales</h2>
 <h2 id="les-traces-numériques">Les traces numériques</h2>
 <h2 id="les-transformations-et-les-conversions">Les transformations et les conversions</h2>

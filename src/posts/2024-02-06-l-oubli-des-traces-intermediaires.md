@@ -50,40 +50,42 @@ partie de cette intimité produite par le couple humain machine durant l'action
 d'écriture.
 Nous nous appuierons sur des cas concrets de transformations de textes du
 livre nativement numérique, _Contribution numérique : cultures et savoirs_
-réalisés avec le générateur de livre statique _Le Pressoir_ en nous appuyant sur
+réalisées avec le générateur de livre statique _Le Pressoir_ en nous appuyant sur
 la même méthodologie de recherche que pour le chapitre précédent.
 
 
 ## Plan
 
-1. Les traces numériques
+1. Introduire les chaîne éditoriales 
+    - revue de litt sur les chaines numériques
+    - fabrique de l'édition
+    - présentation du pressoir (fonctionnement) et du livre contribution numérique
+    - faire la transition sur les textes sources et les traces
+2. Les traces numériques
     - définir trace numérique et leur lien avec l'intime
     - production de documents et désintéressement des fichiers temporaires ou
       des écrits de la machine (ex: pour la fouille de texte des archives du web
 on supprime le bruit)
     - effacement et oubli des traces intimes (_parsing = action d'effacer ?_)
-2. Introduire les chaîne éditoriales 
-    - revue de litt sur des chaines numériques
-    - fabrique de l'édition
-3. Les transformations et les conversions
+        - définir l'oubli et l'effacement
+        - exemple : fouille de texte, traitement des archives du web (et
+          archéologie du web)
+3. Les transformations et les conversions dans le livre contribution num
     - définir ces termes
+     - transformation des traces
     - le single source publishing
-    -  Les AST
+    -  Les AST comme solution aux transformations mais aussi de destructuration du texte
+       (production d'un autre document)
         - origine de cet objet
         - utilisation pour du texte
         - Introduire AST Pandoc
-        - Introduire Living paper
-4. Cas d'étude
-    - livre contribution numérique
-    - le pressoir
-    - Pandoc
-        - détailler AST
-    - AST des documents produits
-    - Comparaison si passage dans Stylo des mêmes textes pour produire des XML
-      COMMONS et des HTML ?
+        - présenter Living paper comme autre exemple (quelques lignes)
+4. Conclusion
+    - Une partie du document construit tout au long de la chaine de publication,
+      que l'on considère comme du bruit, disparaît au fil des transformations de
+la source en objet à publier.
 
 ## Notes
-
 
 Dans cette partie sont traitées les écritures intermédiaires que l'on trouve
 entre la source rédigée et l'objet final produit.
@@ -158,6 +160,30 @@ commune md, yaml, bibtex + pandoc et montrer que les output ne sont pas les
 mêmes, que malgré les différences dans l'arborescence en fin de chaine
 éditoriale, le sens produit diffère ...
 
+Est-ce que les traces peuvent être décrites comme étant une unité atomique d'un
+document ? Un document est-il un ensemble de traces organisés ? (Ça pourrait
+être intéressant)
+
+Il n'est pas question de littératie numérique : l'objectif de cette analyse
+n'est pas de mettre en évidence les usages fait des logiciels (et d'amener les
+utilisateurs à faire usage de 
+
+Je m'intéresse à l'intimité produite par l'écriture de publication savante et
+pas au reste (l'objet document est pris objectivement, comme un support, voir ce
+qu'il permet de construire ou de véhiculer).
+
+- Mettre la question du travail des assistants d'édition dans le chapitre 3
+- Chapitre 5 = Diffusion (impact de la chaine sur la vie de l'objet + diffusion
+  archivage, etc ... est-ce que ces èlèments de l'intime restent dans la vie du
+document)
+    - modification du document
+    - annotation (seminaire editorialisation)
+    - question science ouverte (researchgate ? espace de republication)
+    - publication avec le pressoir (ASP) veut dire depot au canada pas en
+      France, question de l'archivage
+
+Inverser les chapitres 3 et 4 
+
 ## Les chaînes éditoriales
 
 ## Les traces numériques
@@ -165,3 +191,5 @@ mêmes, que malgré les différences dans l'arborescence en fin de chaine
 ## Les transformations et les conversions
 
 ## Conclusion
+
+
