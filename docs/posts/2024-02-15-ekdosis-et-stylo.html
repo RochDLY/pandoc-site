@@ -5,7 +5,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-        <title>Roch Delannay | ekdosis et Stylo</title>
+        <title>Roch Delannay | Créer un nouvel export dans Stylo compatible avec ekdosis</title>
 
         <meta name="author" content="Roch Delannay" />
 
@@ -42,7 +42,7 @@
         </div>
                     <div class="container">
                 <header class="header-bloc">
-                    <h1><code>ekdosis</code> et Stylo</h1>
+                    <h1>Créer un nouvel export dans Stylo compatible avec <code>ekdosis</code></h1>
 <!--  -->
                     <time>2024-02-15</time>
 <!--                     <p>Roch Delannay</p>
@@ -70,7 +70,131 @@
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>Je demande à <span class="in">`ekdosis`</span> de ne passer en <span class="in">`TEI xml`</span> que [<span class="co">[</span><span class="ot">cette portion</span><span class="co">][Roch: ce fragment]</span>] du texte. </span></code></pre></div>
 <p>Cette syntaxe en Markdown n’est pas valide, il faut ensuite la parser avec un script particulier pour la transformer de la même manière qu’<code>ekdosis</code> (on peut imaginer un filtre python intégré à la commande Pandoc). Le principal défaut de cette notation est qu’elle tord trop le fonctionnement du Markdown : ce n’est pas une notation interopérable avec d’autres écosystèmes. Le second défaut est qu’elle n’intègre pas ekdosis mais le recopie: il faut donc redévelopper tout ce que fait <code>ekdosis</code> dans Stylo pour obtenir un comportement similaire.</p>
 <h3 id="deuxième-option">Deuxième option</h3>
-<p><em>Work in progress</em> (je reviendrai sur cette section lorsque nous aurons avancé sur son cahier des charges !)</p>
+<p><em>Mise à jour effectuée le 09 mai 2024.</em></p>
+<h4 id="fonctionnement">Fonctionnement</h4>
+<p>Pour réaliser un export vers pdf et xml-tei <a href="http://www.ekdosis.org/">ekdosis</a>, la méthode la plus élégante consiste à intégrer ekdosis à Stylo.</p>
+<p>Nous avons déjà presque toutes les technologies à disposition (puisque Pandoc utilise TeXlive pour compiler les pdf).</p>
+<p>Pandoc interprète les balises LaTeX lorsqu’elle se trouvent dans des documents en Markdown.</p>
+<p>Pour observer cette interprétation, il faut aller regarder ce qu’il se passe dans l’AST du document, auquel on accède par la commande suivant :</p>
+<p><code>pandoc -f markdown -t native sample.md --lua-filter=style-tex.lua -s -i</code></p>
+<p>On y trouve la chose suivante (voir sample.md plus bas) : <code>RawInline (Format "tex") "\\emph{emphase}"</code>.</p>
+<p>Au milieu d’un paragraphe (<code>Para</code>), Pandoc parse correctement le latex et le reconnait sous sa forme brute dans un élément <em>inline</em>.</p>
+<p>Lors d’une transformation en PDF, l’emphase déclarée en latex dans le markdown sera bien interprétée.</p>
+<p>Pour ce qui concerne l’intégration d’ekdosis dans du Markdown nous avons besoin d’un élément supplémentaire. Par précaution, il vaut mieux indiquer le package utilisé que l’on déclare normalement dans le préambule d’un document LaTeX.</p>
+<p>Pandoc accepte cette information si elle est indexée dans une en-tête YAML du document Markdown sous la clef <code>header-includes</code>.</p>
+<p>Cette information est déclarée par exemple dans un fichier sample.md :</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode md"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> &quot;Test 1&quot;</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="an">header-includes:</span><span class="co"> |</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">    \usepackage[teiexport]{ekdosis}</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">##  Test de LaTeX inline</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>Ceci est un paragraphe en Markdown.</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>Ceci est un paragraphe md avec une \emph{emphase} en latex.</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## Test de blocs</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>::: variant</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>I met my friend \app{</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    \lem{Peter}</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    \rdg{John}</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    } at the station yesterday.</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>::: variant</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>I met my friend \app{</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    \lem{Robert}</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    \rdg{Roch}</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    } at the station yesterday.</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div>
+<p>L’en-tête est bien traduite dans l’AST dans le bloc des métadonnées par : </p>
+<pre><code>Meta
+    { unMeta =
+        fromList
+          [ ( &quot;header-includes&quot;
+            , MetaBlocks
+                [ RawBlock (Format &quot;tex&quot;) &quot;\\usepackage{ekdosis}&quot; ]
+            )
+          , ( &quot;title&quot; , MetaInlines [ Str &quot;Test&quot; , Space , Str &quot;1&quot; ] )
+          ]
+    }</code></pre>
+<p>Avec ceci nous sommes presque prêt à utiliser ekdosis dans Stylo (en préservant la syntaxe ekdosis et le traitement par le compilateur LuaLaTeX tels qu’ils ont été pensés par R. Alessi).</p>
+<p>Pour fonctionner il manque un élément, la balise indiquant l’emploie d’ekdosis dans le document <code>\begin{ekdosis}</code> et <code>\end{ekdosis}</code>.</p>
+<p>Les ajouter manuellement dans le Markdown perdrait l’intérêt de l’utilisation du Markdown (autant tout faire en LaTeX sinon). L’idée est de rendre ces balises discrètes en utilisant un filtre LUA où une division en Markdown (inline ou en block) associée à la classe <code>variant</code> ajoute les balises autour du paragraphe où ekdosis est employé.</p>
+<p>C’est ce que l’on peut obtenir avec le filtre suivant:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode lua"><code class="sourceCode lua"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> Div <span class="op">(</span><span class="va">element</span><span class="op">)</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="va">element</span><span class="op">.</span><span class="va">classes</span><span class="op">[</span><span class="dv">1</span><span class="op">]</span> <span class="op">==</span> <span class="st">&#39;variant&#39;</span> <span class="cf">then</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="op">{</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>            <span class="va">pandoc</span><span class="op">.</span>RawInline<span class="op">(</span><span class="st">&#39;tex&#39;</span><span class="op">,</span> <span class="st">&#39;</span><span class="sc">\\</span><span class="st">begin{ekdosis}&#39;</span><span class="op">),</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>            <span class="va">element</span><span class="op">,</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            <span class="va">pandoc</span><span class="op">.</span>RawInline<span class="op">(</span><span class="st">&#39;tex&#39;</span><span class="op">,</span> <span class="st">&#39;</span><span class="sc">\\</span><span class="st">end{ekdosis}&#39;</span><span class="op">),</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>        <span class="op">}</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">end</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span></code></pre></div>
+<h4 id="commandes">Commandes</h4>
+<p>Pour produire le pdf, utiliser les commandes suivantes : </p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> sample.md <span class="at">-o</span> sample.pdf <span class="at">-s</span> <span class="at">-i</span> <span class="at">--pdf-engine</span><span class="op">=</span>lualatex</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">--lua-filter=style-tex.lua</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co">## La commande ci-dessus ne fonctionne pas, voir explication</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co">## Faire les commandes suivantes:</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> sample.md <span class="at">-o</span> sample.tex <span class="at">-s</span> <span class="at">--lua-filter</span><span class="op">=</span>style-tex.lua</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="ex">lualatex</span> sample.tex</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="ex">lualatex</span> sample.tex</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="ex">lualatex</span> sample.tex</span></code></pre></div>
+<p>Compiler le Markdown avec Pandoc (et le compilateur lualatex) fonctionne pour produire un PDF mais ne fonctionne pas avec ekdosis.</p>
+<p>La raison est assez simple : ekdosis a besoin de compiler le fichier tex 3 fois pour produire le pdf. La première fois il génère l’appareil critique dans un fichier temporaire <code>sample.ekd</code>, la deuxième fois il opère des calculs pour numéroter les lignes et la troisième fois il génère le document PDF correctement.</p>
+<p>Le problème rencontré avec Pandoc est que ce dernier ne prend pas en charge de fichier extérieur, excepté les filtres et les templates. Du coup, même si on recompile 3x depuis Pandoc, l’appareil critique présent dans <code>sample.ekd</code> ne sera pas pris en compte.</p>
+<p>Le plus simple est alors de produire le fichier tex avec Pandoc puis de compiler le tex en PDF en appelant lualatex 3 fois.</p>
+<h4 id="dépendances">Dépendances</h4>
+<p>Attention, la version de TeXlive installée sur stylo export est une version allégée. Un certain nombre de dépendances sont nécessaires pour faire fonctionner ekdosis et devront être ajoutées.</p>
+<p>Voici la liste des dépendances d’ekdosis : </p>
+<pre><code>ekdosis-dependencies/ekdosis-dependencies.tex
+tex/lualatex/ekdosis/ekdosis.sty
+texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+texlive/2024/texmf-dist/tex/generic/expkv-bundle/expkv-def.tex
+texlive/2024/texmf-dist/tex/generic/expkv-bundle/expkv-pop.tex
+texlive/2024/texmf-dist/tex/generic/expkv-bundle/expkv.tex
+texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+texlive/2024/texmf-dist/tex/latex/base/article.cls
+texlive/2024/texmf-dist/tex/latex/base/size10.clo
+texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+texlive/2024/texmf-dist/tex/latex/expkv-bundle/expkv-def.sty
+texlive/2024/texmf-dist/tex/latex/expkv-bundle/expkv-opt.sty
+texlive/2024/texmf-dist/tex/latex/expkv-bundle/expkv-pop.sty
+texlive/2024/texmf-dist/tex/latex/expkv-bundle/expkv.sty
+texlive/2024/texmf-dist/tex/latex/float/float.sty
+texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
+texlive/2024/texmf-dist/tex/latex/paracol/paracol.sty
+texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+texlive/2024/texmf-dist/tex/latex/snapshot/snapshot.sty
+texlive/2024/texmf-dist/tex/latex/trivfloat/trivfloat.sty
+texlive/2024/texmf-dist/tex/latex/zref/zref-abspage.sty
+texlive/2024/texmf-dist/tex/latex/zref/zref-base.sty
+texlive/2024/texmf-dist/tex/latex/zref/zref-user.sty
+texlive/2024/texmf-dist/tex/lualatex/luacode/luacode.sty
+texlive/2024/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+texlive/2024/texmf-dist/tex/luatex/luatexbase/luatexbase.sty</code></pre>
             </div>
         </div>
 <footer>

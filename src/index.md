@@ -5,7 +5,7 @@ title: Pensées d'un doctorant
 - [11-Texte présenté lors de l'examen doctoral de l'UdeM](/posts/2024-05-07-texte-examen-de-synthese.html)
 - [10-La magie de l'AST de
   Pandoc](/posts/2024-04-10-la-magie-de-l-ast-de-pandoc.html)
-- [09-`ekdosis` et Stylo](/posts/2024-02-15-ekdosis-et-stylo.html)
+- [09-Nouvel export dans Stylo compatible avec ekdosis](/posts/2024-02-15-ekdosis-et-stylo.html)
 - [08-Archiver un site web](/posts/2024-01-26-archiver-un-site-web.html)
 - [07-Préparation du cours Identités numériques avec
 Quarto](/posts/2024-01-10-preparation-du-cours-identite-numerique.html)
