@@ -139,11 +139,73 @@ analysons les différents modes de communication des informations dans Stylo pou
 suivre les traces de l'intime qui y circulent.
 Pour en découvrir plus sur cet _entre_, nous étudions cette distance à partir de
 la méthode employée par le théoricien des médias F. Kittler
-[-@kittler_mode_2015; @kittler_gramophone_2018], qui s'appuie sur la description
-du fonctionnement de la machine à écrire et de l'ordinateur afin de comprendre
+[-@kittler_mode_2015; @kittler_gramophone_2018], qui s'appuie d'abord sur la description
+du fonctionnement de la machine à écrire puis celle de l'ordinateur afin de comprendre
 leur implication, en tant que média, dans le phénomène qu'est l'écriture.
 Cette méthode implique de comprendre les comportements et les fonctionnements
 techniques des composants à l'oeuvre dans la machine, et cela qu'ils relèvent du
 matériel ou du logiciel.
 En conséquence, nous mobilisons de la documentation technique pour étayer notre
 propos et pour analyser les traces qui nous intéressent.  
+
+## Écrire dans un environnement numérique
+
+### Définir l'environnement où écrire
+
+Par habitude, nous partons du présupposé que lorsque nous évoquons les mots
+environnement d'écriture numérique ceux-ci sont synonymes environnement
+d'écriture informatique et désignent la même chose.
+En conséquence, lorsqu'il s'agit de convoquer l'écriture numérique nous pensons
+tout de suite à un ordinateur, aux claviers, aux écrans et aux pointeurs qui
+clignotent dans des éditeur de texte ou dans les champs des formulaires en
+ligne.
+Avec le numérique ubiquitaire [@citton_angles_2023], ces pratiques d'écriture
+sont ancrées dans nos habitudes au point de ne plus les remettre en question.
+Les dispositifs d'écriture analogique sont ainsi renvoyés à l'état de vestiges
+archaïques, comme peuvent l'être les machines à écrire alors qu'elles ont été
+fabriquées méticuleusement par des designers et des ingénieurs et qu'elles ont
+fait la fierté et la renommée de certaines entreprises comme Olivetti en Italie.
+Aujourd'hui ces machines sont complètement désuètes et inutilisées depuis
+presque une trentaine d'années.
+Elles sont maintenant exposées dans des musées -- entre autres au MoMA et au
+Centre Pompidou -- et sont intégrées dans des collections permanentes ou
+exhibées lors des expositions en lien avec les designers qui les ont
+conçues^[C'est par exemple le cas de la machine à écrire Valentine conçue en
+1968 par le célèbre designer Ettore Sottsass, machine qui est devenue le produit
+emblématique de l'entreprise Olivetti lors de sa commercialisation en 1969.
+Comme nous le verrons plus loin, lors des mêmes années aux États-Unis, le
+président Johnson déclara qu'à l'échelle fédérale les ordinateurs doivent être
+compatibles avec la norme ASCII.].
+
+![Machine à écrire
+portative](https://www.photo.rmn.fr/CorexDoc/RMN/Media/TR1/YECPH3/07-521403.jpg
+"Machine à écrire portative")
+
+Crédits : © Adagp, Paris. Crédit photographique : Georges Meguerditchian -
+Centre Pompidou, MNAM-CCI /Dist. RMN-GP. Réf. image : 4N40151. Diffusion image :
+[l’Agence Photo de la
+RMN](https://www.photo.rmn.fr/C.aspx?VP3=SearchResult&IID=2C6NU0CU7GAD)
+
+![Publicité pour la machine à écrire
+Valentine](https://www.photo.rmn.fr/CorexDoc/RMN/Media/TR1/VYKH9X/13-519016.jpg
+"Publicité pour la machine à écrire Valentine")
+
+Crédits : © Adagp, Paris. Crédit photographique : Jean-Claude Planchet - Centre
+Pompidou, MNAM-CCI /Dist. RMN-GP. Réf. image : 4F40212 [2003 CX 6098]. Diffusion
+image : [l’Agence Photo de la
+RMN](https://www.photo.rmn.fr/C.aspx?VP3=SearchResult&IID=2C6NU0DWCD6W)
+
+Pourtant, les derniers modèles fabriqués par ces entreprises l'ont été dans les
+années 1980 et 1990, comme c'est le cas du modèle ETP 55 Portable^[Cette machine
+a été conçue par Mario Bellini pour Olivetti en 1987, voir
+https://www.moma.org/collection/works/3641 site consulté le 21 février 2024.] où
+sont intégrés des composants électroniques pour suivre le marché des
+ordinateurs.
+Les constructeurs ont opéré un changement de paradigme de l'analogique vers le
+numérique dès les années 1970 et ont suivi les innovations technologiques
+apportées par la miniaturisation des composants électroniques pour
+l'informatique.
+Pour preuve, en 1983, Perry A. King et Antonio Macchi Cassia conçoivent le
+premier ordinateur personnel d'Olivetti avec le modèle M10 en adaptant un
+clavier à un écran à cristaux liquide. 
+

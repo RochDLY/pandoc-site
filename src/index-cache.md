@@ -2,6 +2,8 @@
 title: Index caché
 ---
 
+- [05-Amélioration de la définition de l'intimité du
+  chercheur](/posts/2024-05-11-amelioration-definition-intimite-du-chercheur.html)
 - [04-La saisie du texte dans un nouveau
   document](/posts/2024-05-06-la-saisie-du-texte-dans-un-nouveau-document.html)
 - [03-Deuxième brouillon du plan de la
