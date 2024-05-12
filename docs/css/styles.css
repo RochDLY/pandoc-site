@@ -39,6 +39,7 @@ footer {
     grid-row: 2;
     background-color: rgb(255, 255, 255);
     border: 3px solid black;
+    height: fit-content;
 }
 
 .header-bloc {

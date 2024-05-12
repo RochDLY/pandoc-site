@@ -1,5 +1,0 @@
----
-title: Glossaire
----
-
-À venir

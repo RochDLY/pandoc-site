@@ -5,6 +5,14 @@
     </head>
     <body>
         ${partials/header.html()}
+            <div class="posts-list">
+                <header class="header-bloc">
+                    <h2>Billets de blog</h2>
+                </header>
+            <div>
+                ${body}
+            </div>
+            </div>
             ${if(title)}
             <div class="description-site">
                 <header class="header-bloc">
@@ -14,15 +22,7 @@
                     ${resume}
                 </div>
             </div>
-            <div class="posts-list">
-                <header class="header-bloc">
-                    <h2>Billets de blog</h2>
-                </header>
-            <div>
-                ${body}
-            </div>
-            </div>
-        ${endif}
+            ${endif}
         ${partials/footer.html()}
     </body>
 </html>
