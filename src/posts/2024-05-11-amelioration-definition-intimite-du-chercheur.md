@@ -5,14 +5,7 @@ date: 2024-05-11
 
 ## Introduction
 
-L'intime ici mobilisé porte spécifiquement sur l'intimité des chercheurs telle
-que celle-ci est produite par le processus d'édition scientifique dans un
-environnement numérique.
-C'est un processus que l'on peut délimiter entre deux actes, celui de la
-création du document source et celui de la publication du document source une
-fois que de multiples transformations lui sont opérées.
-
-Ainsi, le postulat initial sur lequel cette recherche s’appuie est celui de la
+Le postulat initial sur lequel cette recherche s’appuie est celui de la
 figure du chercheur comme constituée d’écritures puisque le parcours de
 recherche en est jalonné de toutes sortes : des ensembles de textes d’abord sous
 forme de mémoire et de thèse, des diplômes ou des qualifications, puis des
@@ -31,6 +24,13 @@ focaliserons pour notre recherche, et nous exclurons les autres.
 
 **Dans cette recherche est étudiée l'intimité telle qu'elle est produite par les
 publications scientifiques.**
+
+L'intime ici mobilisé porte spécifiquement sur l'intimité des chercheurs telle
+que celle-ci est produite par le processus d'édition scientifique dans un
+environnement numérique.
+C'est un processus que l'on peut délimiter entre deux actes, celui de la
+création du document source et celui de la publication du document source une
+fois que de multiples transformations lui sont opérées.
 
 Néanmoins, l'établissement d'un lien entre la notion qu'est l'intime et les
 productions académiques n'est pas inné et nécessite d'être expliqué.
