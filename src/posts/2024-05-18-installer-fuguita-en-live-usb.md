@@ -164,3 +164,5 @@ familiariser avec OpenBSD avant d'entamer une conversion totale :-)
 
 (Et puis ça me fait un environnement de travail minimaliste pour écrire du texte
 au kilomètre.)
+
+![Le cerveau du Joker est FREE](/images/joker.jpeg "Le cerveau du Joker est FREE")
