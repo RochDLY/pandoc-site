@@ -16,10 +16,10 @@ selon des normes établies par les impératifs technologiques d'une chaîne
 éditoriale, par exemple avec des protocoles de communication des documents ou
 encore des formats.
 Dans cette chaîne, la réalisation d'un document nécessite ainsi des interactions
-entre une multitude d'agents, qu'ils soient numériques ou humains, pour advenir.
+entre une multitude d'agents pour advenir, qu'ils soient numériques ou humains.
 À chacune des étapes de sa constitution, ces interactions entre les agents
 laissent des traces à l'intérieur du document que nous considérons comme des
-traces de cette intimité du chercheur.
+traces de l'intimité du chercheur.
 Ces traces sont des indices d'une intimité passée et donc de la matérialité de
 cette dernière. 
 
@@ -68,8 +68,9 @@ informatique.
 
 Tandis que chaque environnement a ses propres modalités d'écriture que nous ne
 pouvons pas toutes énumérer, nous nous appuyons dans la deuxième partie de ce
-chapitre sur l'étude de l'éditeur de texte sémantique Stylo et les différentes représentations
-du texte qu'il génère. Ces représentations intermédiaires circulent entre les
+chapitre sur l'étude de l'éditeur de texte sémantique Stylo et les différentes
+représentations du texte qu'il génère.
+Ces représentations intermédiaires circulent entre les
 espaces de Stylo -- client et serveur -- par différents canaux et protocoles
 pour former, à travers une série de documents produits, une dynamique
 constitutive du sens de l'écriture [@merzeau_editorialisation_2013] propre à cet
@@ -165,9 +166,9 @@ propos et pour analyser les traces qui nous intéressent.
 ### Définir l'environnement où écrire
 
 Par habitude, nous partons du présupposé que lorsque nous évoquons les mots
-environnement d'écriture numérique ceux-ci sont synonymes environnement
+environnement d'écriture numérique ceux-ci sont synonymes d'un environnement
 d'écriture informatique et désignent la même chose.
-En conséquence, lorsqu'il s'agit de convoquer l'écriture numérique nous pensons
+En conséquence, lorsqu'il s'agit de convoquer l'écriture numérique, nous pensons
 tout de suite à un ordinateur, aux claviers, aux écrans et aux pointeurs qui
 clignotent dans des éditeur de texte ou dans les champs des formulaires en
 ligne.
@@ -175,8 +176,9 @@ Avec le numérique ubiquitaire [@citton_angles_2023], ces pratiques d'écriture
 sont ancrées dans nos habitudes au point de ne plus les remettre en question.
 Les dispositifs d'écriture analogique sont ainsi renvoyés à l'état de vestiges
 archaïques, comme peuvent l'être les machines à écrire alors qu'elles ont été
-fabriquées méticuleusement par des designers et des ingénieurs et qu'elles ont
-fait la fierté et la renommée de certaines entreprises comme Olivetti en Italie.
+fabriquées méticuleusement par des designers et des ingénieurs et ont
+fait la fierté et la renommée de certaines entreprises comme Olivetti en Italie
+juste avant que les ordinateurs n'arrivent sur le marché.
 Aujourd'hui ces machines sont complètement désuètes et inutilisées depuis
 presque une trentaine d'années.
 Elles sont maintenant exposées dans des musées -- entre autres au MoMA et au
@@ -214,7 +216,7 @@ l'informatique.
 Pour preuve, en 1983, Perry A. King et Antonio Macchi Cassia conçoivent le
 premier ordinateur personnel d'Olivetti avec le modèle M10 en adaptant un
 clavier à un écran à cristaux liquide. 
-et ordinateur, équipé du processeur Intel 80C85 en 8-bits, pouvait également se
+Cet ordinateur, équipé du processeur Intel 80C85 en 8-bits, pouvait également se
 connecter à tout un ensemble de périphériques comme des imprimantes.
 
 ![Photo d'un M10](http://munk.org/typecast/wp-content/uploads/2014/08/15635.jpg "Photo d'un M10")
@@ -232,7 +234,7 @@ plans esthétique, financier et social puisque on les retrouve encore implantée
 
 La fin des années 1970 et les années 1980 marquent un tournant décisif pour
 l'ordinateur personnel avec l'apparition des logiciels de traitement de texte et
-la bataille qui sévit durant toute cette période.
+la bataille qui sévit durant toute cette période pour en avoir le monopole.
 M. Kirschenbaum et T. Bergin détaillent dans leurs travaux cette course au
 développement de logiciels durant cette période pour obtenir un monopole sur le
 marché [@bergin_origins_2006; @bergin_proliferation_2006;
@@ -271,7 +273,7 @@ d'une écriture numérique dans un environnement informatique.
 ### Les particularités de l'écriture numérique
 
 Avant d'entamer une réflexion sur l'écriture numérique, convenons d'une brève
-définition l'écriture, car celle-ci a fait couler beaucoup d'encre
+définition de l'écriture, car celle-ci a fait couler beaucoup d'encre
 à son sujet, notamment depuis sa reconfiguration numérique au crépuscule du 20^e^ siècle.
 La définir tient généralement de l'anthropologie, des lettres, de la sémiotique
 ou encore des sciences de l'information et de la communication ou de l'étude des
@@ -350,7 +352,8 @@ Le passage du signe à l'unité atomique et discrète qu'est le chiffre signifie
 changement de représentation du monde (au sens que K. Hayles donne au terme
 _worldview_ [-@hayles_my_2005]) : le monde -- ou l'espace -- n'est alors plus
 signifié par des mots ou des concepts, mais le devient par des chiffres.
-Comme McLuhan nous le rappelle dès 1964 [-@mcluhan_pour_1977], les alphabets
+Comme McLuhan nous le rappelle dans son ouvrage _Pour comprendre les médias_
+[-@mcluhan_pour_1977], les alphabets
 composés de lettres (contrairement à ceux composés de pictogrammes) sont
 asémantiques. Si toutefois les alphabets sont liés à une culture d'où ils
 émergent, l'abstraction nécessaire pour représenter le monde sous forme de
@@ -390,7 +393,7 @@ dans la matière et de lecture.
 Or, la calculabilité, la variabilité et la déliaison entre geste et inscription
 perturbent notre définition de l'écriture puisque l'inscription et la lecture
 des signes et/ou traces sur le support numérique sont des actions réalisées par la
-machine et plus par l'être humain, comme le souligne F. Kittler [@kittler].
+machine et ne le sont plus par l'être humain, comme le souligne F. Kittler [@kittler].
 F. Kittler poursuit sa réflexion plus loin jusqu'à soutenir, de manière
 provocatrice, que l'humain n'écrit plus et qu'à l'ère du numérique, c'est la
 machine qui écrit.
@@ -398,11 +401,10 @@ machine qui écrit.
 perspective d'une machine qui participe et contribue à l'écriture et, ce
 faisant, participerait à la production de l'intimité du chercheur.
 
-Seulement, lorsque l'on parle d'écriture numérique, on convoque la "machine" ou
-l'"ordinateur".
-Ces appellations sont toutefois un peu vagues et ne rendent pas très explicite les
+Seulement, la "machine" ou l'"ordinateur" sont des appellations
+un peu vagues et ne rendent pas très explicite les
 éléments qu'elles désignent, ni ceux qui sont impliqués dans cette action
-d'écriture.
+d'écriture et dans cette relation intime entre humain et machine.
 
 ### La machine, une entité formée du couple matériel/logiciel
 
@@ -420,7 +422,7 @@ La plupart de nos appareils du quotidien ne sont pas programmables : il
 exécutent ce pour quoi ils sont conçus et ne font rien d'autre.
 Dans le cas d'un ordinateur ou d'un téléphone intelligent, ou de tout autre
 appareil programmable, leur conception prévoit qu'ils soient manipulables :
-elles n'ont pas de fonction précise, néanmoins elles sont capables de répondre à
+ils n'ont pas de fonction précise, néanmoins ils sont capables de répondre à
 plusieurs fonctions.
 Un ordinateur qui n'a aucune instruction ne pourra rien faire une fois alimenté.
 C'est là que les logiciels interviennent : ils permettent un usage déterminé
@@ -438,7 +440,7 @@ Le processeur, ou microprocesseur pour les ordinateurs modernes, est le
 calculateur central de l'ordinateur, c'est cet élément qui manipule toutes les
 données à traiter -- que l'on appelle aussi le(s) coeur(s) de l'ordinateur.
 Chaque modèle de processeur à une architecture qui lui est propre, ce qui veut
-dire que chacun traite les informations **différemment** (même si le résultat
+dire que chacun traite les informations différemment (même si le résultat
 obtenu est identique).
 Un processeur est un assemblage de multiples types de circuits dont l'élément le
 plus petit est le transistor.
@@ -554,7 +556,8 @@ sujet sont disponibles à cette adresse sur le site web de libreboot :
 https://libreboot.org/faq.html#what-systems-are-compatible-with-libreboot ou
 dans la documentation des matériels d'Intel :
 https://www.intel.com/content/www/us/en/search.html?ws=idsa-default#q=boot%20guard&sort=relevancy&f:@tabfilter=[Developers],
-consultés le 03 avril 2024.]. Ces programmes ont sans cesse été améliorés depuis
+consultés le 03 avril 2024.].
+Ces programmes ont sans cesse été améliorés depuis
 leur introduction en 2006 et, aujourd'hui, ils empêchent toute modification de
 cette couche logicielle, la plus basse d'un ordinateur, si celle-ci n'est pas
 vérifiée et validée (avec un système de clés cryptées) par la firme
@@ -723,11 +726,9 @@ d'écran » :
 Le premier cadre, matériel, désigne toute la composante physique de l'ordinateur
 et surtout l'écran sur lequel est affiché le texte.
 Le cadre système, quant à lui, est associé à la couche permettant de générer un
-environnement d'écriture numérique, initialisé par le BIOS, un _firmware_ flashé
-dans la mémoire morte de la carte mère de l'ordinateur permettant de réaliser un
-certain nombre d'instructions lors de la mise sous tension de l'oridnateur,
-comme par exemple le démarrage du système d'exploitation qui constitue le
-deuxième élément principal du système.
+environnement d'écriture numérique, initialisé par le BIOS et par le démarrage
+du système d'exploitation qui constitue le deuxième élément principal du cadre
+système.
 Le cadre logiciel est relatif à l'ensemble des logiciels que l'on peut exécuter
 dans un système d'exploitation, par exemple un terminal, un navigateur ou un
 traitement de textes.
@@ -768,7 +769,7 @@ d'un élément central à l'interface de l'humain et la machine : la page.
 
 ### La page est un doudou
 
-Le terme _page_ revient de manières récurrente dans nos usages de l'ordinateur :
+Le terme _page_ revient de manière récurrente dans nos usages de l'ordinateur :
 on le retrouve dans les logiciels de traitement de textes -- il y a même un
 logiciel du nom de _Pages_ disponible dans l'environnement Apple --, dans les
 livres numériques ou encore dans le Web où chaque URL est l'adresse d'une page.
@@ -801,7 +802,7 @@ apologie d'un mode sans page.
 Elle consiste à montrer qu'à vouloir préserver une habitude pour _ne pas
 effrayer_ l'utilisateur, la page fait écran devant l'ordinateur, et cache la
 machine qui ne devient plus qu'un simple mécanisme au lieu d'être un agent de
-l'énonciation éditoriale (voir énonciation computationnelle Goyet).
+l'énonciation éditoriale.
 
 Cette peur de l'informatique pourrait relever essentiellement de l'angoise de
 l'arrachement d'une valeur qui définie l'être humain et devienne une
@@ -982,8 +983,8 @@ cibler les traces de cette relation entre l'auteur et son environnement.
 Tout d'abord, Stylo représente un espace sur le Web dans lequel nous pouvons
 écrire en suivant la syntaxe de trois formats de texte brut, le Markdown, le
 YAML et le BibTeX.
-Cet  espace est à distinguer d'un environnement local puisqu'il s'agit du Web,
-un espace régit par ses propres règles.
+Le Web fonctionne différemment d'un environnement local sur son ordinateur
+personnel.
 
 [Faire l'historique du Web en deux phrases, citer les spec du W3C et de HTML
 jusqu'à HTML5]
