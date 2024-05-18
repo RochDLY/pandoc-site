@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | Installer FuguIta en liveUSB</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-05-06" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/pages/publications.html">Publications</a></li>
+                    <li><a href="/pages/cours.html">Enseignements</a></li>
+                    <li><a href="/pages/presentations.html">Présentations</a></li>
+                    <li class="right"><a href="/index-cache.html"></a></li>
+                </ul>
+            </nav></header>                <div class="side">
+
+            <nav class="toc">
+<ul>
+<li><a href="#installation-de-fuguita" id="toc-installation-de-fuguita">Installation de FuguIta</a></li>
+<li><a href="#installation-des-logiciels" id="toc-installation-des-logiciels">Installation des logiciels</a></li>
+</ul>
+            </nav>
+        </div>
+                    <div class="container">
+                <header class="header-bloc">
+                    <h1>Installer FuguIta en liveUSB</h1>
+<!--  -->
+                    <time>2024-05-06</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<p>Ce billet est destiné à mes premières expériences avec <a href="https://www.openbsd.org/">OpenBSD</a>. On en discute depuis un moment avec R. Alessi et j’ai vraiment envie de le tester .</p>
+<p>C’est une autre vision du système d’exploitation que nous avons l’habitude de rencontrer avec Microsoft, Apple et Linux (je ne détaillerai pas ce sujet dans ce billet).</p>
+<p>Mais ma configuration actuelle me convient, et j’ai mes habitudes d’environnement de travail que je ne veux pas chambouler du jour au lendemain. J’ai commencé l’écriture de la thèse depuis quelques mois et ce n’est franchement pas le moment de changer d’environnement.</p>
+<p>Actuellement mon T440P tourne sous Devuan avec deux disques montés en RAID1. Peut-être que si j’ai un peu de temps cet été je pourrais supprimer le RAID et installer un OpenBSD à côté du Devuan pour ne pas perdre mes données et tester les deux environnements en parallèle.</p>
+<h2 id="installation-de-fuguita">Installation de FuguIta</h2>
+<p>En attendant de faire ça, R. Alessi m’a parlé de <a href="https://fuguita.org/">FuguIta</a> une <em>livesystem</em> OpenBSD que l’on peut installer sur une clé USB notamment pour en faire une LiveUSB ! Aujourd’hui je me suis donc amusé à configurer une clé USB pour tester un environnement OpenBSD (ultra portable pour le coup, il rentre dans la poche).</p>
+<p>Et là, ce n’est pas si simple, je m’y suis repris à plusieurs reprises pour avoir la configuration que je voulais (en gros bourrin, lorsque je ratais une étape, j’ai opté pour un formatage de la partition et une réinstallation totale).</p>
+<p>On peut suivre les étapes de l’installation (qui est très bien documentée) sur le site de <a href="https://fuguita.org/?FuguIta/StartGuide">FuguIta</a>.</p>
+<p>Il n’y a qu’à un seul endroit où j’ai personnalisé l’installation, c’est pour la <a href="https://fuguita.org/?FuguIta/StartGuide#y699e366">personnalisation du bureau</a>. Lors de l’installation, on doit utiliser la commande <code>dtjsetup</code> pour paramétrer l’environnement du bureau.</p>
+<p>Au lieu de frapper cette commande on peut utiliser <code>DTJ_WMS='awesome' dtjsetup</code> pour ajouter à la liste de la commande le gestionnaire de fenêtre <a href="https://awesomewm.org/">Awesome</a> que j’ai l’habitude d’utiliser avec Devuan.</p>
+<p>Ensuite, pour m’encombrer au minimum, j’ai choisi l’option <code>1</code> pour le desktop (<code>no desktop(wm only)</code>).</p>
+<p>Une fois arrivé au bout de la page d’instructions tout est ok ! FuguIta est bien paramétré et les sauvegardes se font bien sur la clef USB, quand je shutdown la machine tout se déroule correctement.</p>
+<p>Bon on était juste en mode console et il n’y avait aucune icône nulle part ni aucun paquet installé.</p>
+<p>Au redémarrage de la machine je suis d’ailleurs perdu et je ne sais pas comment démarrer X11 pour sortir du mode console, la solution :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">rcctl</span> enable xenodm</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">rcctl</span> start xenodm</span></code></pre></div>
+<p>C’est parti ! Le fameux FUGU apparaît à l’écran !</p>
+<p>Entre temps petite crise intérieure, awesome ne fonctionnait pas (puisque j’avais oublié de déplacer le fichier <code>rc.lua</code> dans <code>.config/awesome</code> …)</p>
+<h2 id="installation-des-logiciels">Installation des logiciels</h2>
+<p>Tout fonctionne bien, on arrive directement dans ksh émulé par … XTERM.</p>
+<p>Là je me suis dit que c’était pas possible, je passe mes journées à écrire / lire dans un terminal et il me faut autre chose comme environnement.</p>
+<p>En plus j’en profite, c’est le moment de commencer à configurer et installer mes softwares préférés !</p>
+<p>Alors pour le petit tip : <code>apt</code> c’est pour linux, pour OpenBSD il faut utiliser <code>pkg_add</code> ! La liste des paquets disponibles est <a href="https://openports.pl/">ici</a> ou <a href="https://openbsd.app/">là</a>.</p>
+<p>Alors que j’avais décidé de ne rester que dans le terminal sur cette clé usb, je me lance quand même dans l’installation d’un truc “sûr”, pour ne pas louper les premières installations (sans customisation) :</p>
+<ul>
+<li>Thunderbird (c’est ok ça fonctionne)</li>
+<li>Firefox (ça ne marche pas bien, aucun caractère ne s’affiche)</li>
+<li>Chromium (impeccable)</li>
+</ul>
+<p>Là je décide d’éteindre la machine complètement et de la rallumer pour voir ce que ça donne … eh bien ce fut un enfer !</p>
+<p>La commande <code>shutdown -h -p now</code> a pris plus de 20 minutes (j’ai programmé une sauvegarde avec <code>usbfadm</code> pour que tout se synchronise à chaque arrêt (ça lance une synchronisation avec la commande <code>usbfadm -r</code>).</p>
+<p>À bout de patience j’appuie sur le bouton pour arrêter l’ordinateur de force. C’était une grosse erreur ! Lorsque j’ai rallumé la machine et booté sur la clef j’ai eu droit à l’erreur <code>warning /mnt was not properly unmounted</code>. Et bien sûr là, il n’y a plus rien qui fonctionne correctement.</p>
+<p>Je fouille les forums à la recherche d’une solution, a priori c’est un problème souvent rencontré sur les machines virtuelles mais pas trop grave et impossible à résoudre.</p>
+<p>Caillou pas content.</p>
+<p>Comme OpenBSD est bien fichu, il ouvre une petit <code>xconsole</code> au démarrage qui montre toutes les activités en cours. Là-dedans je vois un message en boucle (forcément puisque le disque qui contenait les données n’était pas monté) indiquant d’utiliser <code>fsck</code> pour résoudre le problème.</p>
+<p>En ligne beaucoup de personnes déconseillent d’utiliser cette commande car mal utilisée elle peut planter le disque contenant les données. D’ailleurs il faut absolument l’utiliser sur un disque <strong>non monté</strong>.</p>
+<p>Il y a très peu d’exemples d’utilisation alors je me réfère au <code>man</code>uel pour essayer de comprendre comment on s’en sert.</p>
+<p>Une fois à peu près sûr je lance la commande <code>fsck -p /dev/sd..</code>. Soulagement total, le disque est réparé et bien monté.</p>
+<p>Je continue mon installation :</p>
+<ul>
+<li>L’éditeur Vim (j’ai récupéré mon <code>.vimrc</code> sur le Devuan)</li>
+<li>Le gestionnaire de fichier Midnight commander (et son éditeur super cool)</li>
+<li>J’ai eu envie de changer Xterm, j’ai installé <a href="https://st.suckless.org/">st</a>
+<ul>
+<li>pour ouvrir une fenêtre de terminal dans awesome, il faut utiliser le combo de touches <code>Super+Enter</code>. Du coup <code>pkg_add st</code> ne suffit pas.</li>
+<li>il faut également modifier le fichier <code>.config/awesome/rc.lua</code> et remplacer <code>terminal=xterm</code> par <code>terminal=st</code>. aka <em>Simple Terminal</em> de Suckless (j’aime bien l’idée !)</li>
+</ul></li>
+<li>VLC</li>
+</ul>
+<p>Voilà où j’en suis pour l’instant !</p>
+<p>Les prochaines étapes seront :</p>
+<ul>
+<li>Gestionnaire de courriels (Mutt)</li>
+<li>Git (et tous mes repo)</li>
+<li>LazyGit (TUI vraiment cool)</li>
+<li>J’ai l’habitude d’utiliser ohmyzsh parce que ces fonctionnalités sont cools, je vais voir si je trouve autre chose pour ksh mais pas sûr, j’aime bien le terminal brut aussi.</li>
+<li>L’affichage des contours des fenêtres est vraiment moche, il faudrait une esthétique un peu plus léchée</li>
+<li>le clavier est configuré en qwerty US, j’aime bien la variante qwerty-lafayette pour avoir les accents !</li>
+<li>ipconfig et autres utilitaires pour gérer les connexions internet (là je suis juste avec un RJ45)</li>
+<li>un lecteur de PDF</li>
+<li>LibreOffice mais je suis pas sûr, je pense que cette clef ne servira qu’à un usage dans le terminal.</li>
+<li>Le navigateur Lynx</li>
+</ul>
+<p>Je suis plutôt content de cette installation ! Avec ça je devrais me familiariser avec OpenBSD avant d’entamer une conversion totale :-)</p>
+<p>(Et puis ça me fait un environnement de travail minimaliste pour écrire du texte au kilomètre.)</p>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>

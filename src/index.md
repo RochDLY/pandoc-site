@@ -2,6 +2,8 @@
 title: Pensées d'un doctorant
 ---
 
+- [12-Installer FuguIta en
+  LiveUSB](/posts/2024-05-18-installer-fuguita-en-live-usb.html)
 - [11-Texte présenté lors de l'examen doctoral de l'UdeM](/posts/2024-05-07-texte-examen-de-synthese.html)
 - [10-La magie de l'AST de
   Pandoc](/posts/2024-04-10-la-magie-de-l-ast-de-pandoc.html)
