@@ -59,7 +59,7 @@ particulier.
 
 Afin de traiter cette problématique, nous nous appuyons dans un premier temps
 sur les particularités de l'écriture numérique
-[@bouchardon_lecriture_2014; @crozat_ecrire_2016;  @souchier_numerique_2019] et
+[@bouchardon_lecriture_2014; @crozat_ecrire_2016; @souchier_numerique_2019] et
 sur le fonctionnement de la machine pour illustrer, dans une deuxième partie,
 le rôle de médiation joué par les logiciels -- entendu comme une suite
 d'instructions écrites -- entre la saisie du texte au clavier et les
@@ -144,8 +144,7 @@ Du fait de mon implication dans Stylo, le regard que je porte sur ce terrain
 n'est pas neutre et relève d'une forme de recherche-action [ajouter une
 référence].
 
-Alors que chaque signe et chaque trace inscrite [@christin__1999;
-@vitali-rosati__2020] dans l'éditeur de texte Stylo incarne cette tension
+Alors que chaque signe et chaque trace inscrite dans l'éditeur de texte Stylo incarne cette tension
 _entre_ l'utilisateur et la machine, dont les différences de langage -- naturel
 et machine -- rend a priori toute communication directe impossible, nous
 analysons les différents modes de communication des informations dans Stylo pour
@@ -237,8 +236,7 @@ l'ordinateur personnel avec l'apparition des logiciels de traitement de texte et
 la bataille qui sévit durant toute cette période pour en avoir le monopole.
 M. Kirschenbaum et T. Bergin détaillent dans leurs travaux cette course au
 développement de logiciels durant cette période pour obtenir un monopole sur le
-marché [@bergin_origins_2006; @bergin_proliferation_2006;
-@kirschenbaum_track_2016].
+marché [@bergin_origins_2006; @bergin_proliferation_2006; @kirschenbaum_track_2016].
 Avant l'engouement pour les interfaces graphiques et les gestionnaires de
 fenêtres -- 1983 et 1984 avec l'entreprise Apple qui s'est largement inspirée
 des interfaces graphiques développées par Xerox PARC dans les années 1970 -- la
@@ -265,7 +263,7 @@ En somme, cette représentation numérique du monde n'est pas nouvelle et ce n'e
 pas l'ordinateur qui l'a apporté.
 À notre connaissance, son origine remonte aux prémisses de l'écriture et des
 développements des systèmes monétaires, nous dirait C. Herrenschmidt
-[-@herrenschmidt_les_2023].
+[-@herrenschmidt_trois_2023].
 
 Dorénavant, lorsque nous ferons référence à l'écriture numérique nous parlerons
 d'une écriture numérique dans un environnement informatique.
@@ -280,7 +278,7 @@ ou encore des sciences de l'information et de la communication ou de l'étude de
 médias et cela pour ne mentionner que certaines disciplines de la sphère
 académique.
 Très largement, l'écriture est entendue comme « mode d'expression » et
-« fonction de communication » au sein d'une société [@christin_les_1999].
+« fonction de communication » au sein d'une société [@christin_origines_1999].
 Anne-Marie Christin distingue deux tendances principales de l'origine de
 l'écriture : l'écriture selon la trace, étant soit comprise comme le signe
 verbal transposé sur un support soit comme la marque laissée par un corps, ou
@@ -288,7 +286,7 @@ l'écriture selon le signe dans son sens étymologique d'« événement inaugu
 [qui] participe
 d’une révélation » tant qu'il s'inscrit dans un « système » tel que la
 disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
-[@christin_les_1999; @vitali-rosati_quest-ce_2020].
+[@christin_origines_1999; @vitali-rosati_quest-ce_2020-1].
 À défaut de prendre parti pour l'un ou l'autre de ces paradigmes, nous pouvons
 retenir deux caractéristiques qui leur sont communes et que l'on retrouve dans
 tous types d'écriture, même numérique.
@@ -393,7 +391,7 @@ dans la matière et de lecture.
 Or, la calculabilité, la variabilité et la déliaison entre geste et inscription
 perturbent notre définition de l'écriture puisque l'inscription et la lecture
 des signes et/ou traces sur le support numérique sont des actions réalisées par la
-machine et ne le sont plus par l'être humain, comme le souligne F. Kittler [@kittler].
+machine et ne le sont plus par l'être humain, comme le souligne F. Kittler [@kittler_mode_2015].
 F. Kittler poursuit sa réflexion plus loin jusqu'à soutenir, de manière
 provocatrice, que l'humain n'écrit plus et qu'à l'ère du numérique, c'est la
 machine qui écrit.
@@ -623,7 +621,7 @@ génère se transforme en une lettre à l'écran.
 Pour autant, cette accessibilité est-elle synonyme de mise en visibilité ?
 Le fait que "ça marche" rendrait-il le document visible ?
 C'est le rôle de l'interface graphique et des métaphores qu'elle véhicule que de
-cacher le fonctionnement même de la machine [@jeanneret_y-t-il_2011].
+cacher le fonctionnement même de la machine [@jeanneret_y_2011].
 La déliaison convoquée par Bonaccorsi [@bonaccorsi_fantasmagories_2020] prend
 place dès cet instant dans le processus d'écriture puisqu'il ne s'agit pas
 seulement de délier le geste de l'inscription mais également de faire
@@ -775,8 +773,7 @@ logiciel du nom de _Pages_ disponible dans l'environnement Apple --, dans les
 livres numériques ou encore dans le Web où chaque URL est l'adresse d'une page.
 Matthew Kirschenbaum et Thomas Bergin nous détaillent dans leurs travaux
 l'arrivée de la page sur nos écrans durant les années 1970 et le début des
-années 1980 [@kirschenbaum_track_2016; @bergin_origins_2006;
-@bergin_proliferation_2006].
+années 1980 [@kirschenbaum_track_2016; @bergin_origins_2006; @bergin_proliferation_2006].
 
 Cet objet qu'est la page a été instauré dans l'ordinateur uniquement pour
 reproduire une « habitude » et créer un lien fictif entre les visions du monde
@@ -894,7 +891,7 @@ Son code source peut lui aussi faire l'objet d'une remédiation
 l'organisation du traitement des informations dans un ordinateur.
 D'ailleurs, C. Herrenschmidt nous rappelle que le terme de logiciel a été forgé
 à partir de la contraction du mot "logique" avec le mot "matériel"
-[@herrenschmidt_les_2023, p.474] , pour justement montrer à la fois l'opposition
+[@herrenschmidt_trois_2023, p.474] , pour justement montrer à la fois l'opposition
 du logiciel avec l'aspect matériel (_hardware_) et marquer leur
 complémentarité : l'ordinateur (_hardware_) serait très peu accessible (voir
 inaccessible) sans logiciel, et le logiciel n'existe pas en dehors de
@@ -907,8 +904,8 @@ de n'importe quel document à l'intérieur de la mémoire de l'ordinateur.
 
 Un courant contemporain de la théorie des médias, l'intermédialité
 montréalaise^[Le chapitre 1 devra décrire l'intermédialité
-montréalaise, il faudra ajouter un renvoi ici] [@muller_lintermedialite_2000;
-@tadier_tentative_2021; @tadier__2021], en tant qu'art pour penser les relations
+montréalaise, il faudra ajouter un renvoi ici] [@muller_lintermedialite_2000; @tadier_tentative_2021; @tadier__2021],
+en tant qu'art pour penser les relations
 [@tadier__2021], peut être mobilisée pour mieux comprendre les liens
 entretenues par les agents de notre système, la machine avec elle-même,
 humain-machine, machine-machine.
@@ -1246,6 +1243,9 @@ n'avons pas encore abordé les conditions de l'écriture avec les trois formats
 pivots d'un document dans Stylo.
 
 ### Les formats déterminent la sémantique du texte
+
+[Trouver quelques références sur les formats, ex la these de de Mourat sur le
+vacillement des formats]
 
 Selon les formats d'écriture, et lorsque l'on sort du paradigme WYSIWYG pour
 celui du WYSIWYM, on s'émancipe de la surcouche de mise en page pour entrer
@@ -1601,7 +1601,7 @@ toutes rentrer dans le dernier type `@misc` pour « tout autre type de
 document ».
 Il en va de même pour les informations rattachées à chaque type de données^[cf.
 le tableau des champs accolés aux types de documents en annexe.] : selon les
-disciplines ou les pour certains documents très particuliers, les champs de
+disciplines ou pour certains documents très particuliers, les champs de
 Zotero peuvent être trop restrictifs alors qu'il serait nécessaire de pouvoir
 saisir de nouvelles entrées pour enrichir les données bibliographiques tout en
 préservant leur structuration. Actuellement, la seule possibilité serait
@@ -1645,7 +1645,27 @@ Une modification du format ou du fonctionnement du gestionnaire de références
 bibliographiques serait beaucoup trop lourde en termes d'effets de bord dans
 Stylo, c'est pour cela qu'à ce stade nous en sommes restés à cette solution.
 
-[Faire une mini conclusion sur ce qu'apporte ces trois formats]
+Le choix des formats dans lesquels les utilisateurs peuvent saisir leurs textes
+et leurs données n'est pas anodin.
+Qu'il soit ancien, récent, verbeux ou léger, permissif ou rigide,
+le format d'écriture conditionne ce que l'on a le droit d'écrire ou non.
+En ce sens la décision de ce qui peut être saisi est déjà prise avant qu'un
+texte soit frappé sur le clavier.
+Par exemple, dans Stylo, le Markdown ne permet pas à un philologue de saisir
+explicitement un appareil critique.
+C'est une syntaxe qui n'existe pas alors que c'est le cas pour d'autre
+environnements comme LaTeX et le paquet
+[`ekdosis`](http://www.ekdosis.org/) développé et maintenu par Robert Alessi.
+Dans ce cas-ci, puisque l'appareil critique n'existe pas en Markdown, il ne
+peut pas exister dans Stylo sauf si l'utilisateur fait abstraction du format et qu'il
+change de paradigme pour celui de la page et de la représentation graphique.
+En faisant cela, l'utilisateur fait également abstraction de la machine et de
+ce qu'elle peut interpréter du contenu puis écrire dans le texte.
+Lorsque nous sommes dans un environnement mis à disposition comme Stylo, le
+risque est que celui-ci ne soit pas complètement adapté à des besoins ou à une
+intention.
+Il risque d'y avoir une friction entre les formats imposés par l'environnement
+et les besoins en écriture.
 
 ### Co-écriture entre les agents
 
@@ -1659,7 +1679,7 @@ de tous les individus à travers le monde qui utilisent ce logiciel (et qui ont
 installé la mise à jour). 
 
 Si l'on s'arrête à la vision superficielle du texte, comme le propose J. Goody
-avec la raison graphique, on ne voit que les modifications d'affichage des
+avec la raison graphique [@goody_raison_1979], on ne voit que les modifications d'affichage des
 éléments graphiques mais nous oublions ceux qui sont invisibles et cachés
 derrière la page.
 
@@ -1762,17 +1782,25 @@ productions de leur agencement dans un écosystème, il devient intéressant
 d'observer leur relation tout au long de ce processus pour comprendre comment
 ils s'affectent les uns les autres.
 
-[Faire une transition vers les différents du texte, peut-être en mentionnant que
-finalement il y a une partie de l'écriture qui est aveugle.]
+Néanmoins, un trouble persiste dans cette relation entre ces agents.
+Il se manifeste entre ce que l’usager à l’intention d’écrire et le document que
+produit la machine, qui est structuré selon un certains nombre de normes,
+formats, etc., implémentés dans un logiciel.
+Ce trouble nait de la rencontre entre une représentation du texte structurée
+graphiquement et une représentation du texte structurée par du texte,
+comme c’est le cas pour une page web interprétée par un navigateur et son
+pendant au format HTML.
+En ce sens, nous examinons la possibilité que l’écriture numérique puisse
+être affublée d’une caractéristique supplémentaire : la cécité.
+Cette caractéristique nous semble présente dans le fait qu’il y ait plusieurs
+angles morts entre ces deux conceptions du texte qui ne permettent ni à
+l’utilisateur ni à la machine de voir le texte dans sa totalité.
+La piste de ce trouble nous mène également à comprendre l'enjeu de cette
+relation entre l'usager et son environnement puisque.
+En le dévoilant, nous mettrons à jour les indices de la rencontre entre un
+auteur et son environnement d'écriture.
 
-[Reprendre le début de cette partie, revenir sur l'architecture logicielle et
-montrer qu'il y a un manque dans ce que nous avons décrit précédemment en terme
-d'interaction et que c'est le navigateur qui gère ça]
-
-La description préliminaire des différents composants nous amène aux mécanismes
-de l'écriture dans Stylo.
-
-Jusqu'à présent, nous savons que le texte est saisi par l'utilisateur en
+Dans Stylo, nous savons que le texte est saisi par l'utilisateur en
 Markdown (YAML et BibTeX également), puis est envoyé sur le serveur au moyen
 d'une requête GraphQL au format JSON contenue dans une requête HTTP utilisant la
 méthode `POST` comme modalité de circulation de l'information.
@@ -1876,10 +1904,6 @@ communication : ce dont s'occupe Stylo.
 Parmi ces quatre documents produits pour écrire, un seul l'est par l'utilisateur
 tandis que les autres formes sont écrites par Stylo.
 
-[faire un mini conclusion sur la cécité de l'écriture num.]
-
-### La déprise en main du texte
-
 Écrire dans un environnement numérique dépasse l'encodage de signes dans un seul
 format d'écriture.
 Comme nous l'avons vu avec Stylo, ce sont différents protocoles qui sont
@@ -1950,6 +1974,9 @@ Pour réaliser cette étude, nous nous sommes appuyés sur une méthode emprunt�
 théoricien des médias Friedrich Kittler dont l'analyse repose sur la description
 technique du fonctionnement des éléments mobilisés.
 
+[Remplacer le paragraphe ci-dessous en revenant sur les traces de l'intime qu'on a
+rencontré]
+
 En appliquant cette méthode à divers cas de saisi de fragments de texte selon
 les formats pivots utilisés dans Stylo, le Markdown, le YAML et le BibTeX, nous
 nous sommes aperçus que ces fragments ne sont jamais inscrit directement selon
@@ -1977,4 +2004,3 @@ quatre phases contribue à la matérialité du texte saisi et qu'en ce sens il y
 co-écriture entre l'utilisateur et Stylo.
 
 ## Bibliographie
-
