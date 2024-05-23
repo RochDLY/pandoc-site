@@ -10,7 +10,9 @@ Lors du chapitre précédent, nous avons défini l'*intimité du
 chercheur* comme le résultat produit par les écrits savants, parmi
 lesquels nous retrouvons les publications scientifiques qui sont l'objet de
 notre recherche.
-Ces publications scientifiques peuvent être assimilées à des documents
+Au 21^e^ siècle, alors que la plupart des échanges et communications passent par
+Internet, que ce soit avec le Web, les courriels ou les réseaux de téléphonie mobile,
+les publications scientifiques peuvent être assimilées à des documents
 numériques, soit un espace délimité dans lequel sont organisées des informations
 selon des normes établies par les impératifs technologiques d'une chaîne
 éditoriale, par exemple avec des protocoles de communication des documents ou
@@ -125,9 +127,11 @@ Le choix d'étudier Stylo comme terrain pour cette recherche découle de plusieu
 raisons.
 Tout d'abord, il s'agit d'un éditeur moderne construit avec les technologies du
 Web les plus récentes.
-Cet environnement Web suscite un certain engouement auprès des utilisateurs,
-notamment pour sa capacité à offrir un espace de travail collaboratif en temps
-réel leur permettant d'écrire à plusieurs dans cet espace.
+Que ce soit à travers des environnements tels que Stylo, GoogleDoc, Hedgedoc ou
+encore Framapad, les environnements d'écriture en ligne (Web) suscitent un
+certain engouement auprès des utilisateurs notamment pour leur capacité à offrir
+un espace de travail collaboratif en temps réel leur permettant d'écrire à
+plusieurs dans cet espace.
 La deuxième raison qui fait de Stylo un terrain opportun est l'accessiblité de
 son code source.
 Contrairement à d'autres éditeurs propriétaires comme l'est GoogleDoc, la
@@ -144,11 +148,11 @@ Du fait de mon implication dans Stylo, le regard que je porte sur ce terrain
 n'est pas neutre et relève d'une forme de recherche-action [ajouter une
 référence].
 
-Alors que chaque signe et chaque trace inscrite dans l'éditeur de texte Stylo incarne cette tension
-_entre_ l'utilisateur et la machine, dont les différences de langage -- naturel
-et machine -- rend a priori toute communication directe impossible, nous
-analysons les différents modes de communication des informations dans Stylo pour
-suivre les traces de l'intime qui y circulent.
+Alors que chaque signe et chaque trace inscrite dans l'éditeur de texte Stylo
+incarne cette tension _entre_ l'utilisateur et la machine, dont les différences
+de langage -- naturel et machine -- rend a priori toute communication directe
+impossible, nous analysons les différents modes de communication des
+informations dans Stylo pour suivre les traces de l'intime qui y circulent.
 Pour en découvrir plus sur cet _entre_, nous étudions cette distance à partir de
 la méthode employée par le théoricien des médias F. Kittler
 [-@kittler_mode_2015; @kittler_gramophone_2018], qui s'appuie d'abord sur la description
@@ -160,12 +164,31 @@ matériel ou du logiciel.
 En conséquence, nous mobilisons de la documentation technique pour étayer notre
 propos et pour analyser les traces qui nous intéressent.  
 
+L'observation du phénomène de création d'un document texte dans un
+environnement d'écriture spécialisé pour l'écriture savante à travers le prisme
+des strates de l'écriture numérique, du matériel au logiciel,
+nous permet de mettre en évidence différents angles morts dans lesquels se
+nichent les traces de l'intime.
+Qu'ils s'incarnent dans des documents temporaires comme le DOM du navigateur ou
+dans des protocoles de transmissions des informations comme HTTP, ces angles
+morts de l'écriture numérique, produit par la relation entre un auteur et une machine,
+nous montrent que certaines parties de cette écriture ne sont finalement pas directement
+accessibles à ces deux agents alors qu'elles participent à la matérialité conférée
+au document produit.
+Il y a une forme de déprise, terme que Louise Merzeau employait pour évoquer les
+utilisateurs des plateformes du Web et « la perte de contrôle de leurs usages,
+restreints et conditionnés par les algorithmes » 
+[sauret__2020], instaurée dans cette relation et que l'auteur accepte, bon ou
+malgré lui, lorsqu'il utilise un environnement d'écriture numérique.
+En ce sens, un certain degré de confiance est accordé à l'environnement
+d'écriture choisi dans le processus de production de du document.
+
 ## Écrire dans un environnement numérique
 
 ### Définir l'environnement où écrire
 
 Par habitude, nous partons du présupposé que lorsque nous évoquons les mots
-environnement d'écriture numérique ceux-ci sont synonymes d'un environnement
+environnement d'écriture numérique, ceux-ci sont synonymes d'un environnement
 d'écriture informatique et désignent la même chose.
 En conséquence, lorsqu'il s'agit de convoquer l'écriture numérique, nous pensons
 tout de suite à un ordinateur, aux claviers, aux écrans et aux pointeurs qui
@@ -272,20 +295,23 @@ d'une écriture numérique dans un environnement informatique.
 
 Avant d'entamer une réflexion sur l'écriture numérique, convenons d'une brève
 définition de l'écriture, car celle-ci a fait couler beaucoup d'encre
-à son sujet, notamment depuis sa reconfiguration numérique au crépuscule du 20^e^ siècle.
-La définir tient généralement de l'anthropologie, des lettres, de la sémiotique
-ou encore des sciences de l'information et de la communication ou de l'étude des
-médias et cela pour ne mentionner que certaines disciplines de la sphère
-académique.
+à son sujet, notamment depuis sa reconfiguration numérique au crépuscule
+du 20^e^ siècle.
+La définir tient généralement de la philosophie depuis Platon [phèdre],
+de l'anthropologie [Leroi-Gourhan; Goody], des lettres [Christin], de
+l'archéologie ou de la linguistique [Herrenschmidt], de la sémiotique
+[Souchier, Jeanneret] ou encore des sciences de l'information et de la
+communication [Bouchardon, Bachimont] ou de l'étude des médias [Kittler]
+et cela pour ne mentionner qu'une infime partie des textes traitant ce sujet
+parmi un nombre restreint de disciplines de la sphère académique.
 Très largement, l'écriture est entendue comme « mode d'expression » et
 « fonction de communication » au sein d'une société [@christin_origines_1999].
 Anne-Marie Christin distingue deux tendances principales de l'origine de
 l'écriture : l'écriture selon la trace, étant soit comprise comme le signe
 verbal transposé sur un support soit comme la marque laissée par un corps, ou
 l'écriture selon le signe dans son sens étymologique d'« événement inaugural
-[qui] participe
-d’une révélation » tant qu'il s'inscrit dans un « système » tel que la
-disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
+[qui] participe d’une révélation » tant qu'il s'inscrit dans un « système » tel
+que la disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
 [@christin_origines_1999; @vitali-rosati_quest-ce_2020-1].
 À défaut de prendre parti pour l'un ou l'autre de ces paradigmes, nous pouvons
 retenir deux caractéristiques qui leur sont communes et que l'on retrouve dans
@@ -368,7 +394,7 @@ L'écriture numérique se distingue également des autres types d'écriture par 
 troisième caractéristique.
 Il s'agit de la première forme d'écriture où le geste d'écrire ne correspond pas
 à l'action d'inscription du signe sur son support, phénomène que J. Bonaccorsi
-nomme déliaison [@bonaccorsi_fantasmagories_2020].
+nomme également déliaison [@bonaccorsi_fantasmagories_2020].
 Lorsqu'on appuie sur une touche du clavier, par exemple la lettre `a`, cette
 lettre n'est pas inscrite à l'écran : l'instruction d'inscrire un signe dans la
 mémoire de l'ordinateur est donnée à la machine, puis celle de l'afficher à
@@ -486,7 +512,7 @@ interprétables.
 L'encodage et le décodage des caractères accompagne toute l'histoire de
 l'informatique (et du numérique).
 Aux prémices de l'informatique, chaque matériel comportait ses propres
-programmes et tables d'encodage, rendant ainsi possible la transposition des
+programmes et tables d'encodage, rendant ainsi "possible" la transposition des
 données d'un matériel à un autre par équivalence.
 Cependant, dans la plupart des cas, les données ne pouvaient pas circuler entre
 les différents modèles d'ordinateur, ou alors au moyen de transformations
@@ -521,6 +547,10 @@ plus de 149 000 sur une vingtaine de bits par point de code dans sa version 15.1
 Afin de préserver cette compatibilité entre les normes, il est d'usage d'encoder
 les 128 premiers caractères de façon identique à la norme ASCII.
 
+Pour pouvoir utiliser ces tables d'encodage et stocker des données dans la
+mémoire d'un ordinateur, les utilisateurs ont besoin d'une interface les rendant
+accessibles et manipulables.
+Ces interfaces peuvent être rangés sous l'appellation de logiciel.
 Il est intéressant d'introduire les logiciels et leur fonctionnement à partir du
 matériel composant l'ordinateur et plus particulièrement à partir de la carte
 mère.
@@ -560,6 +590,10 @@ leur introduction en 2006 et, aujourd'hui, ils empêchent toute modification de
 cette couche logicielle, la plus basse d'un ordinateur, si celle-ci n'est pas
 vérifiée et validée (avec un système de clés cryptées) par la firme
 propriétaire/fabricante.
+Il ya aurait donc, au plus bas niveau d'abstraction matérielle dans un
+ordinateur, une imposition d'une vision de la machine aux utilisateurs réalisée
+par les quelques sociétés qui détiennent le monopole de la production de ce
+composant. 
 
 Le BIOS est donc l'interface entre l'utilisateur et la machine qui nous permet
 de manipuler les différentes entrées et sorties du système, donc de gérer les
@@ -574,13 +608,13 @@ etc.
 Chaque OS a un fonctionnement qui lui est propre : l'architecture des
 informations -- l'arborescence des dossiers, l'indexation des documents et des
 fichiers binaires change selon l'OS utilisé --, l'ordonnancement des tâches pour
-le processeur ou encore l'allocation de la mémoire.
-Malgré le fait que ce n'a pas toujours été le cas, les applications logicielles
-sont installés à l'intérieur des systèmes d'exploitation et prêts à être
-exécutés.
+le processeur ou encore l'allocation de la mémoire, etc.
+Malgré le fait que ça n'ait pas toujours été le cas, les applications logicielles
+sont maintenant installées à l'intérieur des systèmes d'exploitation et prêtes à être
+exécutées.
 Le passage par un système d'exploitation permet aux logiciels de ne plus
 dépendre d'un modèle particulier du _hardware_ et d'en faire justement
-abstraction, le rendant ainsi opérable sur différentes machines.
+abstraction, les rendant ainsi opérables sur différentes machines.
 
 Ce tour d'horizon des particularités de l'écriture numérique et de l'agencement
 entre logiciel et matériel dans la machine nous montre que la
