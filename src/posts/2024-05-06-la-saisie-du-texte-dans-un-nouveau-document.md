@@ -1020,13 +1020,36 @@ Le Web fonctionne différemment d'un environnement local sur son ordinateur
 personnel.
 
 Alain Mille en dresse l'histoire depuis les débuts d'Internet dans les années
-1960 [-@mille_internet_2014] à partir du réseau filaire ARPAnet ...
-
+1960 [-@mille_internet_2014] à partir du réseau filaire ARPAnet développé par le
+département de la défense américaine.
+Seulement, comme le souligne A. Mille, il manque une brique pour naisse
+l'Internet : un protocole de transfert des documents.
+Le premier protocole a vu le jour en 1969^[Il n'y a pas de corrélation directe
+avec l'utilisation de la norme ASCII par les institutions américaines à cette
+date, néanmoins on remarque qu'il y a un engouement pour l'informatique à la fin
+des années 1960.] et a fait l'objet de la première RFC^[On peut retrouver tout le contenu de cette RFC sur cette page web : https://www.rfc-editor.org/rfc/rfc3.html. Les RFC sont numérotées, dans ce cas-ci il s'agit de la RFC 3, et vont par ordre croissant. Une modification d'un document numéroté fait l'objet d'un nouveau numéro et rend obsolète la version antérieure. Comme on peut la page Web, la RFC 3 est rendue obsolète par la numéro 10, puis la 16, etc.] (_Request for comments_)
+avant de trouver une forme plus aboutie dans le protocole TCP en 1974 et permet
+avec sa distribution sous forme de paquets la naissance d'Internet.
+Ce n'est qu'en 1990, au CERN ((Organisation européenne pour la recherche
+nucléaire)), que Tim Berners-Lee participe à la conception du Web -- et du _World
+Wide Web_ -- pour pallier le problème d'échanges de documents numériques
+rencontré dans cette institution grâce au développement du langage de balisage HTML.
+Le Web vient donc répondre à un besoin, celui de la compatibilité des
+informations et de leur interoperabilité dans une structure.
+En créant un environnement spécifique composés de normes de structuration des
+informations interprétable par un logiciel -- le navigateur, le Web devient
+agnostique et ne dépend plus de la même couche d'abstraction logicielle
+qu'un environnement local. 
+L'ordinateur devient un terminal, un client à partir duquel on peut se connecter
+au réseau et accéder aux informations qui y circulent.
 
 Sur le Web, les données sont généralement séparées de l'espace d'affichage et
 sont stockées sur un serveur, dans une base de données.
 Il y aurait donc au moins deux modules différents, la partie _client_ -- ce qui
 est affiché dans le navigateur -- et la partie _serveur_, soit la base de données. 
+
+[Faire une petite transition]
+
 Dans notre cas, nous allons scinder l' architecture logicielle de Stylo en trois
 parties.
 
@@ -1351,7 +1374,7 @@ de caractères qui n'a aucune valeur sémantique particulière, hormis peut-êtr
 qu'il s'agit d'un paragraphe.
 
 Si l'on saisit cette même chaîne de caractères en XML, on peut ajouter une
-baliser `<auteur>Rémi Dupont</auteur>` pour signifier explicitement qu'il s'agit
+balise `<auteur>Rémi Dupont</auteur>` pour signifier explicitement qu'il s'agit
 de l'auteur du texte.
 
 Il est également possible de préciser encore plus cette notion d'auteur en y
@@ -1421,7 +1444,7 @@ utilisables et communicables, il reste une contrainte forte pour les chaînes de
 publication.
 Que ce soit en tant que format d'entrée, format pivot de transformation ou
 format de publication -- nous reviendrons sur les transformations et les
-artefacts publiables dans le  chapitre 4 --, il déterminera le
+artefacts publiables dans le chapitre 4 --, il déterminera le
 fonctionnement de la chaîne.
 
 Comme nous l'avons déjà mentionné, il y a trois formats centraux dans l'éditeur
@@ -1455,7 +1478,7 @@ cinsultée le 31 mars 2024.]
   https://quarto.org/docs/authoring/markdown-basics.html, consultée le 31 mars
 2024.]
 
-Cette propriété à être déclinable et adaptable distingue fortement Markdown des
+Cette capacité à être déclinable et adaptable distingue fortement Markdown des
 autres langages de balisage.
 En effet, puisque chaque saveur contient des éléments personnalisés de
 structuration des contenus -- des balises --, il est important de connaître la
@@ -1479,12 +1502,12 @@ laisser le champ libre aux utilisateurs d'employer celle qui leur convient le
 mieux.
 Néanmoins, lorsque les sources sont transformées par le module d'export
 (l'export des sources n'est pas concerné), les utilisateurs doivent respecter
-les préconisations données par Pandoc puisque c'est ce dernier logiciel qui
-réalise les transformations et conversions. Les saveurs les plus couramment
-utilisées avec Pandoc sont CommonMark et GitHub Flavored Markdown^[Outre celle
-qui porte son nom, Pandoc prend en charge d'autres variantes de Markdown comme
-cela est indiqué dans la documentation à ce sujet :
-https://pandoc.org/MANUAL.html#markdown-variants.].
+les préconisations du logiciel Pandoc puisque c'est ce dernier qui
+réalise les transformations et conversions des documents.
+Les saveurs les plus couramment utilisées avec Pandoc sont CommonMark et
+GitHub Flavored Markdown^[Outre celle qui porte son nom, Pandoc prend en
+charge d'autres variantes de Markdown comme cela est indiqué dans la
+documentation à ce sujet : https://pandoc.org/MANUAL.html#markdown-variants.].
 
 Autrement dit, Stylo n'impose pas de variante de Markdown si l'on s'en sert
 comme éditeur de texte sans la nécessité d'utiliser le module d'export.
@@ -1504,19 +1527,21 @@ perd sa caractéristique interopérable et contraint les usagers à bricoler des
 contenus.
 
 La sérialisation des métadonnées est réalisée en YAML qui, dans sa version
-originale de 2004 est l’acronyme de _Yet Another Markup Language_ puis se
+originale de 2004 avait pour signification _Yet Another Markup Language_ puis se
 transforme à l’occasion de la publication de sa version 1.1 en _YAML Ain’t
-Markup Language_. YAML est un langage de sérialisation de données pour tous les
-langage de programmation. Un usage récurrent qui en est fait consiste à utiliser
+Markup Language_.
+YAML est un langage de sérialisation de données pour tous les
+langage de programmation.
+Un usage récurrent qui en est fait consiste à utiliser
 YAML pour créer des fichiers de configuration. Dans le cas des outils liés à
 l’édition numérique, YAML sera utilisé pour enregistrer les métadonnées
 associées à un document.
 Le principe de YAML est très facile à assimiler puisqu'il repose sur le même
 fonctionnement qu'un dictionnaire avec la structure `clef: valeur`.
-Chaque utilisateur a la possibilité de créer de toute pièce son document YAML et
+Chacun a la possibilité de créer de toute pièce son document YAML et
 de choisir les `clefs` et les `valeurs` qui leur sont associées.
 C'est ensuite l'application qui va parser le contenu en suivant l'architecture
-des informations.
+des informations dans le fichier YAML.
 Dans Stylo, les `clefs` ont été prédéterminées lors des développements de
 l'interface et les utilisateurs n'ont plus qu'à remplir un formulaire pour
 déclarer les `valeurs` qui seront associées aux différentes `clefs` -- un mode
@@ -1551,6 +1576,15 @@ Par exemple, la clef YAML `affiliations` désigne sans distinction l'instituti
 le laboratoire ou encore le département de rattachement.
 Pourtant, selon les revues, il peut être important de faire formellement cette
 différence.
+Dans Stylo, la notion d'auteur ne s'incarne qu'à travers ce choix qui a été
+implémenté.
+L'auteur est donc formellement constitué de 10 entrées au maximum.
+Ce qui est valable pour les auteurs l'est également pour les autres types de
+données décrites dans les métadonnées du document.
+La réduction d'un auteur à quelques mot-clés n'est pas très importante
+puisqu'elle couvre les besoin de la plupart des revues -- ce qui est quand même
+l'objectif de Stylo --.
+
 
 Au-delà de Stylo, l'utilisation de YAML est toutefois controversée.
 Contrairement à d'autres langages de structuration de données dont le
