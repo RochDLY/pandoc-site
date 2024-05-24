@@ -677,11 +677,12 @@ et un modèle épistémologique qui lui est propre
 Dans la partie suivante, nous étudions le logiciel Stylo à partir de l'écran comme
 interface d'échange de signes entre les deux protagonistes, utilisateur et
 machine, puis, en dépassant cette surface, et en nous dégageant du prisme
-essentialiste, nous démontrerons que les différents agents d'un environnement
--- principalement logiciels et humain -- sont des dynamiques qui, lorsqu'elles sont
-agencées dans une configuration particulière, co-construisent l'écriture.
+essentialiste^[Cette dimension essentialiste propre à l'interaction est
+détaillée dans le chapitre 1 (ajouter lien)], nous démontrerons que les
+différents agents d'un environnement -- principalement logiciels et
+humain -- sont des dynamiques qui, lorsqu'elles sont agencées dans une
+configuration particulière, co-construisent l'écriture.
 
-[détailler le prisme essentialiste en une phrase ou deux]
 
 ## Une médiation par l'écrit
 
@@ -941,7 +942,7 @@ montréalaise^[Le chapitre 1 devra décrire l'intermédialité
 montréalaise, il faudra ajouter un renvoi ici] [@muller_lintermedialite_2000; @tadier_tentative_2021; @tadier__2021],
 en tant qu'art pour penser les relations
 [@tadier__2021], peut être mobilisée pour mieux comprendre les liens
-entretenues par les agents de notre système, la machine avec elle-même,
+entretenus par les agents de notre système, la machine avec elle-même,
 humain-machine, machine-machine.
 
 Ce qui est intéressant dans cette relation -- et que certains systèmes
@@ -1007,9 +1008,10 @@ Lors de l'interaction entre un usager et une machine, par le biais de cet
 environnement, les médiations à l'oeuvre sont des représentations de ce modèle
 dont les traces présentes dans les documents sont les indices.
 
-En prenant le cas de Stylo, nous pouvons détailler ce que nom désigne en
-fouillant l'architecture logicielle, puisque le code est en libre accès, afin de
-cibler les traces de cette relation entre l'auteur et son environnement.
+En prenant le cas de Stylo, nous pouvons détailler ce que désigne cette
+appellation en fouillant l'architecture logicielle, puisque le code est
+en libre accès, afin de cibler les traces de cette relation entre l'auteur
+et son environnement.
 
 Tout d'abord, Stylo représente un espace sur le Web dans lequel nous pouvons
 écrire en suivant la syntaxe de trois formats de texte brut, le Markdown, le
@@ -1017,8 +1019,9 @@ YAML et le BibTeX.
 Le Web fonctionne différemment d'un environnement local sur son ordinateur
 personnel.
 
-[Faire l'historique du Web en deux phrases, citer les spec du W3C et de HTML
-jusqu'à HTML5]
+Alain Mille en dresse l'histoire depuis les débuts d'Internet dans les années
+1960 [-@mille_internet_2014] à partir du réseau filaire ARPAnet ...
+
 
 Sur le Web, les données sont généralement séparées de l'espace d'affichage et
 sont stockées sur un serveur, dans une base de données.
@@ -1226,9 +1229,13 @@ l'envoi de certaines informations puisque, comme cela est indiqué dans sa
 définition, `POST` laisse le soin au serveur (la ressource cible) de traiter les
 données contenus dans son message selon sa propre sémantique.
 En somme, contrairement à d'autres méthodes comme `PUT`, `POST` n'est pas
-indempotente, ce qui pourrait entraîner des différences de résultat lors de
-l'exécution d'une requête. Par exemple, la duplication d'une requête en cas de
-problème de connexion.
+idempotente^[L’idempotence signifie qu’une opération a le même effet et cela
+quel que soit le nombre d’application.], ce qui pourrait entraîner des
+différences de résultat lors de l'exécution d'une requête.
+Par exemple, la duplication d'une requête en cas de problème de connexion.
+Au contraire, une méthode idempotente comme `PUT` ou `DELETE` aurait le même effet
+du côté du serveur et cela quel que soit le nombre de fois que cette requête lui
+aura été envoyée : une ressource supprimée ne le sera qu’une fois.
 
 Cependant, cette caractéristique tend à disparaître dans le cas de l'utilisation
 de `POST` avec une structure GraphQL puisque cette dernière ne dépend pas d'une
@@ -1265,12 +1272,13 @@ intégrées dans les documents exportés.
 En ce sens, Stylo et ses protocoles pré-construisent la totalité de ce qu'un
 utilisateur peut saisir dans l'interface et sera enregistré dans la base de
 données.
-Puisqu'il y a une pré-construction du document et du texte, nous pouvons à ce
-stade présupposé qu'il y a une pré-construction des traces des interactions avec
-l'utilisateur et de l'intimité qui en résulte.
 Cette préconstruction est la vision du document incarnée dans Stylo.
+Puisqu'il y a une pré-construction du document et du texte, nous pouvons à ce
+stade présupposer qu'il y a une pré-construction des traces des interactions avec
+l'utilisateur et de l'intimité qui en résulte et se matérialise dans des
+fragments comme celui présenté ci-dessus.
 
-Une description très générale des moyens de communication à l'oeuvre entre les
+Cette description très générale des moyens de communication à l'oeuvre entre les
 différents modules de Stylo nous montre déjà que l'information saisie dans cet
 éditeur de texte est formatée par une architecture de données alors que nous
 n'avons pas encore abordé les conditions de l'écriture avec les trois formats
