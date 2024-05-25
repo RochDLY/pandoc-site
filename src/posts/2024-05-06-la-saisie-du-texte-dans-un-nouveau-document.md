@@ -1022,13 +1022,14 @@ personnel.
 Alain Mille en dresse l'histoire depuis les débuts d'Internet dans les années
 1960 [-@mille_internet_2014] à partir du réseau filaire ARPAnet développé par le
 département de la défense américaine.
-Seulement, comme le souligne A. Mille, il manque une brique pour naisse
+Seulement, comme le souligne A. Mille, il manque une brique pour que naisse
 l'Internet : un protocole de transfert des documents.
 Le premier protocole a vu le jour en 1969^[Il n'y a pas de corrélation directe
 avec l'utilisation de la norme ASCII par les institutions américaines à cette
 date, néanmoins on remarque qu'il y a un engouement pour l'informatique à la fin
 des années 1960.] et a fait l'objet de la première RFC^[On peut retrouver tout le contenu de cette RFC sur cette page web : https://www.rfc-editor.org/rfc/rfc3.html. Les RFC sont numérotées, dans ce cas-ci il s'agit de la RFC 3, et vont par ordre croissant. Une modification d'un document numéroté fait l'objet d'un nouveau numéro et rend obsolète la version antérieure. Comme on peut la page Web, la RFC 3 est rendue obsolète par la numéro 10, puis la 16, etc.] (_Request for comments_)
-avant de trouver une forme plus aboutie dans le protocole TCP en 1974 et permet
+avant de trouver une forme plus aboutie dans le protocole TCP en 1974 --
+décrit par Vincent Cerf et Bob Kahn -- et permet
 avec sa distribution sous forme de paquets la naissance d'Internet.
 Ce n'est qu'en 1990, au CERN ((Organisation européenne pour la recherche
 nucléaire)), que Tim Berners-Lee participe à la conception du Web -- et du _World
@@ -1037,21 +1038,22 @@ rencontré dans cette institution grâce au développement du langage de balisag
 Le Web vient donc répondre à un besoin, celui de la compatibilité des
 informations et de leur interoperabilité dans une structure.
 En créant un environnement spécifique composés de normes de structuration des
-informations interprétable par un logiciel -- le navigateur, le Web devient
+informations interprétable par un logiciel, le navigateur, le Web devient
 agnostique et ne dépend plus de la même couche d'abstraction logicielle
 qu'un environnement local. 
 L'ordinateur devient un terminal, un client à partir duquel on peut se connecter
 au réseau et accéder aux informations qui y circulent.
 
-Sur le Web, les données sont généralement séparées de l'espace d'affichage et
-sont stockées sur un serveur, dans une base de données.
+C'est ainsi que sur le Web, le stockage des données est généralement séparé
+de l'espace d'affichage et sont stockées dans une base de données sur un serveur.
 Il y aurait donc au moins deux modules différents, la partie _client_ -- ce qui
-est affiché dans le navigateur -- et la partie _serveur_, soit la base de données. 
+est affiché dans le navigateur -- et la partie _serveur_ où sont les organisées
+les informations. 
 
-[Faire une petite transition]
-
-Dans notre cas, nous allons scinder l' architecture logicielle de Stylo en trois
-parties.
+Nous retrouvons ce fonctionnement dans Stylo avec la partie serveur et la
+partie client auxquelles vient s'ajouter un troisième bloc pour exporter les
+données afin de les sortir de cet environnement client - serveur.
+L'architecture logicielle de Stylo peut donc être scindée en trois parties.
 
 ![Les différents modules de Stylo](https://s3.hedgedoc.org/demo/uploads/afdf01ec-bd0b-4b38-8394-752d6e2d1e4b.png "Les différents modules de Stylo")
 
@@ -1585,7 +1587,6 @@ La réduction d'un auteur à quelques mot-clés n'est pas très importante
 puisqu'elle couvre les besoin de la plupart des revues -- ce qui est quand même
 l'objectif de Stylo --.
 
-
 Au-delà de Stylo, l'utilisation de YAML est toutefois controversée.
 Contrairement à d'autres langages de structuration de données dont le
 comportement est pérenne, comme le standard JSON (_JavaScript Object Notation_)
@@ -1721,6 +1722,11 @@ Une modification du format ou du fonctionnement du gestionnaire de références
 bibliographiques serait beaucoup trop lourde en termes d'effets de bord dans
 Stylo, c'est pour cela qu'à ce stade nous en sommes restés à cette solution.
 
+Étant strictement définis par des règles, les formats dépassent une simple
+manière de saisir une données.
+À travers ces formats et les modes de lectures que l'on peut y adosser,
+les informations saisies se voient dotées de comportements et peuvent modifier
+l'interprétation que l'on peut en faire, comme nous l'avons vu avec le YAML.  
 Le choix des formats dans lesquels les utilisateurs peuvent saisir leurs textes
 et leurs données n'est pas anodin.
 Qu'il soit ancien, récent, verbeux ou léger, permissif ou rigide,
@@ -1813,6 +1819,11 @@ démarche d'Apple en 2005 nous montre un changement de perspective : on passe 
 mot à la page.
 L'attention est porté à un autre endroit, sur une page que génère Pages et qui
 n'existe pas dans d'autres environnements.
+La page créée dans cet espace n'est pas reproductible ailleurs même si le
+document qui en résulte est ouvert, à un autre moment, par le biais d'un autre
+logiciel.
+La page de Pages devient un espace délimité qui n'existe sous cette forme qu'à
+cet endroit.
 Depuis vingt ans que cet outil est nativement disponible sur les ordinateurs de
 chez Apple, la compatibilité avec d'autres formats et/ou logiciels à fortement
 augmentée, en témoigne les arguments de communication mis en avant sur la page
@@ -1863,7 +1874,8 @@ Il se manifeste entre ce que l’usager à l’intention d’écrire et le docum
 produit la machine, qui est structuré selon un certains nombre de normes,
 formats, etc., implémentés dans un logiciel.
 Ce trouble nait de la rencontre entre une représentation du texte structurée
-graphiquement et une représentation du texte structurée par du texte,
+graphiquement et une représentation du texte structurée par du texte, entre une
+raison graphique et une raison computationnelle,
 comme c’est le cas pour une page web interprétée par un navigateur et son
 pendant au format HTML.
 En ce sens, nous examinons la possibilité que l’écriture numérique puisse
@@ -1901,9 +1913,9 @@ espace web.
 Pour y accéder, nous avons besoin d'un logiciel particulier -- un navigateur ou
 un fureteur -- capable d'interpréter du HTML, du CSS et d'exécuter du
 Javascript.
-Lorsque l'on écrit dans Stylo -- et de surcroit dans Monaco --, le texte saisi
-doit être manipulable et interprétable par le navigateur pour pouvoir être
-envoyé sur le serveur.
+Lorsque l'on écrit dans Stylo -- et de surcroit dans le composant Monaco --,
+le texte saisi doit être manipulable et interprétable par le navigateur pour
+pouvoir être envoyé sur le serveur.
 C'est le rôle de Monaco de traiter cette couche d'informations.
 À l'écran, l'utilisateur voit s'afficher du Markdown tel qu'il le frappe,
 pourtant cette information n'est inscrite sur aucun support en dehors du rendu
@@ -2028,7 +2040,7 @@ Lorsqu'un utilisateur écrit dans Stylo, il accorde sa confiance dans les
 opérations que réalise Stylo sur le texte et dans la matérialité qu'il participe
 à lui conférer.
 
-Toutes ces dynamiques éditorialisent et constituent les premiers documents de
+Toutes ces dynamiques éditorialisent et constituent les premières traces de
 l'intimité du chercheur.
 Autrement dit, écrire dans l'environnement Stylo produit quelque chose qui ne
 serait pas identique dans un autre environnement car les dynamiques observées
