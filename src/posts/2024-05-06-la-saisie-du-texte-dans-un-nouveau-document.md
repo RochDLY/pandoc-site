@@ -164,24 +164,11 @@ matériel ou du logiciel.
 En conséquence, nous mobilisons de la documentation technique pour étayer notre
 propos et pour analyser les traces qui nous intéressent.  
 
-L'observation du phénomène de création d'un document texte dans un
-environnement d'écriture spécialisé pour l'écriture savante à travers le prisme
-des strates de l'écriture numérique, du matériel au logiciel,
-nous permet de mettre en évidence différents angles morts dans lesquels se
-nichent les traces de l'intime.
-Qu'ils s'incarnent dans des documents temporaires comme le DOM du navigateur ou
-dans des protocoles de transmissions des informations comme HTTP, ces angles
-morts de l'écriture numérique, produit par la relation entre un auteur et une machine,
-nous montrent que certaines parties de cette écriture ne sont finalement pas directement
-accessibles à ces deux agents alors qu'elles participent à la matérialité conférée
-au document produit.
-Il y a une forme de déprise, terme que Louise Merzeau employait pour évoquer les
-utilisateurs des plateformes du Web et « la perte de contrôle de leurs usages,
-restreints et conditionnés par les algorithmes » 
-[sauret__2020], instaurée dans cette relation et que l'auteur accepte, bon ou
-malgré lui, lorsqu'il utilise un environnement d'écriture numérique.
-En ce sens, un certain degré de confiance est accordé à l'environnement
-d'écriture choisi dans le processus de production de du document.
+À partir de cette étude, nous verrons qu'à l'intérieur de cet _entre_, les
+traces de cette relation et de l'intime manifestent d'une part aveugle de
+l'écriture, puisque cette dimension de l'écriture n'est pas directement visible
+pour l'auteur et relève alors d'une forme de déprise [sauret__2020] sur le texte,
+plutôt qu'une reprise en main telle que Stylo la promeut.
 
 ## Écrire dans un environnement numérique
 
@@ -2050,35 +2037,57 @@ politique puisque cet environnement agit et produit une matérialité singulièr
 
 ## Conclusion
 
-À la question de la place de l'ordinateur dans le processus de saisi d'un texte
-numérique, nous avons émis l'hypothèse que ce dernier dépasse son statut
-utilitariste pour celui de dynamique constitutive du sens de ce texte.
-En nous appuyant d'abord sur le fonctionnement d'un ordinateur et sur les
+À la question de la place de l'environnement d'écriture dans le processus de
+saisi d'un texte numérique et de l'intimité du chercheur qui en découle,
+nous avons émis l'hypothèse que ce dernier dépasse son statut
+utilitariste de support pour celui de dynamique constitutive du sens de ce texte.
+En nous appuyant sur le fonctionnement d'un ordinateur et sur les
 caractéristiques de l'écriture numérique, tant la partie matérielle que la
-partie logicielle, puis sur la notion d'éditorialisation, telle qu'elle
+partie logicielle, nous avons écarté la page affichée à l'écran pour nous
+confronter aux logiciels et aux médiations qu'ils représentent dans la relation
+entre humain et machine dans l'acte d'écriture. 
+
+En nous appuyant sur la notion d'éditorialisation, telle qu'elle
 s'inscrit dans le nouveau matérialisme et le posthumanisme, nous avons observé
 les intra-actions à l'oeuvre dans l'éditeur de texte Stylo.
+À partir de ce positionnement théorique dont le prisme non-essentialiste ne
+prédétermine pas les agents en amont de l'interaction, nous avons considéré à la
+fois l'auteur et et la machine comme deux agents de l'énonciation
+éditoriale.
+ 
 Pour réaliser cette étude, nous nous sommes appuyés sur une méthode empruntée au
 théoricien des médias Friedrich Kittler dont l'analyse repose sur la description
 technique du fonctionnement des éléments mobilisés.
 
-[Remplacer le paragraphe ci-dessous en revenant sur les traces de l'intime qu'on a
-rencontré]
+L’observation du phénomène de création d’un document texte dans un environnement
+d’écriture spécialisé pour l’écriture savante à travers le prisme des strates de
+l’écriture numérique, du matériel au logiciel, a mis en évidence
+différents angles morts de la relation entre un auteur et son environnement
+d'écriture dans lesquels se nichent les traces de l’intime.
+Qu’ils s’incarnent dans des documents temporaires comme le DOM du navigateur ou dans
+des protocoles de transmissions des informations comme HTTP, ces angles morts de
+l’écriture numérique, produits par cette relation, nous montrent que certaines
+parties de cette écriture ne sont finalement pas directement accessibles à ces
+deux agents alors qu’elles participent à la matérialité conférée au document produit.
+Il y a une forme de déprise instaurée dans cette relation et que l’auteur accepte,
+bon ou malgré lui, lorsqu’il emploie un environnement d’écriture numérique.
+En ce sens, un certain degré de confiance est accordé à l’environnement d’écriture
+choisi dans le processus de production du document.
 
-En appliquant cette méthode à divers cas de saisi de fragments de texte selon
-les formats pivots utilisés dans Stylo, le Markdown, le YAML et le BibTeX, nous
-nous sommes aperçus que ces fragments ne sont jamais inscrit directement selon
-les formats mentionnés mais qu'ils passent par quatre états différents : la
-saisie à l'écran, la manipulation par le DOM du navigateur dans l'éditeur
-Monaco, la requête GraphQL formatée en JSON pour être transporté par la méthode
-`POST` du protocole HTTP et le stockage dans la base de données MongoDB.
+En observant diverses saisies de fragments de texte selon les formats pivots utilisés
+dans Stylo, le Markdown, le YAML et le BibTeX, nous nous sommes aperçus qu'ils ne
+sont jamais inscrit directement selon les formats mentionnés mais qu'ils passent par
+quatre états différents : la saisie à l'écran, la manipulation par le DOM du
+navigateur dans l'éditeur Monaco, la requête GraphQL formatée en JSON pour être
+transporté par la méthode `POST` du protocole HTTP et le stockage dans la base de
+données MongoDB.
 Le texte est ainsi transformé en différents états pour qu'il puisse circuler
 dans Stylo entre l'espace où il est saisi, que l'on peut retrouver à une adresse
 unique (l'URL de l'article), et l'espace où il sera stocké dans le serveur de la
 TGIR Huma-num qui héberge l'application.
 De nouvelles informations sont alors inscrites dans le texte lors de ces
 métamorphoses : la structure du document varie à chaque étape.
-Ainsi, les signes qui constituent le document changent et en modifie
+Ainsi, les signes qui constituent le document changent et en modifient
 profondément le sens.
 Parmi les quatre états mentionnés, seulement le premier est saisi par
 l'utilisateur et les autres sont écrits par Stylo.
@@ -2090,5 +2099,13 @@ manipulations du texte que l'application réalise.
 En se référant à l'éditorialisation, nous pouvons affirmer que chacune de ces
 quatre phases contribue à la matérialité du texte saisi et qu'en ce sens il y a
 co-écriture entre l'utilisateur et Stylo.
+
+Les marqueurs de cette relation entre un auteur et l'environnement d'écriture Stylo,
+les traces de l'intime, apparaissent à chacune des phases du document et y sont
+inscrites à l'intérieur.
+En suivant le fil de ces traces, il devient possible de suivre l'ensemble des
+médiations et des conditions de l'environnement numérique produisant le document
+et son texte, source que traitera la chaîne éditoriale jusqu'à sa publication.  
+
 
 ## Bibliographie
