@@ -1415,7 +1415,8 @@ formats littéraires concernant l'agencement des mots et des phrases.
 Nous nous concentrons ici sur les formats informatiques.
 En fonction des nécessités d'un système d'exploitation, d'un programme
 informatique ou d'une plateforme en ligne, un format caractéristique sera
-requis.
+requis pour agencer et organiser les informations selon les règles qui le
+définissent [bachimont_ingenierie_2007].
 Un format qui n'est pas standard (ces caractéristiques doivent être décrites),
 qui n'est pas ouvert (il est possible de comprendre comment le format
 fonctionne) ou qui nécessite un environnement très spécifique pour être
@@ -1430,7 +1431,7 @@ ou partagé ?).
 
 Si le but du format est de constituer une série d'informations compréhensibles,
 utilisables et communicables, il reste une contrainte forte pour les chaînes de
-publication.
+publication [@mourat_vacillement_2020].
 Que ce soit en tant que format d'entrée, format pivot de transformation ou
 format de publication -- nous reviendrons sur les transformations et les
 artefacts publiables dans le chapitre 4 --, il déterminera le
