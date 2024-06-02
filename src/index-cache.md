@@ -2,6 +2,8 @@
 title: Index caché
 ---
 
+- [06-Ébauche d'une introduction pour la
+  thèse](/posts/2024-05-27-ebauche-introduction-these.html)
 - [05-Amélioration de la définition de l'intimité du
   chercheur](/posts/2024-05-11-amelioration-definition-intimite-du-chercheur.html)
 - [04-La saisie du texte dans un nouveau
