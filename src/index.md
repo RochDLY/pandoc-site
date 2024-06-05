@@ -2,6 +2,8 @@
 title: Pensées d'un doctorant
 ---
 
+- [13-Fabriquer un éditeur de texte dans le
+  terminal](/posts/2024-06-05-fabriquer-un-editeur-de-texte-dans-le-terminal.html)
 - [12-Installer FuguIta en
   LiveUSB](/posts/2024-05-18-installer-fuguita-en-live-usb.html)
 - [11-Texte présenté lors de l'examen doctoral de l'UdeM](/posts/2024-05-07-texte-examen-de-synthese.html)

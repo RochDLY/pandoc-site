@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | Fabriquer un éditeur de texte dans le terminal</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-06-05" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/pages/publications.html">Publications</a></li>
+                    <li><a href="/pages/cours.html">Enseignements</a></li>
+                    <li><a href="/pages/presentations.html">Présentations</a></li>
+                    <li class="right"><a href="/index-cache.html"></a></li>
+                </ul>
+            </nav></header>                    <div class="container">
+                <header class="header-bloc">
+                    <h1>Fabriquer un éditeur de texte dans le terminal</h1>
+<!--  -->
+                    <time>2024-06-05</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<p>Ce billet, je l’écris avec Nano. Depuis maintenant un peu plus d’une année, j’écris la quasi totalité de mes billets, bouts de code (et presque mes courriels) depuis mon terminal. C’est assez confortable de ne pas avoir à constamment changer d’environnement pour travailler.</p>
+<p>J’ai pu passer par Vi, Vim, un peu Emacs, Neovim, maintenant Nano et je ne suis pas vraiment satisfait. La plupart des fonctionnalités implémentées sont développées pour écrire du code ou manipuler des fichiers de configuration. Finalement, ces espaces d’écriture ne sont pas complètement adaptés pour écrire des textes avec une orientation académique. Aussi il y a trop de fonctionnalités qui ne sont pas utilisées dans ce cadre. À quoi bon les charger / les avoir constamment si je ne m’en sers jamais ?</p>
+<p>Le constat fait dans cet espace est le même que celui fait pour Stylo par la CRCEN il y a quelques années : le modèle du document numérique de ces éditeurs de texte est-il vraiment adaptés aux visions de ce que nous voudrions que soit un document savant ?</p>
+<p>À mon sens Stylo devient un espace où trop de fonctionnalités sont entremêlées. La philosophie Unix (Mike Gancarz) selon laquelle il est souhaitable de faire des programmes qui ne font qu’une seule chose mais qui le font bien m’attire beaucoup plus.</p>
+<p>Ayant envie d’explorer un peu plus certaines librairies Python (comme curses qui permet de faire des applications python TUI) j’ai bien envie de me lancer dans le projet de créer un éditeur de texte TUI adapté à certains besoins spécifiques d’écriture (la liste sera dressée plus tard, et peut-être pas dans ce carnet).</p>
+<p>Un projet a été initié sur <a href="https://gitlab.huma-num.fr/rdelannay/simple_text_editor">gitlab</a>.</p>
+<p>Les sources d’inspiration pour amorcer la discussion sur les besoins à implémenter et sur comment créer un éditeur TUI:</p>
+<ul>
+<li><a href="https://github.com/seeM/editor">Tout le code de Wasim Lorgat</a></li>
+<li><a href="https://git.savannah.gnu.org/cgit/nano.git/tree/src">Le code source de nano</a></li>
+<li><a href="https://github.com/asottile/babi/tree/main">Le code source de l’éditeur babi</a></li>
+</ul>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>
