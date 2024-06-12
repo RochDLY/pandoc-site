@@ -1,5 +1,5 @@
 ---
-title: Construire un générateur de carnet
+title: "Construire un générateur de carnet"
 date: "2023-11-03"
 ---
 
@@ -121,7 +121,7 @@ pandoc-ssg/
 ├── metadata.yaml
 └── README.md
 ```
-### Les commandes
+### Les lignes de commande
 
 La production du site est réalisée vie une série de commandes Make et Pandoc.
 
