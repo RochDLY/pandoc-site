@@ -2,7 +2,7 @@
 title: Présentations
 ---
 
-- [13 juin 2024 - Sur les traces de l'intimité du chercheur dans les publications scientifiques : phase de saisie du texte](/presentations/doctoriales24.html)
+- [13 juin 2024 - _In-silicium_ : Sur les traces de l'intimité du chercheur dans les publications scientifiques](/presentations/doctoriales24.html)
 
 ```{=html}
 
