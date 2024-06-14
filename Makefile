@@ -68,15 +68,16 @@ docs/index.html: src/index.md templates/index.html $(metadata_site)
 		--output $@
 	@ echo "L'index est construit."
 
-docs/pages/%.html: src/pages/%.md $(metadata_site) templates/post.html
+docs/pages/%.html: src/pages/%.md $(metadata_site) templates/page.html
 	@ mkdir -p "$(@D)"
 	@ echo "Production de la page \"$@\"..."
 	@ pandoc \
   	$< \
 		$(PANDOCFLAGS) \
-		--template templates/post.html \
+		--template templates/page.html \
 		--output $@
 	@ echo "La page \"$@\" est construite."
+	
 
 docs/posts/%.html: src/posts/%.md $(metadata_site) templates/post.html
 	@ mkdir -p "$(@D)"
