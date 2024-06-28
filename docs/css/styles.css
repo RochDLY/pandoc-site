@@ -5,25 +5,25 @@
 }
 
 @font-face {
-    font-family: 'texgyreheroscn';
+    font-family: 'TeX Gyre Heros';
     font-weight: 400;
     src: url('/fonts/texgyreheroscn-regular.otf') format('otf');
 }
 
 @font-face {
-    font-family: 'texgyreheroscn';
+    font-family: 'TeX Gyre Heros';
     font-weight: 700;
     src: url('/fonts/texgyreheroscn-bold.otf') format('otf');
 }
 
 @font-face {
-    font-family: 'texgyreheroscn';
+    font-family: 'TeX Gyre Heros';
     font-style: italic;
     src: url('/fonts/texgyreheroscn-italic.otf') format('otf');
 }
 
 @font-face {
-    font-family: 'texgyreheroscn';
+    font-family: 'TeX Gyre Heros';
     font-weight: 700;
     src: url('/fonts/texgyreheroscn-bolditalic') format('otf');
 }
@@ -43,8 +43,9 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr;
-    font-family: 'texgyreheroscn';
+    font-family: 'TeX Gyre Heros';
     font-size: 1em;
+    margin-top: 0;
 }
 
 footer {
@@ -57,6 +58,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Bagnard';
+    margin-top: 0; 
 }
 
 img {
@@ -73,13 +75,20 @@ img {
 }
 
 .content {
-    padding: 4em;
+    padding: 1em 4em;
     font-size: 1.3em;
+}
 
+.content h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 
 .content h2 {
     font-size: 2.5em;
+}
+
+.content p {
+    margin-top: 0;
 }
 
 .description-site {
