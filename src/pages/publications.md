@@ -2,8 +2,6 @@
 title: Publications et communications
 ---
 
-## Publications
-
 **Actes de colloque**
 
 - Delannay, R., Fauchié, A., Vitali-Rosati, M. (2023) Stylo en 2023 : de nouvelles fonctionnalités pour l'écriture et l'édition scientifique. Humanistica 2023, Genève, Suisse.
@@ -27,8 +25,6 @@ title: Publications et communications
 **Rapports de recherche**
 
 - Delannay, R. et Fauchié, A. (à paraître). *Rapport de recherche sur les forges de publication*, sous la direction de Château-Dutier, E. et Sinatra, M.
-
-## Communications
 
 **Conférences**
 
