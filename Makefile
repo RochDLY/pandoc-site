@@ -124,3 +124,15 @@ index-partials = \
 
 templates/index.html: $(index-partials)
 	@ touch $@
+
+templates/index-cache.html: $(index-partials)
+	@ touch $@
+
+pages-partials = \
+	templates/partials/footer.html \
+	templates/partials/head.html \
+	templates/partials/header.html \
+	templates/partials/nav.html
+
+templates/page.html: $(pages-partials)
+	@ touch $@
