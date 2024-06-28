@@ -12,8 +12,9 @@ Sauf mention contraire, les contenus publiés sur ce site sont réutilisables su
 Ce site est principalement créé avec [GNU Make 4.3](https://www.gnu.org/software/make/) et [Pandoc 3.1.1](https://pandoc.org/).
 C'est un site dit « statique ». Il ne requiert que des fichiers au format HTML pour contenir les données affichées sur les pages web.
 
-Aucune police de caractères n'est chargée dans le site, les polices utilisées sont celles de votre navigateur par défaut. 
-
+~~Aucune police de caractères n'est chargée dans le site, les polices utilisées sont celles de votre navigateur par défaut.~~  
+La composition des corps de texte est réalisée avec [Tex Gyre Heros](https://www.gust.org.pl/projects/e-foundry/tex-gyre/heros), distribuée par GUST sous licence GPL (GUST Font License), une licence libre équivalente à LPPL (LaTeX Project Public License).
+La police pour les titres est [Bagnard](https://github.com/sebsan/Bagnard), distribuée sous licence [SIL Open Font License v1.1](https://openfontlicense.org/) et réalisée par Sebastien Sanfilippo (Love Letters).
 
 ## Remerciements
 
