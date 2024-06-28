@@ -2,8 +2,6 @@
 title: Enseignements
 ---
 
-## Enseignements
-
 **Université Montpellier 3 Paul Valéry | 2023-2024**
 
 - Master 2 MAVINUM - Science ouverte : Logiciel Stylo, janvier 2024 (5h TD).
