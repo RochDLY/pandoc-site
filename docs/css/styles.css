@@ -155,6 +155,7 @@ img {
 .posts-list {
     grid-column: 1;
     grid-row: 2;
+    height: fit-content;
     background-color: rgb(255, 255, 255);
     border: 3px solid black;
 }
