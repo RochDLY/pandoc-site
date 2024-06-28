@@ -13,6 +13,7 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr;
+    font-family: 'Syne Mono', monospace;
 }
 
 footer {
