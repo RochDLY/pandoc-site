@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Bagnard';
+    font-weight: 400;
+    src: url('/fonts/Bagnard.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'texgyreheroscn';
+    font-weight: 400;
+    src: url('/fonts/texgyreheroscn-regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'texgyreheroscn';
+    font-weight: 700;
+    src: url('/fonts/texgyreheroscn-bold.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'texgyreheroscn';
+    font-style: italic;
+    src: url('/fonts/texgyreheroscn-italic.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'texgyreheroscn';
+    font-weight: 700;
+    src: url('/fonts/texgyreheroscn-bolditalic') format('otf');
+}
+
 blockquote {
     background-color: #3333332a;
     font-style: italic;
@@ -13,7 +43,8 @@ body {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr;
-    font-family: 'Syne Mono', monospace;
+    font-family: 'texgyreheroscn';
+    font-size: 1em;
 }
 
 footer {
@@ -22,6 +53,10 @@ footer {
     border: 3px solid black;
     grid-column: 1 / 3;
     grid-row: 3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bagnard';
 }
 
 img {
@@ -38,7 +73,13 @@ img {
 }
 
 .content {
-    padding: 2em;
+    padding: 4em;
+    font-size: 1.3em;
+
+}
+
+.content h2 {
+    font-size: 2.5em;
 }
 
 .description-site {
@@ -60,7 +101,7 @@ img {
 .header-bloc h1,
 .header-bloc h2 {
     font-weight: 600;
-    font-size: 12pt;
+    font-size: 16pt;
     color: white;
 }
 
@@ -181,4 +222,12 @@ footer a:hover, footer a:active {
 
 .toc a:hover, .toc a:active {
     text-decoration: underline;
+}
+
+.load-content {
+    font-size: 0.8em;
+}
+
+.smaller-content {
+    font-size: 0.6em;
 }
