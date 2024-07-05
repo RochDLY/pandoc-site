@@ -117,7 +117,7 @@ strong > em {
 .header-bloc {
     background: #1a1818;
     text-align: left;
-    padding: 1px;
+    padding: 1em;
     font-size: 1em;
     color: rgb(255, 254, 235);
 }
