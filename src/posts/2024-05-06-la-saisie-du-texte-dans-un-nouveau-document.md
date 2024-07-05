@@ -1,15 +1,49 @@
 ---
-title: "La production de l'intimité du chercheur par les publications savantes :
-phase de saisie du texte"
+title: "Le modèle du document source émerge de l'action d'écriture"
 date: 2024-05-06
 ---
 
 ## Introduction
 
-Lors du chapitre précédent, nous avons défini l'*intimité du
-chercheur* comme le résultat produit par les écrits savants, parmi
-lesquels nous retrouvons les publications scientifiques qui sont l'objet de
-notre recherche.
+Lors du chapitre précédent, nous avons défini le document comme étant l'objet au
+coeur du processus de publication scientifique.
+Qu'il s'agisse des premières revues savantes datant du XVII^e^ siècle ou des
+revues numériques contemporaines, des lettres ou encore des livres, un document
+est nécessaire pour fabriquer (Fauchié 2024) cet objet éditorial.
+Ce document, dans sa forme (format, XXX) et sa struture (Zacklad,
+Pédauque ...), dépasse son statut de simple support de l'information.
+Le support n'est alors plus considéré comme un élément neutre et devient, de par
+sa matérialité, un élément constitutif du sens accordé au message qu'il porte.
+
+Pour arriver à ce postulat, nous nous sommes appuyés sur la théorie des médias
+et plus particulièrement sur le courant fondé par l'école de Toronto depuis McLuhan,
+théorie reprise par Kittler dans les années
+1970 en Allemagne puis par la médiologie en France et notamment par Louise Merzeau.
+Chez L. Merzeau, nous retrouvons une affiliation avec la pensée de Kittler,
+principalement dans ses approches [déterministe /essentialiste. Retravailler sur
+ça, j'ai il faut confirmer l'un ou l'autre. À vérifier mais approche kittler =
+essentialiste et Merzeau déterministe....] sur lesquelles
+reposent son travail.
+Pour tenter de dépasser ces positions, L. Merzeau s'est notamment tourné vers
+les sciences de l'information et de la communication (SIC) et a développé ses
+recherches autour de la notion d'éditorialisation, à la fois avec le courant provenant
+des SIC depuis Bachimont (Bachimont, Broudoux) et les travaux sur la
+redocumentarisation (Zacklad, Bachimont) et avec le courant développé au Québec
+par M. Vitali-Rosati, plus proche des sciences humaines et de l'intermédialité
+montréalaise, un autre courant historique de la théorie des médias où s'y est
+développé depuis les lettres et les arts une approche de la relation entre
+les médias (Tadier, Méchoulan).
+
+Malgré que L. Merzeau n'ait pu achever ses travaux, on retrouve dans les travaux
+les plus récents sur l'éditorialisation provenant du Canada, un dépassement de
+cette posture essentialiste par la mobilisation de théories provenant du
+post-humanisme (Hayles, Barad) ... [écrire 3 lignes sur ça]
+
+Dans ce chapitre, nous nous intéresserons aux éléments constitutifs d'un type de
+document particulier : les publications scientifiques.
+Revenir brièvement sur le fait qu'un document est constitué d'écritures
+(numériques), que chacune des interactions est une forme d'écriture...
+
 Au 21^e^ siècle, alors que la plupart des échanges et communications passent par
 Internet, que ce soit avec le Web, les courriels ou les réseaux de téléphonie mobile,
 les publications scientifiques peuvent être assimilées à des documents
@@ -165,7 +199,7 @@ En conséquence, nous mobilisons de la documentation technique pour étayer notr
 propos et pour analyser les traces qui nous intéressent.  
 
 À partir de cette étude, nous verrons qu'à l'intérieur de cet _entre_, les
-traces de cette relation et de l'intime manifestent d'une part aveugle de
+traces de cette relation manifestent d'une composante aveugle de
 l'écriture, puisque cette dimension de l'écriture n'est pas directement visible
 pour l'auteur et relève alors d'une forme de déprise [sauret__2020] sur le texte,
 plutôt qu'une reprise en main telle que Stylo la promeut.
