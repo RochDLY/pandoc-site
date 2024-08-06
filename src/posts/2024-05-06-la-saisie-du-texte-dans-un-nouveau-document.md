@@ -3,6 +3,9 @@ title: "Le modèle du document source émerge de l'action d'écriture"
 date: 2024-05-06
 ---
 
+Note : PB globale : quelle épistémologie du document numérique pour les
+publications scientifiques ?
+
 ## Introduction
 
 Lors du chapitre précédent, nous avons défini le document comme étant l'objet au
@@ -14,6 +17,11 @@ Ce document, dans sa forme (format, XXX) et sa struture (Zacklad,
 Pédauque ...), dépasse son statut de simple support de l'information.
 Le support n'est alors plus considéré comme un élément neutre et devient, de par
 sa matérialité, un élément constitutif du sens accordé au message qu'il porte.
+
+---
+
+[La paragraphe qui suit sera dans le chapitre 1, pas nécessaire d'en faire un
+recap]
 
 Pour arriver à ce postulat, nous nous sommes appuyés sur la théorie des médias
 et plus particulièrement sur le courant fondé par l'école de Toronto depuis McLuhan,
@@ -39,42 +47,67 @@ les plus récents sur l'éditorialisation provenant du Canada, un dépassement d
 cette posture essentialiste par la mobilisation de théories provenant du
 post-humanisme (Hayles, Barad) ... [écrire 3 lignes sur ça]
 
-Dans ce chapitre, nous nous intéresserons aux éléments constitutifs d'un type de
-document particulier : les publications scientifiques.
-Revenir brièvement sur le fait qu'un document est constitué d'écritures
-(numériques), que chacune des interactions est une forme d'écriture...
+---
 
-Au 21^e^ siècle, alors que la plupart des échanges et communications passent par
-Internet, que ce soit avec le Web, les courriels ou les réseaux de téléphonie mobile,
-les publications scientifiques peuvent être assimilées à des documents
-numériques, soit un espace délimité dans lequel sont organisées des informations
-selon des normes établies par les impératifs technologiques d'une chaîne
-éditoriale, par exemple avec des protocoles de communication des documents ou
-encore des formats.
-Dans cette chaîne, la réalisation d'un document nécessite ainsi des interactions
+Puisqu'il n'est pas un simple support, nous nous intéresserons dans ce chapitre 
+à la construction de ce document scientifique en milieu numérique.
+Comme cela a été énoncé dans le chapitre précédent, un document est un espace
+numérique délimité dans lequel sont organisées des informations selon des normes
+établies par les impératifs d'une chaîne de traitements, par exemple avec des
+protocoles de communication des documents ou encore des formats.
+
+Ainsi, cet espace alloué physiquement dans la mémoire numérique
+va subir des modifications afin que l'information initiale qui y est
+contenue puisse être traitée et transformée en un autre objet ou transportée en
+un autre espace.
+
+Les documents numériques ayant pour devenir la publication scientifique
+font principalement l'objet d'un traitement éditorial de l'information : saisie du
+texte dans un format de traitement de texte ou de texte brut, conversions dans
+divers formats de document, transformations du texte source selon des normes
+éditoriales ou à la suite d'une relecture par les pairs, publication dans un
+nouvel espace selon un format lié à cette action (que l'objet soit imprimé ou
+publié en version numérique).
+
+Dans cette chaîne, la réalisation d'un artefact publiable, c'est-à-dire un
+document dans sa version finale, nécessite des interactions
 entre une multitude d'agents pour advenir, qu'ils soient numériques ou humains.
-À chacune des étapes de sa constitution, ces interactions entre les agents
-laissent des traces à l'intérieur du document que nous considérons comme des
-traces de l'intimité du chercheur.
-Ces traces sont des indices d'une intimité passée et donc de la matérialité de
-cette dernière. 
+Qu'il s'agisse de l'adaptation des références bibliographiques à une norme donnée,
+de l'ajout des espaces fines insécables dans le texte, de la modification ou
+correction de certaines sources d'information, ces étapes de l'élaboration du document
+ainsi que toutes les autres proviennent des interactions entre des individus et
+l'environnement support [zacklad_organisation_2012; Merzeau] qui produisent des traces à
+l'intérieur du document que nous considérons
+comme constitutive d'une épistémologie du document singulière.
+Elles sont les indices de ces interactions passées et incarnent un modèle de
+représentation du document et par extension de la publication scientifique
+concernée. 
+Plutôt que de nous intéresser au document final tel qu'il est publié, nous nous
+focalisons sur les interactions qui le précèdent et sur une épistémologie du
+document en cours d'élaboration.
 
-Avec ce chapitre, nous commençons à détailler la relation qu'entretiennent un
-auteur et un ordinateur dans l'acte d'écriture scientifique dans un environnement
-numérique^[À chaque fois que nous ferons référence à l'écriture, il faudra
-la comprendre comme l'écriture scientifique en environnement numérique sauf
+Nous consacrons ce chapitre aux premières interactions à l'origine de la
+publication scientifique : la saisie d'un texte.
+Pour ce faire, nous détaillerons la relation qu'entretiennent un auteur et un
+ordinateur dans cet acte d'écriture scientifique dans un
+environnement numérique^[À chaque fois que nous ferons référence à l'écriture,
+il faudra la comprendre comme l'écriture scientifique en environnement numérique sauf
 mention différente.].
 
 Ce dispositif que nous venons de décrire fait écho aux théories de
 l'éditorialisation [@vitali-rosati_editorialization_2018] et de
 l'énonciation éditoriale [@souchier_image_1998].
-Ainsi, cette écriture numérique n'est plus définie en tant que
+
+[Faire un bref rappel de ces notions]
+
+En ce sens, l'acte d'écriture numérique n'est plus définie en tant que
 fruit d'une seule fonction auctoriale, mais l'est par un ensemble de fonctions
 éditoriales dont la fonction auctoriale fait partie.
 
-Selon ce cadre théorique, et puisque notre hypothèse positionne l'intime en tant que
-produit de l'écriture, nous pouvons nous demander quelle est la contribution de
-l'environnement d'écriture à cet intime lors de la saisie d'un texte dans un
+Selon ce cadre théorique, et puisque notre hypothèse positionne le modèle
+épistémologique du document en tant que produit de l'écriture,
+nous pouvons nous demander quelle est la contribution de
+l'environnement d'écriture à ce modèle lors de la saisie d'un texte dans un
 document.
 
 Ainsi, parmi toutes les fonctions éditoriales que l'on pourrait énumérer, nous nous
@@ -133,8 +166,8 @@ publication académique [@kembellec_lerudition_2020], tout en invitant à une
 réflexion théorique et pratique sur nos façons d'écrire et d'éditer.
 
 Prendre le contrôle de son propre texte, voilà ce que permet aujourd'hui Stylo à
-travers plusieurs fonctionnalités fondatrices ou toutes nouvelles -- depuis la
-version 3.0 -- qui s'inscrivent dans le domaine des technologies de l'édition
+travers plusieurs fonctionnalités fondatrices ou plus récentes qui s'inscrivent
+dans le domaine des technologies de l'édition
 numérique [@blanc_technologies_2018] : balisage du texte pour une structure
 sémantique fine, import de données bibliographiques structurées depuis
 l'application Zotero, mot-clés contrôlés depuis plusieurs ontologies,
@@ -186,7 +219,8 @@ Alors que chaque signe et chaque trace inscrite dans l'éditeur de texte Stylo
 incarne cette tension _entre_ l'utilisateur et la machine, dont les différences
 de langage -- naturel et machine -- rend a priori toute communication directe
 impossible, nous analysons les différents modes de communication des
-informations dans Stylo pour suivre les traces de l'intime qui y circulent.
+informations dans Stylo pour suivre la circulation de ces traces et leur
+empreinte dans le document.
 Pour en découvrir plus sur cet _entre_, nous étudions cette distance à partir de
 la méthode employée par le théoricien des médias F. Kittler
 [-@kittler_mode_2015; @kittler_gramophone_2018], qui s'appuie d'abord sur la description
@@ -213,7 +247,7 @@ environnement d'écriture numérique, ceux-ci sont synonymes d'un environnement
 d'écriture informatique et désignent la même chose.
 En conséquence, lorsqu'il s'agit de convoquer l'écriture numérique, nous pensons
 tout de suite à un ordinateur, aux claviers, aux écrans et aux pointeurs qui
-clignotent dans des éditeur de texte ou dans les champs des formulaires en
+clignotent dans des éditeurs de texte ou dans les champs des formulaires en
 ligne.
 Avec le numérique ubiquitaire [@citton_angles_2023], ces pratiques d'écriture
 sont ancrées dans nos habitudes au point de ne plus les remettre en question.
@@ -273,21 +307,23 @@ l'ordinateur personnel (avec sa tour et son écran à tube cathodique) deviendra
 l'outil d'écriture par excellence.
 À cette époque, les machines à écrire ont encore quelques avantages sur les
 plans esthétique, financier et social puisque on les retrouve encore implantées
-à la fois dans les sphères professionnelles et personnelles.
+dans les bureaux, que ce soit dans les sphères professionnelles et personnelles.
 
 La fin des années 1970 et les années 1980 marquent un tournant décisif pour
 l'ordinateur personnel avec l'apparition des logiciels de traitement de texte et
 la bataille qui sévit durant toute cette période pour en avoir le monopole.
 M. Kirschenbaum et T. Bergin détaillent dans leurs travaux cette course au
 développement de logiciels durant cette période pour obtenir un monopole sur le
-marché [@bergin_origins_2006; @bergin_proliferation_2006; @kirschenbaum_track_2016].
+marché de l'écriture avec un ordinateur
+[@bergin_origins_2006; @bergin_proliferation_2006; @kirschenbaum_track_2016].
 Avant l'engouement pour les interfaces graphiques et les gestionnaires de
 fenêtres -- 1983 et 1984 avec l'entreprise Apple qui s'est largement inspirée
 des interfaces graphiques développées par Xerox PARC dans les années 1970 -- la
-seule interface affichée à l'écran était un terminal et la navigation se faisait
-au moyen de commandes.
+seule interface affichée à l'écran était un terminal, un écran noir où clignote
+un curseur.
+Dans cette interface, la navigation s'y faisait au moyen de commandes.
 Les premiers logiciels de traitement de texte comme Electric Pencil ne
-permettent pas alors une gestion de la mise en page idéale ni ne fonctionne sur
+permettent pas alors une gestion de la mise en page idéale ni ne fonctionnent sur
 tous les modèles d'ordinateurs présents sur le marché^[Un autre logiciel comme
 `TeX` développé en 1984 par Donald Knuth tente de résoudre ce problème de la
 mise en page selon une approche WYSIWYM, que D. Knuth nomme
@@ -298,7 +334,7 @@ qu'il a fallut déployer de lourds efforts à une époque ou cette évidence ét
 incertaine.
 
 L'écriture numérique est ainsi à distinguer de l'écriture dans un environnement
-numérique : un ordinateur, Internet, le Web, une calcultrice ou une machine à
+numérique : un ordinateur, Internet, le Web, une calculatrice ou une machine à
 écrire de la dernière génération.
 En tant qu'abstraction, l'écriture numérique est une représentation du monde
 donnée, dont la qualification à travers un medium permet de l'incarner
@@ -329,9 +365,10 @@ Très largement, l'écriture est entendue comme « mode d'expression » et
 « fonction de communication » au sein d'une société [@christin_origines_1999].
 Anne-Marie Christin distingue deux tendances principales de l'origine de
 l'écriture : l'écriture selon la trace, étant soit comprise comme le signe
-verbal transposé sur un support soit comme la marque laissée par un corps, ou
+verbal transposé sur un support soit comme la marque laissée par un corps, soit
 l'écriture selon le signe dans son sens étymologique d'« événement inaugural
-[qui] participe d’une révélation » tant qu'il s'inscrit dans un « système » tel
+[qui] participe d’une révélation » tant qu'il s'inscrit dans un « système »
+telle
 que la disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
 [@christin_origines_1999; @vitali-rosati_quest-ce_2020-1].
 À défaut de prendre parti pour l'un ou l'autre de ces paradigmes, nous pouvons
@@ -416,10 +453,10 @@ troisième caractéristique.
 Il s'agit de la première forme d'écriture où le geste d'écrire ne correspond pas
 à l'action d'inscription du signe sur son support, phénomène que J. Bonaccorsi
 nomme également déliaison [@bonaccorsi_fantasmagories_2020].
-Lorsqu'on appuie sur une touche du clavier, par exemple la lettre `a`, cette
-lettre n'est pas inscrite à l'écran : l'instruction d'inscrire un signe dans la
-mémoire de l'ordinateur est donnée à la machine, puis celle de l'afficher à
-l'écran au moyen d'un logiciel particulier [@kittler_mode_2015;
+Lorsqu'on appuie sur une touche du clavier, par exemple la lettre `a`, elle ne
+s'inscrit pas dans l'écran : l'instruction d'inscrire un signe dans la
+mémoire de l'ordinateur est d'abord donnée à la machine, puis vient ensuite celle
+de l'afficher à l'écran au moyen d'un logiciel particulier [@kittler_mode_2015;
 @souchier_numerique_2019].
 Néanmoins, le fait d'appuyer sur une touche du clavier lorsque l'ordinateur est
 sous tension ne suffit pas pour déclencher cette instruction : si aucun
@@ -444,12 +481,13 @@ provocatrice, que l'humain n'écrit plus et qu'à l'ère du numérique, c'est la
 machine qui écrit.
 À défaut de prendre cette provocation au pied de la lettre, elle ouvre la
 perspective d'une machine qui participe et contribue à l'écriture et, ce
-faisant, participerait à la production de l'intimité du chercheur.
+faisant, participerait à la production d'une épistémologie du texte et du
+document.
 
 Seulement, la "machine" ou l'"ordinateur" sont des appellations
 un peu vagues et ne rendent pas très explicite les
 éléments qu'elles désignent, ni ceux qui sont impliqués dans cette action
-d'écriture et dans cette relation intime entre humain et machine.
+d'écriture et dans cette relation entre humain et machine.
 
 ### La machine, une entité formée du couple matériel/logiciel
 
@@ -2098,7 +2136,7 @@ L’observation du phénomène de création d’un document texte dans un enviro
 d’écriture spécialisé pour l’écriture savante à travers le prisme des strates de
 l’écriture numérique, du matériel au logiciel, a mis en évidence
 différents angles morts de la relation entre un auteur et son environnement
-d'écriture dans lesquels se nichent les traces de l’intime.
+d'écriture dans lesquels se nichent les traces de leurs interactions.
 Qu’ils s’incarnent dans des documents temporaires comme le DOM du navigateur ou dans
 des protocoles de transmissions des informations comme HTTP, ces angles morts de
 l’écriture numérique, produits par cette relation, nous montrent que certaines
@@ -2136,8 +2174,8 @@ quatre phases contribue à la matérialité du texte saisi et qu'en ce sens il y
 co-écriture entre l'utilisateur et Stylo.
 
 Les marqueurs de cette relation entre un auteur et l'environnement d'écriture Stylo,
-les traces de l'intime, apparaissent à chacune des phases du document et y sont
-inscrites à l'intérieur.
+les traces d'une épistémologie singulière, apparaissent à chacune des phases du
+document et y sont inscrites à l'intérieur.
 En suivant le fil de ces traces, il devient possible de suivre l'ensemble des
 médiations et des conditions de l'environnement numérique produisant le document
 et son texte, source que traitera la chaîne éditoriale jusqu'à sa publication.  
