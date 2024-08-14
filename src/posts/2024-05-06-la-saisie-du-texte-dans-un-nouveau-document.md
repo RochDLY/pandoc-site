@@ -94,17 +94,11 @@ environnement numérique^[À chaque fois que nous ferons référence à l'écrit
 il faudra la comprendre comme l'écriture scientifique en environnement numérique sauf
 mention différente.].
 
-Ce dispositif que nous venons de décrire fait écho aux théories de
-l'éditorialisation [@vitali-rosati_editorialization_2018] et de
-l'énonciation éditoriale [@souchier_image_1998].
-
-[Faire un bref rappel de ces notions]
-
 En ce sens, l'acte d'écriture numérique n'est plus définie en tant que
 fruit d'une seule fonction auctoriale, mais l'est par un ensemble de fonctions
 éditoriales dont la fonction auctoriale fait partie.
 
-Selon ce cadre théorique, et puisque notre hypothèse positionne le modèle
+Puisque notre hypothèse positionne le modèle
 épistémologique du document en tant que produit de l'écriture,
 nous pouvons nous demander quelle est la contribution de
 l'environnement d'écriture à ce modèle lors de la saisie d'un texte dans un
@@ -235,8 +229,8 @@ propos et pour analyser les traces qui nous intéressent.
 À partir de cette étude, nous verrons qu'à l'intérieur de cet _entre_, les
 traces de cette relation manifestent d'une composante aveugle de
 l'écriture, puisque cette dimension de l'écriture n'est pas directement visible
-pour l'auteur et relève alors d'une forme de déprise [sauret__2020] sur le texte,
-plutôt qu'une reprise en main telle que Stylo la promeut.
+pour l'auteur et relève alors d'une forme de déprise [sauret__2020] sur le texte
+où se niche une épistémologie de l'écriture.
 
 ## Écrire dans un environnement numérique
 
@@ -649,7 +643,7 @@ leur introduction en 2006 et, aujourd'hui, ils empêchent toute modification de
 cette couche logicielle, la plus basse d'un ordinateur, si celle-ci n'est pas
 vérifiée et validée (avec un système de clés cryptées) par la firme
 propriétaire/fabricante.
-Il ya aurait donc, au plus bas niveau d'abstraction matérielle dans un
+Il y aurait donc, au plus bas niveau d'abstraction matérielle dans un
 ordinateur, une imposition d'une vision de la machine aux utilisateurs réalisée
 par les quelques sociétés qui détiennent le monopole de la production de ce
 composant. 
@@ -799,7 +793,7 @@ Il permet de faire la distinction entre un gabarit, entendu comme l'espace
 proposé par les éditeurs de logiciels ou applications pour écrire, et le texte
 saisi par l'utilisateur, c'est-à-dire le texte qui remplit le gabarit.
 Cet architexte, ce cadre, est régit par des règles qui définissent comment l'on
-peut écrire sur un support numérique mais également comment les signes à
+peut écrire sur un support numérique mais également comment les caractères à
 inscrire doivent être formatés.
 
 Nous l'avons vu, l'architexte se positionne en tant que médiateur entre un
@@ -854,7 +848,7 @@ toute la dimension physique d'un ordinateur et pas seulement à l'organe
 d'affichage qui, dans cette disposition, apparaît comme central dans le
 fonctionnement d'un ordinateur.
 
-Le dépassement de l'écran est un acte symbolique nécessaire pour se soustraire à
+Le dépassement de l'écran devient un acte symbolique nécessaire pour se soustraire à
 une vision anthropocentrée des actions de lecture et d'écriture.
 Pour effectuer ce changement de perspective, nous devons d'abord nous débarasser
 d'un élément central à l'interface de l'humain et la machine : la page.
@@ -1016,7 +1010,7 @@ C'était un fait connu du temps des premiers logiciels comme WordPerfect
 voit de moins en moins aujourd'hui, notamment parce que 1) les logiciels à
 installer sont disponibles pour beaucoup de matériels -- exceptés pour certains
 jeux vidéos ou des programmes que l'on va préférer faire fonctionner sur des
-"machines plus puissantes" comme des réseaux de neurones -- et 2) parce que le
+"machines plus puissantes" avec plus de capacité de calcul -- et 2) parce que le
 développement des téléphones intelligents depuis une vingtaine d'années a donné
 naissance à un nouveau format d'application : les _progressive web apps_ qui
 utilisent les technologies du web (HTML, CSS, JS) pour fonctionner et sont donc
@@ -1096,22 +1090,23 @@ Wide Web_ -- pour pallier le problème d'échanges de documents numériques
 rencontré dans cette institution grâce au développement du langage de balisage HTML.
 Le Web vient donc répondre à un besoin, celui de la compatibilité des
 informations et de leur interoperabilité dans une structure.
-En créant un environnement spécifique composés de normes de structuration des
+En créant un environnement spécifique composé de normes de structuration des
 informations interprétable par un logiciel, le navigateur, le Web devient
 agnostique et ne dépend plus de la même couche d'abstraction logicielle
 qu'un environnement local. 
 L'ordinateur devient un terminal, un client à partir duquel on peut se connecter
 au réseau et accéder aux informations qui y circulent.
 
-C'est ainsi que sur le Web, le stockage des données est généralement séparé
-de l'espace d'affichage et sont stockées dans une base de données sur un serveur.
+C'est ainsi que sur le Web, l'action de stockage des données est généralement séparée
+de l'espace d'affichage dans le navigateur.
+Les données sont stockées dans une base de données sur un serveur.
 Il y aurait donc au moins deux modules différents, la partie _client_ -- ce qui
-est affiché dans le navigateur -- et la partie _serveur_ où sont les organisées
+est affiché dans le navigateur -- et la partie _serveur_ où sont organisées
 les informations. 
 
 Nous retrouvons ce fonctionnement dans Stylo avec la partie serveur et la
 partie client auxquelles vient s'ajouter un troisième bloc pour exporter les
-données afin de les sortir de cet environnement client - serveur.
+données afin de les extraire de cet environnement client - serveur.
 L'architecture logicielle de Stylo peut donc être scindée en trois parties.
 
 ![Les différents modules de Stylo](https://s3.hedgedoc.org/demo/uploads/afdf01ec-bd0b-4b38-8394-752d6e2d1e4b.png "Les différents modules de Stylo")
@@ -1121,7 +1116,7 @@ informations et données de Stylo : les comptes utilisateurs, les articles, le
 espaces de travail, les corpus, etc.
 Cette base de données est réalisée avec MongoDB, un système de gestion de base
 de données non relationnelles développé en 2007 et s'appuyant sur des documents
-structurés en JSON.
+structurés au format JSON.
 
 Le deuxième bloc de Stylo est le module d'export qui permet de transformer les
 informations saisies et visibles dans l'éditeur en de multiples documents.
@@ -1252,7 +1247,12 @@ D'ailleurs, il s'agit là d'un des écueils potentiels de GraphQL : des requê
 mal formulées peuvent aller à l'encontre de ce principe.
 
 Dans Stylo, chaque fonctionnalité, chaque bouton (ou presque) qui réalise une
-action de lecture ou d'écriture est lié à une requête GraphQL.
+action de lecture ou d'écriture est lié à une requête GraphQL et au schéma de
+donnée correspondant.
+Chacune de ces actions suit en conséquence une modalité d'inscription dans la
+base données se conformant à l'architecture implémentée lors des développements de
+Stylo et produit une vision du document. 
+ 
 Le protocole HTTP comporte deux méthodes bien connues pour faire circuler des
 informations entre un client et un serveur : `GET` et `POST`.
 Un des arguments phares présenté par GraphQL est sa dimension agnostique par
@@ -1358,8 +1358,8 @@ utilisateur peut saisir dans l'interface et sera enregistré dans la base de
 données.
 Cette préconstruction est la vision du document incarnée dans Stylo.
 Puisqu'il y a une pré-construction du document et du texte, nous pouvons à ce
-stade présupposer qu'il y a une pré-construction des traces des interactions avec
-l'utilisateur et de l'intimité qui en résulte et se matérialise dans des
+stade présupposer qu'il y a une pré-construction des traces issues des interactions avec
+l'utilisateur et qu'elles se matérialisent dans des
 fragments comme celui présenté ci-dessus.
 
 Cette description très générale des moyens de communication à l'oeuvre entre les
@@ -1506,7 +1506,7 @@ utilisables et communicables, il reste une contrainte forte pour les chaînes de
 publication [@mourat_vacillement_2020].
 Que ce soit en tant que format d'entrée, format pivot de transformation ou
 format de publication -- nous reviendrons sur les transformations et les
-artefacts publiables dans le chapitre 4 --, il déterminera le
+artefacts publiables dans le chapitre 3 --, il déterminera le
 fonctionnement de la chaîne.
 
 Comme nous l'avons déjà mentionné, il y a trois formats centraux dans l'éditeur
@@ -1519,7 +1519,8 @@ implémentation dans l'éditeur.
 
 Mardown est un langage de balisage léger créé en 2004 par John Gruber^[Voir son
 site web, consulté le 31 mars 2024 :
-https://daringfireball.net/projects/markdown/]. Sa syntaxe, beaucoup plus légère
+https://daringfireball.net/projects/markdown/].
+Sa syntaxe, beaucoup plus légère
 et moins verbeuse que le HTML dont il est issu, permet de structurer et de
 décrire sémantiquement le texte. Il a été pensé pour pouvoir être converti
 facilement vers d’autres formats comme HTML, LaTeX ou PDF. Markdown se distingue
@@ -1545,7 +1546,8 @@ autres langages de balisage.
 En effet, puisque chaque saveur contient des éléments personnalisés de
 structuration des contenus -- des balises --, il est important de connaître la
 saveur que l'on doit utiliser dans un environnement au risque de se retrouver
-avec des balises qui ne sont pas interprétées.
+avec des balises qui ne sont pas interprétées et qui par extension, n'ont aucune
+signification pour cet envrionnement.
 
 Par exemple, la saveur Quarto Markdown utilise la structure ci-dessous pour
 insérer une vidéo dans un texte.
@@ -1574,7 +1576,8 @@ documentation à ce sujet : https://pandoc.org/MANUAL.html#markdown-variants.]
 Autrement dit, Stylo n'impose pas de variante de Markdown si l'on s'en sert
 comme éditeur de texte sans la nécessité d'utiliser le module d'export.
 Dès qu'une chaîne éditoriale s'appuie sur ce module, comme c'est le cas pour la
-chaîne Stylo, Métopes, OpenEdition, il devient essentiel d'employer les
+chaîne Stylo utilisant l'export XML TEI conforme au schéma COMMONS commun à
+Métopes et OpenEdition, il devient essentiel d'employer les
 variantes que traitent Pandoc pour que les transformations et conversions se
 fassent sans erreur.
 Pour conclure sur le langage de balisage Markdown, sa possible déclinaison en
@@ -1588,7 +1591,7 @@ perd sa caractéristique interopérable et contraint les usagers à bricoler des
 équivalences entre les transformations pour préserver la structuration des
 contenus.
 
-La sérialisation des métadonnées est réalisée en YAML qui, dans sa version
+Dans Stylo, la sérialisation des métadonnées est réalisée en YAML qui, dans sa version
 originale de 2004 avait pour signification _Yet Another Markup Language_ puis se
 transforme à l’occasion de la publication de sa version 1.1 en _YAML Ain’t
 Markup Language_.
@@ -1607,7 +1610,7 @@ des informations dans le fichier YAML.
 Dans Stylo, les `clefs` ont été prédéterminées lors des développements de
 l'interface et les utilisateurs n'ont plus qu'à remplir un formulaire pour
 déclarer les `valeurs` qui seront associées aux différentes `clefs` -- un mode
-permet d'accéder au contenu en YAML brut sans surcouche graphique.
+graphique permet d'accéder au contenu en YAML brut sans surcouche.
 
 Si nous reprenons l'exemple de l'auteur mentionné précédemment, un auteur est
 déclaré comme suit dans Stylo :
@@ -1644,7 +1647,7 @@ L'auteur est donc formellement constitué de 10 entrées au maximum.
 Ce qui est valable pour les auteurs l'est également pour les autres types de
 données décrites dans les métadonnées du document.
 La réduction d'un auteur à quelques mot-clés n'est pas très importante
-puisqu'elle couvre les besoin de la plupart des revues -- ce qui est quand même
+puisqu'elle couvre les besoins de la plupart des revues -- ce qui est quand même
 l'objectif de Stylo --.
 
 Au-delà de Stylo, l'utilisation de YAML est toutefois controversée.
@@ -1708,7 +1711,7 @@ Enfin, le dernier format pivot utilisé dans Stylo, le BibTeX, est utilisé pour
 structurer les références bibliographiques.
 BiBTeX est un format standard permettant de décrire des listes de références
 bibliographiques inventé par Oren Patashnik en 1985 pour l'écosystème LaTeX.
-Au-delà de LaTeX, c'est un format largement utilisé par les gestionnaire de
+Au-delà de LaTeX, c'est un format largement utilisé par les gestionnaires de
 références bibliographiques comme Zotero^[Zotero est un logiciel de gestion de
 références bibliographiques très connu, il est l'alternative libre et _open
 source_ à Mendeley, voir le site web de Zotero : https://www.zotero.org/,
@@ -1718,7 +1721,7 @@ le site du projet : https://joostkremers.github.io/ebib/, consultée le 31 mar
 2024.].
 
 Le choix d'intégrer BibTeX à Stylo provient de la possibilité d'utiliser l'API
-de Zotero dans l'éditeur de Stylo pour récupérer les informations des références
+de Zotero dans l'éditeur de Stylo pour récupérer les informations relatives aux références
 bibliographiques.
 Ce fonctionnement entre Zotero et Stylo permet aux utilisateurs de ne passer que
 rarement par la forme brute du BibTeX, puis il permet de décentraliser la
@@ -1749,7 +1752,7 @@ D'autres problèmes peuvent surgir entre la représentation d'une référence
 bibliographique dans Zotero et dans Stylo/Pandoc.
 Lors de l'édition d'articles en anglais et en français, nous nous sommes aperçus
 d'une différence de comportement importante entre ce que prévoit le format
-BibTeX, son interprétation dans Zotero et celle que l'on en fait dans Stylo..
+BibTeX, son interprétation dans Zotero et celle que l'on en fait dans Stylo.
 Avec BibTeX il existe plusieurs paramètres de langues : `langid` et `language`.
 `langid` permet initialement d'identifier la langue à appliquer à l'entrée
 (comme traitement) et `language` sert à déclarer la langue employée dans le
@@ -1813,7 +1816,7 @@ et les besoins en écriture.
 
 En régissant les procédés de saisi du textes, un rapport de force semble
 s'instaurer entre les instances éditrices des architextes (que ce soit des
-collectifs, des institutions ou des entreprises) et les usagers.
+collectifs, des institutions ou des entreprises) et les usagers [@souchier].
 Dans le cas d'un logiciel de traitement de texte lorsque, par exemple, Microsoft
 propose une modification de la police utilisée par défaut dans une version
 actualisée du logiciel MSWord, Microsoft change également les manières d'écrire
@@ -1885,8 +1888,8 @@ logiciel.
 La page de Pages devient un espace délimité qui n'existe sous cette forme qu'à
 cet endroit.
 Depuis vingt ans que cet outil est nativement disponible sur les ordinateurs de
-chez Apple, la compatibilité avec d'autres formats et/ou logiciels à fortement
-augmentée, en témoigne les arguments de communication mis en avant sur la page
+chez Apple, la compatibilité avec d'autres formats et/ou logiciels augmente
+tardivement, en témoigne les arguments de communication mis en avant sur la page
 web du logiciel^[Voir le site web, consulté le 21 mars 2024 :
 https://www.apple.com/pages/compatibility/] mais compatible ne veut pas dire
 identique.
@@ -1930,7 +1933,7 @@ d'observer leur relation tout au long de ce processus pour comprendre comment
 ils s'affectent les uns les autres.
 
 Néanmoins, un trouble persiste dans cette relation entre ces agents.
-Il se manifeste entre ce que l’usager à l’intention d’écrire et le document que
+Ce dernier se manifeste entre ce que l’usager à l’intention d’écrire et le document que
 produit la machine, qui est structuré selon un certains nombre de normes,
 formats, etc., implémentés dans un logiciel.
 Ce trouble nait de la rencontre entre une représentation du texte structurée
@@ -1944,7 +1947,7 @@ Cette caractéristique nous semble présente dans le fait qu’il y ait plusieur
 angles morts entre ces deux conceptions du texte qui ne permettent ni à
 l’utilisateur ni à la machine de voir le texte dans sa totalité.
 La piste de ce trouble nous mène également à comprendre l'enjeu de cette
-relation entre l'usager et son environnement puisque.
+relation entre l'usager et son environnement.
 En le dévoilant, nous mettrons à jour les indices de la rencontre entre un
 auteur et son environnement d'écriture.
 
@@ -2079,7 +2082,8 @@ entre les éléments qui le constituent.
 Cette part de Stylo cachée derrière l'écran relève de cette déprise. 
 
 Si l'on suit les différentes métamorphoses du texte, on se rend compte que la
-forme brute n'est inscrite nulle part. On la retrouve soit sous sa forme
+forme brute (Markdown, YAML, BibTeX) n'est inscrite nulle part.
+On la retrouve soit sous sa forme
 interprétée par le navigateur (en réalité il s'agit d'un document HTML), soit
 lors de l'export c'est-à-dire lorsque les documents sortent de l'environnement
 Stylo.
@@ -2100,8 +2104,9 @@ Lorsqu'un utilisateur écrit dans Stylo, il accorde sa confiance dans les
 opérations que réalise Stylo sur le texte et dans la matérialité qu'il participe
 à lui conférer.
 
-Toutes ces dynamiques éditorialisent et constituent les premières traces de
-l'intimité du chercheur.
+Toutes ces dynamiques éditorialisent et constituent les traces d'une
+épistémologie du document primaire avant toute transformation par le reste de la
+chaîne éditoriale.
 Autrement dit, écrire dans l'environnement Stylo produit quelque chose qui ne
 serait pas identique dans un autre environnement car les dynamiques observées
 seraient affectées par d'autres facteurs et produiraient ainsi une autre chose.
@@ -2111,8 +2116,8 @@ politique puisque cet environnement agit et produit une matérialité singulièr
 ## Conclusion
 
 À la question de la place de l'environnement d'écriture dans le processus de
-saisi d'un texte numérique et de l'intimité du chercheur qui en découle,
-nous avons émis l'hypothèse que ce dernier dépasse son statut
+saisi d'un texte numérique et du modèle épistémologique qui en découle,
+nous avons émis l'hypothèse que cet environnement dépasse son statut
 utilitariste de support pour celui de dynamique constitutive du sens de ce texte.
 En nous appuyant sur le fonctionnement d'un ordinateur et sur les
 caractéristiques de l'écriture numérique, tant la partie matérielle que la
@@ -2144,8 +2149,8 @@ parties de cette écriture ne sont finalement pas directement accessibles à ces
 deux agents alors qu’elles participent à la matérialité conférée au document produit.
 Il y a une forme de déprise instaurée dans cette relation et que l’auteur accepte,
 bon ou malgré lui, lorsqu’il emploie un environnement d’écriture numérique.
-En ce sens, un certain degré de confiance est accordé à l’environnement d’écriture
-choisi dans le processus de production du document.
+En ce sens, un certain degré de confiance (aveugle) est accordé à l’environnement
+d’écriture choisi dans le processus de production du document.
 
 En observant diverses saisies de fragments de texte selon les formats pivots utilisés
 dans Stylo, le Markdown, le YAML et le BibTeX, nous nous sommes aperçus qu'ils ne
@@ -2160,7 +2165,7 @@ unique (l'URL de l'article), et l'espace où il sera stocké dans le serveur de 
 TGIR Huma-num qui héberge l'application.
 De nouvelles informations sont alors inscrites dans le texte lors de ces
 métamorphoses : la structure du document varie à chaque étape.
-Ainsi, les signes qui constituent le document changent et en modifient
+Ainsi, les caractères qui constituent le document changent et en modifient
 profondément le sens.
 Parmi les quatre états mentionnés, seulement le premier est saisi par
 l'utilisateur et les autres sont écrits par Stylo.
@@ -2178,7 +2183,6 @@ les traces d'une épistémologie singulière, apparaissent à chacune des phases
 document et y sont inscrites à l'intérieur.
 En suivant le fil de ces traces, il devient possible de suivre l'ensemble des
 médiations et des conditions de l'environnement numérique produisant le document
-et son texte, source que traitera la chaîne éditoriale jusqu'à sa publication.  
-
+primaire et son texte, source que traitera la chaîne éditoriale jusqu'à sa publication.  
 
 ## Bibliographie
