@@ -2,6 +2,8 @@
 title: Index caché
 ---
 
+- [08-Le medium au coeur des pratiques d'écriture](/posts/2024-08-07-le-medium-au-coeur-des-pratiques-d-ecriture.html)
+- [07-L'effacement par remplacement](/posts/2024-08-07-l-effacement-par-remplacement.html)
 - [06-Ébauche d'une introduction pour la
   thèse](/posts/2024-05-27-ebauche-introduction-these.html)
 - [05-Amélioration de la définition de l'intimité du
