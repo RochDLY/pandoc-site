@@ -18,37 +18,6 @@ Pédauque ...), dépasse son statut de simple support de l'information.
 Le support n'est alors plus considéré comme un élément neutre et devient, de par
 sa matérialité, un élément constitutif du sens accordé au message qu'il porte.
 
----
-
-[La paragraphe qui suit sera dans le chapitre 1, pas nécessaire d'en faire un
-recap]
-
-Pour arriver à ce postulat, nous nous sommes appuyés sur la théorie des médias
-et plus particulièrement sur le courant fondé par l'école de Toronto depuis McLuhan,
-théorie reprise par Kittler dans les années
-1970 en Allemagne puis par la médiologie en France et notamment par Louise Merzeau.
-Chez L. Merzeau, nous retrouvons une affiliation avec la pensée de Kittler,
-principalement dans ses approches [déterministe /essentialiste. Retravailler sur
-ça, j'ai il faut confirmer l'un ou l'autre. À vérifier mais approche kittler =
-essentialiste et Merzeau déterministe....] sur lesquelles
-reposent son travail.
-Pour tenter de dépasser ces positions, L. Merzeau s'est notamment tourné vers
-les sciences de l'information et de la communication (SIC) et a développé ses
-recherches autour de la notion d'éditorialisation, à la fois avec le courant provenant
-des SIC depuis Bachimont (Bachimont, Broudoux) et les travaux sur la
-redocumentarisation (Zacklad, Bachimont) et avec le courant développé au Québec
-par M. Vitali-Rosati, plus proche des sciences humaines et de l'intermédialité
-montréalaise, un autre courant historique de la théorie des médias où s'y est
-développé depuis les lettres et les arts une approche de la relation entre
-les médias (Tadier, Méchoulan).
-
-Malgré que L. Merzeau n'ait pu achever ses travaux, on retrouve dans les travaux
-les plus récents sur l'éditorialisation provenant du Canada, un dépassement de
-cette posture essentialiste par la mobilisation de théories provenant du
-post-humanisme (Hayles, Barad) ... [écrire 3 lignes sur ça]
-
----
-
 Puisqu'il n'est pas un simple support, nous nous intéresserons dans ce chapitre 
 à la construction de ce document scientifique en milieu numérique.
 Comme cela a été énoncé dans le chapitre précédent, un document est un espace

@@ -214,4 +214,33 @@ soi et le monde social.
 
 ## Le document numérique au prisme de la théorie des médias
 
+
 ## Conclusion
+
+Pour définir le document comme pièce centrale de la publication scientfique,
+nous nous sommes appuyés sur la théorie des médias et plus particulièrement sur
+le courant matérialiste fondé par l'école de Toronto depuis McLuhan, puis repris
+par Kittler dans les années 1970 en Allemagne, puis par la médiologie en France
+et notamment par Louise Merzeau.
+Chez L. Merzeau, nous retrouvons également une affiliation avec la pensée
+kittlérienne, principalement dans son approche [déterministe/essentialiste]...
+sur lesquelles reposent ses recherches.
+
+Ajouter un mot sur la limite de ce que cette pensée fait au document...
+
+Pour dépasser cette position, L. Merzeau s'est tournée vers les sciences de
+l'information et de la communication (SIC) et a développé ses recherches autour
+de la notion d'éditorialisation, à la fois depuis le courant francophone
+provenant des SIC depuis Bachimont (Bachimont, Broudoux) + redocumentarisation
+(Zacklad) et à la fois depuis le courant qui se développait au Québec par M.
+Vitali-Rosati, plus proche des sciences humaines et de l'intermédialité
+montréalaise, un autre courant historique de la théorie des médias où s'y est
+développé depuis les lettres et les arts une approche de la relation entre les
+médias (Tadier, Méchoulan).
+
+Malgré le fait que L. Merzeau n'ait pas pu achever ses travaux, elle abouti à
+une théorie du commun dans lequel le document pourrait .... 
+
+D'autres travaux plus récents sur l'éditorialisation (Vitali-Rosati), propose
+également une autre forme de dépassement de cette posture essentialiste par la
+mobilisation de théories provenant du courant posthumaniste (Hayles, Barad) ...
