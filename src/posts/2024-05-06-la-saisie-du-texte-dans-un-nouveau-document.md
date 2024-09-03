@@ -1,5 +1,5 @@
 ---
-title: "Le modèle du document source émerge de l'action d'écriture"
+title: "Constitution du modèle épistémologique du document primaire dans Stylo"
 date: 2024-05-06
 ---
 
@@ -14,7 +14,8 @@ Qu'il s'agisse des premières revues savantes datant du XVII^e^ siècle ou des
 revues numériques contemporaines, des lettres ou encore des livres, un document
 est nécessaire pour fabriquer (Fauchié 2024) cet objet éditorial.
 Ce document, dans sa forme (format, XXX) et sa struture (Zacklad,
-Pédauque ...), dépasse son statut de simple support de l'information.
+Pédauque ...), et son statut de médiateur (Pédauque) dépasse son statut de simple
+support de l'information.
 Le support n'est alors plus considéré comme un élément neutre et devient, de par
 sa matérialité, un élément constitutif du sens accordé au message qu'il porte.
 
@@ -26,9 +27,10 @@ numérique délimité dans lequel sont organisées des informations selon des no
 protocoles de communication des documents ou encore des formats.
 
 Ainsi, cet espace alloué physiquement dans la mémoire numérique
-va subir des modifications afin que l'information initiale qui y est
-contenue puisse être traitée et transformée en un autre objet ou transportée en
-un autre espace.
+va subir des modifications et être _redocumentarisé_ (Pedauque, Zacklad)
+afin que l'information initiale qui y est contenue puisse être traitée et
+transformée en un autre objet ou transportée en un autre espace.
+[Ajouter une phrase sur la redocumentarisation]
 
 Les documents numériques ayant pour devenir la publication scientifique
 font principalement l'objet d'un traitement éditorial de l'information : saisie du
@@ -47,7 +49,7 @@ correction de certaines sources d'information, ces étapes de l'élaboration du 
 ainsi que toutes les autres proviennent des interactions entre des individus et
 l'environnement support [zacklad_organisation_2012; Merzeau] qui produisent des traces à
 l'intérieur du document que nous considérons
-comme constitutive d'une épistémologie du document singulière.
+comme constitutives d'une épistémologie du document.
 Elles sont les indices de ces interactions passées et incarnent un modèle de
 représentation du document et par extension de la publication scientifique
 concernée. 
@@ -57,21 +59,15 @@ document en cours d'élaboration.
 
 Nous consacrons ce chapitre aux premières interactions à l'origine de la
 publication scientifique : la saisie d'un texte.
-Pour ce faire, nous détaillerons la relation qu'entretiennent un auteur et un
-ordinateur dans cet acte d'écriture scientifique dans un
-environnement numérique^[À chaque fois que nous ferons référence à l'écriture,
+Pour ce faire, nous observerons les traces issues des interactions entre
+un auteur et un ordinateur dans le document numérique^[À chaque fois que nous ferons
+référence à l'écriture,
 il faudra la comprendre comme l'écriture scientifique en environnement numérique sauf
 mention différente.].
 
-En ce sens, l'acte d'écriture numérique n'est plus définie en tant que
+En ce sens, l'acte d'écriture numérique n'est plus défini en tant que
 fruit d'une seule fonction auctoriale, mais l'est par un ensemble de fonctions
 éditoriales dont la fonction auctoriale fait partie.
-
-Puisque notre hypothèse positionne le modèle
-épistémologique du document en tant que produit de l'écriture,
-nous pouvons nous demander quelle est la contribution de
-l'environnement d'écriture à ce modèle lors de la saisie d'un texte dans un
-document.
 
 Ainsi, parmi toutes les fonctions éditoriales que l'on pourrait énumérer, nous nous
 intéressons dans ce chapitre à la saisie du texte et à l'environnement support
@@ -80,12 +76,13 @@ Lors de cette phase de l'écriture, cet environnement devient le lieu où se
 manifeste un trouble entre ce que l'usager à l'intention d'écrire et le document
 que produit la machine, qui est structuré selon les formats et protocoles
 implémentés à l'intérieur de l'environnement.
-Ce trouble nait de la rencontre entre une représentation du texte structurée
-graphiquement et une représentation du texte structurée par du texte, comme
+Ce trouble nait de la rencontre entre une représentation du document structuré
+graphiquement et une représentation du document structuré par du texte, comme
 c'est le cas pour une page web interprétée par un navigateur et son pendant au
 format HTML.
 Notre intérêt se porte plus particulièrement sur le côté
-machine de cette interaction humain-machine et comment elle reçoit
+machine de cette interaction humain-machine, sur le modèle textuel de représentation,
+et comment cette machine reçoit
 et traite les informations pour produire le document à travers un environnement
 particulier.
 
@@ -93,7 +90,7 @@ Afin de traiter cette problématique, nous nous appuyons dans un premier temps
 sur les particularités de l'écriture numérique
 [@bouchardon_lecriture_2014; @crozat_ecrire_2016; @souchier_numerique_2019] et
 sur le fonctionnement de la machine pour illustrer, dans une deuxième partie,
-le rôle de médiation joué par les logiciels -- entendu comme une suite
+le rôle de médiation joué par les logiciels -- entendus comme une suite
 d'instructions écrites -- entre la saisie du texte au clavier et les
 traitements appliqués à ces informations, jusqu'à leur stockage dans une mémoire
 informatique. 
@@ -116,7 +113,7 @@ numérique en SHS ?
 
 C'est un outil libre et _open source_ conçu en 2017 par la Chaire de recherche
 du Canada sur les écritures numériques (CRCEN) [@vitali-rosati_ecrire_2020], et
-soutenu depuis 2020 par les Très grande infrastructure de recherche Huma-Num.
+soutenu depuis 2020 par la Très grande infrastructure de recherche Huma-Num.
 Guillaume Grossetie et Thomas Parisot, tous deux développeurs, maintiennent et
 développent l'infrastructure technique de Stylo avec la CRCEN depuis plusieurs
 années, équipe dans laquelle je suis fortement impliqué depuis le début de
@@ -170,10 +167,11 @@ notre étude.
 Enfin, le fait d'être impliqué dans les développements de Stylo depuis plus de
 deux ans m'offre une position privilégiée pour étudier cet éditeur puisque j'ai
 accès aux différentes phases de tests des développements, me permettant ainsi
-d'observer le comportement des nouvelles fonctionnalités et de les modifier.
+d'observer le comportement des nouvelles fonctionnalités et de participer à
+leur  modification.
 Grâce à cette position, j'ai également un accès direct à la communauté
 d'utilisateurs, s'élevant à un peu plus de 6000 personnes fin 2023 pour plus de
-40000 documents différents.  
+40 000 documents différents.  
 Du fait de mon implication dans Stylo, le regard que je porte sur ce terrain
 n'est pas neutre et relève d'une forme de recherche-action [ajouter une
 référence].
@@ -199,7 +197,7 @@ propos et pour analyser les traces qui nous intéressent.
 traces de cette relation manifestent d'une composante aveugle de
 l'écriture, puisque cette dimension de l'écriture n'est pas directement visible
 pour l'auteur et relève alors d'une forme de déprise [sauret__2020] sur le texte
-où se niche une épistémologie de l'écriture.
+où se niche un aspect à notre connaissance ignoré de l'épistémologie du document.
 
 ## Écrire dans un environnement numérique
 
@@ -293,7 +291,7 @@ mise en page selon une approche WYSIWYM, que D. Knuth nomme
 _Literate programming_ [@knuth_literate_1984] alors que la tendance est plutôt aux
 interfaces WYSIWYG].
 Ainsi, écrire sur un support connecté paraît aujourd'hui être une évidence alors
-qu'il a fallut déployer de lourds efforts à une époque ou cette évidence était
+qu'il a fallu déployer de lourds efforts à une époque ou cette évidence était
 incertaine.
 
 L'écriture numérique est ainsi à distinguer de l'écriture dans un environnement
@@ -320,7 +318,7 @@ du 20^e^ siècle.
 La définir tient généralement de la philosophie depuis Platon [phèdre],
 de l'anthropologie [Leroi-Gourhan; Goody], des lettres [Christin], de
 l'archéologie ou de la linguistique [Herrenschmidt], de la sémiotique
-[Souchier, Jeanneret] ou encore des sciences de l'information et de la
+[Souchier, Jeanneret, Pedauque] ou encore des sciences de l'information et de la
 communication [Bouchardon, Bachimont] ou de l'étude des médias [Kittler]
 et cela pour ne mentionner qu'une infime partie des textes traitant ce sujet
 parmi un nombre restreint de disciplines de la sphère académique.
@@ -338,7 +336,7 @@ que la disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
 retenir deux caractéristiques qui leur sont communes et que l'on retrouve dans
 tous types d'écriture, même numérique.
 Lorsque l'écriture est convoquée, elle fait appel à deux actions : l'inscription
-et l'interprétation.
+et l'interprétation [@pedauque_document_2006].
 Qu'il s'agisse d'une trace ou d'un signe, retenons que l'écriture est toujours
 inscrite sur un support et que cette inscription fait l'objet d'une lecture
 et d'une interprétation.
@@ -352,7 +350,7 @@ telle que nous venons de la défnir, et se
 distingue notamment par trois caractéristiques que sont la
 calculabilité [@crozat_ecrire_2016], la variabilité [@bouchardon_lecriture_2014]
 et la rupture sémiotique entre le geste d'écriture et l'inscription sur le
-support [@souchier_numerique_2019].
+support [@pedauque_document_2006; @souchier_numerique_2019].
 
 La première caractéristique est d'ordre computationnel : l'écriture devient
 calculable et peut donc faire l'objet d'instructions. Pour réaliser cette
@@ -405,7 +403,7 @@ asémantiques. Si toutefois les alphabets sont liés à une culture d'où ils
 chiffres détacherait a priori cette vision de tout sens.
 En dehors de tout modèle mathématiques abstrait, et cela quel que soit le
 langage ou la base utilisée pour l'écrire, `3`, `trois`, `three`, `III`, `0011`,
-`zéro zéro un un`, un chiffre ne signifie pas grand chose s'il n'est pas associé
+`zéro zéro un un`, un chiffre ne signifie pas grand-chose s'il n'est pas associé
 à un système de valeurs particulier, par exemple le système métrique ou le
 système international [@herrenschmidt_trois_2023].
 En échange de cette perte de signification, l'écriture numérique y gagne cette
@@ -464,7 +462,7 @@ de traitement de texte comme LibreOffice.
 
 Ce couple matériel / logiciel range l'ordinateur dans la catégorie des appareils
 programmables.
-La plupart de nos appareils du quotidien ne sont pas programmables : il
+La plupart de nos appareils du quotidien ne sont pas programmables : ils
 exécutent ce pour quoi ils sont conçus et ne font rien d'autre.
 Dans le cas d'un ordinateur ou d'un téléphone intelligent, ou de tout autre
 appareil programmable, leur conception prévoit qu'ils soient manipulables :
@@ -477,7 +475,7 @@ d'instructions formelles.
 
 Pour fonctionner, un ordinateur n'a besoin que des éléments suivants : une
 alimentation, un processeur, une mémoire vive, des entrées et sorties et une
-carte mère auxquels viennent s'ajouter un certains nombre de périphériques
+carte mère auxquels viennent s'ajouter un certains nombres de périphériques
 (écrans, souris, clavier, etc.), des extensions pour prendre en charge une
 partie des calculs que l'on peut appeler des cartes filles (carte son, carte
 graphique) et des mémoires de stockage (disques durs).
@@ -546,16 +544,16 @@ l'encodage des données.
 Soumise à l'_American Standards Association_ (d'abord ASA puis ANSI) en 1961 par
 l'un de ses inventeurs, Bob Bemer, puis approuvée en 1963, l'ASCII permet
 d'encoder 128 caractères sur 7 bits.
-Néanmoins, ce n'est pas parce qu'un encodage est reconnue en tant que norme que
+Néanmoins, ce n'est pas parce qu'un encodage est reconnu en tant que norme que
 son usage est effectif à l'instant même de sa reconnaissance.
-Il faut attendra 1968 que le président des États-Unis d'Amérique Johnson demande
+Il faut attendre 1968 que le président des États-Unis d'Amérique Johnson demande
 à ce que l'ASCII devienne la norme fédérale d'encodage des informations afin de
 réduire les incompatibilités au sein des réseaux de télécommunication pour
 qu'elle commence à se répandre.
 Dès 1969, tous les ordinateurs achetés par le gouvernement des États-Unis
 étaient compatibles avec la norme ASCII.
 Du côté des ordinateurs personnels, il faudra attendre le début des années 1980
-pour que cette norme se répande grâce, entre autre, à son implémentation dans
+pour que cette norme se répande grâce, entre autres, à son implémentation dans
 les ordinateurs construits par IBM.
 La norme X3.4:1986 en vigueur aujourd'hui, a été déposée auprès de l'ANSI en
 1986.
@@ -572,11 +570,11 @@ les 128 premiers caractères de façon identique à la norme ASCII.
 Pour pouvoir utiliser ces tables d'encodage et stocker des données dans la
 mémoire d'un ordinateur, les utilisateurs ont besoin d'une interface les rendant
 accessibles et manipulables.
-Ces interfaces peuvent être rangés sous l'appellation de logiciel.
+Ces interfaces peuvent être rangées sous l'appellation de logiciel.
 Il est intéressant d'introduire les logiciels et leur fonctionnement à partir du
 matériel composant l'ordinateur et plus particulièrement à partir de la carte
 mère.
-Les fournisseurs de carte mère incorpore généralement dans leur carte une
+Les fournisseurs de carte mère incorporent généralement dans leur carte une
 première couche d'abstraction matérielle, un BIOS (_Basic Input Output
 System_^[Système élémentaire d'entrée sortie]), flashé dans la mémoire morte de
 l'ordinateur et programmé pour s'exécuter lors de la mise sous tension de ce
@@ -598,7 +596,7 @@ Libreboot : https://libreboot.org/, consulté le 03 avril 2024.] et
 Coreboot^[Voir le site web de Coreboot : https://www.coreboot.org/, consulté le
 03 avril 2024.], des logiciels libres et _open sources_ chargés de remplacer
 partiellement le BIOS propriétaire, la majorité des cartes mères sont liées à
-leur BIOS du fait de l'ajout par Intel, à partir de 2006, d'un sous programme
+leur BIOS du fait de l'ajout par Intel, à partir de 2006, d'un sous-programme
 nommé _Management Engine_ (ME) qui est accompagné d'un ensemble de modules comme
 _Boot Guard_ et _Secure Boot_ dont l'objectif est de veiller à ce qu'il n'y ait
 pas de corruption du système d'amorçage de l'ordinateur^[Des informations sur ce
@@ -613,7 +611,7 @@ cette couche logicielle, la plus basse d'un ordinateur, si celle-ci n'est pas
 vérifiée et validée (avec un système de clés cryptées) par la firme
 propriétaire/fabricante.
 Il y aurait donc, au plus bas niveau d'abstraction matérielle dans un
-ordinateur, une imposition d'une vision de la machine aux utilisateurs réalisée
+ordinateur, une impositionaux utilisateurs d'une vision de la machine réalisée
 par les quelques sociétés qui détiennent le monopole de la production de ce
 composant. 
 
@@ -652,7 +650,7 @@ métaphore de la fenêtre (_window(s)_) à travers laquelle l'usager voit le
 numérique, et donc l'ordinateur.
 Pourtant, il ne faut pas s'y méprendre, quelle que soit la fenêtre logicielle,
 elle ne permet d'accéder qu'à un certain nombre fini d'instructions.
-Alors qu'en tant qu'appareil programmable qui ne se souci pas de la
+Alors qu'en tant qu'appareil programmable qui ne se préoccupe pas de la
 signification du traitement des informations ni des résultats obtenus,
 l'ordinateur semble être un environnement beaucoup plus vaste que ce que cette
 fenêtre ne nous laisse croire [@turing_computable_1936].
@@ -662,7 +660,7 @@ Cette vision du monde n'est pas seulement une vision particulière que l'humain 
 de la machine car dans ce cas nous serions dans un paradigme anthropocentré et
 utilitariste de la machine.
 En nous déplaçant de l'autre côté de la fenêtre, on se rend compte que la vision
-que porte la machine sur le monde est différente de la notre : la machine
+que porte la machine sur le monde est différente de la nôtre : la machine
 incarne une autre vision du monde sous forme de matrice, où chaque élément
 qu'elle perçoit l'est sous forme binaire.
 Le monde n'est alors plus que chiffres, calculs et distances, comme c'est le cas
@@ -761,7 +759,7 @@ Globalement, l'architexte incarne le cadre dans lequel les agents peuvent
 Il permet de faire la distinction entre un gabarit, entendu comme l'espace
 proposé par les éditeurs de logiciels ou applications pour écrire, et le texte
 saisi par l'utilisateur, c'est-à-dire le texte qui remplit le gabarit.
-Cet architexte, ce cadre, est régit par des règles qui définissent comment l'on
+Cet architexte, ce cadre, est régi par des règles qui définissent comment l'on
 peut écrire sur un support numérique mais également comment les caractères à
 inscrire doivent être formatés.
 
@@ -838,7 +836,7 @@ de l'imprimerie et de l'informatique.
 Cet artefact produit une forme de réconfort auprès de l'utilisateur pour que le
 monde informatique lui semble plus tangible, qu'il ait quelque chose auquel se
 raccrocher, d'où sa déclinaison dans des espaces différents qui ne ressemblent
-plus du tout à des pages de livres ou de feuilles (comme par exemple A4 lettre
+plus du tout à des pages de livres ou de feuilles (par exemple la A4 lettre
 US, ou le livre au format poche).
 La page affichée à l'écran n'existe qu'à cet endroit, il ne s'agit que d'un
 rendu graphique qui ne fait pas partie de l'écriture (au sens du texte saisi).
@@ -879,7 +877,7 @@ En 1881, l'entreprise modifie sa stratégie de vente et cible les femmes qui
 n'ont pas de travail.
 En parallèle, l'Association chrétienne de jeunes femmes de New York commence à
 former des jeunes femmes à la dactylographie, fait qui a été ensuite reproduit
-en Europe du à son succès [@kittler_gramophone_2018, p.322].
+en Europe dû à son succès [@kittler_gramophone_2018, p.322].
 Il y aurait donc une peur de perdre non seulement une caractéristique de
 l'humanité mais surtout une caractéristique de la masculinité.
 
@@ -892,7 +890,7 @@ Interagir avec une machine demande une certaine rigueur : qu'il s'agisse de
 structurer un document ou de lui donner une série d'instructions (du code), une
 machine ne peut interpréter l'ambiguité ou l'implicite culturel.
 Cela voudrait dire qu'aucun échange humain-ordinateur ne peut reposer sur des
-conventions culturelles de lecture et que l'instruction données n'a, en
+conventions culturelles de lecture et que l'instruction donnée n'a, en
 elle-même, aucun sens.
 Dès lors, comment pouvons-nous admettre que quelque chose qui n'a pas de sens
 puisse en générer ?
@@ -909,7 +907,7 @@ regard non anthrocopentré sur cette question de l'écriture numérique et laiss
 de côté les modalités de définition de l'être humain.
 Elle signifie qu'il ne s'agit plus de poser la question de l'auteur de
 l'écriture, en admettant que c'est bien la machine qui écrit, mais de se
-demander comment comment cette nouvelle fonction (inter)agit entre les agents
+demander comment cette nouvelle fonction (inter)agit entre les agents
 d'un système d'informations.
 Que se passe-t-il lorsque cet ordinateur devient un agent actif qui écrit et
 transmet des informations entre, d'une part, l'instructeur (la personne qui
@@ -944,13 +942,13 @@ Si le texte peut être remédié dans un autre format -- et être imprimé par
 exemple --, le logiciel quant à lui ne peut exister que dans son environnement
 numérique.
 Son code source peut lui aussi faire l'objet d'une remédiation
-[@bolter_remediation_1998] mais il sera dénaturé car sa fonction principale est
+[@bolter_remediation_1998] mais il sera dénaturé, car sa fonction principale est
 l'organisation du traitement des informations dans un ordinateur.
 D'ailleurs, C. Herrenschmidt nous rappelle que le terme de logiciel a été forgé
 à partir de la contraction du mot "logique" avec le mot "matériel"
 [@herrenschmidt_trois_2023, p.474] , pour justement montrer à la fois l'opposition
 du logiciel avec l'aspect matériel (_hardware_) et marquer leur
-complémentarité : l'ordinateur (_hardware_) serait très peu accessible (voir
+complémentarité : l'ordinateur (_hardware_) serait très peu accessible (voire
 inaccessible) sans logiciel, et le logiciel n'existe pas en dehors de
 l'ordinateur.
 
@@ -993,18 +991,18 @@ un logiciel.
 La deuxième est le système d'exploitation.
 En fonction du système d'exploitation -- et de sa version -- un logiciel pourra
 y être installé à l'intérieur.
-Ce deuxième paramètre ne doit pas être sous-estimé car l'écosystème des
+Ce deuxième paramètre ne doit pas être sous-estimé, car l'écosystème des
 logiciels fonctionne sur la base d'un système réticulaire : les programmes ne
-sont pas développées _from scratch_, ils s'appuient sur d'autres briques
+sont pas développés _from scratch_, ils s'appuient sur d'autres briques
 logicielles qui elles-mêmes s'appuient sur d'autres briques logicielles. Chacune
 d'entre elles dépend d'une version particulière de l'autre. Si une version
-venait a être mise à jour sans vérification préalable, alors le château de
+venait à être mise à jour sans vérification préalable, alors le château de
 cartes pourrait s'effondrer et le logiciel ne plus fonctionner.
 
 D'ailleurs, une pratique courante en développement informatique consiste à créer
 un environnement virtuel -- une bulle -- à l'intérieur même de son ordinateur
 pour y installer des versions sélectionnées de dépendances logicielles afin
-qu'elles ne soient pas victime d'un effet de bord dû à une mise à jour d'un
+qu'elles ne soient pas victimes d'un effet de bord dû à une mise à jour d'un
 autre programme (et d'autre dépendances).
 
 Le logiciel est un langage de haut niveau qui permet de manipuler des données
@@ -1138,7 +1136,7 @@ Le langage de requête et de manipulation des données GraphQL a également ét�
 développé par Facebook à partir de 2012 puis publié en _open source_ en 2015.
 
 L'une des particularités d'une API GraphQL, contrairement à une API REST par
-exemple, est quelle sert l'ensemble des données à une seule adresse (_endpoint_)
+exemple, est qu'elle sert l'ensemble des données à une seule adresse (_endpoint_)
 alors que plus généralement, les données sont accessibles à des URL très
 précises, ce qui a pour effet de rendre explicite la structuration des données
 dans la base.
@@ -1219,7 +1217,7 @@ Dans Stylo, chaque fonctionnalité, chaque bouton (ou presque) qui réalise une
 action de lecture ou d'écriture est lié à une requête GraphQL et au schéma de
 donnée correspondant.
 Chacune de ces actions suit en conséquence une modalité d'inscription dans la
-base données se conformant à l'architecture implémentée lors des développements de
+base de données se conformant à l'architecture implémentée lors des développements de
 Stylo et produit une vision du document. 
  
 Le protocole HTTP comporte deux méthodes bien connues pour faire circuler des
@@ -1237,13 +1235,13 @@ informations sont insérées dans l'URL ce qui 1) les rend visibles (et
 vulnérables) et 2) impose une limite du nombre de caractères (aux alentours de
 2000 au maximum) au risque de déclencher une erreur 414 (URL trop longue).
 En conséquence, il est préférable d'utiliser la méthode `POST` pour envoyer ou
-récupérer des informations car elles ne seront ni visibles ni limitées en
+récupérer des informations, car elles ne seront ni visibles ni limitées en
 longueur.
 Malgré l'aspect agnostique de GraphQL, la forme textuelle des requêtes implique
 en elle-même un choix particulier de transmission des informations avec ce qu'il
 comporte comme avantages et inconvénients.
 
-Les spécificités du protocoles HTTP sont définies dans les _Request for
+Les spécificités du protocole HTTP sont définies dans les _Request for
 Comments_ (RFC) publiés par l'_Internet Engineering Task Force_ (IETF) fondée en
 1986 et dont le siège se trouve aux États-Unis.
 Les documents et leurs contenus sont régulièrements mis à jour par la communauté
@@ -1280,7 +1278,7 @@ nouvelles ou mises à jour.
 Le comportement de `POST` fait toutefois débat, notamment quant à son usage pour
 l'envoi de certaines informations puisque, comme cela est indiqué dans sa
 définition, `POST` laisse le soin au serveur (la ressource cible) de traiter les
-données contenus dans son message selon sa propre sémantique.
+données contenues dans son message selon sa propre sémantique.
 En somme, contrairement à d'autres méthodes comme `PUT`, `POST` n'est pas
 idempotente^[L’idempotence signifie qu’une opération a le même effet et cela
 quel que soit le nombre d’application.], ce qui pourrait entraîner des
@@ -1319,7 +1317,7 @@ updatedAT\n
 ```
 
 Autrement dit, chaque fonctionnalité décrit de manière formelle la structuration
-des informations dans Stylo, donc ce que Stylo écrit dans la base données et
+des informations dans Stylo, donc ce que Stylo écrit dans la base de données et
 dans les textes puisque ce sont les informations renseignées qui seront
 intégrées dans les documents exportés.
 En ce sens, Stylo et ses protocoles pré-construisent la totalité de ce qu'un
@@ -1467,7 +1465,7 @@ La contrainte du format est liée à d'autres contraintes comme la compatibilit�
 (quel format peut être lu par quel programme ou logiciel ?), l'interopérabilité
 (est-ce que le format peut être utilisé de la même façon quel que soit
 l'environnement ?), la dépendance (de quoi un système a-t-il besoin pour traiter
-le format ?) et les droits associées (est-ce que le format peut être lu, modifié
+le format ?) et les droits associés (est-ce que le format peut être lu, modifié
 ou partagé ?).
 
 Si le but du format est de constituer une série d'informations compréhensibles,
@@ -1493,7 +1491,7 @@ Sa syntaxe, beaucoup plus légère
 et moins verbeuse que le HTML dont il est issu, permet de structurer et de
 décrire sémantiquement le texte. Il a été pensé pour pouvoir être converti
 facilement vers d’autres formats comme HTML, LaTeX ou PDF. Markdown se distingue
-des autres langages de balisages légers car il est déclinable en différentes
+des autres langages de balisages légers, car il est déclinable en différentes
 variantes (ou saveurs). Chacune d’entre elles ajoute une particularité dans la
 syntaxe Markdown. Parmi les plus populaires, on retrouve :
 
@@ -1565,7 +1563,7 @@ originale de 2004 avait pour signification _Yet Another Markup Language_ puis se
 transforme à l’occasion de la publication de sa version 1.1 en _YAML Ain’t
 Markup Language_.
 YAML est un langage de sérialisation de données pour tous les
-langage de programmation.
+langages de programmation.
 Un usage récurrent qui en est fait consiste à utiliser
 YAML pour créer des fichiers de configuration. Dans le cas des outils liés à
 l’édition numérique, YAML sera utilisé pour enregistrer les métadonnées
@@ -1694,7 +1692,7 @@ de Zotero dans l'éditeur de Stylo pour récupérer les informations relatives a
 bibliographiques.
 Ce fonctionnement entre Zotero et Stylo permet aux utilisateurs de ne passer que
 rarement par la forme brute du BibTeX, puis il permet de décentraliser la
-gestion et le nettoyage des informations de chaque références dans Zotero et
+gestion et le nettoyage des informations de chaque référence dans Zotero et
 limite les phases de nettoyage des informations à ce seul espace.
 Stylo est plutôt prévu pour récupérer des listes de références bibliographiques
 et procurer des fonctionnalités pour les intégrer dans un texte.
@@ -1755,7 +1753,7 @@ bibliographiques serait beaucoup trop lourde en termes d'effets de bord dans
 Stylo, c'est pour cela qu'à ce stade nous en sommes restés à cette solution.
 
 Étant strictement définis par des règles, les formats dépassent une simple
-manière de saisir une données.
+manière de saisir une donnée.
 À travers ces formats et les modes de lectures que l'on peut y adosser,
 les informations saisies se voient dotées de comportements et peuvent modifier
 l'interprétation que l'on peut en faire, comme nous l'avons vu avec le YAML.  
@@ -1767,7 +1765,7 @@ En ce sens la décision de ce qui peut être saisi est déjà prise avant qu'un
 texte soit frappé sur le clavier.
 Par exemple, dans Stylo, le Markdown ne permet pas à un philologue de saisir
 explicitement un appareil critique.
-C'est une syntaxe qui n'existe pas alors que c'est le cas pour d'autre
+C'est une syntaxe qui n'existe pas alors que c'est le cas pour d'autres
 environnements comme LaTeX et le paquet
 [`ekdosis`](http://www.ekdosis.org/) développé et maintenu par Robert Alessi.
 Dans ce cas-ci, puisque l'appareil critique n'existe pas en Markdown, il ne
@@ -1783,7 +1781,7 @@ et les besoins en écriture.
 
 ### Co-écriture entre les agents
 
-En régissant les procédés de saisi du textes, un rapport de force semble
+En régissant les procédés de saisi du texte, un rapport de force semble
 s'instaurer entre les instances éditrices des architextes (que ce soit des
 collectifs, des institutions ou des entreprises) et les usagers [@souchier].
 Dans le cas d'un logiciel de traitement de texte lorsque, par exemple, Microsoft
@@ -1794,10 +1792,10 @@ installé la mise à jour).
 
 Si l'on s'arrête à la vision superficielle du texte, comme le propose J. Goody
 avec la raison graphique [@goody_raison_1979], on ne voit que les modifications d'affichage des
-éléments graphiques mais nous oublions ceux qui sont invisibles et cachés
+éléments graphiques, mais nous oublions ceux qui sont invisibles et cachés
 derrière la page.
 
-Certes, les interfaces d'écriture sont présentés sous la forme de gabarits que
+Certes, les interfaces d'écriture sont présentées sous la forme de gabarits que
 l'on doit remplir, comme on peut le faire avec des logiciels de création de
 diapositives dont chacune est découpée en sections contenant tour à tour des
 images, des titres ou du texte.
@@ -1849,7 +1847,7 @@ employaient également le mot _word_ dans le nom de leur logiciel, car c'est bie
 le mot et son traitement informatique qui était au centre des développements, la
 démarche d'Apple en 2005 nous montre un changement de perspective : on passe du
 mot à la page.
-L'attention est porté à un autre endroit, sur une page que génère Pages et qui
+L'attention est portée à un autre endroit, sur une page que génère Pages et qui
 n'existe pas dans d'autres environnements.
 La page créée dans cet espace n'est pas reproductible ailleurs même si le
 document qui en résulte est ouvert, à un autre moment, par le biais d'un autre
@@ -1903,7 +1901,7 @@ ils s'affectent les uns les autres.
 
 Néanmoins, un trouble persiste dans cette relation entre ces agents.
 Ce dernier se manifeste entre ce que l’usager à l’intention d’écrire et le document que
-produit la machine, qui est structuré selon un certains nombre de normes,
+produit la machine, qui est structuré selon un certains nombres de normes,
 formats, etc., implémentés dans un logiciel.
 Ce trouble nait de la rencontre entre une représentation du texte structurée
 graphiquement et une représentation du texte structurée par du texte, entre une
@@ -1997,13 +1995,13 @@ Le texte affiché dans Stylo passe en réalité, d'un point de vue matériel, pa
 moins 4 représentations différentes :
 
 - le texte saisi en Markdown (affichage à l'écran)
-- la représentation du texte dans le DOM réalisée dans le navigateur par
+- la représentation du texte dans le DOM réalisé dans le navigateur par
   l'éditeur Monaco
 - la requête GraphQL envoyée au serveur au format JSON par HTTP
 - l'état de sauvegarde sur le serveur dans la base de données MongoDB
 
 Saisir du texte dans Stylo nécessite en réalité une multitude d'étapes
-intermédiaires invisibles -- on pourrait plutôt les qualifier d'automatisées --
+invisibles -- on pourrait plutôt les qualifier d'automatisées --
 mais que pourtant Stylo rédige et inscrit dans la mémoire numérique.
 
 Chacun de ces états a une signification particulière.
@@ -2061,7 +2059,7 @@ En dehors de cette situation, il n'existe aucun document dont l'extension serait
 format. 
 
 À la différence des systèmes analogiques et continus, la rupture opérée par
-l'écriture numérique réside entre autre dans cette discrétisation du texte en de
+l'écriture numérique réside entre autres dans cette discrétisation du texte en de
 multiples documents, où chacun se voit doté d'un paratexte différent pour
 circuler à travers les canaux de communication du système d'informations.
 
@@ -2077,7 +2075,7 @@ Toutes ces dynamiques éditorialisent et constituent les traces d'une
 épistémologie du document primaire avant toute transformation par le reste de la
 chaîne éditoriale.
 Autrement dit, écrire dans l'environnement Stylo produit quelque chose qui ne
-serait pas identique dans un autre environnement car les dynamiques observées
+serait pas identique dans un autre environnement, car les dynamiques observées
 seraient affectées par d'autres facteurs et produiraient ainsi une autre chose.
 Le choix de l'environnement d'écriture constitue en conséquence un choix
 politique puisque cet environnement agit et produit une matérialité singulière.
@@ -2099,7 +2097,7 @@ s'inscrit dans le nouveau matérialisme et le posthumanisme, nous avons observé
 les intra-actions à l'oeuvre dans l'éditeur de texte Stylo.
 À partir de ce positionnement théorique dont le prisme non-essentialiste ne
 prédétermine pas les agents en amont de l'interaction, nous avons considéré à la
-fois l'auteur et et la machine comme deux agents de l'énonciation
+fois l'auteur et la machine comme deux agents de l'énonciation
 éditoriale.
  
 Pour réaliser cette étude, nous nous sommes appuyés sur une méthode empruntée au
@@ -2116,14 +2114,14 @@ des protocoles de transmissions des informations comme HTTP, ces angles morts de
 l’écriture numérique, produits par cette relation, nous montrent que certaines
 parties de cette écriture ne sont finalement pas directement accessibles à ces
 deux agents alors qu’elles participent à la matérialité conférée au document produit.
-Il y a une forme de déprise instaurée dans cette relation et que l’auteur accepte,
+Une forme de déprise est instaurée dans cette relation et que l’auteur accepte,
 bon ou malgré lui, lorsqu’il emploie un environnement d’écriture numérique.
 En ce sens, un certain degré de confiance (aveugle) est accordé à l’environnement
 d’écriture choisi dans le processus de production du document.
 
 En observant diverses saisies de fragments de texte selon les formats pivots utilisés
 dans Stylo, le Markdown, le YAML et le BibTeX, nous nous sommes aperçus qu'ils ne
-sont jamais inscrit directement selon les formats mentionnés mais qu'ils passent par
+sont jamais inscrits directement selon les formats mentionnés mais qu'ils passent par
 quatre états différents : la saisie à l'écran, la manipulation par le DOM du
 navigateur dans l'éditeur Monaco, la requête GraphQL formatée en JSON pour être
 transporté par la méthode `POST` du protocole HTTP et le stockage dans la base de
