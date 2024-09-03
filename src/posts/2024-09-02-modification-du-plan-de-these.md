@@ -17,25 +17,24 @@ Problématique\ :
 
 Selon la perspective de redocumentarisation engendrée par le
 numérique et ses protocoles de communication, le document, hérité d'une longue
-tradition manuscrite et imprimé, s'est vu totalement reconfiguré du fait de ses
+tradition manuscrite puis imprimé, s'est vu totalement reconfiguré du fait de ses
 nouvelles caractéristiques numériques. 
 
-À la suite de cette reconfiguration, les spécialistes se sont emparés de cet artefact
-pour l'étudier.
-Une vingtaine d'années plus tard, les technologies numériques se sont
+Quelques décennies plus tard, les technologies numériques se sont
 complexifiées et ont donné naissance à un ensemble d'innovations que l'on peut
 considérer comme de nouvelles couches intermédiaires entre
 l'usager et la machine -- tels que le développement des API, le phénomène _big data_,
 la reconnaissance manuscrite de caractères,
 l'engouement pour les algorithmes d'intelligence artificielle, le Web 2.0 et 3.0, etc.
--- au milieu desquelles le document doit continuer à naviguer.
+-- au milieu desquelles le document doit continuer à naviguer pour remplir son
+rôle d'espace de médiation.
 Ces innovations réouvrent ainsi les problématiques liées aux contenus à
-l'intérieur des documents et aux médiations à l'oeuvre autour de cet objet. 
+l'intérieur de ces documents et aux interactions à l'oeuvre autour de cet objet. 
 
 Parmi toutes les chaînes de traitement de l'information (et du document), notre
-intérêt se porte sur les chaînes éditoriales scientifiques et les documents
-qui lui sont associés, les publications scientifiques, que ce soit des
-des articles de revue ou des livres.
+intérêt se porte sur les chaînes éditoriales scientifiques et aux documents
+qui leurs sont associés, les publications scientifiques, que ce soit des
+articles de revue ou des livres.
 La multiplication des supports numériques des publications scientifiques --
 plateformes web de diffusion, ePubs, livres web, livres augmentés, revues
 numériques, etc. -- témoigne de cette redocumentarisation et de la rupture
@@ -44,14 +43,18 @@ scientifique et une nouvelle modélisation du document qui s'est appropriée les
 caractéristiques du numérique (== éditorialisation).
 
 Suivant une perspective épistémologique, ces changements de modélisation et de
-représentation occasionne une altération de la matérialité du document
+représentation occasionnent une altération de la matérialité du document
 scientifique (que l'on distingue d'une épistémologie du texte).
 
 Au milieu de ces chaînes de traitement, le document, en tant que forme, y est
 bien souvent éphémère et n'existe que pour répondre à un enjeu calculatoire
 inhérent à l'écriture numérique.
-Pourtant, ce sont bien ces modalités de représentations qui permettent d'aboutir
+Pourtant, ce sont bien ces modalités de représentation qui permettent d'aboutir
 en fin de traitement à un document publiable.
+Au regard des variations que l'on peut observer dans les différentes formes des
+documents scientifiques, il devient nécessaire
+de questionner les transformations que cela génère quant à la place qu'occupe
+le document dans la chaîne éditoriale scientifique.   
 
 À travers cette recherche, nous appliquons cette problématique d'une
 épistémologie du document au document primaire que l'on retrouve dans les chaînes
