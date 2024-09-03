@@ -3,12 +3,11 @@ title: "Ébauche d'une introduction pour la thèse"
 date: 2024-05-27
 ---
 
-## Idée de plan
+## Introduction
 
-1. Détailler le contexte de la thèse (raconter les traces intimes de cette thèse
-   qui commence à être lue, son environnement d'écriture, etc.)
+1. Détailler le contexte de la thèse
 2. Problématisation du sujet et de la thèse défendue
-3. Définition de l'intime
+3. Définition de l'épistémologie du document
 4. Inscription de la recherche dans les champs suivants:
     - de l'infocom : étude d'un dispositif
         - le point de départ pourrait être la citation de L.Merzeau sur les
@@ -22,4 +21,9 @@ date: 2024-05-27
     que de le prendre sous l'axe de la médiologie comme pouvait le proposer
     Louise, on change de prisme pour celui du nouveau matérialisme, du
     posthumanisme et de l'intermédialité.
+    - épistémologie
 5. Annonce du plan
+    - Partie 1 : Une épistémologie du document axée sur le medium
+    - Partie 2 : Constitution du modèle épistémologique du document primaire dans Stylo
+    - Partie 3 : L'effacement du modèle épistémologique du document primaire par
+      remplacement
