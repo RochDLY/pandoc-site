@@ -1,5 +1,5 @@
 ---
-title: "Une épistémologie du document centrée sur le medium"
+title: "Le document comme pivot de la chaîne éditoriale scientifique"
 date: 2024-08-07
 ---
 
