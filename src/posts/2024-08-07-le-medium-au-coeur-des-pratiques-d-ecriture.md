@@ -5,11 +5,11 @@ date: 2024-08-07
 
 Notes pour le billet : 
 
-- potentiel titre de la these:  le `<em>`mal`</em>`traitement du texte
+- ~~potentiel titre de la these:  le `<em>`mal`</em>`traitement du texte~~
 - du fait de l'importance accordée à l'objet public (publié), aka revue, livre,
   blog, etc., l'objectif de l'édition est de se concentrer sur un modèle
 éditorial (un modèle épistémologique) et de transformer un document X pour qu'il
-soit conforme à ce modèle épistémologie.
+soit conforme à cette épistémologie.
 - ce faisant, nous oublions ou laissons de côté le document source original et
   les conditions de son élaboration.
     - peut-être utiliser Bergin et Kirshenbaum pour montrer que depuis l'arrivée
@@ -60,10 +60,17 @@ Un document ... puis un document numérique [@pedauque, @zacklad, ....]...
 Afin de pouvoir 
  
 
-## Lien entre pratique d'écriture savante et medium
+## L'importance du document dans les pratiques d'écriture
 
 À l'instar de Barthes pour qui la centralité du signe dans le texte remonte aux
-stoïciens (dates ...), 
+stoïciens (dates ...), nous proposons d'introduire le lien entre pratique
+d'écriture et érudition à partir des travaux de P. Hadot sur la philosophie
+antique [@hadot].
+
+Trouver où mettre l'équation de Pédauque pour définir le document
+[@pedauque_document_2003; @pedauque_document_2006]:
+
+$$Document = Support + Inscription$$
 
 Dans son ouvrage _Exercices spirituels et philosophie antique_, Pierre Hadot
 décrit ce qu'était la philosophie antique durant l'apogée de la civilisation
@@ -214,6 +221,33 @@ soi et le monde social.
 
 ## Le document numérique au prisme de la théorie des médias
 
+1. Définir le document (faire un bref point de présentation de Pédauque)
+2. Définir le document numérique (pour Pedauque, = donnees + structure
+avec un devenir du type document XML = donnees structurees + mise en forme (=
+dissociation mise en page de la structure qui elle est réalisée par du XSL et
+pas XML (Pedauque + Le Crosnier + infocom)
+3. Histoire des langages de balisages (depuis SGML) et usage dans les chaînes
+   éditoriales scientifiques (avec en fin l'exemple du schema XML-TEI COMMONS +
+Sens public en Markdown + ekdosis (attention LaTeX est à la fois un système de
+balisage et un système de commandes)
+4. Considérer ce document comme une medium
+    - Rappel McLuhan sur le fait que le medium = le message : il n'y a pas de
+      medium mais que des médiations
+    - C'est également la proposition de Kittler, à développer
+    - Repris par l'éditorialisation (Merzeau + Vitali-Rosati). Faire un point
+      sur editorialisation dans les courants francophones depuis Pédauque.  
+    - ajouter dans cette partie (après rappel theorie des medias) que document
+      numerique = donnees + structures + support (là où le support disparait
+chez Pedauque, la theorie des medias nous permet de penser le support du
+numérique comme composante du document numérique : hardware + software. Exemple
+de document qui ne sont plus lisibles du fait de la non retrocompatibilité ou
+des licences propriétaires. Autre exemple très important, le support détermine
+ce que l'on peut faire ou non dans un document, ce qui change drastiquement la
+façon dont le document sera composé.)
+    - on peut ajouter un exemple sur la durée de vie très courte de certains
+      documents qui deviennent inaccessibles si non maintenus comme c'est le cas
+de la bibliographie de Pedauque qui n'est plus accessible, même sur internet
+archive 
 
 ## Conclusion
 
