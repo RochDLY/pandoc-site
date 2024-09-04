@@ -25,12 +25,9 @@ Comme cela a été énoncé dans le chapitre précédent, un document est un esp
 numérique délimité dans lequel sont organisées des informations selon des normes
 établies par les impératifs d'une chaîne de traitements, par exemple avec des
 protocoles de communication des documents ou encore des formats.
-
 Ainsi, cet espace alloué physiquement dans la mémoire numérique
-va subir des modifications et être _redocumentarisé_ (Pedauque, Zacklad)
-afin que l'information initiale qui y est contenue puisse être traitée et
-transformée en un autre objet ou transportée en un autre espace.
-[Ajouter une phrase sur la redocumentarisation]
+va subir des modifications afin que l'information initiale qui y est contenue puisse
+être traitée et transformée en un autre objet ou transportée en un autre espace.
 
 Les documents numériques ayant pour devenir la publication scientifique
 font principalement l'objet d'un traitement éditorial de l'information : saisie du
