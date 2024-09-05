@@ -198,8 +198,6 @@ où se niche un aspect à notre connaissance ignoré de l'épistémologie du doc
 
 ## Écrire dans un environnement numérique
 
-### Définir l'environnement où écrire
-
 Par habitude, nous partons du présupposé que lorsque nous évoquons les mots
 environnement d'écriture numérique, ceux-ci sont synonymes d'un environnement
 d'écriture informatique et désignent la même chose.
@@ -305,8 +303,6 @@ développements des systèmes monétaires, nous dirait C. Herrenschmidt
 
 Dorénavant, lorsque nous ferons référence à l'écriture numérique nous parlerons
 d'une écriture numérique dans un environnement informatique.
-
-### Les particularités de l'écriture numérique
 
 Avant d'entamer une réflexion sur l'écriture numérique, convenons d'une brève
 définition de l'écriture, car celle-ci a fait couler beaucoup d'encre
@@ -446,8 +442,6 @@ Seulement, la "machine" ou l'"ordinateur" sont des appellations
 un peu vagues et ne rendent pas très explicite les
 éléments qu'elles désignent, ni ceux qui sont impliqués dans cette action
 d'écriture et dans cette relation entre humain et machine.
-
-### La machine, une entité formée du couple matériel/logiciel
 
 La représentation d'un ordinateur est souvent associée à un couple matériel /
 logiciel.
@@ -700,10 +694,7 @@ différents agents d'un environnement -- principalement logiciels et
 humain -- sont des dynamiques qui, lorsqu'elles sont agencées dans une
 configuration particulière, co-construisent l'écriture.
 
-
-## Une médiation par l'écrit
-
-### Le logiciel comme architexte
+## Le document est une médiation
 
 Sans l'intervention du logiciel entre l'être humain et la machine, il ne serait
 pas possible pour un auteur d'écrire sur le support de l'inscription numérique.
@@ -817,8 +808,6 @@ une vision anthropocentrée des actions de lecture et d'écriture.
 Pour effectuer ce changement de perspective, nous devons d'abord nous débarasser
 d'un élément central à l'interface de l'humain et la machine : la page.
 
-### La page est un doudou
-
 Le terme _page_ revient de manière récurrente dans nos usages de l'ordinateur :
 on le retrouve dans les logiciels de traitement de textes -- il y a même un
 logiciel du nom de _Pages_ disponible dans l'environnement Apple --, dans les
@@ -914,8 +903,6 @@ Dans cette configuration s'opère alors un changement radical de l'état de
 l'ordinateur.
 D'abord à l'état de médiateur puis de support de l'écriture, l'ordinateur passe
 maintenant au statut d'entité agissante au sein d'un système d'informations.
-
-### Le logiciel est une médiation
 
 Traverser la page pour atteindre les couches inférieures nous amène à faire escale
 sur la couche logicielle.
@@ -1331,8 +1318,6 @@ différents modules de Stylo nous montre déjà que l'information saisie dans ce
 éditeur de texte est formatée par une architecture de données alors que nous
 n'avons pas encore abordé les conditions de l'écriture avec les trois formats
 pivots d'un document dans Stylo.
-
-### Les formats déterminent la sémantique du texte
 
 [Trouver quelques références sur les formats, ex la these de de Mourat sur le
 vacillement des formats]
@@ -1775,8 +1760,6 @@ risque est que celui-ci ne soit pas complètement adapté à des besoins ou à u
 intention.
 Il risque d'y avoir une friction entre les formats imposés par l'environnement
 et les besoins en écriture.
-
-### Co-écriture entre les agents
 
 En régissant les procédés de saisi du texte, un rapport de force semble
 s'instaurer entre les instances éditrices des architextes (que ce soit des

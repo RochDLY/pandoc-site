@@ -5,7 +5,7 @@ date: 2024-09-02
 
 ## Nouvelle proposition de plan de la thèse
 
-Propositions de titre\ : 
+**Propositions de titre\ :** 
 
 1. Modèle épistémologique du document primaire dans la
 chaîne éditoriale scientifique 
@@ -13,14 +13,15 @@ chaîne éditoriale scientifique 
 3. Le (mal)traitement du document\ : Modèle épistémologique du document primaire
    dans la chaîne éditoriale scientifique
 
-Problématique\ :
+**Problématique\ :**
 
 Selon la perspective de redocumentarisation engendrée par le
 numérique et ses protocoles de communication, le document, hérité d'une longue
 tradition manuscrite puis imprimé, s'est vu totalement reconfiguré du fait de ses
 nouvelles caractéristiques numériques. 
 
-Quelques décennies plus tard, les technologies numériques se sont
+Quelques décennies suivant l'apparition des ordinateurs personnels,
+les technologies numériques se sont
 complexifiées et ont donné naissance à un ensemble d'innovations que l'on peut
 considérer comme de nouvelles couches intermédiaires entre
 l'usager et la machine -- tels que le développement des API, le phénomène _big data_,
@@ -62,7 +63,7 @@ d'édition savante, à savoir la première source soumise par l'auteur avant
 traitement éditorial.   
 
 
-Hypothèses\ :
+**Hypothèses\ :**
 
 1. Le modèle épistémologique des documents scientifiques est produit par
 l'environnement d'écriture, il ne lui pré-existe pas.
@@ -70,19 +71,20 @@ l'environnement d'écriture, il ne lui pré-existe pas.
 et supprimé par un autre modèle épistémologique, celui qu'impose le traitement
 éditorial en vue de l'obtention du document publiable. 
 
+**Plan modifié**
 
 1. [Introduction](/posts/2024-05-27-ebauche-introduction-these.html)
 2. Partie 1\ : Le document comme pivot de la chaîne éditoriale scientifique
-    - Définir le document
+    - Place du document dans une brève histoire des publications scientifiques
+      (revues / monographies + passage au numérique)
+    - Définir le document + document numérique
         - Document comme espace normé (protocoles, formats, etc)  
         - Document comme espace de transaction entre les différents agents de
           l'énonciation éditoriale
-    - Place du document dans une brève histoire des publications scientifiques
-      (revues / monographies + passage au numérique)
     - Le document au prisme de la théorie des médias (le medium n'est pas
       simplement un support)
         - McLuhan + matérialisme
-        - Kittler + essentialisme
+        - Kittler + déterminisme
         - Médiologie (Debray, Merzeau)
         - Éditorialisation (du point de vue infocom + du point de vue de
           l'intermédialité montréalaise)
@@ -91,11 +93,14 @@ et supprimé par un autre modèle épistémologique, celui qu'impose le traiteme
       des transactions entre les agents (humains) qui interviennent à l'intérieur de cet
 espace et chaque élément qui participe à sa consitution devient agent de
 l'énonciation éditoriale (que ce soit un format, un protocole, un éditeur, un
-auteur, etc.)
+auteur, etc.). Dès lors, il devient nécessaire de prendre l'environnement
+documentaire (environnement support) 
 3. Partie 2\ : Constitution du modèle épistémologique du document primaire dans
    l'éditeur de texte Stylo.
     - voir cette
       [page](/posts/2024-05-06-la-saisie-du-texte-dans-un-nouveau-document.html)
+    - Écrire dans un environnement numérique
+    - Le document comme médiation
 4. Partie 3\ : La suppression du modèle épistémologique du document primaire
     - Introduire les chaîne éditoriales
         - brève revue sur les chaines numériques
@@ -109,7 +114,7 @@ auteur, etc.)
       document publié entraine son effacement. On ne retrouve aucune trace de ce
 modèle primaire dans le document publié ni aucun indice sur les conditions de
 son établissement.
-5. Partie 4\ : Conclusion 
+5. Conclusion 
     - Recap de la PB et des hypothèses
     - Revenir sur la notion de document et ses définitons (espace normé, espace
       de transaction, espace de réception du texte et du paratexte, etc) et
@@ -117,5 +122,6 @@ conclure sur le faire qu'aucune trace, aucun indice de ces interactions dans cet
 espace ne subsistent dans le document scientifique public.
     - Le document public qui fait l'objet de la discussion savante oublie les
       conditions de son existence et opère un choix du modèle épistémologique
-qui sera retenu )mémoire/archive)
-    - Ouverture vers d'autres modalités de publication ? 
+qui sera retenu (mémoire/archive) au détriment de toutes les représentations qui
+permettent la publication
+    - Ouverture vers d'autres modalités de publication (action de publier) ? 
