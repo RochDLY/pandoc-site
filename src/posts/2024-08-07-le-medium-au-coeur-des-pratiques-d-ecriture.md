@@ -38,16 +38,21 @@ médias ...
 - Proposer un cadre posthumain pour justifier la valeur accordée au document (si
   souvent oublié de nos recherches).
 
+---
+
 ## Introduction
 
 Le texte et les théories qui s'y rapportent fondent leur épistémologie autour du
-signe [@barthes, @kristeva].
+signe [@barthes].
 Lorsqu'il s'agit d'étudier un texte, que l'on vienne de la sémiologie, de la
 philologie ou de la génétique des textes, ce sont les unités sémiotiques, les
 mots et autres agencements de signes qui constituent l'objet étudié.
 Cependant, cette perspective ne permet pas de rendre compte de ce que pourrait
-être une épistémologie du document, celui-ci comprenant à la fois le texte et
-son support.
+être une épistémologie du document, celui-ci étant pour l'instant défini dans
+son appareil le plus simple par l'équation [@pedauque_document_2003; @pedauque_document_2006]:
+
+$$Document = Support + Inscription$$
+ 
 Les conditions de rédaction d'un texte
 sur une stèle, un post-it, une ardoise, du papier ou de la
 silice ne sera pas composé dans
@@ -62,17 +67,12 @@ Afin de pouvoir
 
 ## L'importance du document dans les pratiques d'écriture
 
-À l'instar de Barthes pour qui la centralité du signe dans le texte remonte aux
-stoïciens (dates ...), nous proposons d'introduire le lien entre pratique
-d'écriture et érudition à partir des travaux de P. Hadot sur la philosophie
-antique [@hadot].
+À l'instar de Barthes pour qui la centralité du signe dans le texte remonte à
+l'époque des stoïciens, nous proposons d'introduire le lien entre pratique
+d'écriture et érudition à partir des travaux de Pierre Hadot sur la philosophie
+antique.
 
-Trouver où mettre l'équation de Pédauque pour définir le document
-[@pedauque_document_2003; @pedauque_document_2006]:
-
-$$Document = Support + Inscription$$
-
-Dans son ouvrage _Exercices spirituels et philosophie antique_, Pierre Hadot
+Dans son ouvrage _Exercices spirituels et philosophie antique_, P. Hadot
 décrit ce qu'était la philosophie antique durant l'apogée de la civilisation
 grecque que l'on peut situer à partir de la période des présocratiques (environ
 700 av. JC) jusqu'à la fin de la période hellénistique (31 av. JC.).
@@ -129,12 +129,12 @@ Le philosophe prend du recul sur ses actes passés, soit une distance critique
 vis-à-vis de sa manière d'être qu'il confronte au système de valeurs auquel il
 prétend appartenir.
 Une des méthodes pour réaliser cet exercice est l'écriture de soi.
-Le philosophe couche sur le papier les actions effectuées durant une période
+Le philosophe couche par écrit les actions effectuées durant une période
 précise, il s'y raconte.
 C'est ce que fait Marc-Aurèle dans les _Pensées pour moi-même_
 [@hadot_exercices_2002, p.149].
 
-[ajouter quelques paragraphes sur Marc-Aurèle]
+[ajouter quelques lignes sur Marc-Aurèle]
 
 En faisant un anachronisme, cette pratique de l'écriture de soi pourrait
 aisément être confondue avec une écriture diaristique ou se rapprocher du récit
@@ -162,21 +162,20 @@ L'écriture dépasse la simple condition de support / outils grâce auquel une
 information peut être transmise et devient la condition _sine qua non_ de
 l'accès à l'autre. 
 
-À titre d'exemple, si nous reprenons le passage cité précédemment de la lettre
-de Sénèque à Lucilius, Sénèque écrit ceci : « Sans doute l'homme devrait
+À titre d'exemple, un passage de la lettre [nombre] de Sénèque à Lucilius
+contient ceci : « Sans doute l'homme devrait
 toujours se conduire comme s'il avait des témoins, toujours penser comme si
 quelqu'un pouvait lire au fond de son coeur ».
 Exception faite pour l'écriture, la méthode que propose Sénèque est très
-similaire à celle de Saint-Antoine, et elle s'incarne à travers la lettre qui
-est employée comme medium.
-La relecture de la lettre de Sénèque sous le prisme de l'exercice spirituel
-modifie l'interprétation que l'on peut en faire.
-De plus, Sénèque nous indique dès le début de la lettre qu'il s'agit de
+similaire à celle de Saint-Antoine, et s'incarne à travers la lettre qu'il
+envoie à Lucilius en tant que medium.
+
+Sénèque nous indique dès le début de la lettre qu'il s'agit de
 l'exercice de l'examen de soi : « Je vais donc me mettre à m'observer, et, pour
 plus de sûreté, je ferai le soir la revue de ma journée. »
 Si nous considérons qu'il s'agit bien là de la réalisation d'un exercice
-spirituel, et en sachant que Sénèque est un philosophe, nous pouvons en déduire
-que cette lettre comporte finalement un double enjeu.
+spirituel, et en sachant que Sénèque est un philosophe de l'école stoïcienne,
+nous pouvons en déduire que cette lettre comporte finalement un double enjeu.
 Le premier est explicite : Sénèque fait une démonstration à Lucilius comme un
 maître peut le faire avec son élève.
 Le second est la réalisation de l'exercice pour Sénèque lui-même.
@@ -188,17 +187,16 @@ prémédite les actions et mouvements qu'il va réaliser dans la journée.
 Il fait en sorte que ses actions soient vertueuses pour qu'il n'y ait rien dont
 il puisse avoir honte car il sait que Lucilius sera témoin de son récit.
 
-Cet exemple fait émerger plusieurs propriétés de l'intimité qui sont évoquées
-dans la lettre de Sénèque et que l'on peut, par extension, appliquer à la
-philosophie antique.
-Tout d'abord, cette intimité naît de la pratique de la philosophie et des
-exercices qui l'accompagnent.
-Ce n'est donc pas quelque chose qui serait donné et pré-existant à soi, mais
-quelque chose qu'il faut construire.
-Ensuite, elle nécessite un medium, dans ce cas-ci l'écriture, pour ajouter un
-mouvement d'extériorisation à une première dynamique introspective.
-En somme, le philosophe créé un récit de lui-même afin de mobiliser l'autre et
-se donner à voir, pour mettre en évidence ce qui lui est intérieur.
+L'exemple de la lettre de Sénèque à Lucilius permet de faire émerger la
+dimension sociale du document, en tant que dépassement de ce que J-M. Salaün
+caractérise par les aspects intime et éphémère que peut revêtir l'écriture
+dans son environnement documentaire (inscription + support) [-@salaun_chronique_2004]. 
+
+L'exercice philosophique nécessite en ce sens un medium, dans ce cas-ci
+l'écriture d'un document, pour ajouter un mouvement d'extériorisation à une
+première dynamique introspective.
+Le philosophe créé un document contenant un récit de lui-même afin de mobiliser
+l'autre et se donner à voir, pour mettre en évidence ce qui lui est intérieur.
 
 Néanmoins, il ne s'agit pas uniquement de se livrer à autrui, d'ailleurs ce
 n'est pas le regard que l'autre peut porter sur soi qui importe.
@@ -208,20 +206,61 @@ L'autre ainsi convoqué dans ce mouvement d'extériorisation est avant tout un
 autre social et politique.
 Finalement, le philosophe se doit d'être irréprochable, sa conduite doit
 correspondre à l'image attendu d'un philosophe dans l'école mais aussi et
-surtout dans la cité.
+surtout dans la cité (grecque).
 Il ne dépend pas du regard que peuvent porter les citoyens sur lui, mais plutôt
 d'un système de valeurs qui le détermine en tant que philosophe. 
 La question de la maîtrise de soi et de l'examen de conscience est donc
-fondamentalement éthique.
+fondamentalement éthique et sociale.
+Ainsi, le philosophe se réalise entre autre au travers d'un espace, le document,
+dont la fonction principale est de reccueillir et de matérialiser les médiations
+permettant l'émergence du philosophe.
+En ce sens, le philosophe ne pré-existe pas le document mais en devient le
+produit.
 
-L'intimité n'est donc pas soi et elle ne peut exister que parce qu'il y a
-présence de l'autre, l'intimité ne serait plus seulement un espace au plus
-profond de l'être mais un espace qui se trouve entre l'être et l'autre, entre
-soi et le monde social.
+P. Hadot nous signale également que cette tradition de l'exercice philosophique
+a perduré sous d'autres formes jusqu'à nos jours, d'abord reprise par les
+chrétiens comme en témoigne les écrits de Saint-Antoine, Saint-Augustin ou
+encore Thomas d'Aquin puis reprise par des philosophes tels que Descartes et
+Rousseau que nous avons nommé précédemment et enfin certains philosophes
+contemporains à l'image de Foucault [@hadot__].
+
+Au-delà du lien émis entre les philosophes de chaque époque, P. Hadot met en
+évidence l'apport épistémologique de l'héritage grec dans notre acception
+contemporaine des sciences humaines [@hadot__, p.]. 
+Cet héritage se traduit en partie par la présence de documents circulant entre
+les pairs de cette sphère savante mais aussi dans l'espace public.
+Ces documents peuvent être englobés sous le terme de publication scientifique.
+
+L'histoire des publications scientifiques remonte à l'apparition de plusieurs
+dispositifs de transmission des informations : voie postale + imprimerie 
 
 ## Le document numérique au prisme de la théorie des médias
 
 1. Définir le document (faire un bref point de présentation de Pédauque)
+
+Le document est un objet délicat à définir tant il revêt des formes différentes.
+C'est certainement lié au fait que l'emploi du terme _document_ désigne une
+multitude d'objets que nous manipulons au quotidien dans différents lieux et
+espaces sociaux, que ce soit sur le lieu de travail, à l'école ou à
+l'université, dans des administrations publiques ou encore chez soi.
+Un document peut très bien prendre l'apparence d'un formulaire administratif
+laissé sur le coin d'un bureau ou un livre bien ordonné sur une étagère d'une
+bibliothèque ou encore une photographie stockée dans les locaux des Archives
+nationales.
+La notion de document est finalement un terme très générique que l'on a du mal à
+circonscrire du fait qu'il puisse désigner autant d'objets divers.
+
+D'un point de vue étymologique, le _Gaffiot_ nous indique que _documentum_
+signifie «\ exemple, modèle, leçon, enseignement, démonstration\ », définition
+qui ne fait pas forcément référence à un support de l'information alors que dans
+son acception plus contemporaine l'on désigne un document par celui-ci.
+
+Le collectif Roger T. Pédauque
+ 
+
+Le document peut-être appréhendé sous différents prismes, Pédauque
+[-@pedauque_document_2006] nous en offre trois\ :
+
 2. Définir le document numérique (pour Pedauque, = donnees + structure
 avec un devenir du type document XML = donnees structurees + mise en forme (=
 dissociation mise en page de la structure qui elle est réalisée par du XSL et
@@ -244,6 +283,14 @@ de document qui ne sont plus lisibles du fait de la non retrocompatibilité ou
 des licences propriétaires. Autre exemple très important, le support détermine
 ce que l'on peut faire ou non dans un document, ce qui change drastiquement la
 façon dont le document sera composé.)
+    - désaccord avec Pédauque (sujet qui faisait deja discorde entre les
+      chercheurs participant à Pédauque) sur le fait que la dimension publique
+est une composante fondamentale d'un document, sans elle il ne s'agit pas d'un
+document (ça c'est la vision de document = medium = social). Or il s'agit plutot
+de signifier que sans médiation il ne s'agit pas d'un document. A quoi
+limite-t-on les médiations ? Si c'est aux acteurs uniquement humains et en
+capacité de lire/écrire alors le document est circonscrit à un cercle très privé
+d'individus. En se positionnant du côté du nouveau matérialisme ...
     - on peut ajouter un exemple sur la durée de vie très courte de certains
       documents qui deviennent inaccessibles si non maintenus comme c'est le cas
 de la bibliographie de Pedauque qui n'est plus accessible, même sur internet
@@ -278,3 +325,20 @@ une théorie du commun dans lequel le document pourrait ....
 D'autres travaux plus récents sur l'éditorialisation (Vitali-Rosati), propose
 également une autre forme de dépassement de cette posture essentialiste par la
 mobilisation de théories provenant du courant posthumaniste (Hayles, Barad) ...
+
+En revenant à la dimension sociale que Pédauque attache au document en tant que
+medium, et aux conditions de lecture / écriture de ces documents, il est
+nécessaire d'ajouter à cette définition la prise en compte de l'environnement
+numérique pour qu'une communauté puisse accéder à ce document.
+Cet environnement ne doit pas être réduit à une simple couche logicielle
+permettant d'accéder au document, mais doit prendre en considération la totalité
+des protocoles, des formats, des règles et normes qui déterminent les
+possibilités d'établissement d'un document.
+
+Toutefois, cette proposition pourrait rencontrer une limite selon la taille de
+la sphère sociale concernée par un document, car elle sous-entendrait une
+préconisation pour un environnement numérique et unique identique pour toutes
+les personnes concernées.
+Au contraire, le modèle de représentation numérique défendue dans cette thèse, à
+l'instar de la thèse de l'ouvrage _L'Éloge du bug_ [@vitali-rosati_eloge_2024]
+doit être pluriel.
