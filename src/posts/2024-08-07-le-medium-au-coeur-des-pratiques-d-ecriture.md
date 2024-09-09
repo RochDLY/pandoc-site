@@ -43,20 +43,25 @@ médias ...
 ## Introduction
 
 L'objet qu'est la publication scientifique désigne communément un ensemble
-d'artefacts que l'on réunit sous cette appellation parce qu'elle caracérise une
+d'artefacts que l'on réunit sous cette appellation parce qu'elle caractérise une
 modalité de communication et de diffusion des travaux menés par les acteurs de
 la recherche.
 Parmi ces artefacts, les plus communs sont les ouvrages collectifs, les
 monographies, les revues, les actes liés à des événements scientifiques
 (colloque, journée d'étude, etc.), les thèses ou encore les mémoires.
-Malgré le fait que leur nature soit différente pour chacun d'entre eux,
-tous ces artefacts ont une particularité commune qui nous permet de les regrouper.
-Ce qui les relie ne se trouve pas à l'intérieur même de ces documents mais dans le
+Malgré le fait que leur nature soit différente,
+ces artefacts ont une particularité commune qui nous permet de les regrouper.
+Ce qui les lie ensemble ne se trouve pas à l'intérieur de ces documents, mais dans le
 processus de fabrication ces derniers.
 Les publications scientifiques regroupent une diversité d'artefacts parce
 qu'elles font l'objet d'un traitement qui leur est propre\ : la relecture par
 les pairs.
-C'est un fait remarquable puisque, pour cette catégorie
+Cette étape de validation du contenu scientifique s'insère dans le processus
+éditorial de transformation du document primaire -- le document envoyé par
+l'auteur -- avant qu'il ne trouve sa forme définitive.
+Selon les commentaires des relecteurs, le texte peut à ce moment là être
+retouché par l'auteur.
+C'est un fait remarquable puisque, pour cette catégorie d'objets,
 contrairement à d'autres, les artefacts ne sont
 pas indexés selon une composante qui permettrait de décrire le type d'artefact
 dont il s'agit mais le sont d'une part par un gage de qualité du contenu qui a
@@ -68,7 +73,19 @@ Tandis que le texte scientifique est l'élément qui fait l'objet de cette
 relecture attentive de la part des pairs, nous nous intéressons à un autre
 aspect de ces artefacts qui nous permettrait de tous les désigner sans avoir à
 définir toutes leurs propriétés, il s'agit de la notion de document.
-
+Un livre pourrait être désigné par son format, le type de reliure employée ou le
+type de papier qui le compose, il en va tout autant pour les revues et les
+autres objets, d'autant plus si l'on doit prendre en considération leur pendant
+numérique, sans qu'on puisse les circonscrire complètement.
+Le terme de document quant à lui à cette particularité d'être un peu vague et un peu flou.
+Il a quelque chose qui tient du mot-valise et du fourre-tout.
+Il désigne tour à tour des livres, des papiers administratifs, des papiers
+médicaux, des documents numériques, des revues, des cartes postales, des
+antilopes (certaines seulement), des images ou des objets selon le contexte dans
+lequel ils sont exposés, etc.
+C'est un mot que l'on utilise au quotidien et grâce auquel on peut désigner tout
+un ensemble de choses sans pour autant s'encombrer d'une définition précise du
+document.
 Un document, dans son sens le plus large et le plus simple, est défini par
 l'équation [@pedauque_document_2003; @pedauque_document_2006]\ :
 
@@ -94,7 +111,7 @@ Un document ... puis un document numérique [@pedauque, @zacklad, ....]...
 Afin de pouvoir 
  
 
-## L'importance du document dans les pratiques d'écriture
+## Historique des publications savantes
 
 À l'instar de Barthes pour qui la centralité du signe dans le texte remonte à
 l'époque des stoïciens, nous proposons d'introduire le lien entre pratique
@@ -286,7 +303,40 @@ son acception plus contemporaine l'on désigne un document par celui-ci.
 
  
 Les travaux de Paul Otlet
-Les travaux de Suzanne Briet
+
+> 1. Livre (Biblion ou Document ou Gramme) est le terme conventionnel employé ici
+> pour exprimer toute espèce de documents. Il comprend non seulement le livre
+> proprement dit, manuscrit ou imprimé, mais les revues, les journaux, les
+> écrits et reproductions graphiques de toute espèce, dessins, gravures, cartes
+> schémas, diagrammes, photographies, etc. La Documentation au sens large du
+> terme comprend\ : Livre, éléments servant à indiquer ou reproduire une pensée
+> envisagée sous n'importe quelle forme.
+> 2. Le Livre ainsi entendu présente un double aspect\ : a) il est au premier
+>    chef une oeuvre de l'homme, le résultat de son travail intellectuel\ ; b)
+>    mais, multiplié à de nombreux exemplaires, il se présente aussi comme l'un
+>    des multiples objets créés par la civilisation et susceptible d'agir sur
+>    elle\ ; c'est le propre de tout objet ayant caractère corporel et agencé
+>    techniquement.
+> - Otlet, p.9
+
+> 1. Qu'est-ce qui dans le Livre lui est propre, qu'est-ce qui est proprement
+>    bibliographique\ ? On a déjà dit la distinction entre\ : a) la Réalité
+>    objective, b) la Pensée subjective ou l'état de conscience provoqué ou le
+>    moi par la réalité, c) la Pensée objective qui est l'effort de la réflexion
+>    combinée et collective sur ces données premières jusqu'à la science
+>    impersonnelle et totale, d) la Langue, instrument collectif de l'expression
+>    de la Pensée. Collection totale, tout livre contient ces quatre éléments
+>    associés concrètement en lui-même et que, par abstraction seulement, il est
+>    possible de dissocier et d'étudier à part. Ce qui est propre au livre,
+>    c'est le cinquième élément\ : la pensée désormais fixée par l'écriture des
+>    mots ou l'image des choses, signes visibles, fixés sur un support matériel.
+> - Otlet, p.10
+
+
+Les travaux de Suzanne Briet (avec l'Antilope)
+    - selon la typologie de Briet, les publications scientifiques sont des
+      documents secondaires (par rapport à l'objet dont elles traitent qui sont
+le document principal).
 
 Donker Duyvis : 
 
