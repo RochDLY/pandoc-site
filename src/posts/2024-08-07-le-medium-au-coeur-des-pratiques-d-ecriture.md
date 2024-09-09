@@ -42,16 +42,45 @@ médias ...
 
 ## Introduction
 
+L'objet qu'est la publication scientifique désigne communément un ensemble
+d'artefacts que l'on réunit sous cette appellation parce qu'elle caracérise une
+modalité de communication et de diffusion des travaux menés par les acteurs de
+la recherche.
+Parmi ces artefacts, les plus communs sont les ouvrages collectifs, les
+monographies, les revues, les actes liés à des événements scientifiques
+(colloque, journée d'étude, etc.), les thèses ou encore les mémoires.
+Malgré le fait que leur nature soit différente pour chacun d'entre eux,
+tous ces artefacts ont une particularité commune qui nous permet de les regrouper.
+Ce qui les relie ne se trouve pas à l'intérieur même de ces documents mais dans le
+processus de fabrication ces derniers.
+Les publications scientifiques regroupent une diversité d'artefacts parce
+qu'elles font l'objet d'un traitement qui leur est propre\ : la relecture par
+les pairs.
+C'est un fait remarquable puisque, pour cette catégorie
+contrairement à d'autres, les artefacts ne sont
+pas indexés selon une composante qui permettrait de décrire le type d'artefact
+dont il s'agit mais le sont d'une part par un gage de qualité du contenu qui a
+été validé par les pairs en amont de la publication et d'autres parts, le sont par une forme de
+reconnaissance sociale puisque l'objet en question sera probablement repris
+et/ou cité par d'autres membres de la communauté concernée.
+
+Tandis que le texte scientifique est l'élément qui fait l'objet de cette
+relecture attentive de la part des pairs, nous nous intéressons à un autre
+aspect de ces artefacts qui nous permettrait de tous les désigner sans avoir à
+définir toutes leurs propriétés, il s'agit de la notion de document.
+
+Un document, dans son sens le plus large et le plus simple, est défini par
+l'équation [@pedauque_document_2003; @pedauque_document_2006]\ :
+
+$$Document = Support + Inscription$$ 
+
 Le texte et les théories qui s'y rapportent fondent leur épistémologie autour du
 signe [@barthes].
 Lorsqu'il s'agit d'étudier un texte, que l'on vienne de la sémiologie, de la
 philologie ou de la génétique des textes, ce sont les unités sémiotiques, les
 mots et autres agencements de signes qui constituent l'objet étudié.
 Cependant, cette perspective ne permet pas de rendre compte de ce que pourrait
-être une épistémologie du document, celui-ci étant pour l'instant défini dans
-son appareil le plus simple par l'équation [@pedauque_document_2003; @pedauque_document_2006]:
-
-$$Document = Support + Inscription$$
+être une épistémologie du document.
  
 Les conditions de rédaction d'un texte
 sur une stèle, un post-it, une ardoise, du papier ou de la
@@ -255,11 +284,38 @@ signifie «\ exemple, modèle, leçon, enseignement, démonstration\ », défini
 qui ne fait pas forcément référence à un support de l'information alors que dans
 son acception plus contemporaine l'on désigne un document par celui-ci.
 
-Le collectif Roger T. Pédauque
  
+Les travaux de Paul Otlet
+Les travaux de Suzanne Briet
+
+Donker Duyvis : 
+
+> A document is the repository of an expressed thought.
+> Consequently its contents have a spiritual character.
+> The danger that blunt unification of the outer form exercises a repercussion
+> on the contents in making the latter characterless and impersonal,
+> is not illusory....
+> In standardizing the form and layout of documents it is necessary to restrict this
+> activity to that which does not affect the spiritual contents and which serves to
+> remove a really irrational variety. 
+> (Donker Duyvis, 1942. Translation from Voorhoeve, 1964, 48)
+
+Note : Nous ne sommes pas d'accord avec cette proposition !! 
+Outre-Atlantique, Buckland (1997) défini le document à partir de la
+documentation et des travaux de Paul Otlet et de Suzanne Briet du début du 20^e^
+siècle.
+La documentation serait comprise comme un ensemble d'informations -- communément
+appelés documents -- et un système d'organisation et de recherche des
+connaissances à l'intérieur de ce jeu d'informations.
+
+Le collectif Roger T. Pédauque
+Revenir sur le phénomène de documentarisation fin 19e et début 20e.
+Puis redocumentarisation à l'aube du 21e s.
 
 Le document peut-être appréhendé sous différents prismes, Pédauque
 [-@pedauque_document_2006] nous en offre trois\ :
+
+Les travaux de la document academy
 
 2. Définir le document numérique (pour Pedauque, = donnees + structure
 avec un devenir du type document XML = donnees structurees + mise en forme (=
@@ -269,7 +325,7 @@ pas XML (Pedauque + Le Crosnier + infocom)
    éditoriales scientifiques (avec en fin l'exemple du schema XML-TEI COMMONS +
 Sens public en Markdown + ekdosis (attention LaTeX est à la fois un système de
 balisage et un système de commandes)
-4. Considérer ce document comme une medium
+4. Considérer ce document comme un medium
     - Rappel McLuhan sur le fait que le medium = le message : il n'y a pas de
       medium mais que des médiations
     - C'est également la proposition de Kittler, à développer
@@ -286,8 +342,8 @@ façon dont le document sera composé.)
     - désaccord avec Pédauque (sujet qui faisait deja discorde entre les
       chercheurs participant à Pédauque) sur le fait que la dimension publique
 est une composante fondamentale d'un document, sans elle il ne s'agit pas d'un
-document (ça c'est la vision de document = medium = social). Or il s'agit plutot
-de signifier que sans médiation il ne s'agit pas d'un document. A quoi
+document (ça c'est la vision de document = medium = social). Or il s'agit plutôt
+de signifier que sans médiation il ne s'agit pas d'un document. À quoi
 limite-t-on les médiations ? Si c'est aux acteurs uniquement humains et en
 capacité de lire/écrire alors le document est circonscrit à un cercle très privé
 d'individus. En se positionnant du côté du nouveau matérialisme ...
@@ -342,3 +398,7 @@ les personnes concernées.
 Au contraire, le modèle de représentation numérique défendue dans cette thèse, à
 l'instar de la thèse de l'ouvrage _L'Éloge du bug_ [@vitali-rosati_eloge_2024]
 doit être pluriel.
+
+Proposition de définition du document : tout espace délimité et figé à un
+instant donné regroupant des traces et des indices organisés qui puissent être
+lues.
