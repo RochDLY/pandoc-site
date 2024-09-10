@@ -50,7 +50,7 @@ Parmi ces artefacts, les plus communs sont les ouvrages collectifs, les
 monographies, les revues, les actes liés à des événements scientifiques
 (colloque, journée d'étude, etc.), les thèses ou encore les mémoires.
 Malgré le fait que leur nature soit différente,
-ces artefacts ont une particularité commune qui nous permet de les regrouper.
+ces artefacts partagent une particularité qui nous permet de les regrouper.
 Ce qui les lie ensemble ne se trouve pas à l'intérieur de ces documents, mais dans le
 processus de fabrication ces derniers.
 Les publications scientifiques regroupent une diversité d'artefacts parce
@@ -62,22 +62,30 @@ l'auteur -- avant qu'il ne trouve sa forme définitive.
 Selon les commentaires des relecteurs, le texte peut à ce moment là être
 retouché par l'auteur.
 C'est un fait remarquable puisque, pour cette catégorie d'objets,
-contrairement à d'autres, les artefacts ne sont
+contrairement à d'autres catégories déterminées par le medium et/ou par le genre
+littéraire du contenu textuel, les artefacts scientifiques ne sont
 pas indexés selon une composante qui permettrait de décrire le type d'artefact
 dont il s'agit mais le sont d'une part par un gage de qualité du contenu qui a
 été validé par les pairs en amont de la publication et d'autres parts, le sont par une forme de
 reconnaissance sociale puisque l'objet en question sera probablement repris
 et/ou cité par d'autres membres de la communauté concernée.
+Cela veut dit qu'un document écrit et publié par un chercheur ne relève pas de
+la catégorie _publication scientifique_ dès lors qu'il n'est pas relu par les
+pairs.
+Ce fait n'est pas forcément partagé par toute la communauté scientifique, mais
+il a le mérite de mieux définir notre objet d'étude et d'écarter d'autres types
+d'écrits savants tels que les blogs, les carnets, les publications sur les
+réseaux sociaux, etc.
 
 Tandis que le texte scientifique est l'élément qui fait l'objet de cette
 relecture attentive de la part des pairs, nous nous intéressons à un autre
 aspect de ces artefacts qui nous permettrait de tous les désigner sans avoir à
-définir toutes leurs propriétés, il s'agit de la notion de document.
+définir tolimiterutes leurs propriétés, il s'agit de la notion de document.
 Un livre pourrait être désigné par son format, le type de reliure employée ou le
 type de papier qui le compose, il en va tout autant pour les revues et les
 autres objets, d'autant plus si l'on doit prendre en considération leur pendant
 numérique, sans qu'on puisse les circonscrire complètement.
-Le terme de document quant à lui à cette particularité d'être un peu vague et un peu flou.
+Le terme de document quant à lui a cette particularité d'être un peu vague et un peu flou.
 Il a quelque chose qui tient du mot-valise et du fourre-tout.
 Il désigne tour à tour des livres, des papiers administratifs, des papiers
 médicaux, des documents numériques, des revues, des cartes postales, des
@@ -91,6 +99,11 @@ l'équation [@pedauque_document_2003; @pedauque_document_2006]\ :
 
 $$Document = Support + Inscription$$ 
 
+Cette brève définition nous permet de distinguer le texte (ici
+compris comme l'inscription) du document.
+Ce sont deux éléments qui parfois, par abus de langage, sont considérés en tant
+que synonymes, alors que dans cette recherche ils renvoient bien à deux éléments
+distincts. 
 Le texte et les théories qui s'y rapportent fondent leur épistémologie autour du
 signe [@barthes].
 Lorsqu'il s'agit d'étudier un texte, que l'on vienne de la sémiologie, de la

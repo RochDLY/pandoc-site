@@ -33,8 +33,8 @@ Ces innovations réouvrent ainsi les problématiques liées aux contenus à
 l'intérieur de ces documents et aux interactions à l'oeuvre autour de cet objet. 
 
 Parmi toutes les chaînes de traitement de l'information (et du document), notre
-intérêt se porte sur les chaînes éditoriales scientifiques et aux documents
-qui leurs sont associés, les publications scientifiques, que ce soit des
+intérêt se porte sur les chaînes éditoriales scientifiques et sur les documents
+qui y sont traités, les publications scientifiques, principalement des
 articles de revue ou des livres.
 La multiplication des supports numériques des publications scientifiques --
 plateformes web de diffusion, ePubs, livres web, livres augmentés, revues
@@ -67,7 +67,7 @@ traitement éditorial.
 
 1. Le modèle épistémologique des documents scientifiques est produit par
 l'environnement d'écriture, il ne lui pré-existe pas.
-2. Ce modèle épistémologique, constitutif du sens du document, est écrasé
+2. Le modèle épistémologique du document primaire, constitutif du sens du document, est écrasé
 et supprimé par un autre modèle épistémologique, celui qu'impose le traitement
 éditorial en vue de l'obtention du document publiable. 
 
@@ -78,23 +78,35 @@ et supprimé par un autre modèle épistémologique, celui qu'impose le traiteme
     - Place du document dans une brève histoire des publications scientifiques
       (revues / monographies + passage au numérique)
     - Définir le document + document numérique
+        - Revue de litt. sur le document (Otlet, Briet, Lund, Buckland, Le
+          Crosnier, Pedauque, Zacklad, Chartron, Broudoux) 
         - Document comme espace normé (protocoles, formats, etc)  
         - Document comme espace de transaction entre les différents agents de
           l'énonciation éditoriale
+        - Cette revue de litt. montre que le document est un environnement
+          support neutre dont le rôle est de contenir l'information (texte) et
+les informations secondaires (paratexte) qui s'y rapportent.
     - Le document au prisme de la théorie des médias (le medium n'est pas
       simplement un support)
         - McLuhan + matérialisme
         - Kittler + déterminisme
         - Médiologie (Debray, Merzeau)
-        - Éditorialisation (du point de vue infocom + du point de vue de
-          l'intermédialité montréalaise)
-        - Nouveau matérialisme (Hayles, Barad)
+        - Éditorialisation (du point de vue infocom avec Pedauque, Bachimont,
+          Merzeau + du point de vue de l'intermédialité montréalaise avec
+Vitali-Rosati et Larrue)
+        - Nouveau matérialisme (Hayles, Barad, Vitali-Rosati)
+        - La théorie des médias permet un déplacement de point de vue
+          (non-anthropocentré) et positionne le document comme un produit des
+interactions plutot que comme une conditon nécessaire à leur déroulement. Aussi
+il permet la prise en compte des différentes machines (logiciels, algorithmes)
+comme des éléments actifs des interactions (la lecture n'est pas le seul fait
+humain) voire même cruciaux (= sans eux, pas d'interaction).
     - CCL\ : Selon ces perpectives, le document dépasse son statut de réceptacle
       des transactions entre les agents (humains) qui interviennent à l'intérieur de cet
 espace et chaque élément qui participe à sa consitution devient agent de
 l'énonciation éditoriale (que ce soit un format, un protocole, un éditeur, un
 auteur, etc.). Dès lors, il devient nécessaire de prendre l'environnement
-documentaire (environnement support) 
+documentaire en considération dans la constitution des documents scientifiques (environnement support) 
 3. Partie 2\ : Constitution du modèle épistémologique du document primaire dans
    l'éditeur de texte Stylo.
     - voir cette
@@ -105,11 +117,12 @@ documentaire (environnement support)
     - Introduire les chaîne éditoriales
         - brève revue sur les chaines numériques
         - (fabrique de l’édition)
-        - présentation du pressoir (fonctionnement) et du livre contribution numérique
+        - présentation du pressoir (fonctionnement) et du livre _Contribution numérique_
     - À partir de la caractéristique de l'écriture num. qu'est la variabilité (cf partie2), développer la notion d'effacement/écrasement/suppression de caractères et remplacement par des nouveaux
     - Les transformations et les conversions dans le livre contribution num
         -  Les AST comme solution aux transformations mais aussi de destructuration du texte (production d’un autre document intermédiaire / modèle épistémologique)
-    - les différences entre le document primaire et le document publié
+    - les différences entre le document primaire et le document publié (cas du
+      livre)
     - CCL\ : L'écrasement du modèle de document primaire par le modèle du
       document publié entraine son effacement. On ne retrouve aucune trace de ce
 modèle primaire dans le document publié ni aucun indice sur les conditions de
@@ -119,9 +132,11 @@ son établissement.
     - Revenir sur la notion de document et ses définitons (espace normé, espace
       de transaction, espace de réception du texte et du paratexte, etc) et
 conclure sur le faire qu'aucune trace, aucun indice de ces interactions dans cet
-espace ne subsistent dans le document scientifique public.
+espace ne subsistent dans le document scientifique public (note pour roch: Ginzburg et
+son paradigme indiciaire n'apparaissent pour l'instant nulle part...) .
     - Le document public qui fait l'objet de la discussion savante oublie les
       conditions de son existence et opère un choix du modèle épistémologique
 qui sera retenu (mémoire/archive) au détriment de toutes les représentations qui
 permettent la publication
+    - Le modèle de publication des documents numériques se détache 
     - Ouverture vers d'autres modalités de publication (action de publier) ? 
