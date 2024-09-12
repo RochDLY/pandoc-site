@@ -119,6 +119,8 @@ documentaire en considération dans la constitution des documents scientifiques 
         - (fabrique de l’édition)
         - présentation du pressoir (fonctionnement) et du livre _Contribution numérique_
     - À partir de la caractéristique de l'écriture num. qu'est la variabilité (cf partie2), développer la notion d'effacement/écrasement/suppression de caractères et remplacement par des nouveaux
+        - Développer la question des modèles textuels. Jusque-là le texte a été
+          écarté pour bien identifier la notion de document (cf pierazzo)
     - Les transformations et les conversions dans le livre contribution num
         -  Les AST comme solution aux transformations mais aussi de destructuration du texte (production d’un autre document intermédiaire / modèle épistémologique)
     - les différences entre le document primaire et le document publié (cas du

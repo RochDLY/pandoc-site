@@ -64,7 +64,7 @@ retouché par l'auteur.
 C'est un fait remarquable puisque, pour cette catégorie d'objets,
 contrairement à d'autres catégories déterminées par le medium et/ou par le genre
 littéraire du contenu textuel, les artefacts scientifiques ne sont
-pas indexés selon une composante qui permettrait de décrire le type d'artefact
+pas catégorisées selon une composante qui permettrait de décrire le type d'artefact
 dont il s'agit mais le sont d'une part par un gage de qualité du contenu qui a
 été validé par les pairs en amont de la publication et d'autres parts, le sont par une forme de
 reconnaissance sociale puisque l'objet en question sera probablement repris
@@ -78,8 +78,8 @@ d'écrits savants tels que les blogs, les carnets, les publications sur les
 réseaux sociaux, etc.
 
 Tandis que le texte scientifique est l'élément qui fait l'objet de cette
-relecture attentive de la part des pairs, nous nous intéressons à un autre
-aspect de ces artefacts qui nous permettrait de tous les désigner sans avoir à
+relecture attentive de la part des pairs, nous nous intéressons à une autre
+facette de ces artefacts qui nous permettrait de tous les désigner sans avoir à
 définir tolimiterutes leurs propriétés, il s'agit de la notion de document.
 Un livre pourrait être désigné par son format, le type de reliure employée ou le
 type de papier qui le compose, il en va tout autant pour les revues et les
@@ -95,7 +95,7 @@ C'est un mot que l'on utilise au quotidien et grâce auquel on peut désigner to
 un ensemble de choses sans pour autant s'encombrer d'une définition précise du
 document.
 Un document, dans son sens le plus large et le plus simple, est défini par
-l'équation [@pedauque_document_2003; @pedauque_document_2006]\ :
+l'équation [@otlet_livre_2015, p.13; @pedauque_document_2003; @pedauque_document_2006]\ :
 
 $$Document = Support + Inscription$$ 
 
@@ -104,7 +104,7 @@ compris comme l'inscription) du document.
 Ce sont deux éléments qui parfois, par abus de langage, sont considérés en tant
 que synonymes, alors que dans cette recherche ils renvoient bien à deux éléments
 distincts. 
-Le texte et les théories qui s'y rapportent fondent leur épistémologie autour du
+Généralement, le texte et les théories qui s'y rapportent fondent leur épistémologie autour du
 signe [@barthes].
 Lorsqu'il s'agit d'étudier un texte, que l'on vienne de la sémiologie, de la
 philologie ou de la génétique des textes, ce sont les unités sémiotiques, les
@@ -112,17 +112,15 @@ mots et autres agencements de signes qui constituent l'objet étudié.
 Cependant, cette perspective ne permet pas de rendre compte de ce que pourrait
 être une épistémologie du document.
  
-Les conditions de rédaction d'un texte
-sur une stèle, un post-it, une ardoise, du papier ou de la
-silice ne sera pas composé dans
-Les conditions de l'établissement d'un document durant l'Antiquité ne sont pas
-comparables aux conditions que l'on connait au 21^e^ siècle avec le numérique.
-En ce sens 
+Afin de mettre en évidence cette épistémologie du document scientifique, nous proposons
+dans ce premier chapitre de la thèse d'aborder le document sous deux prismes.
+Dans une première partie, il est mis en perspective d'une brève histoire des
+documents savants en lien avec des pratiques d'écriture.
+Depuis l'époque hellénistique, notamment pour l'école des stoïciens, l'écriture
+est employée comme une méthode de prise de recul -- en tant qu'exercice
+spirituel -- mais surtout comme moyen de créer un dialogue (cf. les lettres à
+Lucilius).
 
-Un document ... puis un document numérique [@pedauque, @zacklad, ....]...
-
-Afin de pouvoir 
- 
 
 ## Historique des publications savantes
 
@@ -462,6 +460,14 @@ Au contraire, le modèle de représentation numérique défendue dans cette thè
 l'instar de la thèse de l'ouvrage _L'Éloge du bug_ [@vitali-rosati_eloge_2024]
 doit être pluriel.
 
-Proposition de définition du document : tout espace délimité et figé à un
+Proposition de définition du document : le document est un espace délimité et figé à un
 instant donné regroupant des traces et des indices organisés qui puissent être
-lues.
+lues (au sens de la lecture humaine) ou interprétées (au sens de
+l'interprétation non-humaine, une autre entité).
+Ce changement de paradigme permet de sortir d'une vision anthropocentrée
+du document où le langage serait le maître mot (selon le paradigme de
+représentation) au profit d'une forme de performativité du document dans son
+environnement, et de toute la matérialité qui le constitue. De ce fait, chaque
+entité impliqué dans cet écosystème peut être amenée à agir dans et/ou avec le
+document (au sens d'une interprétation suivie d'une action).
+
