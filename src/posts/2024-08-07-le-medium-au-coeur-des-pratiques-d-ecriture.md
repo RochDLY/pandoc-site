@@ -112,15 +112,45 @@ mots et autres agencements de signes qui constituent l'objet étudié.
 Cependant, cette perspective ne permet pas de rendre compte de ce que pourrait
 être une épistémologie du document.
  
-Afin de mettre en évidence cette épistémologie du document scientifique, nous proposons
-dans ce premier chapitre de la thèse d'aborder le document sous deux prismes.
-Dans une première partie, il est mis en perspective d'une brève histoire des
-documents savants en lien avec des pratiques d'écriture.
-Depuis l'époque hellénistique, notamment pour l'école des stoïciens, l'écriture
-est employée comme une méthode de prise de recul -- en tant qu'exercice
-spirituel -- mais surtout comme moyen de créer un dialogue (cf. les lettres à
-Lucilius).
+Afin de mettre en évidence cette épistémologie du document scientifique numérique,
+nous proposons dans ce premier chapitre de la thèse d'aborder le document sous deux prismes.
+Le premier prisme est historique.
+Pour traiter de la place du document dans les chaînes de publication savante,
+surtout si ce sont des environnements numériques, il nous semble primordial
+d'explorer avant tout une tradition du document dans les pratiques d'écriture
+érudites, savantes et scientifiques.
+Le document numérique et le fonctionnement des publications n'est pas produit à
+partir du vide et s'inscrit dans un héritage.
+Nous en dressons les grandes lignes depuis l'époque hellénistique,
+principalement l'école stoïcienne, jusqu'à nos jours.
+L'objectif de cette partie est de montrer que le document, quelles que soient les
+époques, est un élément fondamental pour la dimension sociale qu'il apporte (en
+tant que medium).
 
+Des lettres de Sénèque à Lucilius, en passant par les textes de Saint-Augustin,
+de Descartes, jusqu'aux dispositifs numériques que nous employons aujourd'hui,
+chaque exemple choisi comporte un medium différent et accède l'autre social
+différemment.
+Pour approfondir l'enjeu autour de ces médiations, le
+deuxième prisme convoqué pour traiter le document sera la théorie des médias, telle
+qu'elle a été pensée par l'école de Toronto depuis McLuhan, et les travaux inscrits
+ensuite dans ce courant jusqu'au nouveau matérialisme.
+
+Le terme de document a connu deux périodes d'instabilité majeure au cours des dernières
+générations.
+Ces crises correspondent à deux phénomènes nommés _documentarisation_ et
+_redocumentarisation_ [@pedauque_document_2006;
+@pedauque_redocumentarisation_2007_].
+La première remonte à la transition entre la Bibliographie et la Documentation
+au début du XX^e^ siècle, tandis que la seconde est plus récente puisqu'elle
+correspond à l'expansion du numérique et d'Internet un peu partout autour du
+Globe.
+Durant ...
+ 
+Revoir le document à travers la théorie des médias nous permettra de nous
+détacher du langage et de sa dimension anthropocentrée pour mettre en lumière
+d'autres propriétés qui le caractérisent jusqu'alors laissées de côté ...
+(détailler)
 
 ## Historique des publications savantes
 
@@ -291,6 +321,11 @@ Ces documents peuvent être englobés sous le terme de publication scientifique.
 L'histoire des publications scientifiques remonte à l'apparition de plusieurs
 dispositifs de transmission des informations : voie postale + imprimerie 
 
+
+Conclusion : la tradition de l'écriture et de la circulation des documents,
+malgré les différents types de support employés, met en évidence l'importance du
+document, en tant que medium dans cette pratique ...
+
 ## Le document numérique au prisme de la théorie des médias
 
 1. Définir le document (faire un bref point de présentation de Pédauque)
@@ -328,7 +363,7 @@ Les travaux de Paul Otlet
 >    des multiples objets créés par la civilisation et susceptible d'agir sur
 >    elle\ ; c'est le propre de tout objet ayant caractère corporel et agencé
 >    techniquement.
-> - Otlet, p.9
+> - [@otlet_livre_2015, p.9]
 
 > 1. Qu'est-ce qui dans le Livre lui est propre, qu'est-ce qui est proprement
 >    bibliographique\ ? On a déjà dit la distinction entre\ : a) la Réalité
@@ -341,8 +376,13 @@ Les travaux de Paul Otlet
 >    possible de dissocier et d'étudier à part. Ce qui est propre au livre,
 >    c'est le cinquième élément\ : la pensée désormais fixée par l'écriture des
 >    mots ou l'image des choses, signes visibles, fixés sur un support matériel.
-> - Otlet, p.10
+> - [@otlet_livre_2015, p.10]
 
+> Le définition la plus générale qu'on puisse donner du Livre et du Document est
+> celle-ci\ : un support d'une certaine matière et dimension, éventuellement
+> certain pliage ou enroulement sur lequel sont portés des signes représentatifs
+> de certaines données intellectuelles.
+> - [@otlet_livre_2015, p.43]
 
 Les travaux de Suzanne Briet (avec l'Antilope)
     - selon la typologie de Briet, les publications scientifiques sont des
