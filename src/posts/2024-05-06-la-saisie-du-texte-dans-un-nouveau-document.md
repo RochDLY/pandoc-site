@@ -1,10 +1,7 @@
 ---
-title: "Constitution du modèle épistémologique du document primaire dans Stylo"
+title: "La matérialisation du document dans l'éditeur de texte Stylo"
 date: 2024-05-06
 ---
-
-Note : PB globale : quelle épistémologie du document numérique pour les
-publications scientifiques ?
 
 ## Introduction
 
@@ -12,16 +9,18 @@ Lors du chapitre précédent, nous avons défini le document comme étant l'obje
 coeur du processus de publication scientifique.
 Qu'il s'agisse des premières revues savantes datant du XVII^e^ siècle ou des
 revues numériques contemporaines, des lettres ou encore des livres, un document
-est nécessaire pour fabriquer (Fauchié 2024) cet objet éditorial.
-Ce document, dans sa forme (format, XXX) et sa struture (Zacklad,
-Pédauque ...), et son statut de médiateur (Pédauque) dépasse son statut de simple
+est nécessaire pour fabriquer cet objet éditorial [@fauchie_fabriquer_2024].
+Ce document, dans sa forme [@briet_quest-ce_1951; @buckland_what_1997; @otlet_livre_2015],
+sa structure des informations [@pedauque_document_2003; @zacklad_design_2019]
+et son rôle de médiateur [@pedauque_document_2006] dépasse son statut de simple
 support de l'information.
 Le support n'est alors plus considéré comme un élément neutre et devient, de par
 sa matérialité, un élément constitutif du sens accordé au message qu'il porte.
 
 Puisqu'il n'est pas un simple support, nous nous intéresserons dans ce chapitre 
-à la construction de ce document scientifique en milieu numérique.
-Comme cela a été énoncé dans le chapitre précédent, un document est un espace
+à la construction de ce document scientifique dans un environnement d'écriture
+numérique.
+Comme énoncé dans le chapitre précédent, un document est un espace
 numérique délimité dans lequel sont organisées des informations selon des normes
 établies par les impératifs d'une chaîne de traitements, par exemple avec des
 protocoles de communication des documents ou encore des formats.
@@ -35,7 +34,7 @@ texte dans un format de traitement de texte ou de texte brut, conversions dans
 divers formats de document, transformations du texte source selon des normes
 éditoriales ou à la suite d'une relecture par les pairs, publication dans un
 nouvel espace selon un format lié à cette action (que l'objet soit imprimé ou
-publié en version numérique).
+publié en version numérique) [@pedauque_redocumentarisation_2007].
 
 Dans cette chaîne, la réalisation d'un artefact publiable, c'est-à-dire un
 document dans sa version finale, nécessite des interactions
@@ -44,8 +43,8 @@ Qu'il s'agisse de l'adaptation des références bibliographiques à une norme do
 de l'ajout des espaces fines insécables dans le texte, de la modification ou
 correction de certaines sources d'information, ces étapes de l'élaboration du document
 ainsi que toutes les autres proviennent des interactions entre des individus et
-l'environnement support [zacklad_organisation_2012; Merzeau] qui produisent des traces à
-l'intérieur du document que nous considérons
+l'environnement support [zacklad_organisation_2012; @merzeau_editorialisation_2013]
+qui produisent des traces à l'intérieur du document que nous considérons
 comme constitutives d'une épistémologie du document.
 Elles sont les indices de ces interactions passées et incarnent un modèle de
 représentation du document et par extension de la publication scientifique
@@ -55,12 +54,12 @@ focalisons sur les interactions qui le précèdent et sur une épistémologie du
 document en cours d'élaboration.
 
 Nous consacrons ce chapitre aux premières interactions à l'origine de la
-publication scientifique : la saisie d'un texte.
+publication scientifique : la création du document primaire de la chaîne de
+publication.
 Pour ce faire, nous observerons les traces issues des interactions entre
 un auteur et un ordinateur dans le document numérique^[À chaque fois que nous ferons
-référence à l'écriture,
-il faudra la comprendre comme l'écriture scientifique en environnement numérique sauf
-mention différente.].
+référence à l'écriture, il faudra la comprendre comme l'écriture scientifique
+en environnement numérique sauf mention différente.].
 
 En ce sens, l'acte d'écriture numérique n'est plus défini en tant que
 fruit d'une seule fonction auctoriale, mais l'est par un ensemble de fonctions
@@ -68,7 +67,7 @@ fruit d'une seule fonction auctoriale, mais l'est par un ensemble de fonctions
 
 Ainsi, parmi toutes les fonctions éditoriales que l'on pourrait énumérer, nous nous
 intéressons dans ce chapitre à la saisie du texte et à l'environnement support
-[@zacklad_organisation_2012] dans lequel il s'inscrit.
+dans lequel il s'inscrit.
 Lors de cette phase de l'écriture, cet environnement devient le lieu où se
 manifeste un trouble entre ce que l'usager à l'intention d'écrire et le document
 que produit la machine, qui est structuré selon les formats et protocoles
@@ -95,7 +94,8 @@ informatique.
 Tandis que chaque environnement a ses propres modalités d'écriture que nous ne
 pouvons pas toutes énumérer, nous nous appuyons dans la deuxième partie de ce
 chapitre sur l'étude de l'éditeur de texte sémantique Stylo et les différentes
-représentations du texte qu'il génère.
+modélisations du texte qu'il génère^[Nous reviendrons sur les modèles textuels
+dans le troisième chapitre de la thèse.].
 Ces représentations intermédiaires circulent entre les
 espaces de Stylo -- client et serveur -- par différents canaux et protocoles
 pour former, à travers une série de documents produits, une dynamique
