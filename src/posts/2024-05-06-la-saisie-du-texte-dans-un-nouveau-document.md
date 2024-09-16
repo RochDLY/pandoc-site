@@ -18,14 +18,14 @@ Le support n'est alors plus considéré comme un élément neutre et devient, de
 sa matérialité, un élément constitutif du sens accordé au message qu'il porte.
 
 Puisqu'il n'est pas un simple support, nous nous intéresserons dans ce chapitre 
-à la construction de ce document scientifique dans un environnement d'écriture
+à la matérialisation de ce document scientifique dans un environnement d'écriture
 numérique.
 Comme énoncé dans le chapitre précédent, un document est un espace
 numérique délimité dans lequel sont organisées des informations selon des normes
 établies par les impératifs d'une chaîne de traitements, par exemple avec des
 protocoles de communication des documents ou encore des formats.
 Ainsi, cet espace alloué physiquement dans la mémoire numérique
-va subir des modifications afin que l'information initiale qui y est contenue puisse
+va être modifié afin que l'information initiale qui y est contenue puisse
 être traitée et transformée en un autre objet ou transportée en un autre espace.
 
 Les documents numériques ayant pour devenir la publication scientifique
@@ -51,7 +51,7 @@ représentation du document et par extension de la publication scientifique
 concernée. 
 Plutôt que de nous intéresser au document final tel qu'il est publié, nous nous
 focalisons sur les interactions qui le précèdent et sur une épistémologie du
-document en cours d'élaboration.
+document en cours de matérialisation.
 
 Nous consacrons ce chapitre aux premières interactions à l'origine de la
 publication scientifique : la création du document primaire de la chaîne de
@@ -63,7 +63,8 @@ en environnement numérique sauf mention différente.].
 
 En ce sens, l'acte d'écriture numérique n'est plus défini en tant que
 fruit d'une seule fonction auctoriale, mais l'est par un ensemble de fonctions
-éditoriales dont la fonction auctoriale fait partie.
+éditoriales dont la fonction auctoriale fait partie [@souchier_image_1998;
+@jeanneret_lenonciation_2005].
 
 Ainsi, parmi toutes les fonctions éditoriales que l'on pourrait énumérer, nous nous
 intéressons dans ce chapitre à la saisie du texte et à l'environnement support
@@ -77,16 +78,18 @@ graphiquement et une représentation du document structuré par du texte, comme
 c'est le cas pour une page web interprétée par un navigateur et son pendant au
 format HTML.
 Notre intérêt se porte plus particulièrement sur le côté
-machine de cette interaction humain-machine, sur le modèle textuel de représentation,
-et comment cette machine reçoit
-et traite les informations pour produire le document à travers un environnement
+machine de cette interaction humain-machine et sur la manière dont cette machine reçoit
+et traite les informations pour produire le document dans un environnement
 particulier.
 
-Afin de traiter cette problématique, nous nous appuyons dans un premier temps
-sur les particularités de l'écriture numérique
+Afin de traiter cette problématique, nous décrivons dans un premier temps
+les particularités de l'écriture numérique
 [@bouchardon_lecriture_2014; @crozat_ecrire_2016; @souchier_numerique_2019] et
-sur le fonctionnement de la machine pour illustrer, dans une deuxième partie,
-le rôle de médiation joué par les logiciels -- entendus comme une suite
+le fonctionnement d'un ordinateur. 
+Ces propriétés illustrent la nécessité d'avoir un intermédiaire, le logiciel,
+dans cette relation humain-machine.
+En nous affranchissant de la page affichée à l'écran, une deuxième partie est
+accordée à ce rôle de médiation joué par les logiciels -- entendus comme une suite
 d'instructions écrites -- entre la saisie du texte au clavier et les
 traitements appliqués à ces informations, jusqu'à leur stockage dans une mémoire
 informatique. 
@@ -96,11 +99,11 @@ pouvons pas toutes énumérer, nous nous appuyons dans la deuxième partie de ce
 chapitre sur l'étude de l'éditeur de texte sémantique Stylo et les différentes
 modélisations du texte qu'il génère^[Nous reviendrons sur les modèles textuels
 dans le troisième chapitre de la thèse.].
-Ces représentations intermédiaires circulent entre les
+Ces modèles intermédiaires circulent entre les
 espaces de Stylo -- client et serveur -- par différents canaux et protocoles
 pour former, à travers une série de documents produits, une dynamique
-constitutive du sens de l'écriture [@merzeau_editorialisation_2013] propre à cet
-environnement.
+constitutive du sens de l'écriture propre à cet
+environnement [@merzeau_editorialisation_2013].
 
 Stylo est un éditeur de texte sémantique en ligne développé pour l'édition
 savante en sciences humaines et sociales (SHS) et en lettres.
@@ -165,15 +168,15 @@ Enfin, le fait d'être impliqué dans les développements de Stylo depuis plus d
 deux ans m'offre une position privilégiée pour étudier cet éditeur puisque j'ai
 accès aux différentes phases de tests des développements, me permettant ainsi
 d'observer le comportement des nouvelles fonctionnalités et de participer à
-leur  modification.
-Grâce à cette position, j'ai également un accès direct à la communauté
+leur modification.
+Depuis cette position, j'ai également un accès direct à la communauté
 d'utilisateurs, s'élevant à un peu plus de 6000 personnes fin 2023 pour plus de
 40 000 documents différents.  
 Du fait de mon implication dans Stylo, le regard que je porte sur ce terrain
 n'est pas neutre et relève d'une forme de recherche-action [ajouter une
 référence].
 
-Alors que chaque signe et chaque trace inscrite dans l'éditeur de texte Stylo
+Alors que chaque caractère, chaque trace inscrite dans l'éditeur de texte Stylo
 incarne cette tension _entre_ l'utilisateur et la machine, dont les différences
 de langage -- naturel et machine -- rend a priori toute communication directe
 impossible, nous analysons les différents modes de communication des
@@ -185,16 +188,16 @@ la méthode employée par le théoricien des médias F. Kittler
 du fonctionnement de la machine à écrire puis celle de l'ordinateur afin de comprendre
 leur implication, en tant que média, dans le phénomène qu'est l'écriture.
 Cette méthode implique de comprendre les comportements et les fonctionnements
-techniques des composants à l'oeuvre dans la machine, et cela qu'ils relèvent du
+techniques des composants à l'oeuvre dans la machine, qu'ils relèvent du
 matériel ou du logiciel.
 En conséquence, nous mobilisons de la documentation technique pour étayer notre
-propos et pour analyser les traces qui nous intéressent.  
+propos et pour analyser les traces des interactions qui nous intéressent.  
 
-À partir de cette étude, nous verrons qu'à l'intérieur de cet _entre_, les
-traces de cette relation manifestent d'une composante aveugle de
-l'écriture, puisque cette dimension de l'écriture n'est pas directement visible
-pour l'auteur et relève alors d'une forme de déprise [sauret__2020] sur le texte
-où se niche un aspect à notre connaissance ignoré de l'épistémologie du document.
+À partir de cette étude, nous verrons qu'à l'intérieur de cet _entre_
+les traces de cette relation s'accumulent en une série de documents intermédiaires
+cachés sous la page alors qu'ils sont nécessaires et primordiaux en ce qu'ils constituent
+les étapes de la matérialisation de ce que nous avons appelé le document primaire de
+Stylo.
 
 ## Écrire dans un environnement numérique
 
