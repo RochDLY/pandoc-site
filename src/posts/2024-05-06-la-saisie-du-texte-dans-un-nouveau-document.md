@@ -43,7 +43,7 @@ Qu'il s'agisse de l'adaptation des références bibliographiques à une norme do
 de l'ajout des espaces fines insécables dans le texte, de la modification ou
 correction de certaines sources d'information, ces étapes de l'élaboration du document
 ainsi que toutes les autres proviennent des interactions entre des individus et
-l'environnement support [zacklad_organisation_2012; @merzeau_editorialisation_2013]
+l'environnement support [@zacklad_organisation_2012; @merzeau_editorialisation_2013]
 qui produisent des traces à l'intérieur du document que nous considérons
 comme constitutives d'une épistémologie du document.
 Elles sont les indices de ces interactions passées et incarnent un modèle de
@@ -83,7 +83,7 @@ et traite les informations pour produire le document dans un environnement
 particulier.
 
 Afin de traiter cette problématique, nous décrivons dans un premier temps
-les particularités de l'écriture numérique
+les particularités de l'écriture en environnement numérique
 [@bouchardon_lecriture_2014; @crozat_ecrire_2016; @souchier_numerique_2019] et
 le fonctionnement d'un ordinateur. 
 Ces propriétés illustrent la nécessité d'avoir un intermédiaire, le logiciel,
@@ -196,7 +196,7 @@ propos et pour analyser les traces des interactions qui nous intéressent.
 À partir de cette étude, nous verrons qu'à l'intérieur de cet _entre_
 les traces de cette relation s'accumulent en une série de documents intermédiaires
 cachés sous la page alors qu'ils sont nécessaires et primordiaux en ce qu'ils constituent
-les étapes de la matérialisation de ce que nous avons appelé le document primaire de
+les étapes de la matérialisation de ce que nous nommons le document primaire de
 Stylo.
 
 ## Écrire dans un environnement numérique
@@ -311,11 +311,13 @@ Avant d'entamer une réflexion sur l'écriture numérique, convenons d'une brèv
 définition de l'écriture, car celle-ci a fait couler beaucoup d'encre
 à son sujet, notamment depuis sa reconfiguration numérique au crépuscule
 du 20^e^ siècle.
-La définir tient généralement de la philosophie depuis Platon [phèdre],
-de l'anthropologie [Leroi-Gourhan; Goody], des lettres [Christin], de
-l'archéologie ou de la linguistique [Herrenschmidt], de la sémiotique
-[Souchier, Jeanneret, Pedauque] ou encore des sciences de l'information et de la
-communication [Bouchardon, Bachimont] ou de l'étude des médias [Kittler]
+La définir tient généralement de la philosophie depuis Platon
+[-@platon_phedre_2007, pp.301-310],
+de l'anthropologie [@leroi-gourhan_geste_2022, @leroi-gourhan_geste_2022-1; @goody_raison_1979; @ingold_breve_2013],
+des lettres [@christin_origines_1999; @oong_oralite_2014], de
+l'archéologie ou de la linguistique [@herrenschmidt_trois_2023], de la sémiotique
+[@souchier_pour_1999] ou encore des sciences de l'information et de la
+communication [@bachimont_intelligence_2000; @crozat_elements_2011] ou de l'étude des médias [@kittler_gramophone_2018]
 et cela pour ne mentionner qu'une infime partie des textes traitant ce sujet
 parmi un nombre restreint de disciplines de la sphère académique.
 Très largement, l'écriture est entendue comme « mode d'expression » et
@@ -331,8 +333,8 @@ que la disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
 À défaut de prendre parti pour l'un ou l'autre de ces paradigmes, nous pouvons
 retenir deux caractéristiques qui leur sont communes et que l'on retrouve dans
 tous types d'écriture, même numérique.
-Lorsque l'écriture est convoquée, elle fait appel à deux actions : l'inscription
-et l'interprétation [@pedauque_document_2006].
+La première est que lorsque l'écriture est convoquée, elle fait appel à deux actions : l'inscription
+et l'interprétation [@christin_origines_1999; @pedauque_document_2006].
 Qu'il s'agisse d'une trace ou d'un signe, retenons que l'écriture est toujours
 inscrite sur un support et que cette inscription fait l'objet d'une lecture
 et d'une interprétation.
@@ -340,6 +342,12 @@ Cette association apparaît régulièrement dans les travaux qui traitent de
 l'environnement numérique, par exemple sous l'appellation de littératie
 numérique chez Milad Doueihi [-@doueihi_grande_2011] ou de lettrure chez
 Emmanuel Souchier [-@souchier__2012].
+La seconde est que cette écriture est inhumaine [@oong_oralites_2014;
+@vitali-rosati_quest-ce_2020-1].
+Oong propose un parallèle entre l'écriture et l'ordinateur, où le second n'est
+qu'une continuité de la première et défini l'écriture en tant qu'« elle prétend établir
+en dehors de l’esprit ce qui ne peut être en réalité que dans l’esprit.
+Elle est une chose, un produit manufacturé ».
 
 Toutefois, l'écriture numérique diffère d'une écriture plus traditionnelle,
 telle que nous venons de la défnir, et se
