@@ -85,14 +85,17 @@ particulier.
 Afin de traiter cette problématique, nous décrivons dans un premier temps
 les particularités de l'écriture en environnement numérique
 [@bouchardon_lecriture_2014; @crozat_ecrire_2016; @souchier_numerique_2019] et
-le fonctionnement d'un ordinateur. 
+le fonctionnement d'un ordinateur, pré-requis nécessaires à la matérialisation d'un
+document numérique. 
 Ces propriétés illustrent la nécessité d'avoir un intermédiaire, le logiciel,
 dans cette relation humain-machine.
 En nous affranchissant de la page affichée à l'écran, une deuxième partie est
 accordée à ce rôle de médiation joué par les logiciels -- entendus comme une suite
 d'instructions écrites -- entre la saisie du texte au clavier et les
 traitements appliqués à ces informations, jusqu'à leur stockage dans une mémoire
-informatique. 
+informatique.
+Au-delà de la page, nous explorons les différentes phases documentaires que
+traverse le texte pour être inscrit sur son support et faire document. 
 
 Tandis que chaque environnement a ses propres modalités d'écriture que nous ne
 pouvons pas toutes énumérer, nous nous appuyons dans la deuxième partie de ce
@@ -265,15 +268,15 @@ Il faut se rappeler qu'au début des années 1980 il n'est pas encore certain qu
 l'ordinateur personnel (avec sa tour et son écran à tube cathodique) deviendra
 l'outil d'écriture par excellence.
 À cette époque, les machines à écrire ont encore quelques avantages sur les
-plans esthétique, financier et social puisque on les retrouve encore implantées
-dans les bureaux, que ce soit dans les sphères professionnelles et personnelles.
+plans esthétique, financier et social puisque ce sont des objets que l'on retrouve encore implantées
+dans les bureaux professionnels ou personnels.
 
 La fin des années 1970 et les années 1980 marquent un tournant décisif pour
 l'ordinateur personnel avec l'apparition des logiciels de traitement de texte et
 la bataille qui sévit durant toute cette période pour en avoir le monopole.
 M. Kirschenbaum et T. Bergin détaillent dans leurs travaux cette course au
-développement de logiciels durant cette période pour obtenir un monopole sur le
-marché de l'écriture avec un ordinateur
+développement de logiciels durant cette décennie pour obtenir un monopole sur le
+marché de la production documentaire avec un ordinateur
 [@bergin_origins_2006; @bergin_proliferation_2006; @kirschenbaum_track_2016].
 Avant l'engouement pour les interfaces graphiques et les gestionnaires de
 fenêtres -- 1983 et 1984 avec l'entreprise Apple qui s'est largement inspirée
@@ -281,8 +284,9 @@ des interfaces graphiques développées par Xerox PARC dans les années 1970 -- 
 seule interface affichée à l'écran était un terminal, un écran noir où clignote
 un curseur.
 Dans cette interface, la navigation s'y faisait au moyen de commandes.
-Les premiers logiciels de traitement de texte comme Electric Pencil ne
-permettent pas alors une gestion de la mise en page idéale ni ne fonctionnent sur
+C'est ce que nous retrouvons avec les premiers logiciels de traitement de texte
+comme Electric Pencil.
+Ils ne permettent pas une gestion fine de la mise en page ni ne fonctionnent sur
 tous les modèles d'ordinateurs présents sur le marché^[Un autre logiciel comme
 `TeX` développé en 1984 par Donald Knuth tente de résoudre ce problème de la
 mise en page selon une approche WYSIWYM, que D. Knuth nomme
