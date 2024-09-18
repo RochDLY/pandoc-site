@@ -318,7 +318,7 @@ du 20^e^ siècle.
 La définir tient généralement de la philosophie depuis Platon
 [-@platon_phedre_2007, pp.301-310],
 de l'anthropologie [@leroi-gourhan_geste_2022, @leroi-gourhan_geste_2022-1; @goody_raison_1979; @ingold_breve_2013],
-des lettres [@christin_origines_1999; @oong_oralite_2014], de
+des lettres [@christin_origines_1999; @ong_oralite_2014], de
 l'archéologie ou de la linguistique [@herrenschmidt_trois_2023], de la sémiotique
 [@souchier_pour_1999] ou encore des sciences de l'information et de la
 communication [@bachimont_intelligence_2000; @crozat_elements_2011] ou de l'étude des médias [@kittler_gramophone_2018]
@@ -335,8 +335,8 @@ telle
 que la disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
 [@christin_origines_1999; @vitali-rosati_quest-ce_2020-1].
 À défaut de prendre parti pour l'un ou l'autre de ces paradigmes, nous pouvons
-retenir deux caractéristiques qui leur sont communes et que l'on retrouve dans
-tous types d'écriture, même numérique.
+retenir deux caractéristiques qui leur sont communes et qui peuvent caractériser
+toutes formes d'écriture, même numérique.
 La première est que lorsque l'écriture est convoquée, elle fait appel à deux actions : l'inscription
 et l'interprétation [@christin_origines_1999; @pedauque_document_2006].
 Qu'il s'agisse d'une trace ou d'un signe, retenons que l'écriture est toujours
@@ -346,19 +346,56 @@ Cette association apparaît régulièrement dans les travaux qui traitent de
 l'environnement numérique, par exemple sous l'appellation de littératie
 numérique chez Milad Doueihi [-@doueihi_grande_2011] ou de lettrure chez
 Emmanuel Souchier [-@souchier__2012].
-La seconde est que cette écriture est inhumaine [@oong_oralites_2014;
+La seconde est que cette écriture est inhumaine [@ong_oralite_2014;
 @vitali-rosati_quest-ce_2020-1].
-Oong propose un parallèle entre l'écriture et l'ordinateur, où le second n'est
-qu'une continuité de la première et défini l'écriture en tant qu'« elle prétend établir
-en dehors de l’esprit ce qui ne peut être en réalité que dans l’esprit.
-Elle est une chose, un produit manufacturé ».
 
-Toutefois, l'écriture numérique diffère d'une écriture plus traditionnelle,
-telle que nous venons de la défnir, et se
-distingue notamment par trois caractéristiques que sont la
-calculabilité [@crozat_ecrire_2016], la variabilité [@bouchardon_lecriture_2014]
+En s'appuyant sur l'origine divine de l'écriture que Platon fait raconter par Socrate
+dans le _Phèdre_, Ong la qualifie d'inhumaine, car «\ elle prétend établir
+en dehors de l’esprit ce qui ne peut être en réalité que dans l’esprit.
+Elle est une chose, un produit manufacturé\ » séparé de sa source vivante et de
+l'environnement d'où a émergé l'idée avant qu'elle soit inscrite sur son support.
+La même figure de «\ Theuth [...] le père de l'écriture\ » [-@platon_phedre_2007, [274-277]],
+est employée à tout autre dessein par M. Vitali-Rosati.
+Selon lui, cette vision de «\ l'écriture-artefact relève d'une interprétation
+du monde fondée sur un anthropocentrisme constitutif accompagné d'une série d'a
+priori métaphysiques\ » cartésiens du sujet qui déverse ses pensées sur un
+support.
+Pour argumenter en faveur d'une vision non-anthropocentrée et non dualiste de
+l'écriture, il s'appuie entre autres sur les travaux de M-A. Paveau et sa 
+
+> théorie du discours retravaillée
+> par la cognition sociale dans sa version distribuée : l’intelligence est distribuée dans
+> les environnements, humains comme non humains, et l’objet d’analyse est le système, et
+> non seulement les énoncés ou les locuteurs, qui n’en constituent qu’une partie.
+> Il s’agit donc d’une conception du discours comme intégré dans l’ensemble de l’environnement
+> humain et non humain, et non distingué de cet environnement : je souhaite éviter l’approche
+> « égocéphalocentrée » (expression de C. Brassac qu’il emprunte à J.-P. Kaufmann, et qui désigne
+> une approche internaliste centré sur le sujet-locuteur) et logocentrée
+> [-@paveau_activites_2012, @paveau_technodiscursivites_2013, @paveau_ce_2015].
+
+
+Cette conception cognitive distribuée implique une «\ approche écologique\ » de
+l'écriture, c'est-à-dire de la totalité de l'environnement duquel elle émerge,
+ainsi que le sens qu'elle produit, puisqu'«\ il n’y a pas de rupture entre ce qui
+est humain et ce qui ne l’est pas, entre l’esprit et la matière, le
+linguistique et l’extralinguistique, le discours et le contexte\ »[@paveau_technodiscursivites_2013].
+ 
+Ong, Paveau et Vitali-Rosati, en qualifiant l'écriture de non-humaine [@paveau_ce_2015] ou d'inhumaine,
+nous propose de ne pas dissocier l'écriture de l'écriture numérique puisque, finalement,
+la seconde n'est qu'une continuité de la première.
+Pour Ong, l'écriture est alors toujours considérée comme une technique, un outils,
+qu'elle soit numérique ou non, dont les limites d'extériorisation et de cristalisation
+de la pensée restent inchangées malgré les changements de support.
+Tandis que pour Paveau et Vitali-Rosati, le qualificatif d'inhumain renvoie à
+cette cognition distribuée, située dans des « interactions sociales,
+culturelles, techniques et technologiques\ »[@vitali-rosati_quest-ce_2020-1].   
+
+Lorsqu'il s'agit d'observer l'écriture numérique à la loupe,
+on remarque qu'elle se distingue d'une écriture plus traditionnelle par 
+trois caractéristiques que sont la calculabilité [@crozat_ecrire_2016],
+la variabilité [@bouchardon_lecriture_2014]
 et la rupture sémiotique entre le geste d'écriture et l'inscription sur le
-support [@pedauque_document_2006; @souchier_numerique_2019].
+support [@pedauque_document_2006; @bonaccorsi_fantasmagories_2020; @souchier_numerique_2019].
 
 La première caractéristique est d'ordre computationnel : l'écriture devient
 calculable et peut donc faire l'objet d'instructions. Pour réaliser cette
