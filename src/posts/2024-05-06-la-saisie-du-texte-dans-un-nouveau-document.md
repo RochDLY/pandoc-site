@@ -215,8 +215,8 @@ Avec le numérique ubiquitaire [@citton_angles_2023], ces pratiques d'écriture
 sont ancrées dans nos habitudes au point de ne plus les remettre en question.
 Les dispositifs d'écriture analogique sont ainsi renvoyés à l'état de vestiges
 archaïques, comme peuvent l'être les machines à écrire alors qu'elles ont été
-fabriquées méticuleusement par des designers et des ingénieurs et ont
-fait la fierté et la renommée de certaines entreprises comme Olivetti en Italie
+fabriquées méticuleusement par des designers et des ingénieurs. Elles ont
+par ailleurs fait la fierté et la renommée de certaines entreprises comme Olivetti en Italie
 juste avant que les ordinateurs n'arrivent sur le marché.
 Aujourd'hui ces machines sont complètement désuètes et inutilisées depuis
 presque une trentaine d'années.
@@ -275,7 +275,7 @@ La fin des années 1970 et les années 1980 marquent un tournant décisif pour
 l'ordinateur personnel avec l'apparition des logiciels de traitement de texte et
 la bataille qui sévit durant toute cette période pour en avoir le monopole.
 M. Kirschenbaum et T. Bergin détaillent dans leurs travaux cette course au
-développement de logiciels durant cette décennie pour obtenir un monopole sur le
+développement de logiciels durant cette décennie, dans le but d'obtenir un monopole sur le
 marché de la production documentaire avec un ordinateur
 [@bergin_origins_2006; @bergin_proliferation_2006; @kirschenbaum_track_2016].
 Avant l'engouement pour les interfaces graphiques et les gestionnaires de
@@ -300,7 +300,7 @@ L'écriture numérique est ainsi à distinguer de l'écriture dans un environnem
 numérique : un ordinateur, Internet, le Web, une calculatrice ou une machine à
 écrire de la dernière génération.
 En tant qu'abstraction, l'écriture numérique est une représentation du monde
-donnée, dont la qualification à travers un medium permet de l'incarner
+sous forme de chiffres, dont la qualification à travers un medium permet de l'incarner
 physiquement et matériellement mais pas de la circonscrire.
 En somme, cette représentation numérique du monde n'est pas nouvelle et ce n'est
 pas l'ordinateur qui l'a apporté.
@@ -324,6 +324,7 @@ l'archéologie ou de la linguistique [@herrenschmidt_trois_2023], de la sémioti
 communication [@bachimont_intelligence_2000; @crozat_elements_2011] ou de l'étude des médias [@kittler_gramophone_2018]
 et cela pour ne mentionner qu'une infime partie des textes traitant ce sujet
 parmi un nombre restreint de disciplines de la sphère académique.
+
 Très largement, l'écriture est entendue comme « mode d'expression » et
 « fonction de communication » au sein d'une société [@christin_origines_1999].
 Anne-Marie Christin distingue deux tendances principales de l'origine de
@@ -331,8 +332,7 @@ l'écriture : l'écriture selon la trace, étant soit comprise comme le signe
 verbal transposé sur un support soit comme la marque laissée par un corps, soit
 l'écriture selon le signe dans son sens étymologique d'« événement inaugural
 [qui] participe d’une révélation » tant qu'il s'inscrit dans un « système »
-telle
-que la disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
+telle que la disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
 [@christin_origines_1999; @vitali-rosati_quest-ce_2020-1].
 À défaut de prendre parti pour l'un ou l'autre de ces paradigmes, nous pouvons
 retenir deux caractéristiques qui leur sont communes et qui peuvent caractériser
@@ -346,9 +346,8 @@ Cette association apparaît régulièrement dans les travaux qui traitent de
 l'environnement numérique, par exemple sous l'appellation de littératie
 numérique chez Milad Doueihi [-@doueihi_grande_2011] ou de lettrure chez
 Emmanuel Souchier [-@souchier__2012].
-La seconde est que cette écriture est inhumaine [@ong_oralite_2014;
+La seconde caractéristique est son inhumanité [@ong_oralite_2014;
 @vitali-rosati_quest-ce_2020-1].
-
 En s'appuyant sur l'origine divine de l'écriture que Platon fait raconter par Socrate
 dans le _Phèdre_, Ong la qualifie d'inhumaine, car «\ elle prétend établir
 en dehors de l’esprit ce qui ne peut être en réalité que dans l’esprit.
@@ -674,7 +673,7 @@ Chaque OS a un fonctionnement qui lui est propre : l'architecture des
 informations -- l'arborescence des dossiers, l'indexation des documents et des
 fichiers binaires change selon l'OS utilisé --, l'ordonnancement des tâches pour
 le processeur ou encore l'allocation de la mémoire, etc.
-Malgré si cela n'a pas toujours été le cas, les applications logicielles
+Même si cela n'a pas toujours été le cas, les applications logicielles
 sont maintenant installées à l'intérieur des systèmes d'exploitation et prêtes à être
 exécutées à partir de ce niveau d'abstraction de la couche matérielle.
 Le passage par un système d'exploitation permet aux logiciels de ne plus
@@ -739,20 +738,6 @@ Chacune de ces fenêtres offre finalement une vision particulière d'un document
 et un modèle épistémologique qui lui est propre
 [@vitali-rosati_editorialization_2018].
 
-Dans la partie suivante, nous étudions le logiciel Stylo à partir de l'écran comme
-interface d'échange d'informations entre les deux protagonistes, utilisateur et
-machine, puis, en dépassant cette surface, nous démontrerons que les
-différents agents d'un environnement -- principalement logiciels et
-humain -- sont des dynamiques qui, lorsqu'elles sont agencées dans une
-configuration particulière, co-construisent un document jusqu'à sa
-matérialisation.
-
-Sans l'intervention du logiciel entre l'être humain et la machine, il ne serait
-pas possible pour un auteur d'écrire sur le support de l'inscription numérique.
-Si l'on considère l'écriture comme le geste d'inscrire une trace ou un signe sur
-un support, alors l'écriture numérique n'est plus un fait humain mais un acte
-réalisé par l'ordinateur lui-même.
-
 L'interaction entre un humain et une machine consiste en
 une série d'instructions que donne l'utilisateur à la machine qui, ensuite, les
 exécute.
@@ -815,46 +800,8 @@ d'écran » :
 - le logiciel
 - le document
 
-Le premier cadre, matériel, désigne toute la composante physique de l'ordinateur
-et surtout l'écran sur lequel est affiché le texte.
-Le cadre système, quant à lui, est associé à la couche permettant de générer un
-environnement d'écriture numérique, initialisé par le BIOS et par le démarrage
-du système d'exploitation qui constitue le deuxième élément principal du cadre
-système.
-Le cadre logiciel est relatif à l'ensemble des logiciels que l'on peut exécuter
-dans un système d'exploitation, par exemple un terminal, un navigateur ou un
-traitement de textes.
-Enfin, le dernier cadre est celui du document.
-
-Ces cadres sont un début de réponse au dépassement de l'écran.
-Néanmoins, plutôt que d'approfondir cette dimension invisible du texte, les
-auteurs de l'architexte reviennent sur la couche graphique en ajoutant qu'« à
-cet enchâssement de cadres, il faudrait encore ajouter ceux que composent, à
-l'intérieur même du document, les rubriques, encadrés, cartouches, "boîtes de
-dialogue" ou autres formes de cadres éditoriaux structurants pour le travail
-même du texte ».
-
-De plus, toujours selon les auteurs :
-
-> Le premier "cadre" [qui] définit les conditions de possibilités matérielles de
-> l'activité, est le seul inanimé. Les trois suivants, cadres système, logiciel
-> et document, relèvent de l'ingénierie textuelle et définissent les conditions
-> de réalisation de l'activité. On voit ainsi qu'une activité d'écriture
-> réalisée sur le "document" d'un logiciel de traitement de texte est mise en
-> abyme au sein de l'ensemble des autres "cadres" qui la rendent possible et la
-> déterminent techniquement et sémiotiquement.
-
-Ce premier cadre de « l'écrit d'écran » ne désigne en fin de compte, pour les
-auteurs, que l'écran.
-Or, il n'est pas nommé cadre écran mais cadre matériel et devrait renvoyer à
-toute la dimension physique d'un ordinateur et pas seulement à l'organe
-d'affichage qui, dans cette disposition, apparaît comme central dans le
-fonctionnement d'un ordinateur.
-
----
-
-En régissant les procédés de saisi du texte, un rapport de force semble
-s'instaurer entre les instances éditrices des architextes (que ce soit des
+En régissant ainsi les procédés de saisi du texte à tous les niveaux,
+un rapport de force semble s'instaurer entre les instances éditrices des architextes (que ce soit des
 collectifs, des institutions ou des entreprises) et les usagers [@jeanneret_lenonciation_2005].
 Dans le cas d'un logiciel de traitement de texte lorsque, par exemple, Microsoft
 propose une modification de la police utilisée par défaut dans une version
@@ -930,7 +877,7 @@ Depuis vingt ans que cet outil est nativement disponible sur les ordinateurs de
 chez Apple, la compatibilité avec d'autres formats et/ou logiciels augmente
 tardivement, en témoigne les arguments de communication mis en avant sur la page
 web du logiciel^[Voir le site web, consulté le 21 mars 2024 :
-https://www.apple.com/pages/compatibility/] mais compatible ne veut pas dire
+https://www.apple.com/pages/compatibility/], mais compatible ne veut pas dire
 identique.
 En plus de n'être accessible que **sous** MacOS, cette page ne l'est également
 que **sous** Pages : cette formulation courante laisse entendre que
@@ -972,7 +919,7 @@ d'observer leur relation tout au long de ce processus pour comprendre comment
 ils s'affectent les uns les autres.
 
 Le dépassement de l'écran devient dès lors un acte symbolique nécessaire pour se soustraire à
-une vision anthropocentrée des actions de lecture et d'écriture.
+une vision essentialiste des actions de lecture et d'écriture.
 Pour effectuer ce changement de perspective, nous devons d'abord nous débarasser
 d'un élément central à l'interface de l'humain et la machine : la page.
 
@@ -1000,7 +947,7 @@ virtuel et presque sans matérialité du point de vue de l'informatique.
 Malgré tous les efforts effectués depuis son instauration à l'écran, la page
 affichée n'est jamais la page imprimée car, aussi précis que soient les détails
 typographiques que l'on peut y ajuster, elle ne reflétera jamais le grain,
-l'épaisseur, l'odeur ou tout autre caractéristique physique du papier.
+l'épaisseur, l'odeur ou tout autre caractéristique physique du papier^[Le terme _physique_ est à distinguer de _matériel_. Nous l'employons dans le même sens que K. Hayles [-@hayles_parole_2015]. Physique renvoie aux caractéristiques d'un objet alors que la dimension matérielle est une propriété émergente].
 
 La critique énoncée à l'endroit de la page ne doit pas être réduite à une
 apologie d'un mode sans page.
@@ -1177,13 +1124,14 @@ unités sémiotiques empruntent pour y être transformées en unités calculable
 Chaque environnement d'écriture incarne un modèle et une vision du traitement de
 l'information, que l'on peut englober sous le nom de cet environnement.
 Lors de l'interaction entre un usager et une machine, par le biais de cet
-environnement, les médiations à l'oeuvre sont des représentations de ce modèle
-dont les traces présentes dans les documents produits sont les indices.
+environnement, les médiations à l'oeuvre sont des dynamiques qui,
+lorsqu'elles sont agencées dans une configuration particulière,
+co-construisent un document jusqu'à sa matérialisation.
 
 En prenant le cas de Stylo, nous pouvons détailler ce que désigne cette
 appellation en fouillant l'architecture logicielle, puisque le code est
-en libre accès, afin de cibler les traces de cette relation entre l'auteur
-et son environnement.
+en libre accès, afin de cibler ces dynamiques et mettre en visibilité les
+les étapes de la matérialisation du document primaire.
 
 ## Les médiations documentaires dans Stylo
 
