@@ -20,13 +20,14 @@ sa matérialité, un élément constitutif du sens accordé au message qu'il por
 Puisqu'il n'est pas un simple support, nous nous intéresserons dans ce chapitre 
 à la matérialisation de ce document scientifique dans un environnement d'écriture
 numérique.
-Comme énoncé dans le chapitre précédent, un document est un espace
-numérique délimité dans lequel sont organisées des informations selon des normes
+Comme énoncé dans le chapitre précédent, un document numérique est un espace
+délimité dans lequel sont organisées des informations selon un agencement de normes
 établies par les impératifs d'une chaîne de traitements, par exemple avec des
 protocoles de communication des documents ou encore des formats.
-Ainsi, cet espace alloué physiquement dans la mémoire numérique
-va être modifié afin que l'information initiale qui y est contenue puisse
-être traitée et transformée en un autre objet ou transportée en un autre espace.
+Cet espace alloué physiquement dans la mémoire de l'ordinateur
+va être modifié, l'agencement primaire des informations y sera
+transformé en un autre objet ou transporté en un autre espace, produisant ainsi
+un nouvel agencement documentaire.
 
 Les documents numériques ayant pour devenir la publication scientifique
 font principalement l'objet d'un traitement éditorial de l'information : saisie du
@@ -199,8 +200,7 @@ propos et pour analyser les traces des interactions qui nous intéressent.
 À partir de cette étude, nous verrons qu'à l'intérieur de cet _entre_
 les traces de cette relation s'accumulent en une série de documents intermédiaires
 cachés sous la page alors qu'ils sont nécessaires et primordiaux en ce qu'ils constituent
-les étapes de la matérialisation de ce que nous nommons le document primaire de
-Stylo.
+les étapes de la matérialisation de ce que nous nommons le document primaire.
 
 ## Écrire dans un environnement numérique
 
@@ -217,7 +217,7 @@ Les dispositifs d'écriture analogique sont ainsi renvoyés à l'état de vestig
 archaïques, comme peuvent l'être les machines à écrire alors qu'elles ont été
 fabriquées méticuleusement par des designers et des ingénieurs. Elles ont
 par ailleurs fait la fierté et la renommée de certaines entreprises comme Olivetti en Italie
-juste avant que les ordinateurs n'arrivent sur le marché.
+juste avant que les ordinateurs personnels n'arrivent sur le marché.
 Aujourd'hui ces machines sont complètement désuètes et inutilisées depuis
 presque une trentaine d'années.
 Elles sont maintenant exposées dans des musées -- entre autres au MoMA et au
@@ -918,7 +918,8 @@ productions de leur agencement dans un écosystème, il devient intéressant
 d'observer leur relation tout au long de ce processus pour comprendre comment
 ils s'affectent les uns les autres.
 
-Le dépassement de l'écran devient dès lors un acte symbolique nécessaire pour se soustraire à
+Pour réaliser cela, le dépassement de l'interface et des métaphores affichées à l'écran devient dès
+lors un acte symbolique nécessaire pour se soustraire à
 une vision essentialiste des actions de lecture et d'écriture.
 Pour effectuer ce changement de perspective, nous devons d'abord nous débarasser
 d'un élément central à l'interface de l'humain et la machine : la page.
@@ -959,13 +960,13 @@ l'énonciation éditoriale.
 Cette peur de l'informatique pourrait relever essentiellement de l'angoise de
 l'arrachement d'une valeur qui définie l'être humain et devienne une
 caractéristique d'une autre entité, ne permettant plus de définir l'humain en
-regard de ce que lui seul est capable de faire (Vitali-Rosati).
+regard de ce que lui seul est capable de faire.
 
 Kittler, à ce propos, nous rappelle qu'historiquement les caractéristiques qui
 définissent l'être humain sont souvent le symbole du pouvoir et désigne plutôt
 les hommes alors qu'à l'instant même où cette caractéristique est déchue de son
 statut de marqueur de puissance, ce sont les femmes qui en héritent.
-Dans le cas de l'écriture -- dactylographie et sténographie--, généralement réservée à la gent masculine,
+Dans le cas de l'écriture -- dactylographie et sténographie--, réservée pendant longtemps à la gent masculine,
 les femmes s'en emparent dès 1881, au moment même où les ventes de la machine à
 écrire Remington II explosent alors que chute le pourcentage d'hommes dans ce
 domaine [@kittler_gramophone_2018, p.306]. 
@@ -1050,23 +1051,23 @@ complémentarité : l'ordinateur (_hardware_) serait très peu accessible (voi
 inaccessible) sans logiciel, et le logiciel n'existe pas en dehors de
 l'ordinateur.
 
-Lorsque l'on définit le logiciel en opposition au matériel, nous les
-positionnons tous deux à la même échelle, ils deviennent ainsi comparable, ce
-qui est en totale opposition avec ce que nous venons d'énoncer sur le place du
-logiciel aux côtés de n'importe quel document à l'intérieur de la mémoire de
-l'ordinateur. 
+Lorsque l'on définit le logiciel en opposition au matériel, comme nous l'avons
+énoncé précédemment, nous les positionnons tous deux à la même échelle.
+Ils en deviennent ainsi faussement comparable et le logiciel se voit doté d'une
+propriété immatérielle, ce qui a pour effet d'être
+en totale contradiction avec ce que nous venons d'énoncer
+sur la place du logiciel aux côtés de n'importe quel document à l'intérieur de la
+mémoire de l'ordinateur.
+En suivant les pensées d'Herrenschmidt et de Kittler, s'ils affirment que le
+logiciel n'existe pas, c'est parce qu'il n'est pas une entité propre, mais est
+une partie de l'ordinateur. Il en constitue un organe de communication interne
+et externe à l'ordinateur.
 
-Un courant contemporain de la théorie des médias, l'intermédialité
-montréalaise^[Le chapitre 1 devra décrire l'intermédialité
-montréalaise, il faudra ajouter un renvoi ici] [@muller_lintermedialite_2000; @tadier_tentative_2021; @tadier__2021],
-en tant qu'art pour penser les relations
-[@tadier__2021], peut être mobilisée pour mieux comprendre les liens
-entretenus par les agents de notre système, la machine avec elle-même,
-humain-machine, machine-machine.
-
-Ce qui est intéressant dans cette relation -- et que certains systèmes
-d'exploitation cachent depuis plusieurs années -- est le fait que logiciel ne
-puisse exister que dans un environnement très particulier et fragile.
+La relation entre un logiciel avec le reste de son écosystème peut être
+qualifiée de fragile et nécessite une attention particulière puisque
+l'agencement du logiciel avec le reste de l'environnement ne peut se
+faire qu'au prix d'une compatiblité entre les divers éléments qui le composent
+-- même si les systèmes d'exploitation récents lissent et camouflent cet aspect-là. 
 Pour fonctionner, le logiciel doit être compatible avec plusieurs composants de
 l'ordinateur. Les premiers composants sont matériels : est-ce que l'ordinateur a
 une carte graphique, quel type de processeur ou la quantité de mémoire vive,
@@ -1087,7 +1088,7 @@ même manière sous différents systèmes d’exploitation. Il en gagne ainsi la
 propriété d’interopérabilité.] vis-à-vis du système d'exploitation.
 L'environnement matériel est donc une première condition pour faire fonctionner
 un logiciel.
-La deuxième est le système d'exploitation.
+Le deuxième composant est le système d'exploitation (et sa version).
 En fonction du système d'exploitation -- et de sa version -- un logiciel pourra
 y être installé à l'intérieur.
 Ce deuxième paramètre ne doit pas être sous-estimé, car l'écosystème des
@@ -1113,8 +1114,28 @@ mémoire morte.
 
 Le nom qui désigne un logiciel comme MS Word, Stylo ou LibreOffice désignent
 plus que les vagues notions que peuvent être leur fonctionnalité principale,
-dans ces cas-ci l'édition de texte, et peuvent être définis par la totalité des
-instructions mobilisées dans la manipulation des informations.
+dans ces cas-ci l'édition de texte. 
+Un logiciel évoque la totalité des instructions nécessaires à la
+manipulation des informations (ce que nous appelons des fonctionnalités), mais
+aussi l'intégralité de l'écosystème dans lequel le logiciel fonctionne.
+À titre d'exemple, les logiciels obsolètes que l'on ne peut plus faire
+fonctionner dans les environnements récents doivent faire l'objet d'une
+émulation pour être exécuté\ : les conditions permettant leur bon fonctionnement
+sont simulés à l'identique pour reproduire la machine sur laquelle le logiciel a
+été initiallement conçu.
+Ce phénomène est récurrent dans plusieurs domaines tels que les archives du web
+ou les jeux vidéos, mais est également valable pour tous les logiciels.
+
+Le logiciel _Electric Pencil_, premier logiciel
+qualifié de _word processor_ en 1978 illustre bien ce propos.
+Si l'on souhaitait en faire l'installation sur un ordinateur fabriqué en 2024,
+ce ne serait pas une chose très aisée puisqu'il a été développé pour un
+ordinateur de cette époque, le TRS-80 Model I.
+Pour réaliser cette installation, il faudrait connaître les spécificités de cet
+ordinateur et les simuler pour qu'_Electric Pencil_ soit exécuté.
+C'est en ce sens qu'_Electric Pencil_ embarque avec lui tous les agencements et l'histoire du média pour
+lequel il a été développé.
+
 À l'instar de McLuhan [-@mcluhan_pour_1977], l'on pourrait percevoir les
 logiciels comme des espaces construits -- des architectures de l'information
 [@broudoux_larchitecture_2013] soignées -- avec une topologie qui leur est
@@ -1129,7 +1150,7 @@ lorsqu'elles sont agencées dans une configuration particulière,
 co-construisent un document jusqu'à sa matérialisation.
 
 En prenant le cas de Stylo, nous pouvons détailler ce que désigne cette
-appellation en fouillant l'architecture logicielle, puisque le code est
+appellation en fouillant son architecture logicielle, puisque le code est
 en libre accès, afin de cibler ces dynamiques et mettre en visibilité les
 les étapes de la matérialisation du document primaire.
 
