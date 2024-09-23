@@ -377,12 +377,12 @@ Cette conception cognitive distribuée implique une «\ approche écologique\�
 l'écriture, c'est-à-dire de prendre en considération la totalité de l'environnement
 duquel elle émerge, ainsi que le sens qu'elle produit, puisqu'«\ il n’y a pas de
 rupture entre ce qui est humain et ce qui ne l’est pas, entre l’esprit et la matière, le
-linguistique et l’extralinguistique, le discours et le contexte\ »[@paveau_technodiscursivites_2013].
+linguistique et l’extralinguistique, le discours et le contexte\ » [@paveau_technodiscursivites_2013].
  
 Ong, Paveau et Vitali-Rosati, en qualifiant l'écriture de non-humaine [@paveau_ce_2015] ou d'inhumaine,
 nous propose de ne pas dissocier l'écriture de l'écriture numérique puisque, finalement,
 la seconde n'est qu'une continuité de la première.
-Pour Ong, l'écriture est alors toujours considérée comme une technique, un outils,
+Pour Ong, l'écriture est alors toujours considérée comme une technique, un outil,
 qu'elle soit numérique ou non, dont les limites d'extériorisation et de cristalisation
 de la pensée restent inchangées malgré les changements de support.
 Tandis que pour Paveau et Vitali-Rosati, le qualificatif d'inhumain renvoie à
@@ -580,7 +580,7 @@ programmes et tables d'encodage, rendant ainsi "possible" la transposition des
 données d'un matériel à un autre par équivalence.
 Cependant, dans la plupart des cas, les données ne pouvaient pas circuler entre
 les différents modèles d'ordinateur, ou alors au moyen de transformations
-fastidieuses, rendant ainsi les traitements réalisés sur les données enfermés
+fastidieuses, rendant ainsi les traitements réalisés sur les données enfermées
 dans des silos.
 La norme ASCII (_American Standard Code for Information Interchange_) fait son
 apparition dans les années 1960 pour résoudre l'enjeu d'interopérabilité de
@@ -606,7 +606,7 @@ compatibles ASCII, comme c'est par exemple le cas de la norme Unicode, publiée
 en 1991, qui est la plus répandue de nos jours puisqu'elle encode le plus de
 caractères.
 Si ASCII contient 128 points de code, le standard Unicode permet d'en encoder
-plus de 149 000 sur une vingtaine de bits par point de code dans sa version 15.1
+plus de 149\ 000 sur une vingtaine de bits par point de code dans sa version 15.1
 (de 2023).
 Afin de préserver cette compatibilité entre les normes, il est d'usage d'encoder
 les 128 premiers caractères de façon identique à la norme ASCII.
@@ -655,7 +655,7 @@ cette couche logicielle, la plus basse d'un ordinateur, si celle-ci n'est pas
 vérifiée et validée (avec un système de clés cryptées) par la firme
 propriétaire/fabricante.
 Il y aurait donc, au plus bas niveau d'abstraction matérielle dans un
-ordinateur, une imposition d'une vision de la machine aux utilisateurs réalisée
+ordinateur, une imposition d'une vision de la machine aux utilisateurs, réalisée
 par les quelques sociétés qui détiennent le monopole de la production de ce
 composant. 
 
@@ -1013,7 +1013,7 @@ demander comment cette nouvelle fonction (inter)agit entre les agents
 d'un système d'informations.
 Que se passe-t-il lorsque cet ordinateur devient un agent actif qui écrit et
 transmet des informations entre, d'une part, l'instructeur (la personne qui
-donne des instructions) et les documents issues du traitement de ces instructions ?
+donne des instructions) et les documents issus du traitement de ces instructions ?
 Dans cette configuration s'opère alors un changement radical de l'état de
 l'ordinateur.
 D'abord à l'état de médiateur puis de support de l'écriture, l'ordinateur passe
@@ -1045,7 +1045,7 @@ Son code source peut lui aussi faire l'objet d'une remédiation
 l'organisation du traitement des informations dans un ordinateur.
 D'ailleurs, C. Herrenschmidt nous rappelle que le terme de logiciel a été forgé
 à partir de la contraction du mot "logique" avec le mot "matériel"
-[@herrenschmidt_trois_2023, p.474] , pour justement montrer à la fois l'opposition
+[@herrenschmidt_trois_2023, p.474], pour justement montrer à la fois l'opposition
 du logiciel avec l'aspect matériel (_hardware_) et marquer leur
 complémentarité : l'ordinateur (_hardware_) serait très peu accessible (voire
 inaccessible) sans logiciel, et le logiciel n'existe pas en dehors de
@@ -1053,7 +1053,7 @@ l'ordinateur.
 
 Lorsque l'on définit le logiciel en opposition au matériel, comme nous l'avons
 énoncé précédemment, nous les positionnons tous deux à la même échelle.
-Ils en deviennent ainsi faussement comparable et le logiciel se voit doté d'une
+Ils en deviennent ainsi faussement comparables et le logiciel se voit doté d'une
 propriété immatérielle, ce qui a pour effet d'être
 en totale contradiction avec ce que nous venons d'énoncer
 sur la place du logiciel aux côtés de n'importe quel document à l'intérieur de la
@@ -1152,15 +1152,20 @@ co-construisent un document jusqu'à sa matérialisation.
 En prenant le cas de Stylo, nous pouvons détailler ce que désigne cette
 appellation en fouillant son architecture logicielle, puisque le code est
 en libre accès, afin de cibler ces dynamiques et mettre en visibilité les
-les étapes de la matérialisation du document primaire.
+étapes de la matérialisation du document primaire.
 
 ## Les médiations documentaires dans Stylo
 
-Tout d'abord, Stylo représente un espace sur le Web dans lequel nous pouvons
-écrire en suivant la syntaxe de trois formats de texte brut, le Markdown, le
+Stylo représente un espace sur le Web dans lequel nous pouvons
+écrire selon la syntaxe de trois formats de texte brut, le Markdown, le
 YAML et le BibTeX.
 Le Web fonctionne différemment d'un environnement local sur son ordinateur
 personnel.
+À la différence d'un espace en silo comme peut l'être un espace local, le Web
+est une application d'Internet permettant le transfert d'informations en réseau.
+Son architecture repose sur deux éléments fondamentaux\ : un
+système d'adressage des ressources (_Internet Protocol_, IP) et un protocole de
+transfert des informations (_Transmission Control Protocol_, TCP).
 
 Alain Mille en dresse l'histoire depuis les débuts d'Internet dans les années
 1960 [-@mille_internet_2014] à partir du réseau filaire ARPAnet développé par le
@@ -1174,8 +1179,8 @@ des années 1960.] et a fait l'objet de la première RFC^[On peut retrouver tout
 avant de trouver une forme plus aboutie dans le protocole TCP en 1974 --
 décrit par Vincent Cerf et Bob Kahn -- et permet
 avec sa distribution sous forme de paquets la naissance d'Internet.
-Ce n'est qu'en 1990, au CERN ((Organisation européenne pour la recherche
-nucléaire)), que Tim Berners-Lee participe à la conception du Web -- et du _World
+Ce n'est qu'en 1990, au CERN (Organisation européenne pour la recherche
+nucléaire), que Tim Berners-Lee participe à la conception du Web -- et du _World
 Wide Web_ -- pour pallier le problème d'échanges de documents numériques
 rencontré dans cette institution grâce au développement du langage de balisage HTML.
 Le Web vient donc répondre à un besoin, celui de la compatibilité des
@@ -1341,10 +1346,37 @@ action de lecture ou d'écriture est lié à une requête GraphQL et au schéma 
 donnée correspondant.
 Chacune de ces actions suit en conséquence une modalité d'inscription dans la
 base de données se conformant à l'architecture implémentée lors des développements de
-Stylo et produit une vision du document. 
- 
-Le protocole HTTP comporte deux méthodes bien connues pour faire circuler des
-informations entre un client et un serveur : `GET` et `POST`.
+Stylo.
+Ce faisant, chacun de ces boutons est une amorce à l'organisation des
+informations et à la matérialisation du document, puisqu'ils déterminent la manière
+dont sont traitées les informations.
+Par exemple, il est toujours possible d'utiliser le champ dédié au corps de texte pour
+indexer des métadonnées, seulement Stylo n'est pas prévu pour traiter les
+informations contenues dans l'espace réservé au texte en tant que métadonnées.
+Elles seront alors traitées comme du texte et perdront leur valeur sémantique.
+
+La circulation des informations entre le client et le serveur ne repose pas
+uniquement sur GraphQL, qui permet seulement de construire les requêtes liées aux
+données de Stylo par le biais de l'API.
+De la même façon que l'on n'envoie pas une lettre à quelqu'un sans service postal, les
+requêtes GraphQL ne peuvent pas circuler entre la base de données et le client
+sans un protocole pour les acheminer.
+Pour être livrée à destination, la carte postale doit respecter plusieurs
+conditions\ : elle doit comporter l'adresse du destinataire, être affranchie et
+enfin être déposée sur le réseau du service postal (soit dans un bureau de
+poste, soit dans une boîte postale).
+Si l'on ne respecte pas ce protocole et que l'on décide plutôt de jeter la carte postale
+par la fenêtre, celle-ci n'arrivera probablement pas à destination.
+Le procédé est identique avec GraphQL.
+Pour émettre ou recevoir une requête GraphQL, le client a besoin d'un protocole,
+soit un ensemble de règles pour formater et véhiculer la requête sur le réseau.
+Pour Stylo, le protocole employé est HTTP.
+Ce procotole induit un comportement particulier de notre requête
+puisque selon les différents cas de figure, les informations ne seront pas
+traitées de la même manière.
+
+Parmi les méthodes de circulation des informations entre un serveur et un client,
+le protocole HTTP en comporte deux bien connues\ : `GET` et `POST`.
 Un des arguments phares présenté par GraphQL est sa dimension agnostique par
 rapport au protocole de communication des informations employé, que ce soit HTTP
 ou des WebSockets ou autre.
@@ -1364,7 +1396,8 @@ Malgré l'aspect agnostique de GraphQL, la forme textuelle des requêtes impliqu
 en elle-même un choix particulier de transmission des informations avec ce qu'il
 comporte comme avantages et inconvénients.
 
-Les spécificités du protocole HTTP sont définies dans les _Request for
+Pour en savoir plus sur les spécificités du protocole HTTP, celles-ci sont définies
+et consultables dans les _Request for
 Comments_ (RFC) publiés par l'_Internet Engineering Task Force_ (IETF) fondée en
 1986 et dont le siège se trouve aux États-Unis.
 Les documents et leurs contenus sont régulièrements mis à jour par la communauté
@@ -1377,13 +1410,13 @@ La méthode `POST` est définie dans le paragraphe 9.3.3 comme :
 
 > The POST method requests that the target resource process the representation
 > enclosed in the request according to the resource's own specific semantics.
-> For example, POST is used for the following functions (among others) :
+> For example, POST is used for the following functions (among others)\ :  
 > - Providing a block of data, such as the fields entered into an HTML form, to
->   a data-handling process;
+>   a data-handling process;  
 > - Posting a message to a bulletin board, newsgroup, mailing list, blog, or
->   similar group of articles;
+>   similar group of articles;  
 > - Creating a new resource that has yet to be identified by the origin server;
->   and
+>   and  
 > - Appending data to a resource's existing representation(s).^[Traduction
 >   personnelle : La méthode POST demande à la ressource cible de traiter la
 >   représentation incluse dans la demande selon sa propre sémantique. Par
@@ -1459,10 +1492,14 @@ n'avons pas encore abordé les conditions de l'écriture avec les trois formats
 pivots d'un document dans Stylo.
 
 Selon les formats d'écriture, et lorsque l'on sort du paradigme WYSIWYG pour
-celui du WYSIWYM, on s'émancipe de la surcouche de mise en page pour entrer
-directement dans la couche de la structuration des contenus, là où les formats
-remplacent la couche supprimée par une autre couche graphique et rendent leur
-structure visible.
+celui du WYSIWYM, on se libère de la surcouche de mise en page graphique pour entrer
+directement dans la couche de la structuration des contenus.
+Ce changement de paradigme ne nous libère pas de la représentation graphique du
+document, puisque l'affichage du texte dans un format brut est déjà une forme de représentation de
+l'information.
+Dans ce cas, le texte n'est plus représenté par des conventions de lecture mais
+l'est pas des conventions d'écriture dans un format donné
+[@pedauque_document_2006].
 
 _What You See Is What You Get_, ou WYSIWYG, est l'acronyme généralement employé
 pour désigner les outils qui adoptent une surcouche graphique de gestion de la
@@ -1505,7 +1542,7 @@ XML.
 
 Que l'on soit sous système d'exploitation Linux, MacOS ou Windows, le XML peut
 être saisi et lu dans tous les éditeurs de texte.
-Chacun est en capacité de créer ses propres régles d'agencement des contenus en
+Chacun est en capacité de créer ses propres règles d'agencement des contenus en
 créant un schéma qui correspond aux besoins d'une chaîne éditoriale.
 
 Par exemple, lors de l'édition d'un article scientifique, comment pouvons-nous
