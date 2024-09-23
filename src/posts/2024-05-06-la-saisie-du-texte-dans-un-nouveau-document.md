@@ -1159,18 +1159,18 @@ en libre accès, afin de cibler ces dynamiques et mettre en visibilité les
 Stylo représente un espace sur le Web dans lequel nous pouvons
 écrire selon la syntaxe de trois formats de texte brut, le Markdown, le
 YAML et le BibTeX.
-Le Web fonctionne différemment d'un environnement local sur son ordinateur
-personnel.
-À la différence d'un espace en silo comme peut l'être un espace local, le Web
-est une application d'Internet permettant le transfert d'informations en réseau.
+À la différence d'un espace fermé comme peut l'être un espace local, le Web
+est un environnement ouvert et accessible pour celles et ceux qui ont un accès à
+Internet.
+Il constitue une application d'Internet permettant le transfert d'informations en réseau.
 Son architecture repose sur deux éléments fondamentaux\ : un
-système d'adressage des ressources (_Internet Protocol_, IP) et un protocole de
+protocole d'adressage des ressources (_Internet Protocol_, IP) et un protocole de
 transfert des informations (_Transmission Control Protocol_, TCP).
 
 Alain Mille en dresse l'histoire depuis les débuts d'Internet dans les années
 1960 [-@mille_internet_2014] à partir du réseau filaire ARPAnet développé par le
 département de la défense américaine.
-À ce stade précoce, comme le souligne A. Mille, il manque une brique pour que naisse
+À ce stade précoce, comme le souligne A. Mille, il manque une brique technologique pour que naisse
 l'Internet : un protocole de transfert des documents.
 Le premier protocole a vu le jour en 1969^[Il n'y a pas de corrélation directe
 avec l'utilisation de la norme ASCII par les institutions américaines à cette
@@ -1238,7 +1238,7 @@ On retrouve des objets en HTML, en CSS et en Javascript.
 Le _framework_ React, une surcouche à Javascript _open source_ développée par
 Facebook (aujourd'hui Meta) en 2013, a été employé pour construire les différents
 composants de l'interface et intégrer de nombreuses librairies telle que _i18n_
-qui permet d'implémenter le multilinguisme dans l'interface et changer la langue
+qui permet d'implémenter le multilinguisme dans l'interface et de changer la langue
 affichée à l'écran en un seul clic.
 
 L'éditeur de texte, pièce maîtresse de Stylo, s'appuie sur la technologie
@@ -1351,8 +1351,8 @@ Ce faisant, chacun de ces boutons est une amorce à l'organisation des
 informations et à la matérialisation du document, puisqu'ils déterminent la manière
 dont sont traitées les informations.
 Par exemple, il est toujours possible d'utiliser le champ dédié au corps de texte pour
-indexer des métadonnées, seulement Stylo n'est pas prévu pour traiter les
-informations contenues dans l'espace réservé au texte en tant que métadonnées.
+indexer des métadonnées, seulement Stylo n'est pas prévu pour traiter en tant
+que métadonnées les informations contenues dans l'espace réservé au texte.
 Elles seront alors traitées comme du texte et perdront leur valeur sémantique.
 
 La circulation des informations entre le client et le serveur ne repose pas
@@ -1367,20 +1367,22 @@ enfin être déposée sur le réseau du service postal (soit dans un bureau de
 poste, soit dans une boîte postale).
 Si l'on ne respecte pas ce protocole et que l'on décide plutôt de jeter la carte postale
 par la fenêtre, celle-ci n'arrivera probablement pas à destination.
-Le procédé est identique avec GraphQL.
+Le procédé est similaire pour les données de Stylo et leur transit composé avec GraphQL.
 Pour émettre ou recevoir une requête GraphQL, le client a besoin d'un protocole,
 soit un ensemble de règles pour formater et véhiculer la requête sur le réseau.
 Pour Stylo, le protocole employé est HTTP.
 Ce procotole induit un comportement particulier de notre requête
-puisque selon les différents cas de figure, les informations ne seront pas
+puisque selon son emploi, les informations ne seront pas
 traitées de la même manière.
 
 Parmi les méthodes de circulation des informations entre un serveur et un client,
 le protocole HTTP en comporte deux bien connues\ : `GET` et `POST`.
-Un des arguments phares présenté par GraphQL est sa dimension agnostique par
+Chacune de ces méthodes, ainsi que les sept autres que comporte le protocole, a
+un comportement bien défini.
+Pourtant, un des arguments phares présenté par GraphQL est sa dimension agnostique par
 rapport au protocole de communication des informations employé, que ce soit HTTP
 ou des WebSockets ou autre.
-Pourtant, malgré la capacité de GraphQL à être utilisable avec toutes les
+Malgré la capacité de GraphQL à être utilisable avec toutes les
 méthodes d'HTTP^[Voir https://graphql.or/learn/serving-over-http/, consulté le
 24 février 2024.], une bonne pratique appliquée par la communauté GraphQL est
 l'emploi du protocole HTTP couplé à la méthode `POST` pour tous types de
@@ -1395,6 +1397,7 @@ longueur.
 Malgré l'aspect agnostique de GraphQL, la forme textuelle des requêtes implique
 en elle-même un choix particulier de transmission des informations avec ce qu'il
 comporte comme avantages et inconvénients.
+En respect de ces bonnes pratiques, la méthode `POST` a été préférée dans Stylo.
 
 Pour en savoir plus sur les spécificités du protocole HTTP, celles-ci sont définies
 et consultables dans les _Request for
