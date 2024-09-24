@@ -1168,8 +1168,8 @@ protocole d'adressage des ressources (_Internet Protocol_, IP) et un protocole d
 transfert des informations (_Transmission Control Protocol_, TCP).
 
 Alain Mille en dresse l'histoire depuis les débuts d'Internet dans les années
-1960 [-@mille_internet_2014] à partir du réseau filaire ARPAnet développé par le
-département de la défense américaine.
+1960 à partir du réseau filaire ARPAnet développé par le
+département de la défense américaine [@mille_internet_2014].
 À ce stade précoce, comme le souligne A. Mille, il manque une brique technologique pour que naisse
 l'Internet : un protocole de transfert des documents.
 Le premier protocole a vu le jour en 1969^[Il n'y a pas de corrélation directe
@@ -1244,7 +1244,7 @@ affichée à l'écran en un seul clic.
 L'éditeur de texte, pièce maîtresse de Stylo, s'appuie sur la technologie
 Monaco^[Voir le site web dédié à l'éditeur Monaco :
 https://microsoft.github.io/monaco-editor/, consulté le 29 février 2024.]
-développé par Microsoft et rendu disponible sous licence MIT.
+développée par Microsoft et rendu disponible sous licence MIT.
 
 Ces deux blocs, la base de données MongoDB et l'interface web, ne sont
 pas en communication directe.
@@ -1365,9 +1365,9 @@ Pour être livrée à destination, la carte postale doit respecter plusieurs
 conditions\ : elle doit comporter l'adresse du destinataire, être affranchie et
 enfin être déposée sur le réseau du service postal (soit dans un bureau de
 poste, soit dans une boîte postale).
-Si l'on ne respecte pas ce protocole et que l'on décide plutôt de jeter la carte postale
-par la fenêtre, celle-ci n'arrivera probablement pas à destination.
-Le procédé est similaire pour les données de Stylo et leur transit composé avec GraphQL.
+Si l'on ne respecte pas ce protocole et que l'on décide plutôt de jeter cette carte postale
+par la fenêtre, il est fort probable que celle-ci n'arrive jamais à destination.
+Le procédé est similaire pour les requêtes formulées sur les données de Stylo.
 Pour émettre ou recevoir une requête GraphQL, le client a besoin d'un protocole,
 soit un ensemble de règles pour formater et véhiculer la requête sur le réseau.
 Pour Stylo, le protocole employé est HTTP.
@@ -1375,10 +1375,9 @@ Ce procotole induit un comportement particulier de notre requête
 puisque selon son emploi, les informations ne seront pas
 traitées de la même manière.
 
-Parmi les méthodes de circulation des informations entre un serveur et un client,
+Parmi les neuf méthodes de circulation des informations entre un serveur et un client,
 le protocole HTTP en comporte deux bien connues\ : `GET` et `POST`.
-Chacune de ces méthodes, ainsi que les sept autres que comporte le protocole, a
-un comportement bien défini.
+Chacune de ces méthodes a un comportement bien défini.
 Pourtant, un des arguments phares présenté par GraphQL est sa dimension agnostique par
 rapport au protocole de communication des informations employé, que ce soit HTTP
 ou des WebSockets ou autre.
@@ -1399,8 +1398,7 @@ en elle-même un choix particulier de transmission des informations avec ce qu'i
 comporte comme avantages et inconvénients.
 En respect de ces bonnes pratiques, la méthode `POST` a été préférée dans Stylo.
 
-Pour en savoir plus sur les spécificités du protocole HTTP, celles-ci sont définies
-et consultables dans les _Request for
+Les spécificités du protocole HTTP sont définies et consultables dans les _Request for
 Comments_ (RFC) publiés par l'_Internet Engineering Task Force_ (IETF) fondée en
 1986 et dont le siège se trouve aux États-Unis.
 Les documents et leurs contenus sont régulièrements mis à jour par la communauté
@@ -1451,7 +1449,7 @@ Cependant, cette caractéristique tend à disparaître dans le cas de l'utilisat
 de `POST` avec une structure GraphQL puisque cette dernière ne dépend pas d'une
 architecture composée de multiples adresses (une pour chaque ressource) mais
 d'une seule adresse à laquelle on soumet des requêtes.
-Dans le cas de Stylo, `POST` est donc soumis à l'architecture GraphQL, on peut
+Dans le cas de Stylo, `POST` est donc soumise à l'architecture GraphQL, on peut
 donc bien considérer GraphQL agnostique à l'égard de la méthode `POST` du
 protocole HTTP.
 
@@ -1476,17 +1474,12 @@ updatedAT\n
 ```
 
 Autrement dit, chaque fonctionnalité décrit de manière formelle la structuration
-des informations dans Stylo, donc ce que Stylo écrit dans la base de données et
-dans les textes puisque ce sont les informations renseignées qui seront
-intégrées dans les documents exportés.
+des informations dans Stylo et, par extension, ce que Stylo écrit dans les
+documents que nous sommes en train de matérialiser.
 En ce sens, Stylo et ses protocoles pré-construisent la totalité de ce qu'un
-utilisateur peut saisir dans l'interface et sera enregistré dans la base de
+utilisateur peut saisir dans l'interface et de ce qui sera enregistré dans la base de
 données.
 Cette préconstruction est la vision du document incarnée dans Stylo.
-Puisqu'il y a une pré-construction du document et du texte, nous pouvons à ce
-stade présupposer qu'il y a une pré-construction des traces issues des interactions avec
-l'utilisateur et qu'elles se matérialisent dans des
-fragments comme celui présenté ci-dessus.
 
 Cette description très générale des moyens de communication à l'oeuvre entre les
 différents modules de Stylo nous montre déjà que l'information saisie dans cet
@@ -1533,7 +1526,10 @@ Plus souple que le HTML dont les balises sont figées, XML permet à chaque
 utilisateur de créer son propre système hiérarchique arborescent par
 l'élaboration de balises personnalisées.
 Postérieur d'une décennie au format HTML, la publication des recommandations de
-la première version (1.0) du métalangage XML voit le jour en 1998.
+la première version (1.0) du métalangage XML voit le jour en 1998^[La version
+1.0 des recommandations du langage XML publiées en février 1998 sont disponibles sur le site web du
+W3C à cette URL\ : <https://www.w3.org/TR/1998/REC-xml-19980210>, visité le 24
+septembre 2024.].
 
 La souplesse mentionnée précédemment n'empêche pas une rigueur extrême dans la
 structuration des contenus : chaque document formaté en XML doit, pour être
@@ -1612,7 +1608,7 @@ Nous nous concentrons ici sur les formats informatiques.
 En fonction des nécessités d'un système d'exploitation, d'un programme
 informatique ou d'une plateforme en ligne, un format caractéristique sera
 requis pour agencer et organiser les informations selon les règles qui le
-définissent [bachimont_ingenierie_2007].
+définissent [@bachimont_ingenierie_2007].
 Un format qui n'est pas standard (ces caractéristiques doivent être décrites),
 qui n'est pas ouvert (il est possible de comprendre comment le format
 fonctionne) ou qui nécessite un environnement très spécifique pour être
@@ -1688,10 +1684,10 @@ charge.
 À ce propos, aucune saveur spécifique n'a été implémentée dans Stylo pour
 laisser le champ libre aux utilisateurs d'employer celle qui leur convient le
 mieux.
-Néanmoins, lorsque les sources sont transformées par le module d'export
-(l'export des fichiers sources n'est pas concerné), les utilisateurs doivent respecter
-les préconisations du logiciel Pandoc puisque c'est ce dernier qui
-réalise les transformations et conversions des documents.
+Néanmoins, lorsque les sources sont transformées par le module d'export,
+les utilisateurs doivent respecter les préconisations du logiciel Pandoc
+puisque c'est ce dernier qui réalise les transformations et conversions
+des documents (l'export des fichiers sources n'est pas concerné).
 Les saveurs les plus couramment utilisées avec Pandoc sont CommonMark et
 GitHub Flavored Markdown^[Outre celle qui porte son nom, Pandoc prend en
 charge d'autres variantes de Markdown comme cela est indiqué dans la
@@ -1701,7 +1697,7 @@ Autrement dit, Stylo n'impose pas de variante de Markdown si l'on s'en sert
 comme éditeur de texte sans la nécessité d'utiliser le module d'export.
 Dès qu'une chaîne éditoriale s'appuie sur ce module, comme c'est le cas pour la
 chaîne Stylo utilisant l'export XML TEI conforme au schéma de COMMONS Publishing
-commun à Métopes et OpenEdition, il devient essentiel d'employer les
+commun à Métopes, Cairn et OpenEdition, il devient essentiel d'employer les
 variantes que traitent Pandoc pour que les transformations et conversions se
 fassent sans erreur.
 Pour conclure sur le langage de balisage Markdown, sa possible déclinaison en
@@ -1712,19 +1708,20 @@ Cependant, si les adaptations réalisées le sont dans une niche, soit parce que
 la communauté qui en définit les règles comporte trop de peu de membres, soit
 parce qu'il n'y a qu'un seul environnement qui traite cette saveur, le Markdown
 perd sa caractéristique interopérable et contraint les usagers à bricoler des
-équivalences entre les transformations pour préserver la structuration des
+équivalences entre les transformations pour préserver la richesse sémantique des
 contenus.
 
 Dans Stylo, la sérialisation des métadonnées est réalisée en YAML qui, dans sa version
 originale de 2004 avait pour signification _Yet Another Markup Language_ puis se
 transforme à l’occasion de la publication de sa version 1.1 en _YAML Ain’t
-Markup Language_.
+Markup Language_^[Les spécifications des différentes versions sont disponibles
+en ligne à l'adresse <https://yaml.org/spec/>.].
 YAML est un langage de sérialisation de données pour tous les
 langages de programmation.
 Un usage récurrent qui en est fait consiste à utiliser
-YAML pour créer des fichiers de configuration. Dans le cas des outils liés à
-l’édition numérique, YAML sera utilisé pour enregistrer les métadonnées
-associées à un document.
+YAML pour créer des fichiers de configuration.
+Dans notre cas, YAML est utilisé pour enregistrer les métadonnées
+associées à un article Stylo.
 Le principe de YAML est très facile à assimiler puisqu'il repose sur le même
 fonctionnement qu'un dictionnaire avec la structure `clef: valeur`.
 Chacun a la possibilité de créer de toute pièce son document YAML et
@@ -1765,11 +1762,16 @@ Par exemple, la clef YAML `affiliations` désigne sans distinction l'instituti
 le laboratoire ou encore le département de rattachement.
 Pourtant, selon les revues, il peut être important de faire formellement cette
 différence.
-Dans Stylo, la notion d'auteur ne s'incarne qu'à travers ce choix qui a été
-implémenté.
-L'auteur est donc formellement constitué de 10 entrées au maximum.
+Dans Stylo, l'auteur y est formellement constitué de 10 entrées par défaut.
 Ce qui est valable pour les auteurs l'est également pour les autres types de
-données décrites dans les métadonnées du document.
+données décrites dans les métadonnées du document^[Le schéma de données employé
+dans Stylo est un paramétrage par défaut. L'application n'empêche pas les
+utilisateurs d'ajouter des nouvelles clés YAML personnalisées pour décrire
+des éléments supplémentaires. Néanmoins, ces ajouts personnalisés ne seront pas
+pris en charge par lors de l'export. Pour récupérer des métadonnées
+personnalisées, Stylo prévoit un export des sources brutes pour lesquelles il
+faudra réaliser des transformations hors Stylo si l'on souhaite que ces
+métadonnées soient traitées.].
 La réduction d'un auteur à quelques mot-clés n'est pas très importante
 puisqu'elle couvre les besoins de la plupart des revues -- ce qui est quand même
 l'objectif de Stylo --.
@@ -1777,15 +1779,18 @@ l'objectif de Stylo --.
 Au-delà de Stylo, l'utilisation de YAML est toutefois controversée.
 Contrairement à d'autres langages de structuration de données dont le
 comportement est pérenne, comme le standard JSON (_JavaScript Object Notation_)
-publié pour la première fois en 1999^[Voir le site web de JSON :
-https://www.json.org/json-en.html, consulté le 31 mars 2024.], YAML 1.0 subit
+utilisé pour la première fois en 2001^[Voir le document ECMA-404\ :
+<https://ecma-international.org/wp-content/uploads/ECMA-404_2nd_edition_december_2017.pdf>,
+consulté le 24 septembre 2024.], YAML 1.0 subit
 des modifications régulières depuis 2004 avec une version 1.1 en 2005 puis une
 version 1.2 en 2009 et une dernière mise à jour en 2021 avec la version 1.2.2.
-Là où une certaine stabilité que l'on trouve dans des formats tel que JSON
-apporte une forme de pérennité pour les applications, malgré une modification
-mineure en 2005 avec la suppression de la saisie de commentaires dans les
-documents au format JSON, YAML fait le choix d'évoluer et de s'adapter aux
-besoins des communautés.
+Alors que la stabilité offerte par des formats tels que JSON garantit une
+certaine perennité aux applications, malgré une modification mineure en 2005^[En
+2005, Douglas Crockford décide de supprimer la saisie des commentaires à l'intérieur
+des documents JSON. Voir l'histoire de JSON <https://www.youtube.com/watch?v=-C-JoyNuQJs&t=965s>,
+consultée le 24 septembre 2024], YAML a fait le choix d'évoluer et de
+s'adapter aux besoins des communautés.
+
 Cependant, comme le mentionne Ruud van Asseldonk sur son blog^[Voir le blog de
 Ruud van Asseldonk :
 https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell, consulté le
@@ -1819,7 +1824,13 @@ La première est que YAML fait partie des plus anciens langages de sérialisatio
 de données et répondait alors à un besoin de toute une génération de
 développeurs, ensuite il permet l'écriture de commentaires à l'intérieur des
 documents, c'est-à-dire du texte qui ne sera pas traité par le parseur, alors
-que JSON ne le permet pas.
+que JSON ne le permet pas^[Dans la vidéo précédente de l'histoire de JSON, Douglas
+Crockford fait une erreur lorsqu'il compare YAML à JSON pour la saisie des
+commentaires. L'utilisation de commentaires en YAML existe depuis la version de
+travail des recommandations du 16 juin 2001 avec l'intégration du
+caractère `#` pour signaler un commentaire signalé dans les changements apportés
+le 26 mai 2001, voir la page <https://yaml.org/spec/history/2001-06-16.html>
+consultée le 24 septembre 2024.].
 Des alternatives comme le langage TOML^[Voir le site web du langage TOML :
 https://toml.io/en/, consulté le 31 mars 2024.] ont vu le jour dans les années
 2010 (2013 pour le TOML) pour tenter de pallier les problèmes sus-mentionnés.
@@ -1834,7 +1845,12 @@ le 31 mars 2024.].
 Enfin, le dernier format pivot utilisé dans Stylo, le BibTeX, est utilisé pour
 structurer les références bibliographiques.
 BiBTeX est un format standard permettant de décrire des listes de références
-bibliographiques inventé par Oren Patashnik en 1985 pour l'écosystème LaTeX.
+bibliographiques inventé par Oren Patashnik en 1985 pour l'écosystème
+LaTeX^[L'histoire et le fonctionnement de BibTeX est racontée par Oren Patashnik dans l'article
+BibTeX 1.0 <https://tug.org/TUGboat/tb15-3/tb44patashnik.pdf>.
+L'article a été publié dans le numéro 15:3 de TUGBoat en
+septembre 1994 <https://tug.org/TUGboat/Contents/contents15-3.html>; les pages
+web ont été consultées le 24 septembre 2024.].
 Au-delà de LaTeX, c'est un format largement utilisé par les gestionnaires de
 références bibliographiques comme Zotero^[Zotero est un logiciel de gestion de
 références bibliographiques très connu, il est l'alternative libre et _open
