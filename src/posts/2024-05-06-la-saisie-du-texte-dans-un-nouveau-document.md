@@ -2152,9 +2152,27 @@ En se référant à la théorie de l'éditorialisation, nous pouvons affirmer qu
 quatre phases contribue à la matérialité du texte saisi et qu'en ce sens il y a
 co-construction du document entre l'utilisateur et Stylo.
 
-Les marqueurs de cette relation entre un auteur et l'environnement d'écriture Stylo,
-les traces d'une épistémologie singulière, apparaissent à chacune des phases du
-document et y sont inscrites à l'intérieur.
+Les différents états de ce document primaire montrent qu'il n'y a pas de forme
+figée du document.
+Au contraire, le document serait une suite d'états que l'on regroupe dans un
+même espace pour former une représentation tangible du document.
+En s'appuyant sur la définition du document établie dans le premier chapitre, le
+document s'échappe de la représentation du texte, ou d'une suite de
+représentations, pour devenir le réceptable des intra-actions en train de se
+produire dans un espace fini.
+Le document dans Stylo nous montre ce changement de paradigme où celui de la
+représentation fait place à celui de la performance [@barad_frankenstein_2023].
+Le document se meut, il est sans cesse en action et sans cesse en cours de
+modification et de changement\ : il se performe.
+La matérialisation du document empêche toute tentative de cristallisation du
+document dans une forme figée.
+Tant que le document est la preuve d'un fait [@briet_quest-ce_1951], il reste
+le réceptacle de médiations et d'intra-actions, qu'elles soient numériques ou non,
+responsables de ses métamorphoses. 
+
+Ces médiations sont les marqueurs de cette relation entre un auteur et l'environnement d'écriture,
+elles sont les traces d'une épistémologie singulière et apparaissent à l'intérieur
+du document lors de chacun de ses états.
 En suivant le fil de ces traces, il devient possible de suivre l'ensemble des
 médiations et des conditions de l'environnement numérique produisant le document
 primaire et son texte, source que traitera ensuite la chaîne éditoriale jusqu'à sa publication.  
