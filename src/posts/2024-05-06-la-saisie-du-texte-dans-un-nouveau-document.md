@@ -6,7 +6,7 @@ date: 2024-05-06
 ## Introduction
 
 Lors du chapitre précédent, nous avons défini le document comme étant l'objet au
-coeur du processus de publication scientifique.
+cœur du processus de publication scientifique.
 Qu'il s'agisse des premières revues savantes datant du XVII^e^ siècle ou des
 revues numériques contemporaines, des lettres ou encore des livres, un document
 est nécessaire pour fabriquer cet objet éditorial [@fauchie_fabriquer_2024].
@@ -30,7 +30,7 @@ transformé en un autre objet ou transporté en un autre espace, produisant ains
 un nouvel agencement documentaire.
 
 Les documents numériques ayant pour devenir la publication scientifique
-font principalement l'objet d'un traitement éditorial de l'information : saisie du
+font principalement l'objet d'un traitement éditorial de l'information\ : saisie du
 texte dans un format de traitement de texte ou de texte brut, conversions dans
 divers formats de document, transformations du texte source selon des normes
 éditoriales ou à la suite d'une relecture par les pairs, publication dans un
@@ -55,7 +55,7 @@ focalisons sur les interactions qui le précèdent et sur une épistémologie du
 document en cours de matérialisation.
 
 Nous consacrons ce chapitre aux premières interactions à l'origine de la
-publication scientifique : la création du document primaire de la chaîne de
+publication scientifique\ : la création du document primaire de la chaîne de
 publication.
 Pour ce faire, nous observerons les traces issues des interactions entre
 un auteur et un ordinateur dans le document numérique^[À chaque fois que nous ferons
@@ -112,12 +112,12 @@ environnement [@merzeau_editorialisation_2013].
 Stylo est un éditeur de texte sémantique en ligne développé pour l'édition
 savante en sciences humaines et sociales (SHS) et en lettres.
 Stylo est autant un projet de recherche qu'un outil d'écriture et d'édition, qui
-entend poser une question décisive : qu'est-ce qu'écrire en environnement
-numérique en SHS ?
+entend poser une question décisive\ : qu'est-ce qu'écrire en environnement
+numérique en SHS\ ?
 
 C'est un outil libre et _open source_ conçu en 2017 par la Chaire de recherche
 du Canada sur les écritures numériques (CRCEN) [@vitali-rosati_ecrire_2020], et
-soutenu depuis 2020 par la Très grande infrastructure de recherche Huma-Num.
+soutenu depuis 2020 par la Très grande infrastructure de recherche Huma-num.
 Guillaume Grossetie et Thomas Parisot, tous deux développeurs, maintiennent et
 développent l'infrastructure technique de Stylo avec la CRCEN depuis plusieurs
 années, équipe dans laquelle je suis fortement impliqué depuis le début de
@@ -132,7 +132,7 @@ tout en invitant à une réflexion théorique et pratique sur nos façons d'écr
 Prendre le contrôle de son propre texte, voilà ce que permet aujourd'hui Stylo à
 travers plusieurs fonctionnalités fondatrices ou plus récentes qui s'inscrivent
 dans le domaine des technologies de l'édition
-numérique [@blanc_technologies_2018] : balisage du texte pour une structure
+numérique [@blanc_technologies_2018]\ : balisage du texte pour une structure
 sémantique fine, import de données bibliographiques structurées depuis
 l'application Zotero, mot-clés contrôlés depuis plusieurs ontologies,
 prévisualisation avec la possibilité d'annoter avec Hypothesis, génération de
@@ -143,14 +143,14 @@ Contrairement aux outils de traitement de texte tels que Microsoft Word ou
 LibreOffice, Stylo cherche à promouvoir et à encourager l'utilisation de
 standards ouverts.
 
-Au coeur de Stylo ce sont donc les formats de balisage Markdown, de
+Au cœur de Stylo ce sont donc les formats de balisage Markdown, de
 sérialisation de données YAML ou encore de structuration de références
 bibliographiques BibTeX qui offrent la possibilité de produire plusieurs formats
 de sortie depuis une source unique.
 Stylo suit donc le principe de _single source publishing_
 [@fauchie_fabriquer_2024].
 En s’appuyant sur Pandoc, un outil de conversion de documents désigné comme le
-« couteau suisse de l’édition », le module d’export de Stylo génère les formats
+«\ couteau suisse de l’édition\ », le module d’export de Stylo génère les formats
 de sortie PDF (avec l’aide de LaTeX), HTML, XML-TEI, DOCX ou encore XML
 compatible avec le schéma COMMONS Publishing commun à Métopes, Cairn et OpenEdition.
 
@@ -163,7 +163,7 @@ encore Framapad, les environnements d'écriture en ligne (Web) suscitent un
 certain engouement auprès des utilisateurs notamment pour leur capacité à offrir
 un espace de travail collaboratif en temps réel leur permettant d'écrire à
 plusieurs dans cet espace.
-La deuxième raison qui fait de Stylo un terrain opportun est l'accessiblité de
+La deuxième raison qui fait de Stylo un terrain opportun est l'accessibilité de
 son code source.
 Contrairement à d'autres éditeurs propriétaires comme l'est GoogleDoc, la
 totalité du code de Stylo est disponible en ligne, ce qui est indispensable pour
@@ -175,7 +175,7 @@ d'observer le comportement des nouvelles fonctionnalités et de participer à
 leur modification.
 Depuis cette position, j'ai également un accès direct à la communauté
 d'utilisateurs, s'élevant à un peu plus de 6000 personnes fin 2023 pour plus de
-40 000 documents différents.  
+40\ 000 documents différents.  
 Du fait de mon implication dans Stylo, le regard que je porte sur ce terrain
 n'est pas neutre et relève d'une forme de recherche-action [ajouter une
 référence].
@@ -192,7 +192,7 @@ la méthode employée par le théoricien des médias F. Kittler
 du fonctionnement de la machine à écrire puis celle de l'ordinateur afin de comprendre
 leur implication, en tant que média, dans le phénomène qu'est l'écriture.
 Cette méthode implique de comprendre les comportements et les fonctionnements
-techniques des composants à l'oeuvre dans la machine, qu'ils relèvent du
+techniques des composants à l'œuvre dans la machine, qu'ils relèvent du
 matériel ou du logiciel.
 En conséquence, nous mobilisons de la documentation technique pour étayer notre
 propos et pour analyser les traces des interactions qui nous intéressent.  
@@ -232,20 +232,20 @@ compatibles avec la norme ASCII.].
 
 ![Machine à écrire portative](https://www.photo.rmn.fr/CorexDoc/RMN/Media/TR1/YECPH3/07-521403.jpg "Machine à écrire portative")
 
-Crédits : © Adagp, Paris. Crédit photographique : Georges Meguerditchian -
-Centre Pompidou, MNAM-CCI /Dist. RMN-GP. Réf. image : 4N40151. Diffusion image :
+Crédits\ : © Adagp, Paris. Crédit photographique\ : Georges Meguerditchian -
+Centre Pompidou, MNAM-CCI /Dist. RMN-GP. Réf. image\ : 4N40151. Diffusion image\ :
 [l’Agence Photo de la RMN](https://www.photo.rmn.fr/C.aspx?VP3=SearchResult&IID=2C6NU0CU7GAD)
 
 ![Publicité pour la machine à écrire Valentine](https://www.photo.rmn.fr/CorexDoc/RMN/Media/TR1/VYKH9X/13-519016.jpg "Publicité pour la machine à écrire Valentine")
 
-Crédits : © Adagp, Paris. Crédit photographique : Jean-Claude Planchet - Centre
-Pompidou, MNAM-CCI /Dist. RMN-GP. Réf. image : 4F40212 [2003 CX 6098]. Diffusion
-image : [l’Agence Photo de la RMN](https://www.photo.rmn.fr/C.aspx?VP3=SearchResult&IID=2C6NU0DWCD6W)
+Crédits\ : © Adagp, Paris. Crédit photographique\ : Jean-Claude Planchet - Centre
+Pompidou, MNAM-CCI /Dist. RMN-GP. Réf. image\ : 4F40212 [2003 CX 6098]. Diffusion
+image\ : [l’Agence Photo de la RMN](https://www.photo.rmn.fr/C.aspx?VP3=SearchResult&IID=2C6NU0DWCD6W)
 
 Pourtant, les derniers modèles fabriqués par ces entreprises l'ont été dans les
 années 1980 et 1990, comme c'est le cas du modèle ETP 55 Portable^[Cette machine
 a été conçue par Mario Bellini pour Olivetti en 1987, voir
-https://www.moma.org/collection/works/3641 site consulté le 21 février 2024.] où
+<https://www.moma.org/collection/works/3641>, site consulté le 21 février 2024.] où
 sont intégrés des composants électroniques pour suivre le marché des
 ordinateurs.
 Les constructeurs ont opéré un changement de paradigme de l'analogique vers le
@@ -260,7 +260,7 @@ connecter à tout un ensemble de périphériques comme des imprimantes.
 
 ![Photo d'un M10](http://munk.org/typecast/wp-content/uploads/2014/08/15635.jpg "Photo d'un M10")
 
-Crédits : Photo trouvée sur le blog
+Crédits\ : Photo trouvée sur le blog
 [Munk.org](https://munk.org/typecast/2014/08/03/back-to-the-future-pram-and-the-promise-of-unified-memory-again/),
 site consulté le 22 février 2024.
 
@@ -285,7 +285,7 @@ seule interface affichée à l'écran était un terminal, un écran noir où cli
 un curseur.
 Dans cette interface, la navigation s'y faisait au moyen de commandes.
 C'est ce que nous retrouvons avec les premiers logiciels de traitement de texte
-comme Electric Pencil.
+comme _Electric Pencil_.
 Ils ne permettent pas une gestion fine de la mise en page ni ne fonctionnent sur
 tous les modèles d'ordinateurs présents sur le marché^[Un autre logiciel comme
 `TeX` développé en 1984 par Donald Knuth tente de résoudre ce problème de la
@@ -293,11 +293,11 @@ mise en page selon une approche WYSIWYM, que D. Knuth nomme
 _Literate programming_ [@knuth_literate_1984] alors que la tendance est plutôt aux
 interfaces WYSIWYG].
 Ainsi, écrire sur un support connecté paraît aujourd'hui être une évidence alors
-qu'il a fallu déployer de lourds efforts à une époque ou cette évidence était
+que de lourds efforts ont été déployés à une époque ou cette évidence était
 incertaine.
 
 L'écriture numérique est ainsi à distinguer de l'écriture dans un environnement
-numérique : un ordinateur, Internet, le Web, une calculatrice ou une machine à
+numérique\ : un ordinateur, Internet, le Web, une calculatrice ou une machine à
 écrire de la dernière génération.
 En tant qu'abstraction, l'écriture numérique est une représentation du monde
 sous forme de chiffres, dont la qualification à travers un medium permet de l'incarner
@@ -325,19 +325,19 @@ communication [@bachimont_intelligence_2000; @crozat_elements_2011] ou de l'é
 et cela pour ne mentionner qu'une infime partie des textes traitant ce sujet
 parmi un nombre restreint de disciplines de la sphère académique.
 
-Très largement, l'écriture est entendue comme « mode d'expression » et
-« fonction de communication » au sein d'une société [@christin_origines_1999].
+Très largement, l'écriture est entendue comme «\ mode d'expression\ » et
+«\ fonction de communication\ » au sein d'une société [@christin_origines_1999].
 Anne-Marie Christin distingue deux tendances principales de l'origine de
-l'écriture : l'écriture selon la trace, étant soit comprise comme le signe
+l'écriture\ : l'écriture selon la trace, étant soit comprise comme le signe
 verbal transposé sur un support soit comme la marque laissée par un corps, soit
-l'écriture selon le signe dans son sens étymologique d'« événement inaugural
-[qui] participe d’une révélation » tant qu'il s'inscrit dans un « système »
+l'écriture selon le signe dans son sens étymologique d'«\ événement inaugural
+[qui] participe d’une révélation\ » tant qu'il s'inscrit dans un «\ système\ »
 telle que la disposition des entrailles d'une bête sacrifiée lors d'une cérémonie
 [@christin_origines_1999; @vitali-rosati_quest-ce_2020-1].
 À défaut de prendre parti pour l'un ou l'autre de ces paradigmes, nous pouvons
 retenir deux caractéristiques qui leur sont communes et qui peuvent caractériser
 toutes formes d'écriture, même numérique.
-La première est que lorsque l'écriture est convoquée, elle fait appel à deux actions : l'inscription
+La première est que lorsque l'écriture est convoquée, elle fait appel à deux actions\ : l'inscription
 et l'interprétation [@christin_origines_1999; @pedauque_document_2006].
 Qu'il s'agisse d'une trace ou d'un signe, retenons que l'écriture est toujours
 inscrite sur un support et que cette inscription fait l'objet d'une lecture
@@ -363,12 +363,12 @@ Pour argumenter en faveur d'une vision non-anthropocentrée et non dualiste de
 l'écriture, il s'appuie entre autres sur les travaux de M-A. Paveau et sa 
 
 > théorie du discours retravaillée
-> par la cognition sociale dans sa version distribuée : l’intelligence est distribuée dans
+> par la cognition sociale dans sa version distribuée\ : l’intelligence est distribuée dans
 > les environnements, humains comme non humains, et l’objet d’analyse est le système, et
 > non seulement les énoncés ou les locuteurs, qui n’en constituent qu’une partie.
 > Il s’agit donc d’une conception du discours comme intégré dans l’ensemble de l’environnement
-> humain et non humain, et non distingué de cet environnement : je souhaite éviter l’approche
-> « égocéphalocentrée » (expression de C. Brassac qu’il emprunte à J.-P. Kaufmann, et qui désigne
+> humain et non humain, et non distingué de cet environnement\ : je souhaite éviter l’approche
+> «\ égocéphalocentrée\ » (expression de C. Brassac qu’il emprunte à J.-P. Kaufmann, et qui désigne
 > une approche internaliste centré sur le sujet-locuteur) et logocentrée
 > [-@paveau_activites_2012, @paveau_technodiscursivites_2013, @paveau_ce_2015].
 
@@ -383,11 +383,11 @@ Ong, Paveau et Vitali-Rosati, en qualifiant l'écriture de non-humaine [@paveau_
 nous propose de ne pas dissocier l'écriture de l'écriture numérique puisque, finalement,
 la seconde n'est qu'une continuité de la première.
 Pour Ong, l'écriture est alors toujours considérée comme une technique, un outil,
-qu'elle soit numérique ou non, dont les limites d'extériorisation et de cristalisation
+qu'elle soit numérique ou non, dont les limites d'extériorisation et de cristallisation
 de la pensée restent inchangées malgré les changements de support.
 Tandis que pour Paveau et Vitali-Rosati, le qualificatif d'inhumain renvoie à
-cette cognition distribuée, située dans des « interactions sociales,
-culturelles, techniques et technologiques\ »[@vitali-rosati_quest-ce_2020-1] et
+cette cognition distribuée, située dans des «\ interactions sociales,
+culturelles, techniques et technologiques\ » [@vitali-rosati_quest-ce_2020-1] et
 non dans un _logos_.   
 
 Lorsqu'il s'agit d'observer l'écriture numérique à la loupe,
@@ -397,22 +397,22 @@ la variabilité [@bouchardon_lecriture_2014]
 et la rupture sémiotique entre le geste d'écriture et l'inscription sur le
 support [@pedauque_document_2006; @bonaccorsi_fantasmagories_2020; @souchier_numerique_2019].
 
-La première caractéristique est d'ordre computationnel : l'écriture devient
-calculable et peut donc faire l'objet d'instructions. Pour réaliser cette
-action, on procède à une équivalence où chaque signe que l'on peut inscrire dans
-cet environnement à son pendant unique sous forme de bits.
+La première caractéristique est d'ordre computationnel\ : l'écriture devient
+calculable et peut donc faire l'objet d'instructions.
+Pour réaliser cette action, on procède à une équivalence où chaque signe que
+l'on peut inscrire dans cet environnement à son pendant unique sous forme de bits.
 Lorsque chaque caractère peut être identifié en tant que nombre, il devient
 possible d'implémenter ce modèle dans une machine et de lui demander, grâce à
 des instructions, d'appliquer des calculs.
 
 L'exemple idéal pour illustrer cette caractéristique n'est rien de moins que la
-machine imaginée par Alan Turing, qu'il présente en 1936 dans son article « On
-Computable Numbers, with an Application to the Entscheidungsproblem » dans la
+machine imaginée par Alan Turing, qu'il présente en 1936 dans son article «On
+Computable Numbers, with an Application to the Entscheidungsproblem» dans la
 section _Computing machines_ [-@turing_computable_1936].
 Ce que Turing décrit n'est pas une machine physique mais un modèle théorique,
 une machine abstraite fondamentale pour les développements futurs de
 l'informatique.
-Cette machine est constituée de plusieurs éléments :
+Cette machine est constituée de plusieurs éléments\ :
 
 - un ruban («_tape_») divisé en sections (appelées «_square_») dont chacune peut
   porter un symbole (0 ou 1 car cette machine est dans un système binaire)
@@ -423,7 +423,7 @@ ou en écrire un nouveau si la section est vide
   the symbols which it has been "seen" (scanned) previously_»)
 - des instructions pour se déplacer sur le ruban, soit d'une case vers la gauche
   soit d'une case vers la droite, lire et écrire («_scan and print_») ou
-modifier la case scannée et se redéplacer avant de s'arrêter.
+modifier la case scannée et se re-déplacer avant de s'arrêter.
 
 Théoriquement le ruban sur lequel la machine exécute ses programmes est infini
 vers la gauche et la droite et cela afin de permettre l'exécution des
@@ -434,17 +434,18 @@ L'espace de la machine, aussi vaste soit-il, n'est composé que de séries de 0 
 de 1 ainsi que de différents états, renvoyant à des instructions et permettant
 ainsi à la machine de modifier son propre espace. Cette capacité de modification
 peut être associée à la deuxième caractéristique de l'écriture numérique que S.
-Bouchardon nomme la variabilité^[Nous reviendrons sur cette caractlwristique, la
+Bouchardon nomme la variabilité^[Nous reviendrons sur cette caractéristique, la
 variabilité, dans le troisième chapitre de la thèse.].
 
 Le passage du signe à l'unité atomique et discrète qu'est le chiffre signifie un
 changement de représentation du monde (au sens que K. Hayles donne au terme
-_worldview_ [-@hayles_my_2005]) : le monde -- ou l'espace -- n'est alors plus
+_worldview_ [-@hayles_my_2005])\ : le monde -- ou l'espace -- n'est alors plus
 signifié par des mots ou des concepts, mais le devient par des chiffres.
 Comme McLuhan nous le rappelle dans son ouvrage _Pour comprendre les médias_
 [-@mcluhan_pour_1977], les alphabets
 composés de lettres (contrairement à ceux composés de pictogrammes) sont
-asémantiques. Si toutefois les alphabets sont liés à une culture d'où ils
+asémantiques.
+Si toutefois les alphabets sont liés à une culture d'où ils
 émergent, l'abstraction nécessaire pour représenter le monde sous forme de
 chiffres détacherait a priori cette vision de tout sens.
 En dehors de tout modèle mathématiques abstrait, et cela quel que soit le
@@ -461,12 +462,12 @@ Il s'agit de la première forme d'écriture où le geste d'écrire ne correspond
 à l'action d'inscription du signe sur son support, phénomène que J. Bonaccorsi
 nomme également déliaison [@bonaccorsi_fantasmagories_2020].
 Lorsqu'on appuie sur une touche du clavier, par exemple la lettre `a`, elle ne
-s'inscrit pas dans l'écran : l'instruction d'inscrire un signe dans la
+s'inscrit pas dans l'écran\ : l'instruction d'inscrire un signe dans la
 mémoire de l'ordinateur est d'abord donnée à la machine, puis vient ensuite celle
 de l'afficher à l'écran au moyen d'un logiciel particulier [@kittler_mode_2015;
 @souchier_numerique_2019].
 Néanmoins, le fait d'appuyer sur une touche du clavier lorsque l'ordinateur est
-sous tension ne suffit pas pour déclencher cette instruction : si aucun
+sous tension ne suffit pas pour déclencher cette instruction\ : si aucun
 environnement dédié à l'écriture n'est lancé au préalable, le fait d'enfoncer
 une touche du clavier ne déclenchera aucune réaction de la part de la machine.
 Par contre, lorsque l'on se situe dans un environnement où cette réaction est
@@ -491,8 +492,8 @@ perspective d'une machine qui participe et contribue à l'écriture et, ce
 faisant, participerait à la production d'une épistémologie du texte et du
 document.
 
-Seulement, la "machine" ou l'"ordinateur" sont des appellations
-un peu vagues et ne rendent pas très explicite les
+Seulement, la _machine_ ou l'_ordinateur_ sont des appellations
+vagues et ne rendent pas très explicite les
 éléments qu'elles désignent, ni ceux qui sont impliqués dans cette action
 d'écriture et dans cette relation entre humain et machine.
 
@@ -506,18 +507,18 @@ de traitement de texte comme LibreOffice.
 
 Ce couple matériel / logiciel range l'ordinateur dans la catégorie des appareils
 programmables.
-La plupart de nos appareils du quotidien ne sont pas programmables : ils
+La plupart de nos appareils du quotidien ne sont pas programmables\ : ils
 exécutent ce pour quoi ils sont conçus et ne font rien d'autre.
 Dans le cas d'un ordinateur ou d'un téléphone intelligent, ou de tout autre
-appareil programmable, leur conception prévoit qu'ils soient manipulables :
+appareil programmable, leur conception prévoit qu'ils soient manipulables\ :
 ils n'ont pas de fonction précise, néanmoins ils sont capables de répondre à
 plusieurs fonctions.
 Un ordinateur qui n'a aucune instruction ne pourra rien faire une fois alimenté.
-C'est là que les logiciels interviennent : ils permettent un usage déterminé
+C'est là que les logiciels interviennent\ : ils permettent un usage déterminé
 d'un ordinateur en manipulant des informations de façon à exécuter une suite
 d'instructions formelles.
 
-Pour fonctionner, un ordinateur n'a besoin que des éléments suivants : une
+Pour fonctionner, un ordinateur n'a besoin que des éléments suivants\ : une
 alimentation, un processeur, une mémoire vive, des entrées et sorties et une
 carte mère auxquels viennent s'ajouter un certains nombres de périphériques
 (écrans, souris, clavier, etc.), des extensions pour prendre en charge une
@@ -526,7 +527,7 @@ graphique) et des mémoires de stockage (disques durs).
 
 Le processeur, ou microprocesseur pour les ordinateurs modernes, est le
 calculateur central de l'ordinateur, c'est cet élément qui manipule toutes les
-données à traiter -- que l'on appelle aussi le(s) coeur(s) de l'ordinateur.
+données à traiter -- que l'on appelle aussi le(s) cœur(s) de l'ordinateur.
 Chaque modèle de processeur à une architecture qui lui est propre, ce qui veut
 dire que chacun traite les informations différemment (même si le résultat
 obtenu est identique).
@@ -541,8 +542,8 @@ transistor.
 
 Le premier processeur commercialisé, le processeur Intel 4004, l'a été en
 1971^[Voir la page web correspondante sur le site de l'entreprise Intel,
-consulté le 16 février 2024 :
-https://www.intel.fr/content/www/fr/fr/history/museum-story-of-intel-4004.html.].
+consulté le 16 février 2024\ :
+<https://www.intel.fr/content/www/fr/fr/history/museum-story-of-intel-4004.html>.].
 Il s'agissait d'un processeur 4-bits comportant pas moins de 2300 transistors.
 Lors de la commercialisation de cet objet s'opère un changement radical dans la
 conception des ordinateurs puisque, dès lors, du fait de la miniaturisation de
@@ -576,7 +577,7 @@ humainement interprétables.
 L'encodage et le décodage des caractères accompagne toute l'histoire de
 l'informatique (et du numérique).
 Aux prémices de l'informatique, chaque matériel comportait ses propres
-programmes et tables d'encodage, rendant ainsi "possible" la transposition des
+programmes et tables d'encodage, rendant possible la transposition des
 données d'un matériel à un autre par équivalence.
 Cependant, dans la plupart des cas, les données ne pouvaient pas circuler entre
 les différents modèles d'ordinateur, ou alors au moyen de transformations
@@ -636,18 +637,18 @@ fonctionnement des composants comme c'est le cas de l'horloge temps réel qui
 fonctionne en tout temps, même lorsque l'ordinateur est éteint, et rythme la
 totalité des cycles des autres circuits.
 Hormis quelques rares initiatives telles que Libreboot^[Voir le site web de
-Libreboot : https://libreboot.org/, consulté le 03 avril 2024.] et
-Coreboot^[Voir le site web de Coreboot : https://www.coreboot.org/, consulté le
+Libreboot\ : <https://libreboot.org/>, consulté le 03 avril 2024.] et
+Coreboot^[Voir le site web de Coreboot\ : <https://www.coreboot.org/>, consulté le
 03 avril 2024.], des logiciels libres et _open sources_ chargés de remplacer
 partiellement le BIOS propriétaire, la majorité des cartes mères sont liées à
 leur BIOS du fait de l'ajout par Intel, à partir de 2006, d'un sous-programme
 nommé _Management Engine_ (ME) qui est accompagné d'un ensemble de modules comme
 _Boot Guard_ et _Secure Boot_ dont l'objectif est de veiller à ce qu'il n'y ait
 pas de corruption du système d'amorçage de l'ordinateur^[Des informations sur ce
-sujet sont disponibles à cette adresse sur le site web de libreboot :
-https://libreboot.org/faq.html#what-systems-are-compatible-with-libreboot ou
-dans la documentation des matériels d'Intel :
-https://www.intel.com/content/www/us/en/search.html?ws=idsa-default#q=boot%20guard&sort=relevancy&f:@tabfilter=[Developers],
+sujet sont disponibles à cette adresse sur le site web de libreboot\ :
+<https://libreboot.org/faq.html#what-systems-are-compatible-with-libreboot> ou
+dans la documentation des matériels d'Intel\ :
+<https://www.intel.com/content/www/us/en/search.html?ws=idsa-default#q=boot%20guard&sort=relevancy&f:@tabfilter=[Developers]>,
 consultés le 03 avril 2024.].
 Ces programmes ont sans cesse été améliorés depuis
 leur introduction en 2006 et, aujourd'hui, ils empêchent toute modification de
@@ -667,9 +668,9 @@ Le système d'exploitation (OS pour _Operating System_), est un niveau
 d'abstraction supplémentaire et se retrouve à l'interface entre les applications
 logicielles et la couche matérielle.
 Un OS est composé d'un ensemble de programmes permettant la bonne gestion des
-ressources de l'ordinateur : mémoires, calculs, périphériques, registres,
+ressources de l'ordinateur\ : mémoires, calculs, périphériques, registres,
 etc.
-Chaque OS a un fonctionnement qui lui est propre : l'architecture des
+Chaque OS a un fonctionnement qui lui est propre\ : l'architecture des
 informations -- l'arborescence des dossiers, l'indexation des documents et des
 fichiers binaires change selon l'OS utilisé --, l'ordonnancement des tâches pour
 le processeur ou encore l'allocation de la mémoire, etc.
@@ -704,7 +705,7 @@ Cette vision du monde n'est pas seulement une vision particulière que l'humain 
 de la machine car dans ce cas nous serions dans un paradigme anthropocentré et
 utilitariste de la machine.
 En nous déplaçant de l'autre côté de la fenêtre, on se rend compte que la vision
-que porte la machine sur le monde est différente de la nôtre : la machine
+que porte la machine sur le monde est différente de la nôtre\ : la machine
 incarne une autre vision du monde sous forme de matrice, où chaque élément
 qu'elle perçoit l'est sous forme binaire.
 Le monde n'est alors plus que chiffres, calculs et distances, comme c'est le cas
@@ -716,20 +717,19 @@ du logiciel.
 À travers cette interface, lorsque l'on touche une lettre du bout du doigt, la
 machine devient alors accessible et l'impulsion (électrique) que cette action
 génère se transforme en une lettre à l'écran.
-Pour autant, cette accessibilité est-elle synonyme de mise en visibilité ?
-Le fait que "ça marche" rendrait-il le document plus visible ?
+Pour autant, cette accessibilité est-elle un synonyme de mise en visibilité\ ?
+Le fait que "ça marche" rendrait-il le document plus visible\ ?
 Au contraire, c'est le rôle de l'interface graphique et des métaphores qu'elle véhicule que de
 cacher le fonctionnement même de la machine [@jeanneret_y_2011].
 La déliaison convoquée par Bonaccorsi [@bonaccorsi_fantasmagories_2020] prend
 place dès cet instant dans le processus d'écriture puisqu'il ne s'agit pas
 seulement de délier le geste de l'inscription mais également de faire
 abstraction de tout le processus d'écriture au-delà du geste.
-Ainsi, le logiciel aurait une double fonctionnalité : la première est une
+Ainsi, le logiciel aurait une double fonctionnalité\ : la première est une
 médiation qui ouvre le dialogue avec la machine tandis que la seconde en fait
 abstraction et la cache, ce qui a pour effet de rendre la machine quasiment
 invisible à l'utilisateur.
-Cependant, que découvrons-nous lorsque nous retirons ce voile devant la fenêtre
-?
+Cependant, que découvrons-nous lorsque nous retirons ce voile devant la fenêtre\ ?
 Là se dévoile un vaste écosystème constitué de formats, des protocoles et leurs
 flux d'informations et de documents, parfois temporaires, voyageant d'une étape
 à une autre, prenant forme et se transformant pour suivre un cheminement
@@ -759,12 +759,12 @@ Ce texte particulier qui pré-existe toute activité numérique est nommé
 architexte [@souchier_numerique_2019].
 
 L'architexte est un concept d'abord employé par Gérard Genette
-[-@genette_introduction_1979] et désigne « l'ensemble des catégories générales,
+[-@genette_introduction_1979] et désigne «\ l'ensemble des catégories générales,
 ou transcendantes -- types de discours, modes d'énonciations, genre littéraires,
-etc. --, dont relève chaque texte singulier ».
+etc. --, dont relève chaque texte singulier\ ».
 
 En 2019, dans leur ouvrage intitulé _Le numérique comme écriture_, G. Gomez
-Mejia, W. Candel et E. Souchier résument l'architexte numérique comme :
+Mejia, W. Candel et E. Souchier résument l'architexte numérique comme\ :
 
 > Initialement défini comme "écriture d'écriture" puis comme un "dispositif
 > d'écriture écrit", l'architexte s'avère être un point de passage obligé pour
@@ -792,8 +792,8 @@ auteur et la machine qu'il emploie pour écrire.
 Jusqu'à présent, la définition de l'architexte englobe largement tous les écrits
 qui permettent d'écrire à l'écran.
 En 2019, G. Gomez-Mejia, E. Souchier et E. Candel précisent ce que sont ces
-méta-écritures et en dressent une typologie composée de quatre « cadres d'écrits
-d'écran » :
+méta-écritures et en dressent une typologie composée de quatre «\ cadres d'écrits
+d'écran\ »\ :
 
 - le matériel
 - le système
@@ -818,18 +818,18 @@ Certes, les interfaces d'écriture sont présentées sous la forme de gabarits q
 l'on doit remplir, comme on peut le faire avec des logiciels de création de
 diapositives dont chacune est découpée en sections contenant tour à tour des
 images, des titres ou du texte.
-Dans cet exemple-ci nous avons affaire à une construction visuelle du document :
+Dans cet exemple-ci nous avons affaire à une construction visuelle du document\ :
 un emplacement pour le titre de la diapositive, un autre pour le texte, un autre
 pour une image ou pour un graphique, etc.
 À ce sujet, E. Tufte [-@tufte_cognitive_2003] a publié un article sur
 l'utilisation du logiciel PowerPoint et démontre à travers plusieurs cas d'étude
 les effets du logiciel sur la forme des présentations et des informations
 qu'elles contiennent.
-La thèse qu'il y défend est que ce logiciel, en 2003, « [...] perturbe, domine
-et banalise systématiquement le contenu. » ^[Traduction personnelle de : \[...\]
-routinely disrupts, dominates, and trivializes content.] notamment parce qu'il
-« facilite activement la réalisation de présentation légère »^[Traduction
-personnelle de : actively facilitates the making of lightweight presentations.].
+La thèse qu'il y défend est que ce logiciel, en 2003, «\ [...] perturbe, domine
+et banalise systématiquement le contenu.\ » ^[Traduction personnelle de\ : \[...\]
+_routinely disrupts, dominates, and trivializes content_.] notamment parce qu'il
+«\ facilite activement la réalisation de présentation légère\ »^[Traduction
+personnelle de\ : _actively facilitates the making of lightweight presentations_.].
 À travers son analyse des usages de PowerPoint, E. Tufte nous montre qu'il
 ne s'agit pas d'un manque de fonctionnalité pour enrichir des supports de
 présentation, que l'auteur qualifie de pauvres, mais que le logiciel lui-même
@@ -838,12 +838,12 @@ réalisations de graphiques automatisées ou d'autres fonctionnalités similaire
 qui appauvrissent les présentations parce que leur fonctionnement est calqué sur
 un modèle de présentation marketing qui n'est pas adapté aux sciences.
 Il ne s'agit plus seulement de remplir des gabarits préfabriqués mais également
-de penser les formes que peuvent prendre l'information, ce que Tufte nomme « The
-Cognitive Style of PowerPoint », qui n'est pas sans rappeler la raison
+de penser les formes que peuvent prendre l'information, ce que Tufte nomme «\ The
+Cognitive Style of PowerPoint\ », qui n'est pas sans rappeler la raison
 computationnelle de Bruno Bachimont [-@bachimont_intelligence_2000].
  
 En changeant de paradigme, de la raison graphique pour celui de la raison
-computationnelle, l'assujetissement à ces architextes dépasse cette surcouche
+computationnelle, l'assujettissement à ces architextes dépasse cette surcouche
 graphique et concerne également toutes les sous-couches (in)visibles de
 structuration du texte, mais aussi tout le processus d'inscription du
 document dans la mémoire, ainsi que les protocoles et méthodes qui permettent
@@ -858,13 +858,13 @@ comme imaginaire en y enfermant les utilisateurs, et le rôle de guide qu'il doi
 remplir dans le traitement des informations.
 Dans ce cas-ci, le nom du logiciel ne réfère ni à son fonctionnement ni à son
 utilité.
-Alors que dans les années 1980, lors de la génèse des traitements de texte, les
+Alors que dans les années 1980, lors de la genèse des traitements de texte, les
 lettres `WP` signifiaient WordPerfect^[Cet acronyme correspondait à la commande
 pour exécuter le logiciel depuis un terminal, alors qu'aujourd'hui il réfère
 plutôt au logiciel WordPress.], et que la plupart des autres concurrents
 employaient également le mot _word_ dans le nom de leur logiciel, car c'est bien
 le mot et son traitement informatique qui était au centre des développements, la
-démarche d'Apple en 2005 nous montre un changement de perspective : on passe du
+démarche d'Apple en 2005 nous montre un changement de perspective\ : on passe du
 mot à la page.
 L'attention est portée à un autre endroit, sur une page que génère _Pages_ et qui
 n'existe pas dans d'autres environnements.
@@ -876,11 +876,11 @@ cet endroit.
 Depuis vingt ans que cet outil est nativement disponible sur les ordinateurs de
 chez Apple, la compatibilité avec d'autres formats et/ou logiciels augmente
 tardivement, en témoigne les arguments de communication mis en avant sur la page
-web du logiciel^[Voir le site web, consulté le 21 mars 2024 :
-https://www.apple.com/pages/compatibility/], mais compatible ne veut pas dire
+web du logiciel^[Voir le site web, consulté le 21 mars 2024\ :
+<https://www.apple.com/pages/compatibility/>], mais compatible ne veut pas dire
 identique.
 En plus de n'être accessible que **sous** MacOS, cette page ne l'est également
-que **sous** Pages : cette formulation courante laisse entendre que
+que **sous** Pages\ : cette formulation courante laisse entendre que
 l'utilisateur devient alors sujet de son environnement d'écriture, nous dit F.
 Kittler [-@kittler_mode_2015].
 
@@ -905,7 +905,7 @@ n'existe pas, on y retrouve la provocation de Kittler, et que toutes ces
 dynamiques, ces intra-actions, sont des médiations dont la matérialité, dans un
 agencement donné, produit du sens [@vitali-rosati_media_2019].
 
-Ainsi, l'assujetissement de l'humain aux logiciels que nous avons mentionné, que
+Ainsi, l'assujettissement de l'humain aux logiciels que nous avons mentionné, que
 F. Kittler critique vivement dans ses travaux, n'a plus de raison d'être dans
 cette perspective non-essentialiste offerte par l'éditorialisation puisque ces
 entités sont uniquement déterminées lorsqu'il y a intra-action.
@@ -921,10 +921,10 @@ ils s'affectent les uns les autres.
 Pour réaliser cela, le dépassement de l'interface et des métaphores affichées à l'écran devient dès
 lors un acte symbolique nécessaire pour se soustraire à
 une vision essentialiste des actions de lecture et d'écriture.
-Pour effectuer ce changement de perspective, nous devons d'abord nous débarasser
-d'un élément central à l'interface de l'humain et la machine : la page.
+Pour effectuer ce changement de perspective, nous devons d'abord nous débarrasser
+d'un élément central à l'interface de l'humain et la machine\ : la page.
 
-Le terme _page_ revient de manière récurrente dans nos usages de l'ordinateur :
+Le terme _page_ revient de manière récurrente dans nos usages de l'ordinateur\ :
 on le retrouve dans les logiciels de traitement de textes dont Pages fait partie, dans les
 livres numériques ou encore dans le Web où chaque URL est l'adresse d'une page.
 Matthew Kirschenbaum et Thomas Bergin nous détaillent dans leurs travaux
@@ -932,7 +932,7 @@ l'arrivée de la page sur nos écrans durant les années 1970 et le début des
 années 1980 [@kirschenbaum_track_2016; @bergin_origins_2006; @bergin_proliferation_2006].
 
 Cet objet qu'est la page a été instauré dans l'ordinateur uniquement pour
-reproduire une « habitude » et créer un lien fictif entre les visions du monde
+reproduire une «\ habitude\ » et créer un lien fictif entre les visions du monde
 de l'imprimerie et de l'informatique.
 Cet artefact produit une forme de réconfort auprès de l'utilisateur pour que le
 monde informatique lui semble plus tangible, qu'il ait quelque chose auquel se
@@ -948,7 +948,10 @@ virtuel et presque sans matérialité du point de vue de l'informatique.
 Malgré tous les efforts effectués depuis son instauration à l'écran, la page
 affichée n'est jamais la page imprimée car, aussi précis que soient les détails
 typographiques que l'on peut y ajuster, elle ne reflétera jamais le grain,
-l'épaisseur, l'odeur ou tout autre caractéristique physique du papier^[Le terme _physique_ est à distinguer de _matériel_. Nous l'employons dans le même sens que K. Hayles [-@hayles_parole_2015]. Physique renvoie aux caractéristiques d'un objet alors que la dimension matérielle est une propriété émergente].
+l'épaisseur, l'odeur ou tout autre caractéristique physique du papier^[Le terme _physique_ est à distinguer de _matériel_.
+Nous l'employons dans le même sens que K. Hayles [-@hayles_parole_2015].
+Physique renvoie aux caractéristiques d'un objet tandis que la dimension matérielle est une propriété émergente.
+Elle émerge de l'action d'inscription sur l'objet physique.].
 
 La critique énoncée à l'endroit de la page ne doit pas être réduite à une
 apologie d'un mode sans page.
@@ -957,7 +960,7 @@ effrayer_ l'utilisateur, la page fait écran devant l'ordinateur, et cache la
 machine qui ne devient plus qu'un simple mécanisme au lieu d'être un agent de
 l'énonciation éditoriale.
 
-Cette peur de l'informatique pourrait relever essentiellement de l'angoise de
+Cette peur de l'informatique pourrait relever essentiellement de l'angoisse de
 l'arrachement d'une valeur qui définie l'être humain et devienne une
 caractéristique d'une autre entité, ne permettant plus de définir l'humain en
 regard de ce que lui seul est capable de faire.
@@ -987,16 +990,16 @@ traduit une incapacité à définir l'être humain, nous pouvons nous appuyer su
 pensée de Gunther Anders et convoquer une forme de honte
 [@anders_obsolescence_2002] que la page camoufle.
 
-Interagir avec une machine demande une certaine rigueur : qu'il s'agisse de
+Interagir avec une machine demande une certaine rigueur\ : qu'il s'agisse de
 structurer un document ou de lui donner une série d'instructions (du code), une
-machine ne peut interpréter l'ambiguité ou l'implicite culturel.
+machine ne peut interpréter l'ambiguïté ou l'implicite culturel.
 Cela voudrait dire qu'aucun échange humain-ordinateur ne peut reposer sur des
 conventions culturelles de lecture et que l'instruction donnée n'a, en
 elle-même, aucun sens.
 Dès lors, comment pouvons-nous admettre que quelque chose qui n'a pas de sens
-puisse en générer ?
+puisse en générer\ ?
 
-La honte (prométhéenne) d'Anders est alors double : d'un côté il y a un mélange
+La honte (prométhéenne) d'Anders est alors double\ : d'un côté il y a un mélange
 de fierté devant cette machine créée par l'être humain et de honte parce que
 l'individu isolé devant la machine sait que ce n'est pas lui qui l'a mise au
 point et, de l'autre, il y a cette honte à être face à un outil qui réalise une
@@ -1004,7 +1007,7 @@ action mieux qu'on ne le ferait soi-même alors que cette dite machine n'a aucun
 conscience de ce qu'elle réalise.
 
 Le dépassement de la page et de l'écran est une proposition pour poser un autre
-regard non anthrocopentré sur cette question de l'écriture numérique et laisser
+regard non anthropocentré sur cette question de l'écriture numérique et laisser
 de côté les modalités de définition de l'être humain en acceptant son caractère
 inhumain.
 En dépassant la page, il ne s'agit plus de poser la question de l'auteur de
@@ -1013,7 +1016,7 @@ demander comment cette nouvelle fonction (inter)agit entre les agents
 d'un système d'informations.
 Que se passe-t-il lorsque cet ordinateur devient un agent actif qui écrit et
 transmet des informations entre, d'une part, l'instructeur (la personne qui
-donne des instructions) et les documents issus du traitement de ces instructions ?
+donne des instructions) et les documents issus du traitement de ces instructions\ ?
 Dans cette configuration s'opère alors un changement radical de l'état de
 l'ordinateur.
 D'abord à l'état de médiateur puis de support de l'écriture, l'ordinateur passe
@@ -1021,10 +1024,10 @@ maintenant au statut d'entité agissante au sein d'un système d'informations.
 
 Traverser la page pour atteindre les couches inférieures nous amène à faire escale
 sur la couche logicielle.
-Le logiciel a un statut intéressant : on le considère souvent comme un
+Le logiciel a un statut intéressant\ : on le considère souvent comme un
 médiateur, un agent qui permet la communication et l'interaction humain-machine,
 pourtant ce n'est pas le cas de toutes les recherches.
-F. Kittler et sa très célèbre provocation « Es gibt keine Software », traduit
+F. Kittler et sa très célèbre provocation «\ Es gibt keine Software\ », traduit
 par _Le logiciel n'existe pas_ [-@kittler_mode_2015], nous rappelle que ces
 écritures (qui nous permettent d'écrire), sont stockées et traitées par la
 machine exactement de la même façon que n'importe quelle écriture numérique.
@@ -1032,8 +1035,8 @@ machine exactement de la même façon que n'importe quelle écriture numérique.
 On retrouve tous ces textes numériques (logiciels et documents) au même niveau
 hiérarchique dans l'architecture du système d'exploitation et le traitement qui
 leur est appliqué par le processeur est identique.
-La nomination des logiciels en tant qu'« écrits qui permettent les écrits
-d'écran » par E. Souchier nous mène aussi à cette juxtaposition : finalement le
+La nomination des logiciels en tant qu'«\ écrits qui permettent les écrits
+d'écran\ » par E. Souchier nous mène aussi à cette juxtaposition\ : finalement le
 logiciel est de même nature que le texte que nous y rédigeons à l'intérieur.
 
 Toutefois, une distinction persiste.
@@ -1044,10 +1047,10 @@ Son code source peut lui aussi faire l'objet d'une remédiation
 [@bolter_remediation_1998] mais il sera dénaturé, car sa fonction principale est
 l'organisation du traitement des informations dans un ordinateur.
 D'ailleurs, C. Herrenschmidt nous rappelle que le terme de logiciel a été forgé
-à partir de la contraction du mot "logique" avec le mot "matériel"
+à partir de la contraction du mot _logique_ avec le mot _matériel_
 [@herrenschmidt_trois_2023, p.474], pour justement montrer à la fois l'opposition
 du logiciel avec l'aspect matériel (_hardware_) et marquer leur
-complémentarité : l'ordinateur (_hardware_) serait très peu accessible (voire
+complémentarité\ : l'ordinateur (_hardware_) serait très peu accessible (voire
 inaccessible) sans logiciel, et le logiciel n'existe pas en dehors de
 l'ordinateur.
 
@@ -1066,20 +1069,20 @@ et externe à l'ordinateur.
 La relation entre un logiciel avec le reste de son écosystème peut être
 qualifiée de fragile et nécessite une attention particulière puisque
 l'agencement du logiciel avec le reste de l'environnement ne peut se
-faire qu'au prix d'une compatiblité entre les divers éléments qui le composent
+faire qu'au prix d'une compatibilité entre les divers éléments qui le composent
 -- même si les systèmes d'exploitation récents lissent et camouflent cet aspect-là. 
 Pour fonctionner, le logiciel doit être compatible avec plusieurs composants de
-l'ordinateur. Les premiers composants sont matériels : est-ce que l'ordinateur a
+l'ordinateur. Les premiers composants sont matériels\ : est-ce que l'ordinateur a
 une carte graphique, quel type de processeur ou la quantité de mémoire vive,
 etc.
-C'était un fait connu du temps des premiers logiciels comme WordPerfect
+C'était un fait connu du temps des premiers logiciels comme _WordPerfect_
 [@bergin_origins_2006; @kirschenbaum_track_2016; @kittler_mode_2015] et que l'on
 voit de moins en moins aujourd'hui, notamment parce que 1) les logiciels à
 installer sont disponibles pour beaucoup de matériels -- exceptés pour certains
 jeux vidéos ou des programmes que l'on va préférer faire fonctionner sur des
 "machines plus puissantes" avec plus de capacité de calcul -- et 2) parce que le
 développement des téléphones intelligents depuis une vingtaine d'années a donné
-naissance à un nouveau format d'application : les _progressive web apps_ qui
+naissance à un nouveau format d'application\ : les _progressive web apps_ qui
 utilisent les technologies du web (HTML, CSS, JS) pour fonctionner et sont donc
 exécutables sur plus de supports puisqu'elles sont agnostiques^[En informatique,
 le qualificatif agnostique désigne une ressource indépendante du système au sein
@@ -1092,7 +1095,7 @@ Le deuxième composant est le système d'exploitation (et sa version).
 En fonction du système d'exploitation -- et de sa version -- un logiciel pourra
 y être installé à l'intérieur.
 Ce deuxième paramètre ne doit pas être sous-estimé, car l'écosystème des
-logiciels fonctionne sur la base d'un système réticulaire : les programmes ne
+logiciels fonctionne sur la base d'un système réticulaire\ : les programmes ne
 sont pas développés _from scratch_, ils s'appuient sur d'autres briques
 logicielles qui elles-mêmes s'appuient sur d'autres briques logicielles. Chacune
 d'entre elles dépend d'une version particulière de l'autre. Si une version
@@ -1122,7 +1125,7 @@ aussi l'intégralité de l'écosystème dans lequel le logiciel fonctionne.
 fonctionner dans les environnements récents doivent faire l'objet d'une
 émulation pour être exécuté\ : les conditions permettant leur bon fonctionnement
 sont simulés à l'identique pour reproduire la machine sur laquelle le logiciel a
-été initiallement conçu.
+été initialement conçu.
 Ce phénomène est récurrent dans plusieurs domaines tels que les archives du web
 ou les jeux vidéos, mais est également valable pour tous les logiciels.
 
@@ -1145,7 +1148,7 @@ unités sémiotiques empruntent pour y être transformées en unités calculable
 Chaque environnement d'écriture incarne un modèle et une vision du traitement de
 l'information, que l'on peut englober sous le nom de cet environnement.
 Lors de l'interaction entre un usager et une machine, par le biais de cet
-environnement, les médiations à l'oeuvre sont des dynamiques qui,
+environnement, les médiations à l'œuvre sont des dynamiques qui,
 lorsqu'elles sont agencées dans une configuration particulière,
 co-construisent un document jusqu'à sa matérialisation.
 
@@ -1171,11 +1174,15 @@ Alain Mille en dresse l'histoire depuis les débuts d'Internet dans les années
 1960 à partir du réseau filaire ARPAnet développé par le
 département de la défense américaine [@mille_internet_2014].
 À ce stade précoce, comme le souligne A. Mille, il manque une brique technologique pour que naisse
-l'Internet : un protocole de transfert des documents.
+l'Internet\ : un protocole de transfert des documents.
 Le premier protocole a vu le jour en 1969^[Il n'y a pas de corrélation directe
 avec l'utilisation de la norme ASCII par les institutions américaines à cette
 date, néanmoins on remarque qu'il y a un engouement pour l'informatique à la fin
-des années 1960.] et a fait l'objet de la première RFC^[On peut retrouver tout le contenu de cette RFC sur cette page web : https://www.rfc-editor.org/rfc/rfc3.html. Les RFC sont numérotées, dans ce cas-ci il s'agit de la RFC 3, et vont par ordre croissant. Une modification d'un document numéroté fait l'objet d'un nouveau numéro et rend obsolète la version antérieure. Comme on peut la page Web, la RFC 3 est rendue obsolète par la numéro 10, puis la 16, etc.] (_Request for comments_)
+des années 1960.] et a fait l'objet de la première RFC^[On peut retrouver tout le contenu
+de cette RFC sur cette page web\ : <https://www.rfc-editor.org/rfc/rfc3.html>, page consultée le 25 septembre 2024.
+Les RFC sont numérotées, dans ce cas-ci il s'agit de la RFC 3, et vont par ordre croissant.
+Une modification d'un document numéroté fait l'objet d'un nouveau numéro et rend obsolète la version antérieure.
+Comme on peut la page Web, la RFC 3 est rendue obsolète par la numéro 10, puis la 16, etc.] (_Request for comments_)
 avant de trouver une forme plus aboutie dans le protocole TCP en 1974 --
 décrit par Vincent Cerf et Bob Kahn -- et permet
 avec sa distribution sous forme de paquets la naissance d'Internet.
@@ -1207,7 +1214,7 @@ L'architecture logicielle de Stylo peut donc être scindée en trois parties.
 ![Les différents modules de Stylo](https://s3.hedgedoc.org/demo/uploads/afdf01ec-bd0b-4b38-8394-752d6e2d1e4b.png "Les différents modules de Stylo")
 
 Tout d'abord, nous retrouvons la base de données où sont stockées toutes les
-informations et données de Stylo : les comptes utilisateurs, les articles, les
+informations et données de Stylo\ : les comptes utilisateurs, les articles, les
 espaces de travail, les corpus, etc.
 Cette base de données est réalisée avec MongoDB, un système de gestion de base
 de données non relationnelles développé en 2007 et s'appuyant sur des documents
@@ -1221,12 +1228,12 @@ Cette brique technologique est articulée autour du logiciel de transformation e
 de conversion Pandoc^[Pandoc est un incontournable pour transformer des
 documents. Il a été développé et maintenu en Haskell par son créateur John
 MacFarlane depuis 2006.] déployée sur un serveur et rendue accessible via une
-autre API^[La pandoc-api est accessible à cet _endpoint_ :
-https://pandoc-api.stylo.huma-num.fr/] fabriquée à partir du framework
-FastAPI^[FastAPI est disponible à cette adresse : https://fastapi.tiangolo.com/,
+autre API^[La pandoc-api est accessible à cet _endpoint_\ :
+<https://pandoc-api.stylo.huma-num.fr/>, site consulté le 25 septembre 2024.] fabriquée à partir du framework
+FastAPI^[FastAPI est disponible à cette adresse\ : <https://fastapi.tiangolo.com/>,
 consulté le 24 février 2024.].
 Le module d'export intégré à Stylo^[On peut trouver le module d'export à cette
-URL : https://export.stylo.huma-num.fr/] permet de convertir et de transformer
+URL\ : <https://export.stylo.huma-num.fr/>, site consulté le 25 septembre 2024.] permet de convertir et de transformer
 les textes sources en une multitude d'artefacts, selon les capacités de
 transformation et de conversion du logiciel Pandoc auquel il est rattaché.
 
@@ -1242,8 +1249,8 @@ qui permet d'implémenter le multilinguisme dans l'interface et de changer la la
 affichée à l'écran en un seul clic.
 
 L'éditeur de texte, pièce maîtresse de Stylo, s'appuie sur la technologie
-Monaco^[Voir le site web dédié à l'éditeur Monaco :
-https://microsoft.github.io/monaco-editor/, consulté le 29 février 2024.]
+Monaco^[Voir le site web dédié à l'éditeur Monaco\ :
+<https://microsoft.github.io/monaco-editor/>, page consultée le 25 septembre 2024.]
 développée par Microsoft et rendu disponible sous licence MIT.
 
 Ces deux blocs, la base de données MongoDB et l'interface web, ne sont
@@ -1254,11 +1261,11 @@ En conséquence, un canal de communication devait être établi entre ces deux
 objets pour que les données puissent être accessibles à la fois en lecture, pour
 l'affichage dans la page web, et en écriture pour ajouter, modifier ou supprimer
 des éléments.
-Pour mettre en oeuvre cette communication, une API (_Application Programming
+Pour mettre en œuvre cette communication, une API (_Application Programming
 Interface_) utilisant le langage de requête GraphQL a été mise en place et
 rendue accessible via le protocole HTTP (_Hypertext Transfert
-Protocol_)^[L'_endpoint_ de l'API GraphQL de Stylo est accessible ici :
-https://stylo.huma-num.fr/graphql.], la surcouche du protocole internet utilisée
+Protocol_)^[L'_endpoint_ de l'API GraphQL de Stylo est accessible ici\ :
+<https://stylo.huma-num.fr/graphql>, page consultée le 25 septembre 2025.], la surcouche du protocole internet utilisée
 pour le web.
 Le langage de requête et de manipulation des données GraphQL a également été
 développé par Facebook à partir de 2012 puis publié en _open source_ en 2015.
@@ -1286,7 +1293,7 @@ différentes façons d'écrire une requête.
 Par exemple dans Stylo, le champ `user` contient les informations suivantes^[La
 modélisation du schéma GraphQL de Stylo est accessible sur le dépôt Github à
 l'adresse
-suivante :https://github.com/EcrituresNumeriques/stylo/blob/master/graphql/models/user.js] :
+suivante :<https://github.com/EcrituresNumeriques/stylo/blob/master/graphql/models/user.js>, page consultée le 25 septembre 2024.]\ :
 
 - _id
 - displayName
@@ -1312,7 +1319,7 @@ suivante :https://github.com/EcrituresNumeriques/stylo/blob/master/graphql/mod
 - stats
 
 Une requête simple consisterait à vouloir récupérer l'adresse courriel liée à
-mon compte utilisateur: 
+mon compte utilisateur\ : 
 
 ```graphql
 query usermail {
@@ -1322,7 +1329,7 @@ query usermail {
 }
 ```
 
-et renverrait comme réponse :
+et renverrait comme réponse\ :
 
 ```graphql
 {
@@ -1338,7 +1345,7 @@ Cet exemple montre qu'il y a une certaine économie de l'information implément�
 dans le fonctionnement même de GraphQL pour n'aller chercher que les
 informations nécessaires pour une requête particulière, pour peu que la requête
 en elle-même soit bien rédigée.
-D'ailleurs, il s'agit là d'un des écueils potentiels de GraphQL : des requêtes
+D'ailleurs, il s'agit là d'un des écueils potentiels de GraphQL\ : des requêtes
 mal formulées peuvent aller à l'encontre de ce principe.
 
 Dans Stylo, chaque fonctionnalité, chaque bouton (ou presque) qui réalise une
@@ -1371,7 +1378,7 @@ Le procédé est similaire pour les requêtes formulées sur les données de Sty
 Pour émettre ou recevoir une requête GraphQL, le client a besoin d'un protocole,
 soit un ensemble de règles pour formater et véhiculer la requête sur le réseau.
 Pour Stylo, le protocole employé est HTTP.
-Ce procotole induit un comportement particulier de notre requête
+Ce protocole induit un comportement particulier de notre requête
 puisque selon son emploi, les informations ne seront pas
 traitées de la même manière.
 
@@ -1382,7 +1389,7 @@ Pourtant, un des arguments phares présenté par GraphQL est sa dimension agnost
 rapport au protocole de communication des informations employé, que ce soit HTTP
 ou des WebSockets ou autre.
 Malgré la capacité de GraphQL à être utilisable avec toutes les
-méthodes d'HTTP^[Voir https://graphql.or/learn/serving-over-http/, consulté le
+méthodes d'HTTP^[Voir <https://graphql.or/learn/serving-over-http/>, consulté le
 24 février 2024.], une bonne pratique appliquée par la communauté GraphQL est
 l'emploi du protocole HTTP couplé à la méthode `POST` pour tous types de
 requêtes (que ce soit une `query`, une `mutation` ou encore une `subscription`).
@@ -1401,13 +1408,13 @@ En respect de ces bonnes pratiques, la méthode `POST` a été préférée dans 
 Les spécificités du protocole HTTP sont définies et consultables dans les _Request for
 Comments_ (RFC) publiés par l'_Internet Engineering Task Force_ (IETF) fondée en
 1986 et dont le siège se trouve aux États-Unis.
-Les documents et leurs contenus sont régulièrements mis à jour par la communauté
+Les documents et leurs contenus sont régulièrement mis à jour par la communauté
 qui participe à ces commentaires.
 Le numéro de la RFC en lien avec la méthode `POST` est le 9110^[Voir la page web
-https://www.rfc-editor.org/rfc/rfc9110#name-introduction, consultée le 24
+<https://www.rfc-editor.org/rfc/rfc9110#name-introduction>, consultée le 24
 février 2024.] publié en juin 2022.
 
-La méthode `POST` est définie dans le paragraphe 9.3.3 comme :
+La méthode `POST` est définie dans le paragraphe 9.3.3 comme\ :
 
 > The POST method requests that the target resource process the representation
 > enclosed in the request according to the resource's own specific semantics.
@@ -1419,14 +1426,14 @@ La méthode `POST` est définie dans le paragraphe 9.3.3 comme :
 > - Creating a new resource that has yet to be identified by the origin server;
 >   and  
 > - Appending data to a resource's existing representation(s).^[Traduction
->   personnelle : La méthode POST demande à la ressource cible de traiter la
+>   personnelle\ : La méthode POST demande à la ressource cible de traiter la
 >   représentation incluse dans la demande selon sa propre sémantique. Par
 >   exemple, la méthode POST est utilisée pour les usages suivants (parmi
->   d'autres) : Fournir les blocs de données, comme les champs d'un formulaire
->   HTML, à un traitement de données ; Publier un message sur un tableau
+>   d'autres)\ : Fournir les blocs de données, comme les champs d'un formulaire
+>   HTML, à un traitement de données\ ; Publier un message sur un tableau
 >   d'affichage, un groupe d'échange, une liste de diffusion, un blog ou un
->   groupe d'articles similaire ; Créer une nouvelle ressource qui n'a pas
->   encore été identifiée par le serveur d'origine ; et Ajouter des données à la
+>   groupe d'articles similaire\ ; Créer une nouvelle ressource qui n'a pas
+>   encore été identifiée par le serveur d'origine\ ; et Ajouter des données à la
 >   (aux) représentation(s) existante(s) d'une ressource.]
 
 À travers cette brève définition, l'on remarque que l'usage principal de la
@@ -1443,7 +1450,7 @@ différences de résultat lors de l'exécution d'une requête.
 Par exemple, la duplication d'une requête en cas de problème de connexion.
 Au contraire, une méthode idempotente comme `PUT` ou `DELETE` aurait le même effet
 du côté du serveur et cela quel que soit le nombre de fois que cette requête lui
-aura été envoyée : une ressource supprimée ne le sera qu’une fois.
+aura été envoyée\ : une ressource supprimée ne le sera qu’une fois.
 
 Cependant, cette caractéristique tend à disparaître dans le cas de l'utilisation
 de `POST` avec une structure GraphQL puisque cette dernière ne dépend pas d'une
@@ -1456,7 +1463,7 @@ protocole HTTP.
 Enfin, dans le cas d'une requête `POST`, le contenu à envoyer sur le serveur est
 formaté en JSON.
 Ci-dessous un exemple de requête `POST` envoyée depuis l'interface Web de Stylo
-vers le serveur :
+vers le serveur\ :
 
 ```JSON
 {"query":"query updateWorkingVersion(articleId: ID!, $content:
@@ -1481,7 +1488,7 @@ utilisateur peut saisir dans l'interface et de ce qui sera enregistré dans la b
 données.
 Cette préconstruction est la vision du document incarnée dans Stylo.
 
-Cette description très générale des moyens de communication à l'oeuvre entre les
+Cette description très générale des moyens de communication à l'œuvre entre les
 différents modules de Stylo nous montre déjà que l'information saisie dans cet
 éditeur de texte est formatée par une architecture de données alors que nous
 n'avons pas encore abordé les conditions de l'écriture avec les trois formats
@@ -1514,10 +1521,10 @@ langages de balisage léger comme Markdown, AsciiDoc, reStructuredText, etc.
 son texte puisque la saisie d'un texte dans un format _plain text_ peut l'être dans
 n'importe quel environnement.
 Écrire en texte brut signifie également ouvrir les possibilités de structuration
-du texte : ce n'est plus un logiciel de traitement de texte, MSWord, GoogleDoc
+du texte\ : ce n'est plus un logiciel de traitement de texte, MSWord, GoogleDoc
 ou LibreOffice qui décide de l'organisation des connaissances à l'intérieur du
-document mais le choix d'un format ou d'une saveur particulière d'un format : le
-positionnement de l'autorité est alors déplacé vers un niveau plus bas.
+document mais le choix d'un format ou d'une saveur particulière d'un format.
+Le positionnement de l'autorité est alors déplacé vers un niveau plus bas.
 
 L'encodage d'un texte en XML illustre bien ce propos.
 XML, pour _eXtensible Markup Language_, est à la fois un format de modélisation
@@ -1532,7 +1539,7 @@ W3C à cette URL\ : <https://www.w3.org/TR/1998/REC-xml-19980210>, visité le 
 septembre 2024.].
 
 La souplesse mentionnée précédemment n'empêche pas une rigueur extrême dans la
-structuration des contenus : chaque document formaté en XML doit, pour être
+structuration des contenus\ : chaque document formaté en XML doit, pour être
 valide, être conforme à un schéma dont la fonction est de définir des règles de
 structuration des informations documentées.
 Ce fonctionnement rend XML interopérable entre différents systèmes
@@ -1545,11 +1552,11 @@ Chacun est en capacité de créer ses propres règles d'agencement des contenus 
 créant un schéma qui correspond aux besoins d'une chaîne éditoriale.
 
 Par exemple, lors de l'édition d'un article scientifique, comment pouvons-nous
-définir un auteur ?
+définir un auteur\ ?
 
-Si l'on écrit la chaîne de caractère "Rémi Dupont" à la fin du texte, nous
-pouvons, par convention de lecture, deviner que "Rémi" est le prénom de l'auteur
-et "Dupont" son nom.
+Si l'on écrit la chaîne de caractère _Rémi Dupont_ à la fin du texte, nous
+pouvons, par convention de lecture, deviner que _Rémi_ est le prénom de l'auteur
+et _Dupont_ son nom.
 Or, pour l'ordinateur, cette chaîne de caractère n'est rien d'autre qu'une série
 de caractères qui n'a aucune valeur sémantique particulière, hormis peut-être
 qu'il s'agit d'un paragraphe ou d'une ligne de texte.
@@ -1559,17 +1566,17 @@ balise `<auteur>Rémi Dupont</auteur>` pour signifier explicitement qu'il s'agit
 de l'auteur du texte.
 
 Il est également possible de préciser encore plus cette notion d'auteur en y
-ajoutant par exemple des balises `<prénom>` et `<nom>` à l'intérieur de la
+ajoutant par exemple des balises `<prenom>` et `<nom>` à l'intérieur de la
 balise `<auteur>`.
 La description de ce qu'est un auteur, pour l'écriture de cet exemple, devient
 formelle et explicite.
 Cependant, pour l'écriture savante, est-ce qu'un auteur est seulement un nom et
-un prénom ?
+un prénom\ ?
 En fonction des contextes de publication, il est possible qu'un autre agent, la
 revue, définisse également la notion d'auteur avec d'autres informations telles
 que l'affiliation académique, une adresse courriel et un identifiant unique
 comme l'ORCID.
-Rémi Dupont prendrait alors la forme suivante :
+Rémi Dupont prendrait alors la forme suivante\ :
 
 ```xml
 <auteur>
@@ -1601,7 +1608,7 @@ L'objectif est de disposer d'un consensus pour dialoguer autour d'un objet ou de
 faire communiquer des processus qui traîtent ou qui produisent des formats.
 
 Le format est une contrainte technique dans des environnements qui peuvent être
-très divers : formats d'objets physiques comme le papier, formats informatiques
+très divers\ : formats d'objets physiques comme le papier, formats informatiques
 que nous connaissons par l'extension des fichiers sur nos ordinateurs, ou
 formats littéraires concernant l'agencement des mots et des phrases.
 Nous nous concentrons ici sur les formats informatiques.
@@ -1615,11 +1622,11 @@ fonctionne) ou qui nécessite un environnement très spécifique pour être
 interprété ou transformé va générer beaucoup d'obstacles pour son utilisation.
 
 La contrainte du format est liée à d'autres contraintes comme la compatibilité
-(quel format peut être lu par quel programme ou logiciel ?), l'interopérabilité
+(quel format peut être lu par quel programme ou logiciel\ ?), l'interopérabilité
 (est-ce que le format peut être utilisé de la même façon quel que soit
-l'environnement ?), la dépendance (de quoi un système a-t-il besoin pour traiter
-le format ?) et les droits associés (est-ce que le format peut être lu, modifié
-ou partagé ?).
+l'environnement\ ?), la dépendance (de quoi un système a-t-il besoin pour traiter
+le format\ ?) et les droits associés (est-ce que le format peut être lu, modifié
+ou partagé\ ?).
 
 Si le but du format est de constituer une série d'informations compréhensibles,
 utilisables et communicables, il reste une contrainte forte pour les chaînes de
@@ -1630,7 +1637,7 @@ artefacts publiables dans le chapitre 3 --, il déterminera les agencements
 possibles de la chaîne.
 
 Comme nous l'avons déjà mentionné, il y a trois formats centraux dans l'éditeur
-de texte Stylo : le Markdown pour le corps du texte, le YAML pour les
+de texte Stylo\ : le Markdown pour le corps du texte, le YAML pour les
 métadonnées et le BibTeX pour les références bibliographiques.
 Chacun de ces formats a sa propre histoire et ses propres spécifications.
 Afin de mieux comprendre la structuration des informations dans Stylo, nous
@@ -1638,27 +1645,27 @@ allons passer en revue certaines des particularités de ces formats et de leur
 implémentation dans l'éditeur.
 
 Mardown est un langage de balisage léger créé en 2004 par John Gruber^[Voir son
-site web, consulté le 31 mars 2024 :
-https://daringfireball.net/projects/markdown/].
+site web, consulté le 31 mars 2024\ :
+<https://daringfireball.net/projects/markdown/>.].
 Sa syntaxe, beaucoup plus légère
 et moins verbeuse que le HTML dont il est issu, permet de structurer et de
 décrire sémantiquement le texte. Il a été pensé pour pouvoir être converti
 facilement vers d’autres formats comme HTML, LaTeX ou PDF. Markdown se distingue
 des autres langages de balisages légers, car il est déclinable en différentes
 variantes (ou saveurs). Chacune d’entre elles ajoute une particularité dans la
-syntaxe Markdown. Parmi les plus populaires, on retrouve :
+syntaxe Markdown. Parmi les plus populaires, on retrouve\ :
 
 - CommonMark^[Les spécificités de CommonMark sont disponibles sur le site web
-  dédié à cette saveur : https://commonmark.org/, consulté le 31 mars 2024.]
+  dédié à cette saveur\ : <https://commonmark.org/>, consulté le 31 mars 2024.]
 - GitHub Flavored Markdown (GFM)^[Celles de GFM sont disponibles sur cette page
-  web : https://github.github.com/gfm/, consultée le 31 mars 2024.]
-- MultiMarkdown^[Celles de MultiMarkdown sont disponibles sur cette page web :
-  https://rawgit.com/fletcher/MultiMarkdown-6-Syntax-Guide/master/index.html,
-cinsultée le 31 mars 2024.]
-- Pandoc^[Celles de Pandoc sont disponibles sur cette page web :
-  https://pandoc.org/MANUAL.html#pandocs-markdown, consultée le 31 mars 2024.]
-- Quarto^[Celles de Quarto sont disponibles sur cette page web :
-  https://quarto.org/docs/authoring/markdown-basics.html, consultée le 31 mars
+  web\ : <https://github.github.com/gfm/>, consultée le 31 mars 2024.]
+- MultiMarkdown^[Celles de MultiMarkdown sont disponibles sur cette page web\ :
+  <https://rawgit.com/fletcher/MultiMarkdown-6-Syntax-Guide/master/index.html>,
+consultée le 31 mars 2024.]
+- Pandoc^[Celles de Pandoc sont disponibles sur cette page web\ :
+  <https://pandoc.org/MANUAL.html#pandocs-markdown>, consultée le 31 mars 2024.]
+- Quarto^[Celles de Quarto sont disponibles sur cette page web\ :
+  <https://quarto.org/docs/authoring/markdown-basics.html>, consultée le 31 mars
 2024.]
 
 Cette capacité à être déclinable et adaptable distingue fortement Markdown des
@@ -1691,7 +1698,8 @@ des documents (l'export des fichiers sources n'est pas concerné).
 Les saveurs les plus couramment utilisées avec Pandoc sont CommonMark et
 GitHub Flavored Markdown^[Outre celle qui porte son nom, Pandoc prend en
 charge d'autres variantes de Markdown comme cela est indiqué dans la
-documentation à ce sujet : https://pandoc.org/MANUAL.html#markdown-variants.].
+documentation à ce sujet\ : <https://pandoc.org/MANUAL.html#markdown-variants>,
+page consultée le 25 septembre 2024.].
 
 Autrement dit, Stylo n'impose pas de variante de Markdown si l'on s'en sert
 comme éditeur de texte sans la nécessité d'utiliser le module d'export.
@@ -1702,7 +1710,7 @@ variantes que traitent Pandoc pour que les transformations et conversions se
 fassent sans erreur.
 Pour conclure sur le langage de balisage Markdown, sa possible déclinaison en
 diverses saveurs fait de ce langage un avantage et un inconvénient.
-C'est un avantage pour sa plasticité et son adaptibilité aux besoins d'une
+C'est un avantage pour sa plasticité et son adaptabilité aux besoins d'une
 communauté ou d'un projet.
 Cependant, si les adaptations réalisées le sont dans une niche, soit parce que
 la communauté qui en définit les règles comporte trop de peu de membres, soit
@@ -1734,7 +1742,7 @@ déclarer les `valeurs` qui seront associées aux différentes `clefs` -- un mod
 graphique permet d'accéder au contenu en YAML brut sans surcouche.
 
 Si nous reprenons l'exemple précédent de l'auteur, celui-ci est
-déclaré comme suit dans Stylo :
+déclaré comme suit dans Stylo\ :
 
 ```yaml
 authors:
@@ -1792,15 +1800,15 @@ consultée le 24 septembre 2024], YAML a fait le choix d'évoluer et de
 s'adapter aux besoins des communautés.
 
 Cependant, comme le mentionne Ruud van Asseldonk sur son blog^[Voir le blog de
-Ruud van Asseldonk :
-https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell, consulté le
+Ruud van Asseldonk\ :
+<https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell>, page consultée le
 31 mars 2024.], ces mises à jour peuvent générer des complications lorsque les
 fichiers YAML doivent passer d'un environnement à un autre alors que les
 versions de YAML utilisées sont différentes.
 Par exemple, Pandoc intègre en juillet 2018 la version 1.2 de YAML^[Voir la page
-des _releases_ de Pandoc :
-https://pandoc.org/releases.html#pandoc-2.2.2-2018-07-16, consultée le 31 mars
-2024.] où nous pouvons y lire : 
+des _releases_ de Pandoc\ :
+<https://pandoc.org/releases.html#pandoc-2.2.2-2018-07-16>, consultée le 31 mars
+2024.] où nous pouvons y lire\ : 
 
 > Update manual for “true” YAML values. Now that we’re using HsYAML and YAML
 > 1.2, the valid true values are true, True, TRUE. NOTE! y, yes, on no longer
@@ -1811,14 +1819,14 @@ yes, on` qui signifiaient le booléen `true` dans la version 1.1 et ne sont plus
 que des chaînes de caractères à partir de la version 1.2.
 Or, tous les parseurs de YAML n'ont pas fait cette mise à jour. Par exemple, la
 très répandue librairie Python PyYaml, dont la dernière mise à jour remonte à
-juillet 2023^[Voir la page web de la librairie :
-https://pypi.org/project/PyYAML/, consultée le 31 mars 2024.], s'appuie toujours
+juillet 2023^[Voir la page web de la librairie\ :
+<https://pypi.org/project/PyYAML/>, consultée le 31 mars 2024.], s'appuie toujours
 sur la version 1.1 de YAML.
 En somme, si un document doit passer d'un environnement utilisant la version 1.1
 ou la version 1.2, les informations structurées ne seront pas traitées de la
 même manière.
 
-Nous sommes en droit de nous demander pourquoi YAML reste aussi populaire ?
+Nous sommes en droit de nous demander pourquoi YAML reste aussi populaire\ ?
 Ruud van Asseldonk apporte plusieurs réponses à cette question.
 La première est que YAML fait partie des plus anciens langages de sérialisation
 de données et répondait alors à un besoin de toute une génération de
@@ -1831,15 +1839,15 @@ travail des recommandations du 16 juin 2001 avec l'intégration du
 caractère `#` pour signaler un commentaire signalé dans les changements apportés
 le 26 mai 2001, voir la page <https://yaml.org/spec/history/2001-06-16.html>
 consultée le 24 septembre 2024.].
-Des alternatives comme le langage TOML^[Voir le site web du langage TOML :
-https://toml.io/en/, consulté le 31 mars 2024.] ont vu le jour dans les années
+Des alternatives comme le langage TOML^[Voir le site web du langage TOML\ :
+<https://toml.io/en/>, consulté le 31 mars 2024.] ont vu le jour dans les années
 2010 (2013 pour le TOML) pour tenter de pallier les problèmes sus-mentionnés.
 Le langage TOML est par exemple utilisée pour le fichier de configuration du
 paquet Python "Pressoir-CLI" afin de déclarer différents paramètres, par exemple
 de mise en page, parsés par le Pressoir et utilisés pour générer des livres au
 format HTML. Cet outil fera l'objet d'une analyse détaillée dans le prochain
 chapitre^[Le pressoir-cli est un paquet python développé par la CRCEN et
-disponible à cette page web : https://pypi.org/project/pressoir-cli/, consultée
+disponible à cette page web\ : <https://pypi.org/project/pressoir-cli/>, consultée
 le 31 mars 2024.]. 
 
 Enfin, le dernier format pivot utilisé dans Stylo, le BibTeX, est utilisé pour
@@ -1854,10 +1862,10 @@ web ont été consultées le 24 septembre 2024.].
 Au-delà de LaTeX, c'est un format largement utilisé par les gestionnaires de
 références bibliographiques comme Zotero^[Zotero est un logiciel de gestion de
 références bibliographiques très connu, il est l'alternative libre et _open
-source_ à Mendeley, voir le site web de Zotero : https://www.zotero.org/,
-consulté le 31 mars 2024.] ou eBib^[EBib est un logiciel de gestion de
+source_ à Mendeley, voir le site web de Zotero\ : <https://www.zotero.org/>,
+consulté le 31 mars 2024.] ou Ebib^[Ebib est un logiciel de gestion de
 références bibliographiques fonctionnant depuis l'éditeur de texte Emacs, voir
-le site du projet : https://joostkremers.github.io/ebib/, consultée le 31 mars
+le site du projet\ : <https://joostkremers.github.io/ebib/>, consultée le 31 mars
 2024.].
 
 Le choix d'intégrer BibTeX à Stylo provient de la possibilité d'utiliser l'API
@@ -1877,10 +1885,10 @@ Zotero et de BibTeX.
 Lors de la création d'un nouvel objet dans Zotero, le premier élément à saisir
 est le type d'objet à référencer. Le nombre de types est limité à 17. Cela
 couvre une bonne partie des besoins académiques mais pas les exceptions qui vont
-toutes rentrer dans le dernier type `@misc` pour « tout autre type de
-document ».
-Il en va de même pour les informations rattachées à chaque type de données^[cf.
-le tableau des champs accolés aux types de documents en annexe.] : selon les
+toutes rentrer dans le dernier type `@misc` pour «\ tout autre type de
+document\ ».
+Il en va de même pour les informations rattachées à chaque type de données^[Cf.
+le tableau des champs accolés aux types de documents BibTeX en annexe.]\ : selon les
 disciplines ou pour certains documents très particuliers, les champs de
 Zotero peuvent être trop restrictifs alors qu'il serait nécessaire de pouvoir
 saisir de nouvelles entrées pour enrichir les données bibliographiques tout en
@@ -1889,37 +1897,41 @@ d'utiliser le champ `Extra` pour ajouter une information supplémentaire sous la
 forme de chaîne de caractères sans avoir de structure explicite.
 
 D'autres problèmes peuvent surgir entre la représentation d'une référence
-bibliographique dans Zotero et dans Stylo/Pandoc.
+bibliographique dans Zotero et dans Stylo -- par extension dans Pandoc également
+puisque le traitement des références bibliographiques lors de l'export se fera
+par cet outil.
 Lors de l'édition d'articles en anglais et en français, nous nous sommes aperçus
 d'une différence de comportement importante entre ce que prévoit le format
 BibTeX, son interprétation dans Zotero et celle que l'on en fait dans Stylo.
-Avec le format BibTeX il existe deux paramètres de langues : `langid` et `language`.
-`langid` permet initialement d'identifier la langue à appliquer à l'entrée
-(comme traitement) et `language` sert à déclarer la langue employée dans le
-document.
-Stylo et Pandoc prennent les deux paramètres en charge, alors que dans Zotero il
-n'est possible de renseigner que `language` et pas `langid`, `language`
-combinant les deux objets.
+Deux paramètres de langues sont nativement disponibles avec le format BibTeX\ :
+`langid` et `language`.
+`langid` permet initialement d'identifier la langue à appliquer lors du
+traitement de la référence bibliographique et `language` sert à déclarer
+la langue employée dans le document.
+Stylo et Pandoc prennent les deux paramètres en charge, ils sont bien
+différenciés, alors que dans Zotero il n'est possible de renseigner que `language`
+et pas `langid`, `language` combinant les deux objets.
 En récupérant les références bibliographiques depuis Zotero, Stylo récupère
 seulement le paramètre `language` puisque le paramètre `langid` n'existe pas
 dans Zotero.
-Lors du traitement des informations avec Pandoc, il n'est pas possible de
-déclarer le traitement à appliquer à la référence bibliographique.
+Ainsi, lors du traitement des informations avec Pandoc, il n'est pas possible de
+déclarer le traitement à appliquer à la référence bibliographique puisque
+`langid` est vide.
 Par défaut, Stylo va appliquer la langue du contenu du texte dans Stylo à toutes
-les références bibliographiques. Dans un texte comme celui-ci, le paramètre par
-défaut est réglé sur le français.
+les références bibliographiques.
+Dans un texte comme celui-ci, le paramètre par défaut est réglé sur le français.
 Les références en anglais seront alors transformées selon les règles
 orthotypographiques françaises et pas selon les normes anglaises.
 Pour une structure éditoriale telle qu'une revue, ce paramètre n'est pas
 opérationnel.
 De ceci découle une discussion entre les membres de l'équipe de développement de
-Stylo^[Voir la discussion sur GitHub :
-https://github.com/EcrituresNumeriques/stylo/pull/991, consultée le 31 mars
+Stylo^[Voir la discussion sur GitHub\ :
+<https://github.com/EcrituresNumeriques/stylo/pull/991>, consultée le 31 mars
 2024.] sur la conduite à tenir pour informer les usagers de ce problème et
 trouver une solution pour le contourner.
 À ce jour, nous avons décidé de renseigner le problème dans la documentation de
-Stylo^[Voir la documentation de Stylo :
-http://stylo-doc.ecrituresnumeriques.ca/fr/bibliographie/#lettres-capitales-pour-les-titres-en-anglais,
+Stylo^[Voir la documentation de Stylo\ :
+<http://stylo-doc.ecrituresnumeriques.ca/fr/bibliographie/#lettres-capitales-pour-les-titres-en-anglais>,
 consultée le 31 mars 2024.] pour avertir les utilisateurs.
 Une modification du format ou du fonctionnement du gestionnaire de références
 bibliographiques serait beaucoup trop lourde en termes d'effets de bord dans
@@ -1929,7 +1941,8 @@ Stylo, c'est pour cela qu'à ce stade nous en sommes restés à cette solution.
 manière de saisir une donnée.
 À travers ces formats et les modes de lectures que l'on peut y adosser,
 les informations saisies se voient dotées de comportements et peuvent modifier
-l'interprétation que l'on peut en faire, comme nous l'avons vu avec le YAML.  
+l'interprétation que l'on peut en faire, comme nous l'avons vu avec le YAML et
+le BibTeX.  
 Le choix des formats dans lesquels les utilisateurs peuvent saisir leurs textes
 et leurs données n'est pas anodin.
 Qu'il soit ancien, récent, verbeux ou léger, permissif ou rigide,
@@ -1940,7 +1953,7 @@ Par exemple, dans Stylo, le Markdown ne permet pas à un philologue de saisir
 explicitement un appareil critique.
 C'est une syntaxe qui n'existe pas alors que c'est le cas pour d'autres
 environnements comme LaTeX et le paquet
-[`ekdosis`](http://www.ekdosis.org/) développé et maintenu par Robert Alessi.
+[`ekdosis`]^[Voir le site web du paquet `ekdosis`\ : <http://www.ekdosis.org/>, consulté le 25 septembre 2024.] développé et maintenu par Robert Alessi.
 Dans ce cas-ci, puisque l'appareil critique n'existe pas en Markdown, il ne
 peut pas exister dans Stylo sauf si l'utilisateur fait abstraction du format et qu'il
 change de paradigme pour celui de la page et de la représentation graphique.
@@ -1952,25 +1965,27 @@ intention.
 Il risque d'y avoir une friction entre les formats imposés par l'environnement
 et les besoins en écriture.
 
-Dans Stylo, nous savons que le texte est saisi par l'utilisateur en
-Markdown (YAML et BibTeX également), puis est envoyé sur le serveur au moyen
+À ce stade, le document dans Stylo se matérialise de la manière suivant\ :
+le texte est saisi par l'utilisateur en
+Markdown, YAML et BibTeX, puis est envoyé sur le serveur au moyen
 d'une requête GraphQL au format JSON contenue dans une requête HTTP utilisant la
 méthode `POST` comme modalité de circulation de l'information.
-Entre ces étapes persiste une phase qui n'a pas encore été évoquée : la requête
+Entre ces étapes persiste une phase qui n'a pas encore été évoquée\ : la requête
 `POST` envoyée au serveur ne s'effectue pas en continu entre le client et le
-serveur, ce n'est pas un flux et l'on n'écrit pas directement dans la base de
-données.
+serveur.
+La création d'un document dans Stylo n'est pas synonyme d'une inscription directe
+dans la base de données.
 Une phase latente se glisse dans l'interface Web entre le moment où
 l'utilisateur frappe les touches de son clavier et le moment où la base de
 données est mise à jour.
 Cette phase est rendue visible par l'affichage d'un message au-dessus de l'éditeur
 de texte.
 Lorsque aucune touche du clavier n'est enfoncée pendant un certain laps de temps
-(quelques secondes), le message "_Last saved..._" est remplacé par "_saving_" :
+(quelques secondes), le message «\ _Last saved...\_» est remplacé par «\ _saving_\ »\ :
 la copie de travail vient d'être enregistrée dans la base de données MongoDB grâce à la
 requête GraphQL `updateWorkingCopy()`.
 Dans ce laps de temps entre la frappe des mots au clavier et l'envoi de la
-requête au serveur, qu'advient-il du texte ?
+requête au serveur, qu'advient-il du texte\ ?
 
 Comme cela est mentionné précédemment, l'espace d'écriture de Stylo est un
 espace web.
@@ -1980,24 +1995,34 @@ Javascript.
 Lorsque l'on écrit dans Stylo -- et de surcroit dans le composant Monaco --,
 le texte saisi doit être manipulable et interprétable par le navigateur pour
 pouvoir être envoyé sur le serveur.
-C'est le rôle de Monaco de traiter cette couche d'informations.
+Un environnement Web, quel que soit le navigateur, n'est pas capable
+d'interpréter directement du texte au format Markdown, il faut que celui-ci soit
+au format HTML.
+
+C'est le rôle du composant Monaco de traiter cette couche d'informations.
 À l'écran, l'utilisateur voit s'afficher du Markdown tel qu'il le frappe,
 pourtant cette information n'est inscrite sur aucun support en dehors du rendu
 visuel affiché à l'écran.
-Monaco travaille avec des *modèles* et ce sont avec eux que l'utilisateur
-interagit.
-Chaque modèle est rattaché à une URI (que l'on peut identifier avec
-l'identifiant des articles) et c'est de cette manière que Monaco peut manipuler
-le DOM (_Document Object Model_) du navigateur pour créer le texte et son rendu
-graphique dans un format de texte brut.
+Monaco fonctionne avec des *modèles* et ce sont avec eux que l'utilisateur
+interagit\ : le texte saisi est transformé selon le modèle utilisé par
+Monaco en un document interprétable par le navigateur^[La documentation disponible sur le répertoire GitHub de Monaco
+explique ce concept, voir <https://github.com/microsoft/monaco-editor?tab=readme-ov-file#models>,
+page consultée le 25 septembre 2024.].
+Ensuite, chaque modèle est rattaché à une URI (que l'on peut identifier avec
+l'identifiant des articles) et grâce à cette identification unique que Monaco peut manipuler
+le DOM (_Document Object Model_) du navigateur pour créer le document et son rendu
+graphique à partir texte brut saisi dans l'éditeur.
+Pour que le texte au format Markdown soit interprétable dans un navigateur,
+Monaco manipule le DOM pour modifier la représentation du document pour qu'elle
+soit compatible avec son environnement. 
 
 Le DOM est une représentation abstraite d'un document HTML exécutée dans le
 navigateur.
 Tous les éléments structurés à l'intérieur de ce document deviennent des objets,
-des noeuds manipulables avec un langage de programmation tel que Javascript.
+des nœuds manipulables avec un langage de programmation tel que Javascript.
 C'est grâce à ce procédé qu'une page web est rendue dynamique.
 Puisque la construction du DOM dépend du navigateur employé, nous pouvons en
-déduire que ce document sera différent selon le navigateur ou les différentes
+déduire que ce document sera différent selon le navigateur employé ou selon les différentes
 versions d'un même logiciel.
 Pour accéder à ce DOM il suffit d'ouvrir les outils de développements du
 navigateur et d'inspecter le contenu de la page HTML.
@@ -2012,8 +2037,8 @@ deuxième pour montrer ce qui est inscrit dans le DOM.
 L'état du texte inscrit dans le DOM est différent de celui qui apparaît à
 l'écran.
 Le Markdown se retrouve encapsulé dans des balises attribuées par l'éditeur
-Monaco et la syntaxe Markdown se retrouve à l'état de chaîne de caractères : la
-balise de titre de niveau 2 (`##`) n'a plus de valeur sémantique.
+Monaco et la syntaxe Markdown se retrouve à l'état de chaîne de caractères\ : la
+balise Markdown pour signifier un titre de niveau 2 (`##`) n'a plus de valeur sémantique.
 Le DOM interprète la structure HTML des informations contenues dans Monaco pour
 les afficher de façon à ce que l'utilisateur puisse avoir un rendu graphique du
 texte qu'il a saisi, comme la colorisation syntaxique des balises.
@@ -2026,13 +2051,14 @@ saisie du texte à l'écran.
 Lorsque nous avons l'impression d'écrire en Markdown, Stylo écrit un texte bien
 différent.
 Le texte affiché dans Stylo passe en réalité, d'un point de vue matériel, par au
-moins 4 représentations différentes :
+moins 4 formes documentaires différentes\ :
 
 - le texte saisi en Markdown (affichage à l'écran)
 - la représentation du texte dans le DOM réalisé dans le navigateur par
   l'éditeur Monaco
 - la requête GraphQL envoyée au serveur au format JSON par HTTP
-- l'état de sauvegarde sur le serveur dans la base de données MongoDB (JSON)
+- l'état de sauvegarde sur le serveur dans la base de données MongoDB, également
+  en JSON
 
 Saisir du texte dans Stylo nécessite en réalité une multitude d'étapes
 invisibles -- on pourrait plutôt les qualifier d'automatisées --
@@ -2043,7 +2069,7 @@ Le premier état est la projection d'une structure de l'information, tandis que
 le deuxième en permet l'interprétation et l'affichage par le navigateur, la
 troisième est une représentation formatée pour circuler entre un client et un
 serveur et enfin, la quatrième, est à l'état de stockage, prête à être appelée
-pour réaliser le chemin en sens inverse.
+pour réaliser le chemin en sens inverse ou être exportée.
 
 Ces différents états du texte sont plus que de simples représentations. Ce sont
 des documents différents et chacun à une signification et un usage qui lui est
@@ -2051,7 +2077,7 @@ propre.
 Par exemple, la forme en Markdown brut ne peut pas circuler en l'état avec le
 protocole HTTP, il lui manque toute une série d'informations et une
 transformation vers un autre format (le JSON) pour employer ce canal de
-communication : ce dont s'occupe Stylo.
+communication\ : ce dont s'occupe Stylo.
 
 Parmi ces quatre documents produits pour écrire, un seul l'est par l'utilisateur
 tandis que les autres formes sont écrites par Stylo.
@@ -2061,52 +2087,6 @@ format d'écriture.
 Comme nous l'avons vu avec Stylo, ce sont différents protocoles qui sont
 mobilisés pour produire une suite de documents intermédiaires et, par ce
 cheminement, matérialisent le document primaire dans Stylo.
-
----
-
-Lorsque Stylo promeut une reprise en main du texte par les utilisateurs, il ne
-faut pas comprendre un environnement moins complexe en termes d'interactions des
-différentes composantes dans cet écosystème, il faut y voir une chaîne de
-traitement transparente, libre et ouverte sur les transformations opérées dans
-le texte.
-Pourtant, plutôt qu'une reprise en main, nous lui préférons la notion de
-**déprise** sur le texte, au sens que lui donnait Louise Merzeau
-[@sauret_revue_2020]^[Louise Merzeau n'a jamais publié de document sur cette
-déprise, néanmoins Nicolas Sauret mentionne ce concept et son sens dans sa
-thèse.]. 
-
-> Cette formule est empruntée à Louise Merzeau qui l’employait pour parler des
-> […] utilisateurs des grandes plateformes du Web [et de] la perte de contrôle
-> de leurs usages, restreints et conditionnés par les algorithmes et par des
-> interfaces de plus en plus normalisées.
-
-Dans Stylo, les utilisateurs ne sont pas forcément conscients des formes
-documentaires internes à cet environnement, ni de la circulation des informations
-entre les éléments qui les constituent.
-Cette part de Stylo cachée derrière l'écran relève de cette déprise. 
-
-Si l'on suit les différentes métamorphoses du texte par le biais des documents,
-on se rend compte que la forme brute (Markdown, YAML, BibTeX) n'est inscrite nulle part.
-On la retrouve soit sous sa forme
-interprétée par le navigateur (en réalité il s'agit d'un document HTML), soit
-lors de l'export c'est-à-dire lorsque les documents sortent de l'environnement
-Stylo.
-En dehors de cette situation, il n'existe aucun document dont l'extension serait
-`.md` et stipulerait que ledit document respecte les règles et normes de ce
-format. 
-
-À la différence des systèmes analogiques et continus, la rupture opérée par
-l'écriture numérique réside entre autres dans cette discrétisation du texte en de
-multiples documents, où chacun se voit doté d'un paratexte différent pour
-circuler à travers les canaux de communication du système d'informations.
-
-Dans Stylo, les documents y sont construits par l'ensemble des protocoles choisis lors
-de l'établissement de cet environnement.
-La déprise survient lors du choix de l'environnement par
-l'utilisateur.
-Lorsqu'un utilisateur écrit dans Stylo, il accorde sa confiance dans les
-opérations que réalise Stylo sur le document et dans la matérialité qu'il participe
-à lui conférer.
 
 Toutes ces dynamiques éditorialisent et constituent les traces d'une
 épistémologie du document primaire avant toute transformation par le reste de la
@@ -2122,21 +2102,22 @@ politique puisque cet environnement agit et produit une matérialité singulièr
 À la question de la place de l'environnement d'écriture dans le processus de 
 matérialisation du document primaire et du modèle épistémologique qui en découle,
 nous avons émis l'hypothèse que cet environnement dépasse son statut
-utilitariste de support pour celui de dynamique constitutive.
+utilitariste de support pour celui de dynamique constitutive de cette
+matérialisation.
 En nous appuyant sur le fonctionnement d'un ordinateur et sur les
 caractéristiques de l'écriture numérique, tant la partie matérielle que la
 partie logicielle, nous avons écarté la page affichée à l'écran pour nous
 confronter aux logiciels et aux médiations qu'ils représentent dans la relation
-entre humain et machine dans l'acte d'écriture. 
+entre humain et machine dans l'acte de production d'un document. 
 
 En nous affranchissant de la page affichée à l'écran, nous avons observé
-les intra-actions à l'oeuvre dans l'éditeur de texte Stylo.
+les intra-actions à l'œuvre dans l'éditeur de texte Stylo.
 À partir de ce positionnement théorique dont le prisme non-essentialiste ne
 prédétermine pas les agents en amont de l'interaction, nous avons considéré à la
 fois l'auteur et Stylo comme deux agents de l'énonciation
 éditoriale.
  
-Pour réaliser cette étude, nous nous sommes appuyés sur une méthode empruntée au
+Afin de réaliser cette étude, nous nous sommes appuyés sur une méthode empruntée au
 théoricien des médias Friedrich Kittler dont l'analyse repose sur la description
 technique du fonctionnement des éléments mobilisés.
 
@@ -2144,41 +2125,30 @@ L’observation du phénomène de création d’un document texte dans un enviro
 d’écriture spécialisé pour l’écriture savante à travers le prisme des strates de
 l’écriture numérique, du matériel au logiciel, a mis en évidence
 différents angles morts de la relation entre un auteur et son environnement
-d'écriture dans lesquels se nichent les traces de leurs interactions.
+d'écriture dans lesquels se nichent les traces de la matérialisation du document.
 Qu’ils s’incarnent dans des documents temporaires comme le DOM du navigateur ou dans
 des protocoles de transmissions des informations comme HTTP, ces angles morts de
 l’écriture numérique, produits par cette relation, nous montrent que certaines
-
 parties de la matérialisation du document ne sont finalement pas directement accessibles à ces
 deux agents alors qu’elles participent à la matérialité conférée au document primaire.
-Une forme de déprise est instaurée dans cette relation et que l’auteur accepte,
-bon ou malgré lui, lorsqu’il emploie un environnement d’écriture numérique.
-En ce sens, un certain degré de confiance est accordé à l’environnement
-d’écriture choisi dans le processus de production du document.
 
 En observant diverses saisies de fragments de texte selon les formats pivots utilisés
 dans Stylo, le Markdown, le YAML et le BibTeX, nous nous sommes aperçus qu'ils ne
 sont jamais inscrits directement selon les formats mentionnés mais qu'ils passent par
-quatre états différents : la saisie à l'écran, la manipulation par le DOM du
+quatre états différents\ : la saisie à l'écran, la manipulation par le DOM du
 navigateur dans l'éditeur Monaco, la requête GraphQL formatée en JSON pour être
 transporté par la méthode `POST` du protocole HTTP et le stockage dans la base de
 données MongoDB.
-Le texte est ainsi transformé en différents états pour qu'il puisse circuler
-dans Stylo entre l'espace où il est saisi, que l'on peut retrouver à une adresse
-unique (l'URL de l'article), et l'espace où il sera stocké dans le serveur de la
+Le document se matérialise par différents états afin qu'il puisse circuler
+dans Stylo entre l'espace où il est saisi, le client, que l'on peut retrouver à une adresse
+web unique (l'URL de l'article) et l'espace où il sera stocké dans le serveur de la
 TGIR Huma-num qui héberge l'application.
-De nouvelles informations sont alors inscrites dans le texte lors de ces
-métamorphoses : la structure de l'information varie à chaque étape de la matérialisation du document.
+La structure de l'information varie à chaque métamorphose de la matérialisation du document.
 Ainsi, les caractères qui constituent le document changent et en modifient
 profondément le sens.
 Parmi les quatre états mentionnés, seulement le premier est saisi par
 l'utilisateur et les autres sont écrits par Stylo.
-Néanmoins écrire avec Stylo ne nécessite pas de connaître ces différentes
-phases.
-Il y aurait donc une relation entre un auteur et Stylo qui prendrait naissance
-dans une forme de déprise où l'utilisateur accorde sa confiance dans les
-manipulations du texte que l'application réalise.
-En se référant à l'éditorialisation, nous pouvons affirmer que chacune de ces
+En se référant à la théorie de l'éditorialisation, nous pouvons affirmer que chacune de ces
 quatre phases contribue à la matérialité du texte saisi et qu'en ce sens il y a
 co-construction du document entre l'utilisateur et Stylo.
 
