@@ -74,7 +74,7 @@ Lors de cette phase de matérialisation, le document devient le lieu où se
 manifeste un trouble entre ce que l'usager à l'intention d'écrire et le texte
 que produit la machine, structuré selon les formats et protocoles
 implémentés à l'intérieur de l'écosystème.
-Ce trouble nait de la rencontre entre une représentation du document structuré
+Ce trouble naît de la rencontre entre une représentation du document structuré
 graphiquement, essentiellement culturelle, et une représentation du document structuré par du texte, comme
 c'est le cas pour une page web interprétée par un navigateur et son pendant au
 format HTML.
@@ -1674,7 +1674,7 @@ En effet, puisque chaque saveur contient des éléments personnalisés de
 structuration des contenus -- des balises --, il est important de connaître la
 saveur que l'on doit utiliser dans un environnement au risque de se retrouver
 avec des balises qui ne sont pas interprétées et qui par extension, n'ont aucune
-signification pour cet envrionnement.
+signification pour cet environnement.
 
 Par exemple, la saveur Quarto Markdown utilise la structure ci-dessous pour
 insérer une vidéo dans un texte.
@@ -2158,13 +2158,13 @@ Au contraire, le document serait une suite d'états que l'on regroupe dans un
 même espace pour former une représentation tangible du document.
 En s'appuyant sur la définition du document établie dans le premier chapitre, le
 document s'échappe de la représentation du texte, ou d'une suite de
-représentations, pour devenir le réceptable des intra-actions en train de se
+représentations, pour devenir le réceptacle des intra-actions en train de se
 produire dans un espace fini.
 Le document dans Stylo nous montre ce changement de paradigme où celui de la
 représentation fait place à celui de la performance [@barad_frankenstein_2023].
 Le document se meut, il est sans cesse en action et sans cesse en cours de
 modification et de changement\ : il se performe.
-La matérialisation du document empêche toute tentative de cristallisation du
+Cette matérialisation du document, en tant que performance, empêche toute tentative de cristallisation du
 document dans une forme figée.
 Tant que le document est la preuve d'un fait [@briet_quest-ce_1951], il reste
 le réceptacle de médiations et d'intra-actions, qu'elles soient numériques ou non,
@@ -2172,7 +2172,7 @@ responsables de ses métamorphoses.
 
 Ces médiations sont les marqueurs de cette relation entre un auteur et l'environnement d'écriture,
 elles sont les traces d'une épistémologie singulière et apparaissent à l'intérieur
-du document lors de chacun de ses états.
+du document à chacun de ses états.
 En suivant le fil de ces traces, il devient possible de suivre l'ensemble des
 médiations et des conditions de l'environnement numérique produisant le document
 primaire et son texte, source que traitera ensuite la chaîne éditoriale jusqu'à sa publication.  
