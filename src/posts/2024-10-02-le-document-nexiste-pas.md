@@ -3,6 +3,7 @@ title: "Le document n'existe pas"
 date: 2024-10-01
 ---
 
+
 Dans la continuité des travaux sur la théorie des médias : 
 
 - Kittler, _Le logiciel n'existe pas_
@@ -99,3 +100,50 @@ Exemple avec le document.
 > exclusions interdisent toutes possibilités de déterminisme, offrant ainsi les
 > conditions d'un avenir ouvert. Les intra-actions sont donc contraignantes mais
 > non déterminantes.
+
+
+> La différenciation n'est pas simplement une question de _coupure-qui-sépare_ mais
+> aussi de _coupure-qui-relie_\ : couper c'est relier et séparer d'un même mouvement.
+> La différenciation est une question d'intrication.
+> Et les intrications ne sont pas des entrelacements d'entités distinctes mais des
+> relations de responsabilité irréductibles.
+> - p.146
+
+>  Vicky Kirby, _quantum anthropologies_ affirme que l'affirmation controversée de Derrida
+> «\ Il n'y a rien en dehors du texte\ » doit être comprise comme «\ Il n'y a rien en
+> dehors de la nature\ ».
+> - p.148
+
+
+Note pour le chapitre 3\ : Identité flottante / mouvante (voir expérience de la
+gomme quantique p.136 Barad).
+On peut ajouter cette partie dans le chapitre 3 après les modèles textuels.
+Cette idée va de pair avec la question de l'effacement du modèle du document et du modèle textuel.
+On efface les traces de l'identité précédente.
+Le document a une identité numérique (voir def de l'identité numérique) qui n'est pas celle
+de la coupure agentielle puisqu'il ne s'agit que d'une représentation infime de l'objet.
+Selon la coupure effectuée, le document est soit JSOn, soit HTML, soit MD, soit etc..
+
+L'écriture numérique est variable, reexpliquer le fonctionnement du disque dur, notamment du SSD.
+
+Cette écriture et les différentes phases du document sont effacées au fur et à mesure
+que le document avance dans la chaîne éditoriale, les anciennes traces et les anciennes coupures
+agentielles sont remplacées par les nouvelles\ : la forme HTTP n'est inscrite nulle part
+lorsque je ferme les outils de développements du navigateur et elles seront remplacées 
+par la nouvelle requête HTTP.
+
+Cependant les écritures ne sont pas totalement effacées\ : les séquences de l'écriture
+numérique peuvent être rejouées à l'infini (même si certaines données vont évoluer au fil
+du temps).
+L'identité d'un document numérique n'est pas uniquement la somme des traces que l'on
+peut accumuler,
+ce qui correspondrait à la somme des coupures agentielles que l'on peut en faire, mais à la somme
+des entités/dynamiques qui produisent le document, en respectant leurs agencements.
+
+Le document n'est pas pas figé dans une forme linéaire, si c'était le cas, le fait de
+rejouer la séquence d'une production documentaire donnerait inévitablement le même résultat
+à chaque fois.
+Retourner à un état antérieur du document et changer les interactions qui ont eu lieu (en
+insérant par exemple de nouveaux caractères ou en supprimant d'autres caractères) permet de
+produire de nouvelles formes du documents, nommées versions, comme le sont les différentes
+versions d'un logiciel.
