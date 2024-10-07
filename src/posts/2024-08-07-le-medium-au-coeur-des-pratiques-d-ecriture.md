@@ -42,7 +42,7 @@ médias ...
 
 ## Introduction
 
-L'objet qu'est la publication scientifique désigne communément un ensemble
+La publication scientifique désigne un ensemble
 d'artefacts que l'on réunit sous cette appellation parce qu'elle caractérise une
 modalité de communication et de diffusion des travaux menés par les acteurs de
 la recherche.
@@ -57,8 +57,8 @@ Les publications scientifiques regroupent une diversité d'artefacts parce
 qu'elles font l'objet d'un traitement qui leur est propre\ : la relecture par
 les pairs.
 Cette étape de validation du contenu scientifique s'insère dans le processus
-éditorial de transformation du document primaire -- le document envoyé par
-l'auteur -- avant qu'il ne trouve sa forme définitive.
+éditorial de transformation du document initalement envoyé par le/la chercheur
+avant qu'il ne soit transformé dans sa forme définitive.
 Selon les commentaires des relecteurs, le texte peut à ce moment là être
 retouché par l'auteur.
 C'est un fait remarquable puisque, pour cette catégorie d'objets,
@@ -67,8 +67,8 @@ littéraire du contenu textuel, les artefacts scientifiques ne sont
 pas catégorisées selon une composante qui permettrait de décrire le type d'artefact
 dont il s'agit mais le sont d'une part par un gage de qualité du contenu qui a
 été validé par les pairs en amont de la publication et d'autres parts, le sont par une forme de
-reconnaissance sociale puisque l'objet en question sera probablement repris
-et/ou cité par d'autres membres de la communauté concernée.
+reconnaissance sociale puisque cet artefact publié sera probablement repris
+et/ou cité par d'autres membres de la communauté concernée dans la grande conversation scientifique [@guedon].
 Cela veut dit qu'un document écrit et publié par un chercheur ne relève pas de
 la catégorie _publication scientifique_ dès lors qu'il n'est pas relu par les
 pairs.
@@ -80,11 +80,11 @@ réseaux sociaux, etc.
 Tandis que le texte scientifique est l'élément qui fait l'objet de cette
 relecture attentive de la part des pairs, nous nous intéressons à une autre
 facette de ces artefacts qui nous permettrait de tous les désigner sans avoir à
-définir tolimiterutes leurs propriétés, il s'agit de la notion de document.
+définir toutes leurs propriétés de manière exhaustive, il s'agit de la notion de document.
 Un livre pourrait être désigné par son format, le type de reliure employée ou le
 type de papier qui le compose, il en va tout autant pour les revues et les
 autres objets, d'autant plus si l'on doit prendre en considération leur pendant
-numérique, sans qu'on puisse les circonscrire complètement.
+numérique, sans qu'on puisse jamais tous les décrire et les circonscrire complètement dans une forme déterminée.
 Le terme de document quant à lui a cette particularité d'être un peu vague et un peu flou.
 Il a quelque chose qui tient du mot-valise et du fourre-tout.
 Il désigne tour à tour des livres, des papiers administratifs, des papiers
@@ -93,15 +93,15 @@ antilopes (certaines seulement), des images ou des objets selon le contexte dans
 lequel ils sont exposés, etc.
 C'est un mot que l'on utilise au quotidien et grâce auquel on peut désigner tout
 un ensemble de choses sans pour autant s'encombrer d'une définition précise du
-document.
+terme document.
 Un document, dans son sens le plus large et le plus simple, est défini par
 l'équation [@otlet_livre_2015, p.13; @pedauque_document_2003; @pedauque_document_2006]\ :
 
 $$Document = Support + Inscription$$ 
 
 Cette brève définition nous permet de distinguer le texte (ici
-compris comme l'inscription) du document.
-Ce sont deux éléments qui parfois, par abus de langage, sont considérés en tant
+compris comme l'inscription) de son support et de l'ensemble quíls forment\ : le document.
+Parfois, le texte et le document, par abus de langage, sont considérés en tant
 que synonymes, alors que dans cette recherche ils renvoient bien à deux éléments
 distincts. 
 Généralement, le texte et les théories qui s'y rapportent fondent leur épistémologie autour du
@@ -119,26 +119,28 @@ Pour traiter de la place du document dans les chaînes de publication savante,
 surtout si ce sont des environnements numériques, il nous semble primordial
 d'explorer avant tout une tradition du document dans les pratiques d'écriture
 érudites, savantes et scientifiques.
-Le document numérique et le fonctionnement des publications n'est pas produit à
-partir du vide et s'inscrit dans un héritage.
+Le document numérique et le fonctionnement des publications scientifiques s'inscrit dans
+dans un long héritage des pratiques d'écriture ainsi que de l'édition.
 Nous en dressons les grandes lignes depuis l'époque hellénistique,
-principalement l'école stoïcienne, jusqu'à nos jours.
+principalement depuis l'école stoïcienne, jusqu'à nos jours, en nous attardant sur la production
+des documents en environnement numérique.
 L'objectif de cette partie est de montrer que le document, quelles que soient les
-époques, est un élément fondamental pour la dimension sociale qu'il apporte (en
-tant que medium).
-
+époques, est un élément fondamental de la production des connaissances de part la dimension sociale
+qu'il constitue en tant que médium.
 Des lettres de Sénèque à Lucilius, en passant par les textes de Saint-Augustin,
 de Descartes, jusqu'aux dispositifs numériques que nous employons aujourd'hui,
-chaque exemple choisi comporte un medium différent et accède l'autre social
-différemment.
-Pour approfondir l'enjeu autour de ces médiations, le
-deuxième prisme convoqué pour traiter le document sera la théorie des médias, telle
-qu'elle a été pensée par l'école de Toronto depuis McLuhan, et les travaux inscrits
-ensuite dans ce courant jusqu'au nouveau matérialisme.
+chaque exemple choisi montre un accès différent à l'autre social parce que le medium employé
+est lui aussi différent.
+
+Pour approfondir l'enjeu autour de ces médiations, la deuxième partie de ce chapitre
+traite le document depuis la théorie des médias, avec l'école de Toronto depuis McLuhan
+pour point de départ, puis les travaux inscrits dans cet héritage matérialiste
+ensuite dans ce courant jusqu'au nouveau matérialisme [@barad].
+Le document traverse ainsi différentes perspectives déterministes, puis non déterminites...
 
 Le terme de document a connu deux périodes d'instabilité majeure au cours des dernières
 générations.
-Ces crises correspondent à deux phénomènes nommés _documentarisation_ et
+Ces crises, identifiées au début du XXI^e^ siècle, correspondent à deux phénomènes nommés _documentarisation_ et
 _redocumentarisation_ [@pedauque_document_2006;
 @pedauque_redocumentarisation_2007_].
 La première remonte à la transition entre la Bibliographie et la Documentation
