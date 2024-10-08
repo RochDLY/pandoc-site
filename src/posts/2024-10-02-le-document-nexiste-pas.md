@@ -147,3 +147,22 @@ Retourner à un état antérieur du document et changer les interactions qui ont
 insérant par exemple de nouveaux caractères ou en supprimant d'autres caractères) permet de
 produire de nouvelles formes du documents, nommées versions, comme le sont les différentes
 versions d'un logiciel.
+Autre cas de non linéarité de la chaîne éditoriale\ : WYSIPRINT, notamment depuis la PULL Request
+proposée par Yann Trividic (cf lien) qui permet de réaliser le chemin inverse en rendant le PDF
+interactif. En manipulant le générateur de PDF, Trividic bouleverse la conception du PDF immuable
+(qui ne l'était déjà plus), et propose un suivi des modifications apportées à l'intérieur du PDF
+jusque dans les sources.
+
+
+Le document est un espace : lorsque l'on délimite un espace comme une feuille au format A4
+en tant que document, que l'on y écrive seul, à plusieurs, avec une plume, un stylo, 
+une machine à écrire ou autre, on délimite un espace.
+Cet espace est fini et les intra-actions s'agencent à l'intérieur de cet espace.
+La feuille A4 n'est en elle-même pas coupée du monde qui lui est extérieur.
+En définissant la feuille comme un espace, on la détache du monde, on réalise une coupure
+agentielle pour définir le document.
+L'intérieur de cet espace devient une bulle fermée et par le mpeme mouvement, on externalise
+le reste du monde.
+De cette manière, on réduit le document à un objet que ce soit un livre, un article, etc.
+À l'intérieur d'un ordinateur, la coupure agentielle prend la forme d'un espace physique dans
+la mémoire de l'ordinateur.

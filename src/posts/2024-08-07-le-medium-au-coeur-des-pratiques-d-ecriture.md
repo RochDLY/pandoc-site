@@ -1,5 +1,5 @@
 ---
-title: "Le document comme pivot de la chaîne éditoriale scientifique"
+title: "Le document est un espace"
 date: 2024-08-07
 ---
 
@@ -42,25 +42,35 @@ médias ...
 
 ## Introduction
 
-La publication scientifique désigne un ensemble
-d'artefacts que l'on réunit sous cette appellation parce qu'elle caractérise une
-modalité de communication et de diffusion des travaux menés par les acteurs de
-la recherche.
-Parmi ces artefacts, les plus communs sont les ouvrages collectifs, les
+La _publication scientifique_ désigne un ensemble
+d'artefacts caractéristiques de la communication et
+de la diffusion des travaux menés par les acteurs de la recherche.
+Parmi ces artefacts que l'on peut trouver, les plus communs sont les ouvrages collectifs, les
 monographies, les revues, les actes liés à des événements scientifiques
-(colloque, journée d'étude, etc.), les thèses ou encore les mémoires.
-Malgré le fait que leur nature soit différente,
-ces artefacts partagent une particularité qui nous permet de les regrouper.
-Ce qui les lie ensemble ne se trouve pas à l'intérieur de ces documents, mais dans le
-processus de fabrication ces derniers.
+(colloque, journée d'étude, etc.), les thèses, les mémoires ou encore des objets plus variés
+comme ceux produits en recherche-création.
+Malgré le fait que leurs propriétés soient différentes,
+ces artefacts partagent tous une particularité qui nous permet de les regrouper
+dans cette catégorie.
 Les publications scientifiques regroupent une diversité d'artefacts parce
-qu'elles font l'objet d'un traitement qui leur est propre\ : la relecture par
+qu'elles font l'objet d'un traitement propre à cette catégorie\ : la relecture par
 les pairs.
-Cette étape de validation du contenu scientifique s'insère dans le processus
-éditorial de transformation du document initalement envoyé par le/la chercheur
-avant qu'il ne soit transformé dans sa forme définitive.
-Selon les commentaires des relecteurs, le texte peut à ce moment là être
-retouché par l'auteur.
+Pour une chaîne éditoriale plus classique, lorsqu'un texte a été commandé ou sélectionné,
+la chaîne éditoriale consiste en plusieurs allers et retours dans le manuscrit pour effectuer
+des corrections orthotypographiques et des reformulations, puis vient la mise en page du texte,
+ensuite vient à nouveau une relecture pour valider la maquette avant l'envoi du bon à tirer à
+l'imprimeur.
+Tandis que dans une chaîne éditoriale scientifique, une étape supplémentaire, la relecture
+par les pairs, est intercalée entre l'envoi du manuscrit par l'auteur et les échanges
+orthotypographiques avec l'éditeur.
+La relecture par les pairs est une condition _sine qua non_ de la publication scientifique
+puisque c'est à cette étape qu'est validée la qualité scientifique du manuscrit.
+La validation n'est pas une simple acceptation ou non du texte.
+Les relecteurs agissent sur le texte, notamment au moyen d'une évaluation rigoureuse
+comprenant des commentaires, des annotations et, si nécessaire, des propositions d'amélioration
+du contenu.
+Selon les retours des relecteurs, le texte peut à ce moment-là faire l'objet de modifications
+que l'auteur y apporte.
 C'est un fait remarquable puisque, pour cette catégorie d'objets,
 contrairement à d'autres catégories déterminées par le medium et/ou par le genre
 littéraire du contenu textuel, les artefacts scientifiques ne sont
