@@ -1,5 +1,5 @@
 ---
-title: "Le document est un espace"
+title: "La publication scientifique est un espace"
 date: 2024-08-07
 ---
 
@@ -42,10 +42,14 @@ médias ...
 
 ## Introduction
 
-La _publication scientifique_ désigne un ensemble
+---
+
+<!-- Ça ira peut-être dans l'intro de la thèse cette partie -->
+
+Le terme _publication scientifique_ désigne un ensemble
 d'artefacts caractéristiques de la communication et
 de la diffusion des travaux menés par les acteurs de la recherche.
-Parmi ces artefacts que l'on peut trouver, les plus communs sont les ouvrages collectifs, les
+Parmi ces artefacts, les plus communs sont les ouvrages collectifs, les
 monographies, les revues, les actes liés à des événements scientifiques
 (colloque, journée d'étude, etc.), les thèses, les mémoires ou encore des objets plus variés
 comme ceux produits en recherche-création.
@@ -69,48 +73,51 @@ La validation n'est pas une simple acceptation ou non du texte.
 Les relecteurs agissent sur le texte, notamment au moyen d'une évaluation rigoureuse
 comprenant des commentaires, des annotations et, si nécessaire, des propositions d'amélioration
 du contenu.
-Selon les retours des relecteurs, le texte peut à ce moment-là faire l'objet de modifications
-que l'auteur y apporte.
+Selon l'évaluation des relecteurs, si le texte est accepté avec des modifications
+majeures ou mineures, l'auteur peut en conséquence y apporter des modifications.
 C'est un fait remarquable puisque, pour cette catégorie d'objets,
-contrairement à d'autres catégories déterminées par le medium et/ou par le genre
+contrairement à d'autres catégories caractérisées par leur medium et/ou par le genre
 littéraire du contenu textuel, les artefacts scientifiques ne sont
-pas catégorisées selon une composante qui permettrait de décrire le type d'artefact
+pas catégorisés selon une composante qui permettrait de décrire le type d'artefact
 dont il s'agit mais le sont d'une part par un gage de qualité du contenu qui a
 été validé par les pairs en amont de la publication et d'autres parts, le sont par une forme de
 reconnaissance sociale puisque cet artefact publié sera probablement repris
-et/ou cité par d'autres membres de la communauté concernée dans la grande conversation scientifique [@guedon].
-Cela veut dit qu'un document écrit et publié par un chercheur ne relève pas de
-la catégorie _publication scientifique_ dès lors qu'il n'est pas relu par les
+et/ou cité par d'autres membres de la communauté concernée dans
+la grande conversation scientifique [@guedon].
+Pour le dire autrement, un document écrit et publié par un chercheur ne relève pas de
+la catégorie _publication scientifique_ dès lors qu'il n'est pas relu et validé par les
 pairs.
-Ce fait n'est pas forcément partagé par toute la communauté scientifique, mais
-il a le mérite de mieux définir notre objet d'étude et d'écarter d'autres types
-d'écrits savants tels que les blogs, les carnets, les publications sur les
-réseaux sociaux, etc.
+Cette définition n'est pas forcément unanime et partagée par toute la communauté scientifique,
+mais elle définie notre objet d'étude et écarte tous autres types
+d'écrits savants tels que les billets de blog, les carnets de recherche, les publications
+sur les réseaux sociaux, les courriels sur les listes de diffusion, etc.
 
-Tandis que le texte scientifique est l'élément qui fait l'objet de cette
-relecture attentive de la part des pairs, nous nous intéressons à une autre
-facette de ces artefacts qui nous permettrait de tous les désigner sans avoir à
-définir toutes leurs propriétés de manière exhaustive, il s'agit de la notion de document.
+---
+
+Une autre facette de ces artefacts nous permettrait de tous les
+désigner sans avoir à définir leurs propriétés de manière exhaustive\ :
+il s'agit de la notion de document.
 Un livre pourrait être désigné par son format, le type de reliure employée ou le
 type de papier qui le compose, il en va tout autant pour les revues et les
 autres objets, d'autant plus si l'on doit prendre en considération leur pendant
-numérique, sans qu'on puisse jamais tous les décrire et les circonscrire complètement dans une forme déterminée.
-Le terme de document quant à lui a cette particularité d'être un peu vague et un peu flou.
+numérique, sans qu'on puisse jamais tous les décrire et les circonscrire complètement
+dans une forme déterminée.
+Le terme de document, quant à lui, a cette particularité d'être un peu vague et un peu flou.
 Il a quelque chose qui tient du mot-valise et du fourre-tout.
 Il désigne tour à tour des livres, des papiers administratifs, des papiers
-médicaux, des documents numériques, des revues, des cartes postales, des
+médicaux, des fichiers numériques, des revues, des cartes postales, des
 antilopes (certaines seulement), des images ou des objets selon le contexte dans
 lequel ils sont exposés, etc.
 C'est un mot que l'on utilise au quotidien et grâce auquel on peut désigner tout
 un ensemble de choses sans pour autant s'encombrer d'une définition précise du
 terme document.
 Un document, dans son sens le plus large et le plus simple, est défini par
-l'équation [@otlet_livre_2015, p.13; @pedauque_document_2003; @pedauque_document_2006]\ :
+l'équation suivante [@otlet_livre_2015, p.13; @pedauque_document_2003; @pedauque_document_2006]\ :
 
 $$Document = Support + Inscription$$ 
 
 Cette brève définition nous permet de distinguer le texte (ici
-compris comme l'inscription) de son support et de l'ensemble quíls forment\ : le document.
+compris comme l'inscription) de son support et de l'ensemble qu'ils forment\ : le document.
 Parfois, le texte et le document, par abus de langage, sont considérés en tant
 que synonymes, alors que dans cette recherche ils renvoient bien à deux éléments
 distincts. 
@@ -119,10 +126,14 @@ signe [@barthes].
 Lorsqu'il s'agit d'étudier un texte, que l'on vienne de la sémiologie, de la
 philologie ou de la génétique des textes, ce sont les unités sémiotiques, les
 mots et autres agencements de signes qui constituent l'objet étudié.
-Cependant, cette perspective ne permet pas de rendre compte de ce que pourrait
+En excluant le support, cette perspective ne permet pas de rendre compte de ce que pourrait
 être une épistémologie du document.
- 
-Afin de mettre en évidence cette épistémologie du document scientifique numérique,
+Des travaux de recherche, notamment en sciences de l'information et de la communication
+comme ceux menés par le collectif Roger T. Pédauque [-@pedauque_document_2006], proposent
+en ce sens des fondements théoriques pour penser à la fois l'inscription et le support
+dans ce qui devient une épistémologie du document.
+
+Afin 
 nous proposons dans ce premier chapitre de la thèse d'aborder le document sous deux prismes.
 Le premier prisme est historique.
 Pour traiter de la place du document dans les chaînes de publication savante,

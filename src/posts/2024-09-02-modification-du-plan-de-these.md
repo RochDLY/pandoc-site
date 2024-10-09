@@ -55,12 +55,12 @@ en fin de traitement à un document publiable.
 Au regard des variations que l'on peut observer dans les différentes formes des
 documents scientifiques, il devient nécessaire
 de questionner les transformations que cela génère quant à la place qu'occupe
-le document dans la chaîne éditoriale scientifique.   
+le document dans la chaîne éditoriale scientifique.
 
 À travers cette recherche, nous appliquons cette problématique d'une
 épistémologie du document au document primaire que l'on retrouve dans les chaînes
 d'édition savante, à savoir la première source soumise par l'auteur avant
-traitement éditorial.   
+traitement éditorial.
 
 
 **Hypothèses\ :**
