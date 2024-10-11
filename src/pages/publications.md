@@ -18,7 +18,7 @@ title: Publications et communications
 
 - Delannay, R. *et al.*, (2023). « Notes sur le projet Digital Leigh Hunt ». Dans R. Alessi et M. Vitali-Rosati (dirs.), _Les éditions critiques numériques : Entre édition et changement de paradigme_, Presses Universitaires de Montréal, Montréal.
 
-**Monographie**
+**Ouvrages collectifs**
 
 - Delannay, R., & Severo, M. (Éds.). (2024). _Contribution numérique : cultures et savoirs_. Les Ateliers de [sens public].
 
