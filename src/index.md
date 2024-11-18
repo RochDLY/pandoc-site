@@ -2,6 +2,8 @@
 title: Pensées d'un doctorant
 ---
 
+- [14-Déployer une instance de
+  Stylo](/posts/2024-11-11-deploiement-d-une-instance-de-stylo.html)
 - [13-Fabriquer un éditeur de texte dans le
   terminal](/posts/2024-06-05-fabriquer-un-editeur-de-texte-dans-le-terminal.html)
 - [12-Installer FuguIta en

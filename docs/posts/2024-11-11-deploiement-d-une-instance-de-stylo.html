@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+        <title>Roch Delannay | Déploiement d’une instance de Stylo</title>
+
+        <meta name="author" content="Roch Delannay" />
+
+        <meta name="description" content="Blog | Carnet de recherche de Roch Delannay" />
+
+        <meta name="dcterms.date" content="2024-11-11" />
+
+        <meta name="generator" content="Pandoc, GNU make" />
+        <!-- pandoc - https://pandoc.org/ -->
+        <!-- gnu make - https://www.gnu.org/software/make/ -->
+        <link rel="stylesheet" href="/css/styles.css" />    </head>
+    <body>
+        <header class="main-header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/pages/publications.html">Publications & Communications</a></li>
+                    <li><a href="/pages/cours.html">Enseignements</a></li>
+                    <li><a href="/pages/presentations.html">Présentations</a></li>
+                    <li><a href="http://git.rochdelannay.net/pandoc-site/.git/">Sources et versions</a></li>
+                    <li class="right"><a href="/index-cache.html"></a></li>
+
+                </ul>
+            </nav></header>                <div class="side">
+
+            <nav class="toc">
+<ul>
+<li><a href="#liste-des-problèmes-rencontrés" id="toc-liste-des-problèmes-rencontrés">Liste des problèmes rencontrés</a>
+<ul>
+<li><a href="#installation-de-docker" id="toc-installation-de-docker">Installation de Docker</a></li>
+<li><a href="#désactivation-du-apparmor-sous-ubuntu" id="toc-désactivation-du-apparmor-sous-ubuntu">Désactivation du Apparmor sous Ubuntu</a></li>
+<li><a href="#nginx-naccède-pas-au-répertoire-de-stylo" id="toc-nginx-naccède-pas-au-répertoire-de-stylo">Nginx n’accède pas au répertoire de Stylo</a></li>
+<li><a href="#accès-à-internet-depuis-la-vm" id="toc-accès-à-internet-depuis-la-vm">Accès à Internet depuis la VM</a></li>
+<li><a href="#build-avec-npm" id="toc-build-avec-npm">Build avec npm</a></li>
+<li><a href="#renseigner-le-fichier-de-configuration-nginx" id="toc-renseigner-le-fichier-de-configuration-nginx">Renseigner le fichier de configuration nginx</a></li>
+<li><a href="#construire-les-images-docker" id="toc-construire-les-images-docker">Construire les images docker</a></li>
+</ul></li>
+</ul>
+            </nav>
+        </div>
+                    <div class="container">
+                <header class="header-bloc">
+                    <h1>Déploiement d’une instance de Stylo</h1>
+<!--  -->
+                    <time>2024-11-11</time>
+<!--                     <p>Roch Delannay</p>
+ -->
+                </header>
+                <div class="content">
+<p>J’écris ce billet dans le but de garder une archive des étapes par lesquelles je suis passé pour déployer une nouvelle instance de Stylo.</p>
+<p>L’objectif de cette manipulation était à la fois de tester le guide de déploiement que l’on a sur le <a href="https://github.com/RochDLY/stylo">dépôt de Stylo</a> et de comprendre un peu mieux le fonctionnement de Stylo.</p>
+<p>J’ai donc commencé par faire un fork de stylo (voir le lien précédent) et j’ai installé une machine virtuelle ubuntu server 24.04.1 LTS.</p>
+<h2 id="liste-des-problèmes-rencontrés">Liste des problèmes rencontrés</h2>
+<h3 id="installation-de-docker">Installation de Docker</h3>
+<p>Une fois installée et lancée, la documentation de Stylo nous indique que tout commence avec l’installation de Docker (et Docker compose).</p>
+<p>Dans la documentation, il y a cette ligne de commande :</p>
+<p><code>sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose sudo chmod +x /usr/local/bin/docker-compose</code></p>
+<p>Cette commande est obsolète, elle renvoie à la version <code>1.25.5</code> de docker-compose et génère des erreurs lors du build des conteneurs.</p>
+<p>Pour parer à ce problème, la solution consiste à prendre la dernière version de docker, soit en changeant le <code>1.25.5</code> par la dernière version, soit en suivant la <a href="https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository">documentation officielle de docker</a></p>
+<p>En suivant la documentation, on ajoute docker au dépôt et à chaque <code>atp-get update &amp;&amp; apt-get upgrade</code> docker est mis à jour (attention que ça ne crée pas de conflit, il ne faut pas faire automatiquement la mise à jour).</p>
+<h3 id="désactivation-du-apparmor-sous-ubuntu">Désactivation du Apparmor sous Ubuntu</h3>
+<p>Il s’agit là d’un problème récurrent sur Ubuntu avec Docker : il est impossible de stopper un conteneur si l’application apparmor est lancée (et elle tourne automatiquement sous ubuntu).</p>
+<p>Une solution un peu violente consiste à suivre les lignes de commandes suivantes :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> aa-remove-unknown</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> service apparmor teardrop</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> service docker restart</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> system prune <span class="at">--all</span> <span class="at">--volumes</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> compose down</span></code></pre></div>
+<p>Avec ces commandes et pour tout le reste de la session, on pourra relancer / stopper les conteneurs autant de fois qu’on le veut.</p>
+<h3 id="nginx-naccède-pas-au-répertoire-de-stylo">Nginx n’accède pas au répertoire de Stylo</h3>
+<p><code>sudo chmod -R +x /path/to/stylo</code></p>
+<h3 id="accès-à-internet-depuis-la-vm">Accès à Internet depuis la VM</h3>
+<p>Quelques paramètres réseaux à régler avant de pouvoir déployer l’instance de Stylo. Pour permettre les requêtes et saisir des données, il faut ouvrir les ports 80 et 443 du réseau pour la VM. Dans mon cas, la VM partageait le réseau de la distribution hôte (un windows) et n’était pas rendue visible depuis l’interface du réseau <code>192.168.1.1</code>. Pour la rendre visible il ne faut pas que la VM profite du réseau hôte mais faire un <code>bridge</code>. De cette manière, la box internet peut détecter la VM comme une entité distincte.</p>
+<h3 id="build-avec-npm">Build avec npm</h3>
+<p>Avec les derniers changements de Stylo, il est nécessaire de faire tourner node en parallèle de docker pour builder l’image de Stylo.</p>
+<p>On peut suivre la documentation comme suit :</p>
+<ol type="1">
+<li>Copier le fichier de configuration <code>cp stylo-example.env .env</code></li>
+<li>Générer le token GraphQL à renseigner en fin de <code>.en</code> avec <code>docker compose run -ti --build --rm graphql-stylo npm run generate-service-token --silent</code></li>
+<li>Modifier les URLs dans le <code>.env</code> pour qu’elles correspondent à l’URL de la nouvelle instance de Stylo (attention à bien renseigner <code>SNOWPACK_PUBLIC_GRAPHQL_ENDPOINT</code>)</li>
+<li><code>npm clean-install</code></li>
+<li><code>npm --prefix front clean-install</code></li>
+<li><code>npm --prefix export clean-install</code></li>
+<li><code>npm --prefix graphql clean-install</code></li>
+</ol>
+<h3 id="renseigner-le-fichier-de-configuration-nginx">Renseigner le fichier de configuration nginx</h3>
+<p>Suivre la <a href="https://github.com/EcrituresNumeriques/stylo/blob/master/SERVER.md#install-a-reverse-proxy-nginx">documentation</a> sur github.</p>
+<p>Penser à modifier le fichier de configuration : <code>/etc/nginx/sites-enabled/stylo.huma-num.fr.conf</code>.</p>
+<h3 id="construire-les-images-docker">Construire les images docker</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">docker</span> compose up <span class="at">-d</span> mongodb-stylo export-gateway pandoc-api</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">npm</span> run dev</span></code></pre></div>
+<p>Le paramètre <code>-d</code> de la commande <code>docker compose</code> permet de faire passer docker en arrière-plan (en daemon). On peut tout de suite lancer <code>npm run dev</code> dans le même terminal pour voir ce qu’il se passe sur cette nouvelle instance Stylo.</p>
+<p>Lancer <code>npm</code> en parallèle du <code>docker compose</code> permet de sourcer correctement le <code>.env</code> (cf <a href="https://github.com/EcrituresNumeriques/stylo/blob/master/package.json#L15">package.json sur github</a>).</p>
+<p>Attention : cette partie est susceptible de changer bientôt, cf <a href="https://github.com/EcrituresNumeriques/stylo/issues/1097">#1097</a>.</p>
+            </div>
+        </div>
+<footer>
+    <div>
+                <p>CC BY 4.0 Roch Delannay</p>
+                <p>Créé avec Pandoc et Make</p>
+        <a href="/pages/colophon.html">Colophon</a>
+    </div>
+</footer>    </body>
+</html>
