@@ -30,6 +30,7 @@ title: Publications et communications
 
 - *What's new in Stylo : Stylo with new writing and publishing features*. Poster présenté en 2024 avec Antoine Fauchié lors du colloque DH2024 à Washington DC.
 - *Stylo en 2023 : de nouvelles fonctionnalités pour l'écriture et l'édition scientifique*. Poster présenté en 2023 avec Antoine Fauchié lors du colloque Humanistica à Genève (Suisse).
+- *Alfred DesRochers : une relecture vue du ciel*. Communication présentée au Vitrine HN / DH Showcase en 2023 avec Stéphanie Bernier, Giulia Ferretti et Marcello Vitai-Rosati à l'Université de Concordia.
 - *The Stylo workflow : writing and editing with the text editor Stylo*. Poster présenté en 2022 par Marcello Vitali-Rosati, Margot Mellet, Antoine Fauchié, Eugémie Matthey-Jonais, Giulia Ferretti, Roch Delannay lors du colloque Canadian Society for Digital Humanities, en ligne.
 - *Scholarly writing and editing with the text editor Stylo*. Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022 Tokyo, en ligne.
 - *L'intime dans le processus d'écriture savante*. Colloque organisé en 2022 sous la direction de Michael Sinatra : ACFAS, Montréal.
