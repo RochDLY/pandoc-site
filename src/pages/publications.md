@@ -24,19 +24,18 @@ title: Publications et communications
 
 **Rapports de recherche**
 
-- Delannay, R. et Fauchié, A. (à paraître). *Rapport de recherche sur les forges de publication*, sous la direction de Château-Dutier, E. et Sinatra, M.
+- Delannay, R., & Fauchié, A. (2024). Rapport de recherche sur les forges de publication (1.1). Université de Montréal. https://doi.org/10.5281/zenodo.14265108
 
 **Conférences**
 
 - *What's new in Stylo : Stylo with new writing and publishing features*. Poster présenté en 2024 avec Antoine Fauchié lors du colloque DH2024 à Washington DC.
 - *Stylo en 2023 : de nouvelles fonctionnalités pour l'écriture et l'édition scientifique*. Poster présenté en 2023 avec Antoine Fauchié lors du colloque Humanistica à Genève (Suisse).
-- *Alfred DesRochers : une relecture vue du ciel*. Communication présentée au Vitrine HN / DH Showcase en 2023 avec Stéphanie Bernier, Giulia Ferretti et Marcello Vitai-Rosati à l'Université de Concordia.
+- *Alfred DesRochers : une relecture vue du ciel*. Communication présentée au Vitrine HN / DH Showcase en 2023 avec Stéphanie Bernier, Giulia Ferretti et Marcello Vitali-Rosati à l'Université de Concordia.
 - *The Stylo workflow : writing and editing with the text editor Stylo*. Poster présenté en 2022 par Marcello Vitali-Rosati, Margot Mellet, Antoine Fauchié, Eugémie Matthey-Jonais, Giulia Ferretti, Roch Delannay lors du colloque Canadian Society for Digital Humanities, en ligne.
 - *Scholarly writing and editing with the text editor Stylo*. Workshop présenté avec Antoine Fauchié lors du colloque international DH 2022 Tokyo, en ligne.
 - *L'intime dans le processus d'écriture savante*. Colloque organisé en 2022 sous la direction de Michael Sinatra : ACFAS, Montréal.
 - *Experimentation of Digital Open peer review for social sciences journals in the Revue 2.0 project*. *Lightning talk* présenté en 2022 par Marcello Vitali-Rosati, Margot Mellet, Antoine Fauchié, Eugénie Matthey-Jonais, Giulia Ferretti, Roch Delannay lors du colloque Canadian Society for Digital Humanities, en ligne.
 - *L'intime dans le processus d'écriture savante : observations des manifestations intimes dans l'éditeur de texte Stylo*. Poster présenté en 2022 lors du colloque Humanistica, Montréal.
-- *Urgence du Partage*. Table ronde organisé en 2021 par Télérama, le Théâtre de la Ville, l'AP-HP Pitié Salpêtrière et la Scène de recherche de l’ENS Paris-Saclay, Paris.
 - *Intime (vs. personnel)*. Colloque organisé en 2020 sous la direction d'Yves Citton : _Les Angles morts du numérique ubiquitaire_, Cerisy.
 
 **Séminaires**
